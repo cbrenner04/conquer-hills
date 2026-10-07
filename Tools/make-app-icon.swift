@@ -51,9 +51,6 @@ context.fillPath()
 // Torso, leaning into the run.
 stroke([neck, hip], width: 108)
 
-// Back arm: elbow behind, forearm swinging up.
-stroke([shoulder, CGPoint(x: 462, y: 482), CGPoint(x: 400, y: 405)], width: 60)
-
 // Front arm: elbow forward and low, hand rising.
 stroke([shoulder, CGPoint(x: 688, y: 475), CGPoint(x: 782, y: 408)], width: 60)
 
