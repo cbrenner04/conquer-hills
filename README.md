@@ -1,5 +1,7 @@
 # Conquer Hills
 
+[![CI](https://github.com/cbrenner04/conquer-hills/actions/workflows/ci.yml/badge.svg)](https://github.com/cbrenner04/conquer-hills/actions/workflows/ci.yml)
+
 An iPhone app for running a real race course's hills on a treadmill. Pick a course, enter your treadmill speed, and the app tracks where you are on the course and tells you when to change the incline.
 
 The app doesn't connect to or control the treadmill: you change the incline yourself when prompted.

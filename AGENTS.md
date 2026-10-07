@@ -17,12 +17,16 @@ Conquer Hills is a proof-of-concept iPhone app that simulates the elevation prof
    git worktree add .scratch/worktrees/01-foundation -b 01-foundation
    cd .scratch/worktrees/01-foundation && make bootstrap
    ```
-   Remove it after the PR merges: `git worktree remove .scratch/worktrees/<branch-name>`.
-4. Branches are named `NN-short-name` after their spec (follow-ups: `NN-short-name-topic`). Work is submitted as a pull request and squash-merged.
-5. Run `make check` before opening a PR. PR descriptions cover: summary, what changed, decisions made, how it was tested, anything deferred.
-6. Uncommitted working files go in `.scratch/` (gitignored).
-7. Product and architecture decisions are made by the owner. Agents surface open decisions with a recommendation and wait; they do not decide silently.
-8. This is a public repository. Do not commit personal information, signing team IDs, or other private configuration.
+4. Branches are named `NN-short-name` after their spec (follow-ups: `NN-short-name-topic`). `main` is protected: all changes go through a pull request, and merging requires the CI `check` job to pass with the branch up to date.
+5. Run `make check` before opening a PR. A PR isn't ready for review until CI is green. PR descriptions cover: summary, what changed, decisions made, how it was tested, anything deferred.
+6. Merge only when the owner says so, and in this order:
+   1. Move anything untracked you need to keep out of the worktree first.
+   2. `gh pr merge <n> --squash`. **Do not pass `--delete-branch`**: it also deletes the local worktree directory, including untracked files. GitHub deletes the remote branch automatically.
+   3. In the main checkout: `git pull --ff-only`.
+   4. `git worktree remove .scratch/worktrees/<branch-name>` (add `--force` for generated files) and `git branch -D <branch-name>`.
+7. Uncommitted working files go in `.scratch/` (gitignored).
+8. Product and architecture decisions are made by the owner. Agents surface open decisions with a recommendation and wait; they do not decide silently.
+9. This is a public repository. Do not commit personal information, signing team IDs, or other private configuration.
 
 ## Decisions
 
@@ -46,6 +50,7 @@ Config/Shared.xcconfig       committed; optionally includes Local.xcconfig
 Config/Local.xcconfig        gitignored; DEVELOPMENT_TEAM for device builds
 App/Sources/                 SwiftUI app target: thin UI layer only
 App/Resources/               asset catalog
+.github/workflows/ci.yml     CI: runs `make check` on PRs and pushes to main
 Tools/                       developer scripts (e.g. make-app-icon.swift regenerates the app icon)
 Packages/ConquerHillsKit/    all non-UI logic, as a local Swift package
   Sources/CourseKit/         course model, bundled data loading, validation
@@ -70,4 +75,10 @@ Logic goes in the package, not the app target, so it can be tested with `swift t
 | `make build` | Builds the app for the iOS Simulator without signing |
 | `make format` | Formats Swift sources in place |
 | `make lint` | Fails on any formatting violation |
-| `make check` | `lint` + `test` + `build`; required before a PR, and what CI will run |
+| `make check` | `lint` + `test` + `build`; required before a PR, and exactly what CI runs |
+
+## CI
+
+GitHub Actions (`.github/workflows/ci.yml`) runs one job, `check`: install XcodeGen, `make bootstrap`, `make check`. It runs on every pull request to `main` and every push to `main`, on the `xcode-27` runner image (a GitHub public preview; move to the GA label when one exists). CI has no signing team, so builds are unsigned simulator builds.
+
+If CI fails but `make check` passes locally, suspect a toolchain difference first: the job prints `xcodebuild -version` and `swift --version`.
