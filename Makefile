@@ -5,12 +5,22 @@ SWIFT_SOURCES := App $(PACKAGE_PATH)/Package.swift $(PACKAGE_PATH)/Sources $(PAC
 
 .PHONY: bootstrap generate open test build format lint check
 
-## bootstrap: check required tools, create Config/Local.xcconfig, generate the Xcode project
+# The main checkout, which differs from the current directory inside a git worktree.
+MAIN_CHECKOUT := $(shell dirname "$$(git rev-parse --path-format=absolute --git-common-dir)")
+
+## bootstrap: check required tools, set up Config/Local.xcconfig, generate the Xcode project
+##            (in a worktree, Config/Local.xcconfig is linked to the main checkout's copy)
 bootstrap:
 	@command -v xcodebuild >/dev/null || { echo "Xcode is required: install it from the App Store."; exit 1; }
 	@command -v xcodegen >/dev/null || { echo "XcodeGen is required: brew install xcodegen"; exit 1; }
-	@test -f Config/Local.xcconfig || { cp Config/Local.xcconfig.example Config/Local.xcconfig; \
-		echo "Created Config/Local.xcconfig: set DEVELOPMENT_TEAM to run on a device."; }
+	@if [ -e Config/Local.xcconfig ]; then :; \
+	elif [ "$(MAIN_CHECKOUT)" != "$(CURDIR)" ] && [ -f "$(MAIN_CHECKOUT)/Config/Local.xcconfig" ]; then \
+		ln -s "$(MAIN_CHECKOUT)/Config/Local.xcconfig" Config/Local.xcconfig; \
+		echo "Linked Config/Local.xcconfig to the main checkout's copy."; \
+	else \
+		cp Config/Local.xcconfig.example Config/Local.xcconfig; \
+		echo "Created Config/Local.xcconfig: set DEVELOPMENT_TEAM to run on a device."; \
+	fi
 	@$(MAKE) generate
 
 ## generate: regenerate the Xcode project from project.yml
