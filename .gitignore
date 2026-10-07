@@ -1,7 +1,5 @@
-# Specs and planning notes (reviewed locally, not committed)
-high-level-spec.md
+# Specs, decision ledger, and the high-level spec (reviewed locally, not committed)
 specs/
-notes-and-timekeeping.md
 
 # Local scratch space: anything not to be committed, including git worktrees (.scratch/worktrees/)
 .scratch/
