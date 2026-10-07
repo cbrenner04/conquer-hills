@@ -46,6 +46,7 @@ Config/Shared.xcconfig       committed; optionally includes Local.xcconfig
 Config/Local.xcconfig        gitignored; DEVELOPMENT_TEAM for device builds
 App/Sources/                 SwiftUI app target: thin UI layer only
 App/Resources/               asset catalog
+Tools/                       developer scripts (e.g. make-app-icon.swift regenerates the app icon)
 Packages/ConquerHillsKit/    all non-UI logic, as a local Swift package
   Sources/CourseKit/         course model, bundled data loading, validation
   Sources/WorkoutKit/        workout engine (depends on CourseKit)

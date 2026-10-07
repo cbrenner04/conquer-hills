@@ -1,7 +1,7 @@
 PROJECT := ConquerHills.xcodeproj
 SCHEME := ConquerHills
 PACKAGE_PATH := Packages/ConquerHillsKit
-SWIFT_SOURCES := App $(PACKAGE_PATH)/Package.swift $(PACKAGE_PATH)/Sources $(PACKAGE_PATH)/Tests
+SWIFT_SOURCES := App Tools $(PACKAGE_PATH)/Package.swift $(PACKAGE_PATH)/Sources $(PACKAGE_PATH)/Tests
 
 .PHONY: bootstrap generate open test build format lint check
 
