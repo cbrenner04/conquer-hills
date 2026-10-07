@@ -2,7 +2,7 @@ import CourseKit
 import SwiftUI
 import WorkoutKit
 
-/// Placeholder screen until the first real UI arrives in spec 04.
+/// Placeholder screen until the first real UI arrives in spec 05.
 struct ContentView: View {
     var body: some View {
         VStack(spacing: 12) {
