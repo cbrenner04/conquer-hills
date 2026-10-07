@@ -50,6 +50,8 @@ Config/Shared.xcconfig       committed; optionally includes Local.xcconfig
 Config/Local.xcconfig        gitignored; DEVELOPMENT_TEAM for device builds
 App/Sources/                 SwiftUI app target: thin UI layer only
 App/Resources/               asset catalog
+App/Resources/Courses/       bundled course files (<id>.course.json); see docs/course-format.md
+docs/                        reference docs (course-format.md: the course file schema)
 .github/workflows/ci.yml     CI: runs `make check` on PRs and pushes to main
 Tools/                       developer scripts (e.g. make-app-icon.swift regenerates the app icon)
 Packages/ConquerHillsKit/    all non-UI logic, as a local Swift package
@@ -59,6 +61,14 @@ Packages/ConquerHillsKit/    all non-UI logic, as a local Swift package
 ```
 
 Logic goes in the package, not the app target, so it can be tested with `swift test` without a simulator. `CourseKit` must not depend on `WorkoutKit`.
+
+## Course data
+
+- Course files follow [docs/course-format.md](docs/course-format.md). Change the schema only with a `schemaVersion` bump and a doc update in the same PR.
+- Distances are meters everywhere in data and logic; convert to miles only for display.
+- Files store the signed *course incline*. `TreadmillSettings` (baseline, limits, step) turns it into *treadmill incline* on the phone; `TreadmillProfile` applies that to a segment and is what the workout engine consumes. Defaults match the owner's Peloton Tread: 0–12.5% in 0.5% steps, 0% baseline.
+- `CourseLoaderTests` validates every file in `App/Resources/Courses/`, so an invalid course fails `make check`.
+- `App/Resources/Courses/` is bundled as a folder: the app finds courses at `Bundle.main` `Courses/`.
 
 ## Xcode project
 
