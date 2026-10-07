@@ -1,0 +1,8 @@
+// Local, per-developer settings. `make bootstrap` copies this file to Config/Local.xcconfig,
+// which is gitignored. Do not commit your team ID: this is a public repository.
+//
+// Set DEVELOPMENT_TEAM to your Apple Developer team ID to run on a physical iPhone. Find it in
+// Xcode > Settings > Accounts, or under Membership details at https://developer.apple.com/account.
+// Simulator builds do not need it.
+
+DEVELOPMENT_TEAM =

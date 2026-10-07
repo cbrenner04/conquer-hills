@@ -1,0 +1,7 @@
+// Committed configuration shared by every build of the app target.
+//
+// Build settings live in project.yml. This file exists to pull in the developer's
+// gitignored Local.xcconfig (signing team), and is optional so simulator and CI
+// builds work without it.
+
+#include? "Local.xcconfig"

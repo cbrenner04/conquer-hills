@@ -20,3 +20,7 @@ build/
 # Claude Code local state
 .claude/settings.local.json
 .claude/.cc-writes/
+
+# Generated Xcode project (see project.yml) and local signing config
+ConquerHills.xcodeproj/
+Config/Local.xcconfig
