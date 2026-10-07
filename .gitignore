@@ -1,0 +1,24 @@
+# Specs and planning notes (reviewed locally, not committed)
+high-level-spec.md
+specs/
+notes-and-timekeeping.md
+
+# Local scratch space: anything not to be committed, including git worktrees (.scratch/worktrees/)
+.scratch/
+
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Claude Code local state
+.claude/settings.local.json
+.claude/.cc-writes/
