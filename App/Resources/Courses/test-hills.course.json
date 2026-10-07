@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "test-hills",
+  "name": "Test Hills",
+  "edition": "Synthetic",
+  "location": "Development only",
+  "distanceMeters": 2400,
+  "developmentOnly": true,
+  "description": "Synthetic course with an incline change every 100–400 m, for checking prompts on a treadmill in about 15 minutes. Each change exercises a case: non-zero start, steps up and down, downhills clamped to 0%, a 16% stretch that exceeds the treadmill maximum, and a final climb.",
+  "source": {
+    "route": { "name": "Synthetic test data", "url": null, "license": "Part of the Conquer Hills repository" },
+    "elevation": { "name": "Synthetic test data", "url": null, "license": "Part of the Conquer Hills repository", "kind": "modeled" },
+    "attribution": null,
+    "verified": true,
+    "notes": "Hand-authored. Elevations are computed from the incline changes, starting at 10 m. Not a real route."
+  },
+  "processing": {
+    "tool": "hand-authored",
+    "generatedOn": "2026-10-06",
+    "parameters": {}
+  },
+  "stats": {
+    "elevationGainMeters": 75.0,
+    "elevationLossMeters": 8.0,
+    "minimumElevationMeters": 10.0,
+    "maximumElevationMeters": 77.0
+  },
+  "elevationProfile": {
+    "sampleSpacingMeters": 100,
+    "elevationsMeters": [
+      10.0, 11.0, 12.0, 15.0, 18.0, 24.5, 31.0, 33.0, 32.0, 31.0, 28.0, 25.0, 25.5,
+      26.0, 42.0, 58.0, 62.5, 67.0, 67.0, 67.0, 67.0, 69.5, 72.0, 74.5, 77.0
+    ]
+  },
+  "inclineChanges": [
+    { "atMeters": 0, "inclinePercent": 1.0 },
+    { "atMeters": 200, "inclinePercent": 3.0 },
+    { "atMeters": 400, "inclinePercent": 6.5 },
+    { "atMeters": 600, "inclinePercent": 2.0 },
+    { "atMeters": 700, "inclinePercent": -1.0 },
+    { "atMeters": 900, "inclinePercent": -3.0 },
+    { "atMeters": 1100, "inclinePercent": 0.5 },
+    { "atMeters": 1300, "inclinePercent": 16.0 },
+    { "atMeters": 1500, "inclinePercent": 4.5 },
+    { "atMeters": 1700, "inclinePercent": 0.0 },
+    { "atMeters": 2000, "inclinePercent": 2.5 }
+  ],
+  "segments": []
+}

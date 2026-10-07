@@ -19,7 +19,13 @@ targets:
     platform: iOS
     sources:
       - App/Sources
-      - App/Resources
+      - path: App/Resources
+        excludes:
+          - Courses
+      # Bundled as a folder so course files land at Bundle.main/Courses/.
+      - path: App/Resources/Courses
+        type: folder
+        buildPhase: resources
     dependencies:
       - package: ConquerHillsKit
         product: CourseKit
