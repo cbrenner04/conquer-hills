@@ -55,6 +55,9 @@ App/Resources/Courses/       bundled course files (<id>.course.json); see docs/c
 docs/                        reference docs (course-format.md: the course file schema)
 .github/workflows/ci.yml     CI: runs `make check` on PRs and pushes to main
 Tools/                       developer scripts (e.g. make-app-icon.swift regenerates the app icon)
+Tools/CourseTool/            Swift package: course-tool, the offline course data pipeline (+ tests)
+CourseData/<id>/             committed pipeline inputs per course (config, waypoints, route, structure spans,
+                             elevation samples; ~70 KB); CourseData/LICENSE.md holds the data licences
 Packages/ConquerHillsKit/    all non-UI logic, as a local Swift package
   Sources/CourseKit/         course model, bundled data loading, validation
   Sources/WorkoutKit/        workout engine: progress, prompts, pause/resume, run record (depends on CourseKit)
@@ -70,6 +73,39 @@ Logic goes in the package, not the app target, so it can be tested with `swift t
 - Files store the signed *course incline*. `TreadmillSettings` (baseline, limits, step) turns it into *treadmill incline* on the phone; `TreadmillProfile` applies that to a segment and is what the workout engine consumes. Defaults match the owner's Peloton Tread: 0–12.5% in 0.5% steps, 0% baseline.
 - `CourseLoaderTests` validates every file in `App/Resources/Courses/`, so an invalid course fails `make check`.
 - `App/Resources/Courses/` is bundled as a folder: the app finds courses at `Bundle.main` `Courses/`.
+
+## Course data pipeline
+
+Real courses are generated offline by `course-tool` from public data and committed; the app never fetches course data.
+
+```
+waypoints.geojson ─route─▶ route.json + osm-structures.json ─elevation─▶ elevation-samples.json ─build─▶ <id>.course.json
+ (or an OSM relation)        (OSRM pedestrian router, Overpass)  (GSI / USGS, ~1 req/s, resumable)   (offline) + review report
+```
+
+- `make course-route ID=<id>` and `make course-elevation ID=<id>` use the network and write their results into `CourseData/<id>/`. Elevation fetching is slow (about 1 sample per second; a marathon is ~70 minutes) and resumes where it stopped.
+- `make course-build ID=<id>` is offline and deterministic. It writes `App/Resources/Courses/<id>.course.json` and the review report to the main checkout's `.scratch/reports/<id>.html`. It fails if a check fails.
+- `make course-report ID=<id>` rebuilds the report (even if checks fail) and serves `.scratch/reports/` at `http://localhost:8765` with `python3 -m http.server` (ships with macOS); open the printed URL. Map tiles need http: OpenStreetMap's tile servers reject requests without a Referer, which `file://` pages don't send. Opened as a file, the report still draws the route and markers on a plain background, with a note saying how to see tiles.
+- `make courses-check` (part of `make check`, so CI runs it) rebuilds every course from the committed inputs without network access, and fails if a bundled course file differs or a check fails. Never hand-edit a generated course file; change the inputs and rebuild.
+- Build steps, all configured in `config.json`:
+  1. Measure distance along the routed line after a moving average (`routeSmoothingMeters`), which removes sidewalk zigzags.
+  2. Find the checkpoints in order and scale distance piecewise between *anchor* checkpoints, which should be exact course features such as turnarounds, bridges and the finish. Every stretch between checkpoints must be within `maximumSectionErrorMeters` of its official length; a bigger error means a wrong street.
+  3. Interpolate elevation across bridges, tunnels and covered ways (from OSM), across untrusted or missing samples, and across `manualSpans` with action `interpolate`. Spans with action `keep` keep measured values.
+  4. Smooth (`smoothingWindowMeters`), average grade over blocks, round to 0.5%, and merge to `minimumIntervalMeters`, preserving net rise.
+  5. Write through `CourseFile.jsonData()`, then load the result back through `CourseLoader`.
+- Acceptance checks per course (expected elevations, drops, gain/loss, steepest incline, no dips at named bridges) live in `config.json`. They come from the course's research note, and must pass.
+- Data files. Machine-written files are compact, sorted-key JSON, marked `-diff linguist-generated` in `.gitattributes`; review them through the report, not the diff. Authored files (`config.json`, `waypoints.geojson`) stay pretty-printed.
+  - `route.json`: the routed line as a precision-6 encoded polyline (~0.1 m), plus provenance (router or relation, licence, OSM timestamp). Coordinates are rounded once, when written; every later step decodes and uses the stored points.
+  - `osm-structures.json`: bridges, tunnels and covered ways the route runs along, as `{kind, osmWayId, name, highway, startMeters, endMeters}` spans on the measured route's raw distance axis. The `route` step computes them with the config's structure settings, and records those settings and a route fingerprint. `build` refuses stale spans.
+  - `elevation-samples.json`: `elevations` (one per sample, as returned by the provider), `sourceCodes` (one character per sample; `?` = not fetched) with a `sources` legend, sample spacing, smoothing and a route fingerprint. Sample positions aren't stored: `RouteSampling.positions` recomputes them exactly from `route.json` and the config.
+- Data licences: anything derived from OSM is ODbL; elevation sources need credit. See `CourseData/LICENSE.md`. Every course file's `source.attribution` carries its credit line.
+
+### Adding a course
+
+1. Write `CourseData/<id>/config.json`, copying an existing one: sources and attribution, route source (`waypoints` + router, or `osmRelation` + start point), elevation provider and trusted source labels, checkpoints (marking exact features as anchors), processing parameters, curated segments, and acceptance checks.
+2. For a `waypoints` route, add `waypoints.geojson`: ordered points on the course's streets. Run `make course-route ID=<id>` and iterate until every stretch between checkpoints is within tolerance. Check the map in the report.
+3. Run `make course-elevation ID=<id>`, then `make course-build ID=<id>`. Review the report (`make course-report ID=<id>`) with the owner before merging. Set `source.verified` only after the owner has compared the route with the official map.
+4. A new elevation provider implements `ElevationProvider` (`Tools/CourseTool/Sources/course-tool/Network.swift`) and reports a per-sample source label.
 
 ## Workout engine
 
@@ -100,11 +136,14 @@ Logic goes in the package, not the app target, so it can be tested with `swift t
 | `make bootstrap` | Checks Xcode and XcodeGen; creates `Config/Local.xcconfig` (in a worktree, links the main checkout's copy); generates the project |
 | `make generate` | Regenerates the Xcode project from `project.yml` |
 | `make open` | Opens the project in Xcode, regenerating if `project.yml` changed |
-| `make test` | `swift test` for the package (fast, runs on macOS) |
+| `make test` | `swift test` for the package and for `Tools/CourseTool` (fast, runs on macOS) |
 | `make build` | Builds the app for the iOS Simulator without signing |
 | `make format` | Formats Swift sources in place |
 | `make lint` | Fails on any formatting violation |
-| `make check` | `lint` + `test` + `build`; required before a PR, and exactly what CI runs |
+| `make check` | `lint` + `test` + `courses-check` + `build`; required before a PR, and exactly what CI runs |
+| `make course-route ID=<id>` / `make course-elevation ID=<id>` / `make course-build ID=<id>` | Course data pipeline steps (see "Course data pipeline") |
+| `make course-report ID=<id>` | Rebuilds the review report and serves it at `http://localhost:8765` (needed for map tiles) |
+| `make courses-check` | Rebuilds every course from `CourseData/` offline and fails if a bundled file differs or a check fails |
 | `make ui-test` | Walks through a Test Hills run in the iOS Simulator and exports screenshots to `.scratch/ui-test/` (local only, about a minute of run time) |
 
 ## CI

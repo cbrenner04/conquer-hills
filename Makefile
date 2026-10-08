@@ -1,9 +1,13 @@
 PROJECT := ConquerHills.xcodeproj
 SCHEME := ConquerHills
 PACKAGE_PATH := Packages/ConquerHillsKit
-SWIFT_SOURCES := App AppUITests Tools $(PACKAGE_PATH)/Package.swift $(PACKAGE_PATH)/Sources $(PACKAGE_PATH)/Tests
+TOOL_PATH := Tools/CourseTool
+SWIFT_SOURCES := App AppUITests Tools/make-app-icon.swift $(PACKAGE_PATH)/Package.swift $(PACKAGE_PATH)/Sources \
+	$(PACKAGE_PATH)/Tests $(TOOL_PATH)/Package.swift $(TOOL_PATH)/Sources $(TOOL_PATH)/Tests
+COURSE_TOOL := swift run --package-path $(TOOL_PATH) -c release course-tool
 
-.PHONY: bootstrap generate open test build format lint check ui-test
+.PHONY: bootstrap generate open test build format lint check ui-test course-route course-elevation course-build \
+	course-report courses-check
 
 # The main checkout, which differs from the current directory inside a git worktree.
 MAIN_CHECKOUT := $(shell dirname "$$(git rev-parse --path-format=absolute --git-common-dir)")
@@ -34,9 +38,10 @@ $(PROJECT)/project.pbxproj: project.yml
 open: $(PROJECT)/project.pbxproj
 	open $(PROJECT)
 
-## test: run the Swift package tests
+## test: run the Swift package tests and the course tool's tests
 test:
 	swift test --package-path $(PACKAGE_PATH)
+	swift test --package-path $(TOOL_PATH)
 
 ## build: build the app for the iOS Simulator without code signing
 build: $(PROJECT)/project.pbxproj
@@ -62,5 +67,36 @@ ui-test: $(PROJECT)/project.pbxproj
 		-destination 'platform=iOS Simulator,name=$(UI_TEST_DEVICE)' -resultBundlePath .scratch/ui-test/result.xcresult
 	xcrun xcresulttool export attachments --path .scratch/ui-test/result.xcresult --output-path .scratch/ui-test
 
-## check: lint, test, and build; run before opening a PR (and in CI)
-check: lint test build
+## course-route ID=<id>: route source → route.json, refresh osm-structures.json (network)
+course-route:
+	@test -n "$(ID)" || { echo "usage: make course-route ID=<course-id>"; exit 2; }
+	$(COURSE_TOOL) route $(ID)
+
+## course-elevation ID=<id>: fill or resume elevation-samples.json (network; slow, resumable)
+course-elevation:
+	@test -n "$(ID)" || { echo "usage: make course-elevation ID=<course-id>"; exit 2; }
+	$(COURSE_TOOL) elevation $(ID)
+
+## course-build ID=<id>: build the bundled course file and the review report (offline)
+course-build:
+	@test -n "$(ID)" || { echo "usage: make course-build ID=<course-id>"; exit 2; }
+	$(COURSE_TOOL) build $(ID) --report "$(MAIN_CHECKOUT)/.scratch/reports"
+
+## course-report ID=<id>: rebuild the review report and serve it at http://localhost:8765 (map tiles need http)
+REPORT_PORT ?= 8765
+course-report:
+	@test -n "$(ID)" || { echo "usage: make course-report ID=<course-id>"; exit 2; }
+	@$(COURSE_TOOL) build $(ID) --report "$(MAIN_CHECKOUT)/.scratch/reports" \
+		|| echo "(some checks failed; serving the report anyway)"
+	@echo "Review report: http://localhost:$(REPORT_PORT)/$(ID).html  (Ctrl-C to stop)"
+	@cd "$(MAIN_CHECKOUT)/.scratch/reports" && python3 -m http.server $(REPORT_PORT) --bind 127.0.0.1
+
+## courses-check: rebuild every course in CourseData from committed inputs; fail if a bundled file differs
+courses-check:
+	@for config in CourseData/*/config.json; do \
+		id=$$(basename $$(dirname $$config)); \
+		swift run --package-path $(TOOL_PATH) course-tool check $$id || exit 1; \
+	done
+
+## check: lint, test, course data, and build; run before opening a PR (and in CI)
+check: lint test courses-check build

@@ -1,0 +1,1123 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          139.6927,
+          35.688
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start: Tocho-dori, Tokyo Metropolitan Government Building"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.69165,
+          35.69222
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Tocho-kita intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.697,
+          35.69313
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Shintoshin-hodokyo-shita intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.69913,
+          35.69357
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ogado-nishi (JR underpass, west)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.70041,
+          35.69355
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ogado-higashi (JR underpass, east)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.70582,
+          35.69237
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Shinjuku 5-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.71667,
+          35.6912
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Tomihisacho intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.72551,
+          35.69214
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kappazaka-shita intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.73515,
+          35.69211
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ichigaya-mitsuke intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.73867,
+          35.69549
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Shin-mitsuke intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.74503,
+          35.70301
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Iidabashi intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.75035,
+          35.7032
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Koishikawa-bashi intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.75191,
+          35.70292
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Koraku-bashi intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.75531,
+          35.70234
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Suidobashi intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.7581,
+          35.69601
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Jimbocho intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.76525,
+          35.69452
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ogawamachi intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.76749,
+          35.69535
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Awajicho intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.77036,
+          35.69572
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sudacho intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.77125,
+          35.69764
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mansei-bashi intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.7717,
+          35.70299
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sotokanda 5-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.77199,
+          35.70571
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ueno 3-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.77303,
+          35.70799
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Turnaround: Ueno-hirokoji"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.77199,
+          35.70571
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ueno 3-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.7717,
+          35.70299
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sotokanda 5-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.77125,
+          35.69764
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mansei-bashi intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.77036,
+          35.69572
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sudacho intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.77154,
+          35.69201
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kanda-ekimae intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.77298,
+          35.68862
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Muromachi 3-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.77315,
+          35.68631
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mitsui Main Building"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.77369,
+          35.6826
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Nihombashi intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.78012,
+          35.68001
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kayabacho 1-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.78448,
+          35.68388
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Suitengu-mae intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.78822,
+          35.68569
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hamacho-Nakanohashi intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.78579,
+          35.6886
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hisamatsucho intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.78476,
+          35.6903
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Higashi-Nihombashi intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.78512,
+          35.69549
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Asakusabashi-minami intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.78564,
+          35.69639
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Asakusabashi 1-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.78921,
+          35.70154
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kuramae 1-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.79031,
+          35.70394
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kuramae intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.79511,
+          35.70736
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Komagata 2-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.79608,
+          35.70879
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Komagatabashi-nishizume intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.79623,
+          35.71087
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kaminarimon intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.79763,
+          35.7107
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Azumabashi-nishizume intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.79608,
+          35.70879
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Komagatabashi-nishizume intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.79511,
+          35.70736
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Komagata 2-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.79031,
+          35.70394
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kuramae intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.78921,
+          35.70154
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kuramae 1-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.79349,
+          35.70094
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kuramae Bridge"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.79708,
+          35.70028
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ishiwara 1-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.79761,
+          35.69451
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Midori 1-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.79496,
+          35.67242
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Monzen-nakacho intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.79975,
+          35.67162
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Turnaround: Tomioka Hachimangu"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.79496,
+          35.67242
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Monzen-nakacho intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.79761,
+          35.69451
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Midori 1-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.79708,
+          35.70028
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ishiwara 1-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.79349,
+          35.70094
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kuramae Bridge"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.78921,
+          35.70154
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kuramae 1-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.78564,
+          35.69639
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Asakusabashi 1-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.78512,
+          35.69549
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Asakusabashi-minami intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.78476,
+          35.6903
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Higashi-Nihombashi intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.78579,
+          35.6886
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hisamatsucho intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.78656,
+          35.68804
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Meijiza"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.78822,
+          35.68569
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hamacho-Nakanohashi intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.78448,
+          35.68388
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Suitengu-mae intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.78012,
+          35.68001
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kayabacho 1-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.77369,
+          35.6826
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Nihombashi intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.7728,
+          35.68092
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Nihombashi Takashimaya"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.76978,
+          35.67613
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kyobashi intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.76782,
+          35.6738
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ginza 1-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.76497,
+          35.6712
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ginza 4-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.75954,
+          35.67512
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hibiya intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.756,
+          35.67068
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Uchisaiwaicho intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.75491,
+          35.6686
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Nishi-Shimbashi intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.75151,
+          35.66096
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Onarimon intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.74947,
+          35.64899
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mita NN Building"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.74885,
+          35.64769
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Shiba 5-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.7457,
+          35.6462
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Turnaround: Tamachi Station"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.74885,
+          35.64769
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Shiba 5-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.75151,
+          35.66096
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Onarimon intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.75491,
+          35.6686
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Nishi-Shimbashi intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.756,
+          35.67068
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Uchisaiwaicho intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.75954,
+          35.67512
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hibiya intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.76208,
+          35.67444
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Yurakucho-ekimae intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.76306,
+          35.67688
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Marunouchi 3-chome intersection"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.7637,
+          35.6813
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Gyoko-dori at Naka-dori"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.76208,
+          35.68203
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: Wadakura-mon intersection"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
