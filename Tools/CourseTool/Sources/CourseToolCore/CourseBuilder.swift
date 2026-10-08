@@ -147,8 +147,9 @@ public enum CourseBuilder {
         case .failure(let failure): throw PipelineError("generated course is invalid: \(failure)")
         }
 
+        let unsmoothed = ElevationSeries(distances: distances, elevations: cleaned.cleaned)
         let acceptance = config.acceptance.map {
-            Acceptance.evaluate($0, smoothed: smoothed, intervals: intervals, gain: gain, loss: loss)
+            Acceptance.evaluate($0, cleaned: unsmoothed, smoothed: smoothed, intervals: intervals)
         }
         return BuildResult(
             courseFile: file, courseData: data, course: course, located: located, sections: sections,
@@ -178,9 +179,11 @@ public enum CourseBuilder {
 
 public enum Acceptance {
     public static func evaluate(
-        _ check: CourseConfig.AcceptanceCheck, smoothed: ElevationSeries, intervals: [InclineInterval], gain: Double,
-        loss: Double
+        _ check: CourseConfig.AcceptanceCheck, cleaned: ElevationSeries, smoothed: ElevationSeries,
+        intervals: [InclineInterval]
     ) -> AcceptanceResult {
+        let totalsSeries = check.smoothingWindowMeters.map { cleaned.smoothed(windowMeters: $0) } ?? smoothed
+        let (gain, loss) = totalsSeries.gainAndLoss
         func range(_ value: Double, unit: String = "m") -> AcceptanceResult {
             let ok = value >= (check.min ?? -.infinity) - 1e-9 && value <= (check.max ?? .infinity) + 1e-9
             let bounds = [check.min.map { String(format: "≥ %g", $0) }, check.max.map { String(format: "≤ %g", $0) }]
@@ -188,8 +191,8 @@ public enum Acceptance {
             return AcceptanceResult(
                 name: check.name, passed: ok, detail: String(format: "%.1f %@ (expected %@)", value, unit, bounds))
         }
-        let start = smoothed.elevations.first!
-        let end = smoothed.elevations.last!
+        let start = totalsSeries.elevations.first!
+        let end = totalsSeries.elevations.last!
         switch check.kind {
         case .elevationAt:
             return range(smoothed.elevation(at: check.atMeters ?? 0))

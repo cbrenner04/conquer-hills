@@ -157,6 +157,10 @@ public struct CourseConfig: Codable, Equatable, Sendable {
         public var radiusMeters: Double?
         public var min: Double?
         public var max: Double?
+        /// For `gain`, `loss` and `netBalance`: measure on the cleaned elevation smoothed with this window instead
+        /// of the build's window. Totals depend strongly on smoothing, so a range taken from another source must be
+        /// compared at that source's smoothing. The course file's stats always use the build's window.
+        public var smoothingWindowMeters: Double?
     }
 }
 

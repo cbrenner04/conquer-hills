@@ -78,6 +78,26 @@ struct EndToEndTests {
         #expect(throws: PipelineError.self) { try CourseBuilder.build(stale) }
     }
 
+    @Test("Gain and loss checks can be measured at their own smoothing window")
+    func checkSmoothingWindow() throws {
+        var inputs = inputs()
+        // Add 1 m ripples with a 400 m wavelength: build smoothing (200 m) keeps some, 1 km smoothing removes them.
+        for i in inputs.samples.samples.indices {
+            inputs.samples.samples[i].elevationMeters! += sin(inputs.samples.samples[i].distanceMeters / 400 * 2 * .pi)
+        }
+        inputs.config.acceptance = [
+            .init(name: "Gain, build smoothing", kind: .gain, min: 0, max: 1000),
+            .init(name: "Gain, 1 km smoothing", kind: .gain, min: 0, max: 1000, smoothingWindowMeters: 1000),
+        ]
+
+        let result = try CourseBuilder.build(inputs)
+
+        let gains = result.acceptance.map { Double($0.detail.split(separator: " ")[0])! }
+        #expect(gains[0] > 25)
+        #expect(gains[1] < gains[0])
+        #expect(abs(gains[0] - result.courseFile.stats.elevationGainMeters) < 0.1)
+    }
+
     @Test("The review report renders")
     func report() throws {
         let inputs = inputs()

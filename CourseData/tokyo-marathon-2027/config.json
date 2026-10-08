@@ -22,24 +22,26 @@
       "toMeters": 42195
     },
     {
-      "fromMeters": 3000,
+      "fromMeters": 2000,
       "kind": "drop",
-      "max": 30,
-      "min": 25,
-      "name": "Drop from km 3 to km 6.5 is 25–30 m",
+      "max": 33,
+      "min": 27,
+      "name": "Drop from Shinjuku 5-chome (km 2) to km 6.5 is 27–33 m (GSI spot values: 35 m → ~5 m)",
       "toMeters": 6500
     },
     {
       "kind": "gain",
       "max": 50,
       "min": 20,
-      "name": "Gain 20–50 m"
+      "name": "Gain 20–50 m (at 400 m smoothing, like published profiles)",
+      "smoothingWindowMeters": 400
     },
     {
       "kind": "loss",
       "max": 85,
       "min": 55,
-      "name": "Loss 55–85 m"
+      "name": "Loss 55–85 m (at 400 m smoothing, like published profiles)",
+      "smoothingWindowMeters": 400
     },
     {
       "kind": "netBalance",
