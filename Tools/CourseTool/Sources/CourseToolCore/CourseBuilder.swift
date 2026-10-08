@@ -189,6 +189,12 @@ public enum CourseBuilder {
 }
 
 public enum Acceptance {
+    /// Intervals overlapping `from`...`to` by at least 100 m (or by the whole window, if it is shorter).
+    static func windowed(_ intervals: [InclineInterval], _ from: Double, _ to: Double) -> [InclineInterval] {
+        let needed = min(100, to - from)
+        return intervals.filter { min($0.endMeters, to) - max($0.startMeters, from) >= needed - 1e-9 }
+    }
+
     public static func evaluate(
         _ check: CourseConfig.AcceptanceCheck, cleaned: ElevationSeries, smoothed: ElevationSeries,
         intervals: [InclineInterval]
@@ -220,8 +226,23 @@ public enum Acceptance {
             return range(loss)
         case .netBalance:
             return range(abs((gain - loss) - (end - start)))
+        case .minimumElevation:
+            let from = check.fromMeters ?? 0
+            let to = check.toMeters ?? .infinity
+            let values = zip(smoothed.distances, smoothed.elevations).filter { $0.0 >= from && $0.0 <= to }.map(\.1)
+            return range(values.min() ?? .nan)
         case .maximumIncline:
-            return range(intervals.map { abs($0.inclinePercent) }.max() ?? 0, unit: "%")
+            guard let from = check.fromMeters, let to = check.toMeters else {
+                return range(intervals.map { abs($0.inclinePercent) }.max() ?? 0, unit: "%")
+            }
+            return range(windowed(intervals, from, to).map(\.inclinePercent).max() ?? 0, unit: "%")
+        case .climb:
+            let steepest =
+                windowed(intervals, check.fromMeters ?? 0, check.toMeters ?? .infinity)
+                .map(\.inclinePercent).max() ?? -.infinity
+            return AcceptanceResult(
+                name: check.name, passed: steepest >= (check.min ?? 0) - 1e-9,
+                detail: String(format: "steepest interval %+.1f%% (expected ≥ %+.1f%%)", steepest, check.min ?? 0))
         case .noDip:
             let at = check.atMeters ?? 0
             let radius = check.radiusMeters ?? 300

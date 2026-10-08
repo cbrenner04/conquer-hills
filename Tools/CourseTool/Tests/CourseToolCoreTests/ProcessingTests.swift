@@ -205,3 +205,51 @@ struct IntervalTests {
         #expect(abs((gain - loss) - (s.elevations.last! - s.elevations.first!)) < 1e-9)
     }
 }
+
+@Suite("Acceptance checks")
+struct AcceptanceTests {
+    /// Flat, a 400 m climb at 5% from 1,000 m, flat again, and a river valley dipping 3 m at 2,500 m.
+    let series = ElevationSeries(
+        distances: Array(stride(from: 0.0, through: 3000, by: 10)),
+        elevations: Array(stride(from: 0.0, through: 3000, by: 10)).map { d in
+            let hill = min(max(d - 1000, 0), 400) * 0.05
+            let valley = d > 2400 && d < 2600 ? -3 * (1 - abs(d - 2500) / 100) : 0
+            return 10 + hill + valley
+        })
+    let intervals = [
+        InclineInterval(startMeters: 0, endMeters: 1000, inclinePercent: 0),
+        InclineInterval(startMeters: 1000, endMeters: 1400, inclinePercent: 5),
+        InclineInterval(startMeters: 1400, endMeters: 1450, inclinePercent: 1),
+        InclineInterval(startMeters: 1450, endMeters: 3000, inclinePercent: 0),
+    ]
+
+    func evaluate(_ check: CourseConfig.AcceptanceCheck) -> AcceptanceResult {
+        Acceptance.evaluate(check, cleaned: series, smoothed: series, intervals: intervals)
+    }
+
+    @Test("A climb check finds a steep enough interval in its window")
+    func climb() {
+        #expect(evaluate(.init(name: "hill", kind: .climb, fromMeters: 900, toMeters: 1500, min: 4)).passed)
+        #expect(!evaluate(.init(name: "too steep", kind: .climb, fromMeters: 900, toMeters: 1500, min: 6)).passed)
+        #expect(!evaluate(.init(name: "elsewhere", kind: .climb, fromMeters: 2000, toMeters: 2800, min: 1)).passed)
+    }
+
+    @Test("A windowed maximum incline ignores intervals that only clip the window's edge")
+    func windowedMaximumIncline() {
+        // The 5% climb overlaps 1,350–2,000 by only 50 m, and the 1% sliver is under 100 m long.
+        #expect(
+            evaluate(.init(name: "level", kind: .maximumIncline, fromMeters: 1350, toMeters: 2000, max: 0.5)).passed)
+        #expect(
+            !evaluate(.init(name: "hill", kind: .maximumIncline, fromMeters: 1100, toMeters: 2000, max: 0.5)).passed)
+    }
+
+    @Test("A minimum elevation check catches a dip below the floor in its window")
+    func minimumElevation() {
+        #expect(
+            evaluate(.init(name: "valley ok", kind: .minimumElevation, fromMeters: 2400, toMeters: 2600, min: 26))
+                .passed)
+        #expect(
+            !evaluate(.init(name: "too low", kind: .minimumElevation, fromMeters: 2400, toMeters: 2600, min: 28)).passed
+        )
+    }
+}

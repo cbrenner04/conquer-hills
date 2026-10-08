@@ -1,0 +1,318 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 145,
+      "min": 141,
+      "name": "Start elevation 141–145 m"
+    },
+    {
+      "atMeters": 42195,
+      "kind": "elevationAt",
+      "max": 4,
+      "min": 1,
+      "name": "Finish elevation 1–4 m"
+    },
+    {
+      "fromMeters": 0,
+      "kind": "drop",
+      "max": 76,
+      "min": 72,
+      "name": "Early downhill: first 5 km drops 72–76 m",
+      "toMeters": 5000
+    },
+    {
+      "fromMeters": 25300,
+      "kind": "minimumElevation",
+      "min": 12,
+      "name": "Charles River crossing (≈25.5 km) has no false dip: lowest point ≥ 12 m",
+      "toMeters": 25800
+    },
+    {
+      "atMeters": 26160,
+      "kind": "noDip",
+      "name": "Route 95 bridge (≈26.2 km, mid-climb) is never a dip",
+      "radiusMeters": 150
+    },
+    {
+      "fromMeters": 40890,
+      "kind": "minimumElevation",
+      "min": 2,
+      "name": "Muddy River bridge (≈40.9 km) has no false dip: lowest point ≥ 2 m (false deck reading 0.5 m; real approaches 2.7–3.1 m)",
+      "toMeters": 40990
+    },
+    {
+      "fromMeters": 25600,
+      "kind": "climb",
+      "min": 1.5,
+      "name": "Newton Hill 1 (Charles River to Woodland, 25.6–26.8 km) climbs at ≥ +1.5%",
+      "toMeters": 26800
+    },
+    {
+      "fromMeters": 27200,
+      "kind": "maximumIncline",
+      "max": 0.5,
+      "name": "Level stretch to the fire station (27.2–28.0 km): no climb above +0.5%",
+      "toMeters": 28000
+    },
+    {
+      "fromMeters": 28100,
+      "kind": "climb",
+      "min": 3,
+      "name": "Newton Hill 2 (after the fire station, 28.1–28.8 km) climbs at ≥ +3%",
+      "toMeters": 28800
+    },
+    {
+      "fromMeters": 29400,
+      "kind": "maximumIncline",
+      "max": 0.5,
+      "name": "Between hills 2 and 3 (29.4–30.7 km): no climb above +0.5%",
+      "toMeters": 30700
+    },
+    {
+      "fromMeters": 30900,
+      "kind": "climb",
+      "min": 2.5,
+      "name": "Newton Hill 3 (City Hall, 30.9–31.6 km) climbs at ≥ +2.5%",
+      "toMeters": 31600
+    },
+    {
+      "fromMeters": 31700,
+      "kind": "maximumIncline",
+      "max": 0.5,
+      "name": "Between hills 3 and 4 (31.7–32.4 km): no climb above +0.5%",
+      "toMeters": 32400
+    },
+    {
+      "fromMeters": 32500,
+      "kind": "climb",
+      "min": 3.5,
+      "name": "Heartbreak Hill (32.5–33.3 km) climbs at ≥ +3.5%",
+      "toMeters": 33300
+    },
+    {
+      "fromMeters": 33300,
+      "kind": "drop",
+      "max": 31,
+      "min": 27,
+      "name": "Heartbreak Hill rise 27–31 m (32.5 → 33.3 km)",
+      "toMeters": 32500
+    },
+    {
+      "fromMeters": 35000,
+      "kind": "drop",
+      "max": 46,
+      "min": 36,
+      "name": "35–40 km drops 36–46 m",
+      "toMeters": 40000
+    },
+    {
+      "kind": "gain",
+      "max": 310,
+      "min": 240,
+      "name": "Gain 240–310 m (at 100 m smoothing, like the lidar reference's 100 m segments)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "loss",
+      "max": 450,
+      "min": 380,
+      "name": "Loss 380–450 m (at 100 m smoothing, like the lidar reference's 100 m segments)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 9,
+      "name": "Steepest incline within ±9%"
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 42.2837971,
+        "longitude": -71.3473067
+      },
+      "name": "Natick: West Central St becomes East Central St (Rte 27)",
+      "officialMeters": 16493
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 42.2936954,
+        "longitude": -71.3215265
+      },
+      "name": "Wellesley town line",
+      "officialMeters": 18862
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 42.3194662,
+        "longitude": -71.2646391
+      },
+      "name": "Walnut St, Wellesley",
+      "officialMeters": 24736
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 42.341047,
+        "longitude": -71.238625
+      },
+      "name": "Fire station: Washington St turns onto Commonwealth Ave",
+      "officialMeters": 28095
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 42.3367293,
+        "longitude": -71.2236405
+      },
+      "name": "Chestnut St, Newton",
+      "officialMeters": 29435
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 42.3364616,
+        "longitude": -71.1860541
+      },
+      "name": "Grant Ave, Newton",
+      "officialMeters": 32710
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 42.336113,
+        "longitude": -71.1785847
+      },
+      "name": "Hammond St (Heartbreak Hill crest, Boston College)",
+      "officialMeters": 33294
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 42.339916,
+        "longitude": -71.1661275
+      },
+      "name": "Lake St",
+      "officialMeters": 34472
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 42.3488079,
+        "longitude": -71.0949742
+      },
+      "name": "Kenmore St",
+      "officialMeters": 40684
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 42.3479665,
+        "longitude": -71.085256
+      },
+      "name": "Hereford St turns onto Boylston St",
+      "officialMeters": 41618
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 42.3497514,
+        "longitude": -71.0786162
+      },
+      "name": "Finish: Boylston St",
+      "officialMeters": 42195
+    }
+  ],
+  "description": "Hopkinton to Copley Square through Ashland, Framingham, Natick, Wellesley, Newton and Brookline. A fast early descent, rolling middle miles, the four Newton Hills (Heartbreak last, around mile 20.5), then downhill into Boston. Unofficial.",
+  "edition": "2027",
+  "elevation": {
+    "provider": "usgs3dep",
+    "trustedSources": [
+      "MA_CentralEastern_2021_B21",
+      "MA_NE_CMGP_Sandy_Z19_2013"
+    ]
+  },
+  "id": "boston-marathon-2027",
+  "location": "Hopkinton to Boston, Massachusetts, USA",
+  "manualSpans": [
+    {
+      "action": "keep",
+      "endMeters": 40330,
+      "reason": "Beacon St over the Mass Pike and rail line (mile 25): a real rise; OSM tags the Pike and railway as tunnels, not the course road as a bridge",
+      "startMeters": 40150
+    }
+  ],
+  "name": "Boston Marathon",
+  "officialDistanceMeters": 42195,
+  "processing": {
+    "checkpointSearchRadiusMeters": 150,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 300,
+    "minimumIntervalMeters": 300,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "kind": "osmRelation",
+    "relationId": 11680552,
+    "start": {
+      "latitude": 42.2297774,
+      "longitude": -71.518205
+    }
+  },
+  "segments": [
+    {
+      "endMeters": 33796,
+      "id": "newton-hills",
+      "name": "Newton Hills (miles 16–21)",
+      "startMeters": 25750
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the Boston Athletic Association.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name": "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url": "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes": "Route from OpenStreetMap relation 11680552, chained by shared nodes and smoothed toward the racing line; distances calibrated piecewise to street corners whose mileages are published on the course's USATF certification (MA21002JK). Elevations from USGS 3DEP 1 m lidar (2021 project to Brookline, 2013–14 in Boston); bridges interpolated, so bridge crowns are flattened. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap relation 11680552 (Boston Marathon)",
+      "url": "https://www.openstreetmap.org/relation/11680552"
+    },
+    "verified": false
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [
+      "motorway",
+      "motorway_link"
+    ],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}

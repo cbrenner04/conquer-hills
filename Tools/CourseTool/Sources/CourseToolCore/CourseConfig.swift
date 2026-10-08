@@ -142,8 +142,15 @@ public struct CourseConfig: Codable, Equatable, Sendable {
             case loss
             /// gain − loss equals finish − start within `max`.
             case netBalance
-            /// No course incline beyond ±`max` percent.
+            /// Lowest smoothed elevation over `fromMeters`...`toMeters` at least `min` (e.g. no false dip at a river
+            /// crossing that is also a real low point).
+            case minimumElevation
+            /// No course incline beyond ±`max` percent; with `fromMeters`/`toMeters`, no incline above `max` among
+            /// intervals overlapping that window by at least 100 m (e.g. a level stretch between hills).
             case maximumIncline
+            /// Some incline interval overlapping `fromMeters`...`toMeters` by at least 100 m climbs at `min` percent or
+            /// more: the hill survives smoothing and merging as a climb.
+            case climb
             /// No dip around `atMeters` (± `radiusMeters`): the lowest point there isn't more than 0.5 m below
             /// the lower of the two edges.
             case noDip

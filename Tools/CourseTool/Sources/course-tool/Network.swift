@@ -96,6 +96,8 @@ enum Overpass {
             let nodes: [Int]?
             let tags: [String: String]?
             let geometry: [LatLon]?
+            let version: Int?
+            let timestamp: String?
         }
         let osm3s: OSM3S
         let elements: [Element]
@@ -142,20 +144,99 @@ enum Overpass {
         return (ways, response.osm3s.timestampOSMBase)
     }
 
-    /// The member ways of a route relation, chained into one line.
-    static func relationRoute(id: Int, start: Coordinate) async throws -> (line: [Coordinate], timestamp: String) {
-        let response = try await query("[out:json][timeout:180];relation(\(id));way(r);out body;>;out skel qt;")
+    /// The member ways of a route relation, chained into one line, with the relation's version and the OSM data
+    /// timestamp so the snapshot can be identified later.
+    static func relationRoute(id: Int, start: Coordinate) async throws -> (
+        line: [Coordinate], version: Int, edited: String, timestamp: String
+    ) {
+        let response = try await query(
+            "[out:json][timeout:180];relation(\(id));out meta;way(r);out body;>;out skel qt;")
         var nodes: [Int: Coordinate] = [:]
         var ways: [RelationChaining.Way] = []
+        var relation: Response.Element?
         for element in response.elements {
             if element.type == "node", let lat = element.lat, let lon = element.lon {
                 nodes[element.id] = Coordinate(latitude: lat, longitude: lon)
             } else if element.type == "way", let wayNodes = element.nodes {
                 ways.append(.init(id: element.id, nodes: wayNodes))
+            } else if element.type == "relation" {
+                relation = element
             }
         }
+        guard let relation, let version = relation.version else { throw PipelineError("relation \(id) not found") }
         let chained = try RelationChaining.chain(ways: ways, nodeLocations: nodes, start: start)
-        return (chained.compactMap { nodes[$0] }, response.osm3s.timestampOSMBase)
+        log("  relation \(id) v\(version): \(ways.count) ways chained")
+        return (
+            chained.compactMap { nodes[$0] }, version, relation.timestamp ?? "unknown",
+            response.osm3s.timestampOSMBase
+        )
+    }
+}
+
+/// USGS 3D Elevation Program, through the 3DEP ImageServer's batch `getSamples`.
+///
+/// Each point gets the best available DEM (1 m lidar where it exists); the source label is that dataset's project
+/// name, e.g. `MA_CentralEastern_2021_B21`. The service advertises 2,000 points a request but can silently return
+/// fewer samples than points, so requests are kept to 500 points and any point left out of a response is asked for
+/// again. Requests are spaced a few seconds apart.
+struct USGS3DEPElevationProvider: ElevationProvider {
+    let name = "usgs3dep"
+    let batchSize = 500
+
+    func elevations(at points: [Coordinate]) async throws -> [ElevationReading] {
+        var readings = [ElevationReading?](repeating: nil, count: points.count)
+        for attempt in 1...4 {
+            let pending = points.indices.filter { readings[$0] == nil }
+            if pending.isEmpty { break }
+            if attempt > 1 { log("  3DEP: asking again for \(pending.count) points left out of the response") }
+            let returned = try await Self.samples(at: pending.map { points[$0] })
+            for (offset, reading) in returned { readings[pending[offset]] = reading }
+            try await Task.sleep(for: .seconds(3))
+        }
+        guard readings.allSatisfy({ $0 != nil }) else {
+            throw PipelineError("3DEP kept leaving points out of its responses; try again later")
+        }
+        return readings.map { $0! }
+    }
+
+    /// The samples the service returned, keyed by position in `points`. A sample whose value isn't a number is
+    /// recorded as no data; a point missing from the response is left out, so it can be asked for again.
+    private static func samples(at points: [Coordinate]) async throws -> [Int: ElevationReading] {
+        let pointList = points.map { String(format: "[%.7f,%.7f]", $0.longitude, $0.latitude) }.joined(separator: ",")
+        let url = URL(
+            string: "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/getSamples")!
+        let data = try await HTTP.postForm(
+            url,
+            fields: [
+                "geometry": "{\"points\":[\(pointList)],\"spatialReference\":{\"wkid\":4326}}",
+                "geometryType": "esriGeometryMultipoint", "returnFirstValueOnly": "true",
+                "interpolation": "RSP_BilinearInterpolation", "outFields": "Name", "f": "json",
+            ])
+        struct Response: Decodable {
+            struct Sample: Decodable {
+                struct Attributes: Decodable {
+                    let name: String?
+                    enum CodingKeys: String, CodingKey { case name = "Name" }
+                }
+                let locationId: Int
+                let value: String
+                let attributes: Attributes?
+            }
+            let samples: [Sample]?
+        }
+        guard let samples = try JSONDecoder().decode(Response.self, from: data).samples else {
+            throw PipelineError("unexpected 3DEP response: \(String(decoding: data.prefix(300), as: UTF8.self))")
+        }
+        var result: [Int: ElevationReading] = [:]
+        for sample in samples where sample.locationId >= 0 && sample.locationId < points.count {
+            if let value = Double(sample.value) {
+                result[sample.locationId] = ElevationReading(
+                    elevationMeters: (value * 1000).rounded() / 1000, source: sample.attributes?.name ?? "unknown")
+            } else {
+                result[sample.locationId] = ElevationReading(elevationMeters: nil, source: "no data")
+            }
+        }
+        return result
     }
 }
 
