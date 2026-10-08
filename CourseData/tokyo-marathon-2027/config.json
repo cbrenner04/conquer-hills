@@ -1,0 +1,338 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 42,
+      "min": 38,
+      "name": "Start elevation 38–42 m"
+    },
+    {
+      "atMeters": 42195,
+      "kind": "elevationAt",
+      "max": 6,
+      "min": 2,
+      "name": "Finish elevation 2–6 m"
+    },
+    {
+      "fromMeters": 7000,
+      "kind": "maximumElevation",
+      "max": 12,
+      "name": "Highest point after km 7 ≤ 12 m",
+      "toMeters": 42195
+    },
+    {
+      "fromMeters": 3000,
+      "kind": "drop",
+      "max": 30,
+      "min": 25,
+      "name": "Drop from km 3 to km 6.5 is 25–30 m",
+      "toMeters": 6500
+    },
+    {
+      "kind": "gain",
+      "max": 50,
+      "min": 20,
+      "name": "Gain 20–50 m"
+    },
+    {
+      "kind": "loss",
+      "max": 85,
+      "min": 55,
+      "name": "Loss 55–85 m"
+    },
+    {
+      "kind": "netBalance",
+      "max": 3,
+      "name": "Gain − loss = finish − start (±3 m)"
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 3,
+      "name": "Steepest incline within ±3%"
+    },
+    {
+      "atMeters": 20000,
+      "kind": "noDip",
+      "name": "Kuramae Bridge (km 20) is never a dip",
+      "radiusMeters": 300
+    },
+    {
+      "atMeters": 28000,
+      "kind": "noDip",
+      "name": "Kuramae Bridge (km 28) is never a dip",
+      "radiusMeters": 300
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 35.69266,
+        "longitude": 139.70366
+      },
+      "name": "Shinjuku Piccadilly",
+      "officialMeters": 2000
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 35.6912,
+        "longitude": 139.71667
+      },
+      "name": "Tomihisacho intersection",
+      "officialMeters": 3000
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 35.69214,
+        "longitude": 139.72551
+      },
+      "name": "Kappazaka-shita intersection",
+      "officialMeters": 4000
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 35.70292,
+        "longitude": 139.75191
+      },
+      "name": "Koraku-bashi intersection",
+      "officialMeters": 7000
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 35.69535,
+        "longitude": 139.76749
+      },
+      "name": "Awajicho intersection",
+      "officialMeters": 9000
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 35.70799,
+        "longitude": 139.77303
+      },
+      "name": "Turnaround: Ueno-hirokoji",
+      "officialMeters": 10600
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 35.68631,
+        "longitude": 139.77315
+      },
+      "name": "Mitsui Main Building",
+      "officialMeters": 13000
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 35.70154,
+        "longitude": 139.78921
+      },
+      "name": "Kuramae 1-chome intersection",
+      "officialMeters": 17000
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 35.70879,
+        "longitude": 139.79608
+      },
+      "name": "Komagatabashi-nishizume intersection",
+      "officialMeters": 18000
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 35.70094,
+        "longitude": 139.79349
+      },
+      "name": "Kuramae Bridge",
+      "officialMeters": 20000
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 35.67162,
+        "longitude": 139.79975
+      },
+      "name": "Turnaround: Tomioka Hachimangu",
+      "officialMeters": 23950
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 35.69451,
+        "longitude": 139.79761
+      },
+      "name": "Midori 1-chome intersection",
+      "officialMeters": 27000
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 35.70094,
+        "longitude": 139.79349
+      },
+      "name": "Kuramae Bridge",
+      "officialMeters": 28000
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 35.69622,
+        "longitude": 139.78589
+      },
+      "name": "FamilyMart Higashi-Yanagibashi 1-chome",
+      "officialMeters": 29000
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 35.68804,
+        "longitude": 139.78656
+      },
+      "name": "Meijiza",
+      "officialMeters": 30000
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 35.68092,
+        "longitude": 139.7728
+      },
+      "name": "Nihombashi Takashimaya",
+      "officialMeters": 32000
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 35.67448,
+        "longitude": 139.75972
+      },
+      "name": "Hibiya Marine Building",
+      "officialMeters": 34000
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 35.64899,
+        "longitude": 139.74947
+      },
+      "name": "Mita NN Building",
+      "officialMeters": 37000
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 35.6462,
+        "longitude": 139.7457
+      },
+      "name": "Turnaround: Tamachi Station",
+      "officialMeters": 37500
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 35.64945,
+        "longitude": 139.74804
+      },
+      "name": "NEC headquarters",
+      "officialMeters": 38000
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 35.67512,
+        "longitude": 139.75954
+      },
+      "name": "Hibiya intersection",
+      "officialMeters": 41000
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 35.68151,
+        "longitude": 139.76272
+      },
+      "name": "Yusen Building",
+      "officialMeters": 42000
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 35.68203,
+        "longitude": 139.76208
+      },
+      "name": "Finish: Wadakura-mon intersection",
+      "officialMeters": 42195
+    }
+  ],
+  "description": "Shinjuku to Tokyo Station by way of Suidobashi, Ueno, Nihombashi, Asakusa, Monzen-nakacho, Ginza and Tamachi. An early descent from Shinjuku, then flat with small rises over the Sumida River bridges. Unofficial.",
+  "edition": "2027",
+  "elevation": {
+    "provider": "gsi",
+    "trustedSources": [
+      "1m（レーザ）",
+      "5m（レーザ）"
+    ]
+  },
+  "id": "tokyo-marathon-2027",
+  "location": "Tokyo, Japan",
+  "manualSpans": [],
+  "name": "Tokyo Marathon",
+  "officialDistanceMeters": 42195,
+  "processing": {
+    "checkpointSearchRadiusMeters": 150,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 300,
+    "minimumIntervalMeters": 400,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 200,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "kind": "waypoints",
+    "routerBaseURL": "https://routing.openstreetmap.de/routed-foot"
+  },
+  "segments": [
+    {
+      "endMeters": 6500,
+      "id": "early-descent",
+      "name": "Early descent (km 3–6.5)",
+      "startMeters": 3000
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: derived from Geospatial Information Authority of Japan (国土地理院) elevation data, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the Tokyo Marathon Foundation.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "GSI content terms (Public Data License 1.0, compatible with CC BY 4.0); processed by Conquer Hills",
+      "name": "Geospatial Information Authority of Japan (国土地理院) elevation API",
+      "url": "https://maps.gsi.go.jp/development/elevation_s.html"
+    },
+    "notes": "Route traced on OpenStreetMap roads through hand-picked waypoints, snapped by the FOSSGIS OSRM pedestrian router and smoothed toward the racing line; distances calibrated piecewise to the official turnarounds, Kuramae Bridge and the finish. Elevations from the GSI elevation API (mostly 1 m airborne laser); bridges, tunnels and non-laser samples are interpolated, so bridge crowns are flattened. The start loop through Nishi-Shinjuku (first ~3 km) is the least certain part of the trace.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills from the official 2027 course description)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": false
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [
+      "motorway",
+      "motorway_link"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}
