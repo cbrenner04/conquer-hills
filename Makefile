@@ -7,7 +7,7 @@ SWIFT_SOURCES := App AppUITests Tools/make-app-icon.swift $(PACKAGE_PATH)/Packag
 COURSE_TOOL := swift run --package-path $(TOOL_PATH) -c release course-tool
 
 .PHONY: bootstrap generate open test build format lint check ui-test course-route course-elevation course-build \
-	courses-check
+	course-report courses-check
 
 # The main checkout, which differs from the current directory inside a git worktree.
 MAIN_CHECKOUT := $(shell dirname "$$(git rev-parse --path-format=absolute --git-common-dir)")
@@ -81,6 +81,15 @@ course-elevation:
 course-build:
 	@test -n "$(ID)" || { echo "usage: make course-build ID=<course-id>"; exit 2; }
 	$(COURSE_TOOL) build $(ID) --report "$(MAIN_CHECKOUT)/.scratch/reports"
+
+## course-report ID=<id>: rebuild the review report and serve it at http://localhost:8765 (map tiles need http)
+REPORT_PORT ?= 8765
+course-report:
+	@test -n "$(ID)" || { echo "usage: make course-report ID=<course-id>"; exit 2; }
+	@$(COURSE_TOOL) build $(ID) --report "$(MAIN_CHECKOUT)/.scratch/reports" \
+		|| echo "(some checks failed; serving the report anyway)"
+	@echo "Review report: http://localhost:$(REPORT_PORT)/$(ID).html  (Ctrl-C to stop)"
+	@cd "$(MAIN_CHECKOUT)/.scratch/reports" && python3 -m http.server $(REPORT_PORT) --bind 127.0.0.1
 
 ## courses-check: rebuild every course in CourseData from committed inputs; fail if a bundled file differs
 courses-check:

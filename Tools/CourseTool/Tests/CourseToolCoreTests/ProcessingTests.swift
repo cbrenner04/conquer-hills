@@ -54,7 +54,7 @@ struct CleaningTests {
 
         let reasons = ElevationCleaning.suspectReasons(
             samples: samples, distances: samples.map(\.distanceMeters), trustedSources: ["trusted"], structures: [],
-            settings: structureSettings, manualSpans: spans)
+            manualSpans: spans)
 
         #expect(reasons[0] == nil)
         #expect(reasons[1] == .untrustedSource("10m"))
@@ -64,28 +64,47 @@ struct CleaningTests {
         #expect(reasons[6] == nil)  // kept despite the untrusted source
     }
 
-    @Test("A bridge carrying the route is flagged; crossings, expressways and underground concourses are not")
-    func structures() {
+    @Test("Spans cover a bridge carrying the route; crossings, expressways and underground concourses don't count")
+    func structureSpans() {
         let samples = straightSamples(count: 30)  // runs north
-        let along = StructuresFile.Way(
-            id: 1, tags: ["bridge": "yes", "highway": "primary"],
+        let positions = samples.map { RouteSampling.Position(distanceMeters: $0.distanceMeters, location: $0.location) }
+        let along = StructureSpans.Way(
+            id: 1, tags: ["bridge": "yes", "highway": "primary", "name": "Big Bridge"],
             geometry: [location(at: 100), location(at: 150)])
         let east = Coordinate(latitude: location(at: 250).latitude, longitude: 139.001)
         let west = Coordinate(latitude: location(at: 250).latitude, longitude: 138.999)
-        let across = StructuresFile.Way(id: 2, tags: ["bridge": "yes", "highway": "footway"], geometry: [west, east])
-        let concourse = StructuresFile.Way(
+        let across = StructureSpans.Way(id: 2, tags: ["bridge": "yes", "highway": "footway"], geometry: [west, east])
+        let concourse = StructureSpans.Way(
             id: 4, tags: ["tunnel": "yes", "highway": "footway"], geometry: [location(at: 50), location(at: 90)])
-        let expressway = StructuresFile.Way(
+        let expressway = StructureSpans.Way(
             id: 3, tags: ["bridge": "yes", "highway": "motorway"], geometry: [location(at: 200), location(at: 240)])
+        let railway = StructureSpans.Way(
+            id: 5, tags: ["bridge": "yes", "railway": "rail"], geometry: [location(at: 160), location(at: 190)])
+
+        let spans = StructureSpans.compute(
+            ways: [along, across, concourse, expressway, railway], positions: positions, settings: structureSettings)
+
+        // The 12 m buffer reaches the samples 10 m beyond each end of the 100–150 m bridge.
+        #expect(
+            spans == [
+                StructuresFile.Span(
+                    kind: "bridge", osmWayId: 1, name: "Big Bridge", highway: "primary", startMeters: 90,
+                    endMeters: 160)
+            ])
+    }
+
+    @Test("Samples inside a span are flagged, including at its rounded ends")
+    func spansFlagSamples() {
+        let samples = straightSamples(count: 30)
+        let span = StructuresFile.Span(
+            kind: "bridge", osmWayId: 1, name: nil, highway: "primary", startMeters: 100.004, endMeters: 149.996)
 
         let reasons = ElevationCleaning.suspectReasons(
             samples: samples, distances: samples.map(\.distanceMeters), trustedSources: ["trusted"],
-            structures: [along, across, expressway, concourse], settings: structureSettings, manualSpans: [])
+            structures: [span], manualSpans: [])
 
-        #expect(reasons[7] == nil)  // above an underground concourse
-        #expect(reasons[12] == .structure(wayID: 1, kind: "bridge", name: nil))
-        #expect(reasons[22] == nil)  // under the expressway (ignored highway)
-        #expect(reasons[25] == nil)  // under the footbridge (crossing, not along)
+        #expect(reasons.indices.filter { reasons[$0] != nil } == [10, 11, 12, 13, 14, 15])
+        #expect(reasons[10] == .structure(wayID: 1, kind: "bridge", name: nil))
     }
 
     @Test("Steep steps that remain after cleaning are listed")

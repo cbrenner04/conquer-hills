@@ -115,8 +115,10 @@ enum Overpass {
         throw lastError
     }
 
-    /// Bridges, tunnels and covered ways within `buffer` meters of the route line.
-    static func structures(along line: [Coordinate], bufferMeters: Double) async throws -> StructuresFile {
+    /// Bridges, tunnels and covered ways within `buffer` meters of the route line, with their OSM data timestamp.
+    static func structures(along line: [Coordinate], bufferMeters: Double) async throws -> (
+        ways: [StructureSpans.Way], timestamp: String
+    ) {
         let projection = Geo.Projection(fitting: line)
         let simplified = Geo.simplify(line.map(projection.point), toleranceMeters: 5).map(projection.coordinate)
         let polyline = simplified.map { String(format: "%.6f,%.6f", $0.latitude, $0.longitude) }
@@ -132,13 +134,12 @@ enum Overpass {
             out tags geom;
             """
         let response = try await query(ql)
-        let keep = ["bridge", "tunnel", "covered", "layer", "highway", "railway", "name", "waterway", "man_made"]
         let ways = response.elements.filter { $0.type == "way" }.map { element in
-            StructuresFile.Way(
-                id: element.id, tags: (element.tags ?? [:]).filter { keep.contains($0.key) },
+            StructureSpans.Way(
+                id: element.id, tags: element.tags ?? [:],
                 geometry: (element.geometry ?? []).map { Coordinate(latitude: $0.lat, longitude: $0.lon) })
         }
-        return StructuresFile(osmTimestamp: response.osm3s.timestampOSMBase, bufferMeters: bufferMeters, ways: ways)
+        return (ways, response.osm3s.timestampOSMBase)
     }
 
     /// The member ways of a route relation, chained into one line.

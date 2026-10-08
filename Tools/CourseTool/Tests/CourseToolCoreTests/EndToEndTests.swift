@@ -12,11 +12,12 @@ struct EndToEndTests {
         let route = [location(at: 0), location(at: 5000)]
         var samples = RouteSampling.prepare(
             existing: nil, route: route, provider: "test", smoothingMeters: 40, spacing: 10)
-        for i in samples.samples.indices {
-            let d = samples.samples[i].distanceMeters
+        let positions = RouteSampling.positions(route: route, smoothingMeters: 40, spacing: 10)
+        for (i, position) in positions.enumerated() {
+            let d = position.distanceMeters
             let onBridge = d >= 4000 && d <= 4100
-            samples.samples[i].elevationMeters = onBridge ? 1 : (d < 2000 ? 10 : d < 3000 ? 10 + (d - 2000) * 0.03 : 40)
-            samples.samples[i].source = onBridge ? "fallback" : "trusted"
+            let elevation = onBridge ? 1 : (d < 2000 ? 10 : d < 3000 ? 10 + (d - 2000) * 0.03 : 40)
+            samples.record(elevation, source: onBridge ? "fallback" : "trusted", at: i)
         }
         samples.fetchedOn = "2026-10-07"
         let config = CourseConfig(
@@ -45,7 +46,9 @@ struct EndToEndTests {
                 .init(name: "No bridge dip", kind: .noDip, atMeters: 4050, radiusMeters: 200),
                 .init(name: "Gentle", kind: .maximumIncline, max: 3),
             ])
-        let structures = StructuresFile(osmTimestamp: "2026-10-07T00:00:00Z", bufferMeters: 12, ways: [])
+        let structures = StructuresFile(
+            osmTimestamp: "2026-10-07T00:00:00Z", settings: config.structures,
+            routeFingerprint: RouteSampling.fingerprint(route: route, smoothingMeters: 40, spacing: 10), spans: [])
         return BuildInputs(config: config, samples: samples, structures: structures, route: route, waypoints: [])
     }
 
@@ -82,8 +85,9 @@ struct EndToEndTests {
     func checkSmoothingWindow() throws {
         var inputs = inputs()
         // Add 1 m ripples with a 400 m wavelength: build smoothing (200 m) keeps some, 1 km smoothing removes them.
-        for i in inputs.samples.samples.indices {
-            inputs.samples.samples[i].elevationMeters! += sin(inputs.samples.samples[i].distanceMeters / 400 * 2 * .pi)
+        let positions = RouteSampling.positions(route: inputs.route, smoothingMeters: 40, spacing: 10)
+        for (i, position) in positions.enumerated() {
+            inputs.samples.elevations[i]! += sin(position.distanceMeters / 400 * 2 * .pi)
         }
         inputs.config.acceptance = [
             .init(name: "Gain, build smoothing", kind: .gain, min: 0, max: 1000),
@@ -96,6 +100,14 @@ struct EndToEndTests {
         #expect(gains[0] > 25)
         #expect(gains[1] < gains[0])
         #expect(abs(gains[0] - result.courseFile.stats.elevationGainMeters) < 0.1)
+    }
+
+    @Test("Structure spans computed for a different route or settings are rejected")
+    func staleStructures() {
+        var inputs = inputs()
+        inputs.structures.settings.bufferMeters = 20
+
+        #expect(throws: PipelineError.self) { try CourseBuilder.build(inputs) }
     }
 
     @Test("The review report renders")

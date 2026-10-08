@@ -42,19 +42,14 @@ public struct CleanedElevation: Equatable, Sendable {
 
 public enum ElevationCleaning {
     /// For each sample, why it is suspect (or nil if it is trusted).
+    ///
+    /// `distances` are official (calibrated) distances, used for manual spans; structure spans are on the raw
+    /// distance axis of the samples themselves.
     public static func suspectReasons(
         samples: [ElevationSamplesFile.Sample], distances: [Double], trustedSources: [String],
-        structures: [StructuresFile.Way], settings: CourseConfig.StructureSettings,
-        manualSpans: [CourseConfig.ManualSpan]
+        structures: [StructuresFile.Span], manualSpans: [CourseConfig.ManualSpan]
     ) -> [SuspectReason?] {
-        let projection = Geo.Projection(fitting: samples.map(\.location))
-        let points = samples.map { projection.point($0.location) }
-        let candidates = structures.filter { way in
-            guard let highway = way.tags["highway"] else { return false }  // only roads and paths can be the route
-            if settings.ignoredHighways.contains(highway) { return false }
-            let isBridge = way.tags["bridge"].map { $0 != "no" } ?? false
-            return isBridge || !settings.ignoredTunnelHighways.contains(highway)
-        }.map { way in (way: way, points: way.geometry.map(projection.point)) }
+        let candidates = structures
 
         var reasons = [SuspectReason?](repeating: nil, count: samples.count)
         for i in samples.indices {
@@ -63,11 +58,11 @@ public enum ElevationCleaning {
                 reasons[i] = .noData
             } else if let source = sample.source, !trustedSources.contains(source) {
                 reasons[i] = .untrustedSource(source)
-            } else if let hit = structure(
-                at: i, points: points, candidates: candidates, bufferMeters: settings.bufferMeters,
-                maximumAngleDegrees: settings.maximumAngleDegrees)
-            {
-                reasons[i] = hit
+            } else if let span = candidates.first(where: {
+                // Span ends are stored to the centimetre, so allow that much either side.
+                sample.distanceMeters >= $0.startMeters - 0.01 && sample.distanceMeters <= $0.endMeters + 0.01
+            }) {
+                reasons[i] = .structure(wayID: span.osmWayId, kind: span.kind, name: span.name)
             }
         }
         for span in manualSpans {
@@ -76,31 +71,6 @@ public enum ElevationCleaning {
             }
         }
         return reasons
-    }
-
-    /// The structure the route is on at sample `i`: within the buffer and running roughly along the route.
-    static func structure(
-        at i: Int, points: [Geo.Point], candidates: [(way: StructuresFile.Way, points: [Geo.Point])],
-        bufferMeters: Double, maximumAngleDegrees: Double
-    ) -> SuspectReason? {
-        let p = points[i]
-        let before = points[max(0, i - 2)]
-        let after = points[min(points.count - 1, i + 2)]
-        let routeAngle = atan2(after.y - before.y, after.x - before.x)
-        for candidate in candidates {
-            for (a, b) in zip(candidate.points, candidate.points.dropFirst())
-            where Geo.distanceToSegment(p, a, b) <= bufferMeters {
-                var difference = abs(atan2(b.y - a.y, b.x - a.x) - routeAngle).truncatingRemainder(dividingBy: .pi)
-                difference = min(difference, .pi - difference)
-                if difference * 180 / .pi <= maximumAngleDegrees {
-                    let tags = candidate.way.tags
-                    let kind =
-                        tags["bridge"].map { _ in "bridge" } ?? tags["tunnel"].map { _ in "tunnel" } ?? "covered way"
-                    return .structure(wayID: candidate.way.id, kind: kind, name: tags["name"])
-                }
-            }
-        }
-        return nil
     }
 
     /// Replaces suspect samples by linear interpolation between the nearest trusted samples. Suspect runs at the

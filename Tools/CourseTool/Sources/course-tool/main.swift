@@ -6,7 +6,7 @@ let usage = """
     usage: course-tool <command> <course-id> [options]
 
     commands:
-      route      route source → route.geojson, and refresh osm-structures.json   (network)
+      route      route source → route.json, and refresh osm-structures.json      (network)
       elevation  fill or resume elevation-samples.json                             (network)
       build      build the course file and the review report                       (offline)
       check      rebuild in memory; fail if the bundled course file differs or a check fails (offline)
@@ -89,13 +89,32 @@ do {
         properties["osmRelation"] = String(id)
         properties["osmTimestamp"] = timestamp
     }
-    try GeoJSON.routeData(line, properties: properties).write(to: files.route, options: .atomic)
-    log("wrote \(files.route.path) (\(line.count) points)")
+    // The route is rounded once, here, by encoding; everything downstream uses the stored (decoded) points.
+    let routeFile = RouteFile(line: line, properties: properties)
+    try PipelineJSON.write(routeFile, to: files.route)
+    let route = routeFile.line
+    log("wrote \(files.route.path) (\(route.count) points)")
 
     log("querying OSM bridges, tunnels and covered ways along the route")
-    let structures = try await Overpass.structures(along: line, bufferMeters: config.structures.bufferMeters)
+    let (ways, timestamp) = try await Overpass.structures(along: route, bufferMeters: config.structures.bufferMeters)
+    let structures = structuresFile(config: config, route: route, ways: ways, timestamp: timestamp)
     try PipelineJSON.write(structures, to: files.structures)
-    log("wrote \(files.structures.path) (\(structures.ways.count) ways, OSM data as of \(structures.osmTimestamp))")
+    log(
+        "wrote \(files.structures.path) (\(structures.spans.count) spans from \(ways.count) ways, OSM as of \(timestamp))"
+    )
+}
+
+func structuresFile(config: CourseConfig, route: [Coordinate], ways: [StructureSpans.Way], timestamp: String)
+    -> StructuresFile
+{
+    let p = config.processing
+    let positions = RouteSampling.positions(
+        route: route, smoothingMeters: p.routeSmoothingMeters, spacing: p.sampleSpacingMeters)
+    return StructuresFile(
+        osmTimestamp: timestamp, settings: config.structures,
+        routeFingerprint: RouteSampling.fingerprint(
+            route: route, smoothingMeters: p.routeSmoothingMeters, spacing: p.sampleSpacingMeters),
+        spans: StructureSpans.compute(ways: ways, positions: positions, settings: config.structures))
 }
 
 @MainActor func fetchElevation(config: CourseConfig) async throws {
@@ -105,20 +124,22 @@ do {
     default:
         throw PipelineError("elevation provider \(config.elevation.provider) is not implemented yet")
     }
-    let (route, _) = try GeoJSON.readRoute(Data(contentsOf: files.route))
+    let route = try PipelineJSON.decode(RouteFile.self, from: files.route).line
     let existing = try? PipelineJSON.decode(ElevationSamplesFile.self, from: files.elevationSamples)
+    let p = config.processing
     var samples = RouteSampling.prepare(
-        existing: existing, route: route, provider: provider.name,
-        smoothingMeters: config.processing.routeSmoothingMeters, spacing: config.processing.sampleSpacingMeters)
-    let missing = samples.samples.indices.filter { !samples.samples[$0].isFetched }
-    log("\(samples.samples.count) samples, \(missing.count) to fetch from \(provider.name)")
+        existing: existing, route: route, provider: provider.name, smoothingMeters: p.routeSmoothingMeters,
+        spacing: p.sampleSpacingMeters)
+    let positions = RouteSampling.positions(
+        route: route, smoothingMeters: p.routeSmoothingMeters, spacing: p.sampleSpacingMeters)
+    let missing = samples.missing
+    log("\(samples.count) samples, \(missing.count) to fetch from \(provider.name)")
     var sinceSave = 0
     for batchStart in stride(from: 0, to: missing.count, by: provider.batchSize) {
         let batch = Array(missing[batchStart..<min(batchStart + provider.batchSize, missing.count)])
-        let readings = try await provider.elevations(at: batch.map { samples.samples[$0].location })
+        let readings = try await provider.elevations(at: batch.map { positions[$0].location })
         for (index, reading) in zip(batch, readings) {
-            samples.samples[index].elevationMeters = reading.elevationMeters
-            samples.samples[index].source = reading.source
+            samples.record(reading.elevationMeters, source: reading.source, at: index)
         }
         sinceSave += batch.count
         if sinceSave >= 25 || batchStart + provider.batchSize >= missing.count {

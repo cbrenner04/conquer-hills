@@ -26,8 +26,12 @@ public enum ReviewReport {
             .meta { color: #666; } .pass { color: #1a7f37; font-weight: 600; } .fail { color: #c62828; font-weight: 600; }
             table { border-collapse: collapse; width: 100%; margin: 8px 0; } td, th { border-bottom: 1px solid #eee; padding: 4px 8px; text-align: left; vertical-align: top; }
             th { background: #fafafa; } td.num { text-align: right; font-variant-numeric: tabular-nums; }
-            #map { height: 520px; border: 1px solid #ddd; border-radius: 6px; }
-            svg { width: 100%; height: auto; background: #fff; border: 1px solid #eee; border-radius: 6px; }
+            #map { height: 520px; border: 1px solid #ddd; border-radius: 6px; background: #f3f3f0; }
+            #map .leaflet-tile-pane { filter: grayscale(1) brightness(1.08) contrast(0.85); opacity: 0.55; }
+            .km-label { background: #fff; border: 2px solid #d500f9; border-radius: 10px; padding: 0 5px; font: 600 11px/16px system-ui, sans-serif; color: #4a0072; white-space: nowrap; text-align: center; }
+            .end-label { background: #212121; color: #fff; border-radius: 10px; padding: 0 6px; font: 700 11px/18px system-ui, sans-serif; white-space: nowrap; text-align: center; }
+            #map-note { display: none; background: #fff8e1; border: 1px solid #ffe082; padding: 6px 10px; border-radius: 6px; margin: 8px 0; }
+            svg.chart { width: 100%; height: auto; background: #fff; border: 1px solid #eee; border-radius: 6px; }
             .legend span { display: inline-block; margin-right: 16px; } .swatch { display: inline-block; width: 14px; height: 4px; vertical-align: middle; margin-right: 4px; }
             details { margin: 8px 0; }
             </style></head><body>
@@ -50,12 +54,16 @@ public enum ReviewReport {
         }
         html += "</table>\n"
 
-        html += "<h2>Route</h2>\n<div id=\"map\"></div>\n"
+        html +=
+            "<h2>Route</h2>\n<p id=\"map-note\">Map tiles can't load when this file is opened directly; the route and "
+            + "markers are drawn on a plain background. To see the street map, run <code>make course-report ID="
+            + escape(config.id) + "</code> and open the URL it prints.</p>\n<div id=\"map\"></div>\n"
         html += """
-            <p class="legend"><span><i class="swatch" style="background:#999"></i>router output (sidewalks)</span>\
-            <span><i class="swatch" style="background:#1565c0"></i>measured line (smoothed)</span>\
-            <span><i class="swatch" style="background:#e53935"></i>interpolated elevation</span>\
-            <span>● green: calibration anchor · orange: checked only · grey: waypoint</span></p>
+            <p class="legend"><span><i class="swatch" style="background:#d500f9;height:6px;box-shadow:0 0 0 2px #fff"></i>course (measured, calibrated)</span>\
+            <span><i class="swatch" style="background:repeating-linear-gradient(90deg,#888 0 4px,transparent 4px 8px)"></i>router output</span>\
+            <span><i class="swatch" style="background:#ff9800;height:6px"></i>bridge / tunnel (elevation interpolated)</span>\
+            <span><i class="swatch" style="background:#e53935;height:6px"></i>other interpolated samples</span>\
+            <span>● checkpoints: green = calibration anchor, blue = checked only · grey dots: waypoints · labels every 5 km. Toggle layers top right.</span></p>
             """
 
         html += "<h2>Elevation</h2>\n" + elevationChart(result, total: total)
@@ -161,7 +169,8 @@ public enum ReviewReport {
         func x(_ d: Double) -> Double { pad.left + d / total * (width - pad.left - pad.right) }
         func y(_ e: Double) -> Double { pad.top + (hi - e) / (hi - lo) * (height - pad.top - pad.bottom) }
 
-        var svg = "<svg viewBox=\"0 0 \(Int(width)) \(Int(height))\" xmlns=\"http://www.w3.org/2000/svg\">\n"
+        var svg =
+            "<svg class=\"chart\" viewBox=\"0 0 \(Int(width)) \(Int(height))\" xmlns=\"http://www.w3.org/2000/svg\">\n"
         for span in result.cleaned.spans {
             svg +=
                 "<rect x=\"\(f(x(span.startMeters)))\" y=\"\(f(pad.top))\" "
@@ -198,7 +207,8 @@ public enum ReviewReport {
         func steps(_ intervals: [(Double, Double, Double)]) -> [(Double, Double)] {
             intervals.flatMap { [(x($0.0), y($0.2)), (x($0.1), y($0.2))] }
         }
-        var svg = "<svg viewBox=\"0 0 \(Int(width)) \(Int(height))\" xmlns=\"http://www.w3.org/2000/svg\">\n"
+        var svg =
+            "<svg class=\"chart\" viewBox=\"0 0 \(Int(width)) \(Int(height))\" xmlns=\"http://www.w3.org/2000/svg\">\n"
         svg += axes(width: width, height: height, pad: pad, total: total, lo: lo, hi: hi, unit: "%", x: x, y: y)
         svg +=
             "<line x1=\"\(f(pad.left))\" x2=\"\(f(width - pad.right))\" y1=\"\(f(y(0)))\" y2=\"\(f(y(0)))\" "
@@ -223,7 +233,7 @@ public enum ReviewReport {
             svg +=
                 "<line x1=\"\(f(pad.left))\" x2=\"\(f(width - pad.right))\" y1=\"\(f(y(v)))\" y2=\"\(f(y(v)))\" "
                 + "stroke=\"#f0f0f0\"/><text x=\"\(f(pad.left - 6))\" y=\"\(f(y(v) + 4))\" font-size=\"11\" "
-                + "text-anchor=\"end\" fill=\"#666\">\(format(v, "%g"))\(unit)</text>\n"
+                + "text-anchor=\"end\" fill=\"#666\">\(format(v == 0 ? 0 : v, "%g"))\(unit)</text>\n"
             v += stepY
         }
         var km = 0.0
@@ -257,37 +267,90 @@ public enum ReviewReport {
         func json(_ coordinates: [Coordinate]) -> String {
             "[" + coordinates.map { "[\(f($0.latitude, 6)),\(f($0.longitude, 6))]" }.joined(separator: ",") + "]"
         }
-        let samples = inputs.samples.samples
-        let measured = json(samples.map(\.location))
-        var redRuns: [String] = []
-        var run: [Coordinate] = []
-        for (index, reason) in result.cleaned.reasons.enumerated() {
-            if reason != nil {
-                run.append(samples[index].location)
-            } else if !run.isEmpty {
-                redRuns.append(json(run.count == 1 ? [run[0], run[0]] : run))
-                run = []
+        let samples = result.allSamples
+        let course = Array(samples.prefix(result.cleaned.distances.count))
+
+        // Runs of interpolated samples, split into structures (bridges, tunnels) and everything else.
+        let reasons = result.cleaned.reasons
+        func runs(where matches: (SuspectReason) -> Bool) -> [String] {
+            var result: [String] = []
+            var run: [Coordinate] = []
+            for (index, reason) in reasons.enumerated() {
+                if let reason, matches(reason) {
+                    run.append(course[index].location)
+                } else if !run.isEmpty {
+                    result.append(json(run.count == 1 ? [run[0], run[0]] : run))
+                    run = []
+                }
             }
+            if !run.isEmpty { result.append(json(run)) }
+            return result
         }
-        if !run.isEmpty { redRuns.append(json(run)) }
+        let structureRuns = runs { if case .structure = $0 { true } else { false } }
+        let otherRuns = runs { if case .structure = $0 { false } else { true } }
+
+        // Labels every 5 km, at halfway, and at the finish, placed at the calibrated distance.
+        let distances = result.cleaned.distances
+        let total = inputs.config.officialDistanceMeters
+        var marks = Array(stride(from: 5000.0, to: total - 1000, by: 5000)).map { ($0, "\(Int($0 / 1000)) km") }
+        if total > 30_000 { marks.append((total / 2, String(format: "½ %.1f", total / 2000))) }
+        let labels = marks.compactMap { mark -> String? in
+            guard let index = distances.firstIndex(where: { $0 >= mark.0 }) else { return nil }
+            let c = course[index].location
+            return "[\(f(c.latitude, 6)),\(f(c.longitude, 6)),\(jsString(mark.1))]"
+        }.joined(separator: ",")
+        let start = course.first!.location
+        let finish = course.last!.location
+
         let checkpoints = result.located.map { point in
             "[\(f(point.checkpoint.location.latitude, 6)),\(f(point.checkpoint.location.longitude, 6)),"
-                + "\(point.checkpoint.anchor),\(jsString(point.checkpoint.name + " (km " + format(point.checkpoint.officialMeters / 1000, "%g") + ")"))]"
+                + "\(point.checkpoint.anchor),"
+                + jsString(point.checkpoint.name + " (km " + format(point.checkpoint.officialMeters / 1000, "%g") + ")")
+                + "]"
         }.joined(separator: ",")
         let waypoints = inputs.waypoints.map {
             "[\(f($0.location.latitude, 6)),\(f($0.location.longitude, 6)),\(jsString($0.name))]"
         }.joined(separator: ",")
         return """
             <script>
+            const note = () => { document.getElementById('map-note').style.display = 'block'; };
+            if (typeof L === 'undefined') {
+              note();
+              document.getElementById('map').textContent = 'The map library could not load (offline?).';
+              throw new Error('Leaflet unavailable');
+            }
             const map = L.map('map');
+            // OSM's tile policy requires a Referer, which browsers don't send for file:// pages; serve the report
+            // over http (make course-report) to see tiles. Without them, the overlays still draw.
+            if (location.protocol === 'file:') note();
             L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 19,
-              attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
-            L.polyline(\(json(inputs.route)), {color: '#999', weight: 2}).addTo(map);
-            const measured = L.polyline(\(measured), {color: '#1565c0', weight: 3}).addTo(map);
-            [\(redRuns.joined(separator: ","))].forEach(r => L.polyline(r, {color: '#e53935', weight: 6}).addTo(map));
-            [\(waypoints)].forEach(w => L.circleMarker([w[0], w[1]], {radius: 3, color: '#666'}).bindTooltip(w[2]).addTo(map));
-            [\(checkpoints)].forEach(c => L.circleMarker([c[0], c[1]], {radius: 7, color: c[2] ? '#2e7d32' : '#ef6c00', fillOpacity: 0.8}).bindTooltip(c[3]).addTo(map));
-            map.fitBounds(measured.getBounds());
+              referrerPolicy: 'strict-origin-when-cross-origin',
+              attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'})
+              .on('tileerror', note).addTo(map);
+            const raw = L.polyline(\(json(inputs.route)), {color: '#888', weight: 1.5, dashArray: '4 4'});
+            const structures = L.layerGroup([\(structureRuns.joined(separator: ","))]
+              .map(r => L.polyline(r, {color: '#ff9800', weight: 10, opacity: 0.9})));
+            const other = L.layerGroup([\(otherRuns.joined(separator: ","))]
+              .map(r => L.polyline(r, {color: '#e53935', weight: 10, opacity: 0.9})));
+            const routeLine = \(json(course.map(\.location)));
+            L.polyline(routeLine, {color: '#fff', weight: 11, opacity: 1}).addTo(map);
+            const route = L.polyline(routeLine, {color: '#d500f9', weight: 6, opacity: 1}).addTo(map);
+            structures.addTo(map);
+            other.addTo(map);
+            const waypoints = L.layerGroup([\(waypoints)].map(w =>
+              L.circleMarker([w[0], w[1]], {radius: 3, color: '#555', weight: 1, fillOpacity: 0.8}).bindTooltip(w[2])));
+            const checkpoints = L.layerGroup([\(checkpoints)].map(c =>
+              L.circleMarker([c[0], c[1]], {radius: 7, color: c[2] ? '#2e7d32' : '#1e88e5', weight: 2, fillOpacity: 0.85})
+                .bindTooltip(c[3]))).addTo(map);
+            const labels = L.layerGroup([\(labels)].map(k => L.marker([k[0], k[1]], {interactive: false,
+              icon: L.divIcon({className: 'km-label', html: k[2], iconSize: null})}))).addTo(map);
+            L.marker([\(f(start.latitude, 6)), \(f(start.longitude, 6))], {icon: L.divIcon({className: 'end-label', html: 'START', iconSize: null})}).addTo(map);
+            L.marker([\(f(finish.latitude, 6)), \(f(finish.longitude, 6))], {icon: L.divIcon({className: 'end-label', html: 'FINISH', iconSize: null})}).addTo(map);
+            L.control.layers(null, {
+              'Router output (raw line)': raw, 'Waypoints': waypoints, 'Checkpoints': checkpoints,
+              'Bridges & tunnels': structures, 'Other interpolated samples': other, 'km labels': labels,
+            }, {collapsed: false}).addTo(map);
+            map.fitBounds(route.getBounds());
             </script>
 
             """

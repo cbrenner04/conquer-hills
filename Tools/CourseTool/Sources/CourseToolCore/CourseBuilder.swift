@@ -28,7 +28,7 @@ public struct BuildInputs: Sendable {
             config: config,
             samples: try PipelineJSON.decode(ElevationSamplesFile.self, from: files.elevationSamples),
             structures: try PipelineJSON.decode(StructuresFile.self, from: files.structures),
-            route: try GeoJSON.readRoute(Data(contentsOf: files.route)).line,
+            route: try PipelineJSON.decode(RouteFile.self, from: files.route).line,
             waypoints: waypoints)
     }
 }
@@ -51,6 +51,8 @@ public struct BuildResult: Sendable {
     public var intervals: [InclineInterval]
     public var acceptance: [AcceptanceResult]
     public var maximumSectionErrorMeters: Double
+    /// Every sample along the traced route (including any past the finish), with recomputed positions.
+    public var allSamples: [ElevationSamplesFile.Sample]
 
     public var failingSections: [CalibrationSection] {
         sections.filter { abs($0.errorMeters) > maximumSectionErrorMeters }
@@ -88,9 +90,17 @@ public enum CourseBuilder {
         guard inputs.samples.routeFingerprint == expected else {
             throw PipelineError("elevation samples don't match the current route: rerun `make course-elevation`")
         }
+        guard inputs.structures.routeFingerprint == expected else {
+            throw PipelineError("osm-structures.json doesn't match the current route: rerun `make course-route`")
+        }
+        guard inputs.structures.settings == config.structures else {
+            throw PipelineError("structure settings changed: rerun `make course-route ID=\(config.id)`")
+        }
 
         // 1. Calibrate distance to the official checkpoints, and drop anything traced past the finish.
-        let allSamples = inputs.samples.samples
+        let positions = RouteSampling.positions(
+            route: inputs.route, smoothingMeters: settings.routeSmoothingMeters, spacing: settings.sampleSpacingMeters)
+        let allSamples = try inputs.samples.samples(at: positions)
         let located = try Checkpoints.locate(
             config.checkpoints, samples: allSamples, radiusMeters: settings.checkpointSearchRadiusMeters)
         let calibration = try Calibration(
@@ -103,7 +113,7 @@ public enum CourseBuilder {
         // 2. Clean: interpolate bridges, tunnels, untrusted sources and manual spans.
         let reasons = ElevationCleaning.suspectReasons(
             samples: samples, distances: distances, trustedSources: config.elevation.trustedSources,
-            structures: inputs.structures.ways, settings: config.structures, manualSpans: config.manualSpans)
+            structures: inputs.structures.spans, manualSpans: config.manualSpans)
         let cleaned = try ElevationCleaning.clean(
             samples: samples, distances: distances, reasons: reasons, steepStepPercent: settings.steepStepPercent)
 
@@ -154,7 +164,8 @@ public enum CourseBuilder {
         return BuildResult(
             courseFile: file, courseData: data, course: course, located: located, sections: sections,
             calibration: calibration, cleaned: cleaned, smoothed: smoothed, intervals: intervals,
-            acceptance: acceptance, maximumSectionErrorMeters: settings.maximumSectionErrorMeters)
+            acceptance: acceptance, maximumSectionErrorMeters: settings.maximumSectionErrorMeters,
+            allSamples: allSamples)
     }
 
     static func parameters(config: CourseConfig, calibration: Calibration, inputs: BuildInputs) -> [String: String] {

@@ -163,20 +163,3 @@ public struct CourseConfig: Codable, Equatable, Sendable {
         public var smoothingWindowMeters: Double?
     }
 }
-
-/// Reads and writes the pipeline's JSON files in a stable, diff-friendly layout.
-public enum PipelineJSON {
-    public static func decode<T: Decodable>(_ type: T.Type, from url: URL) throws -> T {
-        try JSONDecoder().decode(type, from: Data(contentsOf: url))
-    }
-
-    public static func encode<T: Encodable>(_ value: T) throws -> Data {
-        let encoder = JSONEncoder()
-        encoder.outputFormatting = [.prettyPrinted, .sortedKeys, .withoutEscapingSlashes]
-        return try encoder.encode(value) + Data("\n".utf8)
-    }
-
-    public static func write<T: Encodable>(_ value: T, to url: URL) throws {
-        try encode(value).write(to: url, options: .atomic)
-    }
-}
