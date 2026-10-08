@@ -75,6 +75,10 @@ public struct CourseConfig: Codable, Equatable, Sendable {
         public var maximumAngleDegrees: Double
         /// OSM `highway` values that are never part of the route (e.g. expressways overhead).
         public var ignoredHighways: [String]
+        /// Tunnels and covered ways of these `highway` values are ignored: underground concourses and arcades run
+        /// beneath or beside the street while the runner stays on the surface. Bridges always count, since the
+        /// sidewalks on road bridges are mapped as footways.
+        public var ignoredTunnelHighways: [String]
     }
 
     public struct ProcessingSettings: Codable, Equatable, Sendable {

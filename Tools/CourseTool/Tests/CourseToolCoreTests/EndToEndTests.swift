@@ -28,7 +28,8 @@ struct EndToEndTests {
                 verified: false, notes: nil),
             route: .waypoints(routerBaseURL: "https://example.invalid"),
             elevation: .init(provider: "test", trustedSources: ["trusted"]),
-            structures: .init(bufferMeters: 12, maximumAngleDegrees: 30, ignoredHighways: []),
+            structures: .init(
+                bufferMeters: 12, maximumAngleDegrees: 30, ignoredHighways: [], ignoredTunnelHighways: []),
             processing: .init(
                 routeSmoothingMeters: 40, sampleSpacingMeters: 10, smoothingWindowMeters: 200, gradeBlockMeters: 100,
                 minimumIntervalMeters: 400, inclineStepPercent: 0.5, profileSampleSpacingMeters: 100,

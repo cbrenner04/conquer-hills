@@ -6,7 +6,8 @@ import Testing
 @Suite("Elevation cleaning")
 struct CleaningTests {
     let structureSettings = CourseConfig.StructureSettings(
-        bufferMeters: 12, maximumAngleDegrees: 30, ignoredHighways: ["motorway"])
+        bufferMeters: 12, maximumAngleDegrees: 30, ignoredHighways: ["motorway"],
+        ignoredTunnelHighways: ["footway"])
 
     func clean(_ samples: [ElevationSamplesFile.Sample], reasons: [SuspectReason?]) throws -> CleanedElevation {
         try ElevationCleaning.clean(
@@ -63,7 +64,7 @@ struct CleaningTests {
         #expect(reasons[6] == nil)  // kept despite the untrusted source
     }
 
-    @Test("A bridge carrying the route is flagged; one crossing over it is not")
+    @Test("A bridge carrying the route is flagged; crossings, expressways and underground concourses are not")
     func structures() {
         let samples = straightSamples(count: 30)  // runs north
         let along = StructuresFile.Way(
@@ -72,13 +73,16 @@ struct CleaningTests {
         let east = Coordinate(latitude: location(at: 250).latitude, longitude: 139.001)
         let west = Coordinate(latitude: location(at: 250).latitude, longitude: 138.999)
         let across = StructuresFile.Way(id: 2, tags: ["bridge": "yes", "highway": "footway"], geometry: [west, east])
+        let concourse = StructuresFile.Way(
+            id: 4, tags: ["tunnel": "yes", "highway": "footway"], geometry: [location(at: 50), location(at: 90)])
         let expressway = StructuresFile.Way(
             id: 3, tags: ["bridge": "yes", "highway": "motorway"], geometry: [location(at: 200), location(at: 240)])
 
         let reasons = ElevationCleaning.suspectReasons(
             samples: samples, distances: samples.map(\.distanceMeters), trustedSources: ["trusted"],
-            structures: [along, across, expressway], settings: structureSettings, manualSpans: [])
+            structures: [along, across, expressway, concourse], settings: structureSettings, manualSpans: [])
 
+        #expect(reasons[7] == nil)  // above an underground concourse
         #expect(reasons[12] == .structure(wayID: 1, kind: "bridge", name: nil))
         #expect(reasons[22] == nil)  // under the expressway (ignored highway)
         #expect(reasons[25] == nil)  // under the footbridge (crossing, not along)

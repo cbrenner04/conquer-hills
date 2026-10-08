@@ -25,6 +25,10 @@ To run on a physical iPhone, set `DEVELOPMENT_TEAM` in `Config/Local.xcconfig` t
 
 The Xcode project is generated from `project.yml`. Edit that file rather than the project in Xcode, and run `make generate` after changing it.
 
+## Course data
+
+Courses are generated from public route and elevation data by an offline tool in `Tools/CourseTool`; the inputs live in `CourseData/`. Course data is derived from OpenStreetMap (ODbL) and national elevation services. See [CourseData/LICENSE.md](CourseData/LICENSE.md). Courses are unofficial.
+
 ## Contributing
 
 Conventions, layout, and commands are documented in [AGENTS.md](AGENTS.md).

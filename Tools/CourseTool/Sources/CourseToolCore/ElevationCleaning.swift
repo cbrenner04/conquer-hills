@@ -51,7 +51,9 @@ public enum ElevationCleaning {
         let points = samples.map { projection.point($0.location) }
         let candidates = structures.filter { way in
             guard let highway = way.tags["highway"] else { return false }  // only roads and paths can be the route
-            return !settings.ignoredHighways.contains(highway)
+            if settings.ignoredHighways.contains(highway) { return false }
+            let isBridge = way.tags["bridge"].map { $0 != "no" } ?? false
+            return isBridge || !settings.ignoredTunnelHighways.contains(highway)
         }.map { way in (way: way, points: way.geometry.map(projection.point)) }
 
         var reasons = [SuspectReason?](repeating: nil, count: samples.count)
