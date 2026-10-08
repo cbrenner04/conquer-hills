@@ -1,8 +1,6 @@
 import CourseKit
 
-/// Workout engine: progress tracking, incline transitions, pause and resume.
-///
-/// Placeholder until spec 04 defines the engine.
+/// Module-level constants for WorkoutKit.
 public enum WorkoutKit {
     /// Identifies the module; shown by the app's placeholder screen to prove the package is linked.
     public static let moduleName = "WorkoutKit"

@@ -56,7 +56,7 @@ docs/                        reference docs (course-format.md: the course file s
 Tools/                       developer scripts (e.g. make-app-icon.swift regenerates the app icon)
 Packages/ConquerHillsKit/    all non-UI logic, as a local Swift package
   Sources/CourseKit/         course model, bundled data loading, validation
-  Sources/WorkoutKit/        workout engine (depends on CourseKit)
+  Sources/WorkoutKit/        workout engine: progress, prompts, pause/resume, run record (depends on CourseKit)
   Tests/                     one test target per module
 ```
 
@@ -69,6 +69,15 @@ Logic goes in the package, not the app target, so it can be tested with `swift t
 - Files store the signed *course incline*. `TreadmillSettings` (baseline, limits, step) turns it into *treadmill incline* on the phone; `TreadmillProfile` applies that to a segment and is what the workout engine consumes. Defaults match the owner's Peloton Tread: 0–12.5% in 0.5% steps, 0% baseline.
 - `CourseLoaderTests` validates every file in `App/Resources/Courses/`, so an invalid course fails `make check`.
 - `App/Resources/Courses/` is bundled as a folder: the app finds courses at `Bundle.main` `Courses/`.
+
+## Workout engine
+
+- `Workout` (WorkoutKit) is a value type that **never reads a clock**. Every call passes the current time as a `Duration` on the app's clock (read from `ContinuousClock`, which keeps counting while the phone sleeps). Each call first catches up to that time, then applies the command, and returns the events due since the last call, in order, each with its due time and an `isLate` flag.
+- Distance is speed × running time, summed per stretch at one speed; pauses and the countdown add nothing. Speeds are `Speed.mph(_:)`: 0.5–12.5 mph in 0.1 steps (Peloton Tread). Stopping is Pause, not 0 mph.
+- Event rules: each incline change gets at most one warning (`upcomingChange`, 10 s ahead at the current speed, skipped if under 3 s remain) and exactly one `inclineChange`; a final change held under 15 s before the finish is skipped; `resumed` repeats the current incline. Calls that don't fit the current state are ignored, never crash.
+- All timings live in `WorkoutConfiguration` (`.standard`), so treadmill testing can tune them in one place.
+- `Workout` and `WorkoutRecord` are `Codable`: the record is what the completion summary shows and run history will store; the whole workout can be saved and restored mid-run.
+- The app owns the tick (e.g. every 0.25 s) and the clock; it calls `advance(to:)` and renders `snapshot(at:)`. Engine tests use explicit times, never a real clock.
 
 ## Xcode project
 

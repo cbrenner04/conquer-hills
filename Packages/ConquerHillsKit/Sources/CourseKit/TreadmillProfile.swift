@@ -1,6 +1,6 @@
 /// How course incline is turned into treadmill incline: a baseline offset, the treadmill's limits, and the step
 /// size of its incline control.
-public struct TreadmillSettings: Equatable, Sendable {
+public struct TreadmillSettings: Equatable, Sendable, Codable {
     /// Added to the course incline before rounding and clamping. Flat course terrain becomes this incline.
     public let baselinePercent: Double
     public let minimumPercent: Double
@@ -42,7 +42,7 @@ public struct TreadmillSettings: Equatable, Sendable {
 }
 
 /// A stretch of the workout with one treadmill incline.
-public struct TreadmillInterval: Equatable, Sendable {
+public struct TreadmillInterval: Equatable, Sendable, Codable {
     /// Absolute course position.
     public let startMeters: Double
     /// Absolute course position.
@@ -60,7 +60,7 @@ public struct TreadmillInterval: Equatable, Sendable {
 ///
 /// Intervals are contiguous, cover the segment exactly, and never have equal neighbours. Positions are absolute
 /// course meters; the distance into the workout is `position - segment.startMeters`.
-public struct TreadmillProfile: Equatable, Sendable {
+public struct TreadmillProfile: Equatable, Sendable, Codable {
     public let segment: CourseSegment
     public let settings: TreadmillSettings
     public let intervals: [TreadmillInterval]
