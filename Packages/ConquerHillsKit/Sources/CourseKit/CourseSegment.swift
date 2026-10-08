@@ -1,6 +1,6 @@
 /// A continuous part of a course, from `startMeters` up to `endMeters`, in absolute course positions.
-public struct CourseSegment: Identifiable, Equatable, Sendable {
-    public enum Kind: Equatable, Sendable {
+public struct CourseSegment: Identifiable, Equatable, Sendable, Codable {
+    public enum Kind: String, Equatable, Sendable, Codable {
         /// The whole course.
         case fullCourse
         /// Generated for every course long enough to have it (halves, first and final 5K).
