@@ -12,7 +12,7 @@ Route lines, OSM structure caches, and everything computed from them (distances 
 
 These derived databases are made available under the ODbL 1.0. If you publicly use an adapted version, you must offer it under the ODbL too.
 
-Affected files: `*/waypoints.geojson`, `*/route.geojson`, `*/osm-structures.json`, `*/elevation-samples.json`, and the generated `App/Resources/Courses/<id>.course.json` for each course here.
+Affected files: `*/waypoints.geojson`, `*/route.json`, `*/osm-structures.json`, `*/elevation-samples.json`, and the generated `App/Resources/Courses/<id>.course.json` for each course here.
 
 Waypoints are our own hand-picked points, mostly placed on OpenStreetMap junctions, so they are treated as derived too.
 

@@ -67,7 +67,7 @@ ui-test: $(PROJECT)/project.pbxproj
 		-destination 'platform=iOS Simulator,name=$(UI_TEST_DEVICE)' -resultBundlePath .scratch/ui-test/result.xcresult
 	xcrun xcresulttool export attachments --path .scratch/ui-test/result.xcresult --output-path .scratch/ui-test
 
-## course-route ID=<id>: route source → route.geojson, refresh osm-structures.json (network)
+## course-route ID=<id>: route source → route.json, refresh osm-structures.json (network)
 course-route:
 	@test -n "$(ID)" || { echo "usage: make course-route ID=<course-id>"; exit 2; }
 	$(COURSE_TOOL) route $(ID)
