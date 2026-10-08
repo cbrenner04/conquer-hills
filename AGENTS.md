@@ -18,7 +18,7 @@ Conquer Hills is a proof-of-concept iPhone app that simulates the elevation prof
    cd .scratch/worktrees/01-foundation && make bootstrap
    ```
 4. Branches are named `NN-short-name` after their spec (follow-ups: `NN-short-name-topic`). `main` is protected: all changes go through a pull request, and merging requires the CI `check` job to pass with the branch up to date.
-5. Run `make check` before opening a PR. A PR isn't ready for review until CI is green. PR descriptions cover: summary, what changed, decisions made, how it was tested, anything deferred.
+5. Run `make check` before opening a PR. A PR isn't ready for review until CI is green. For PRs that change screens, also run `make ui-test`, look at every screenshot, and copy them to the main checkout's `.scratch/screenshots/<branch>/` for the owner (worktree files disappear when the worktree is removed). PR descriptions cover: summary, what changed, decisions made, how it was tested, anything deferred.
 6. Merge only when the owner says so, and in this order:
    1. Move anything untracked you need to keep out of the worktree first.
    2. `gh pr merge <n> --squash`. **Do not pass `--delete-branch`**: it also deletes the local worktree directory, including untracked files. GitHub deletes the remote branch automatically.
