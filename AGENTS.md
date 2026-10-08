@@ -93,10 +93,21 @@ waypoints.geojson ─route─▶ route.json + osm-structures.json ─elevation�
   3. Interpolate elevation across bridges, tunnels and covered ways (from OSM), across untrusted or missing samples, and across `manualSpans` with action `interpolate`. Spans with action `keep` keep measured values.
   4. Smooth (`smoothingWindowMeters`), average grade over blocks, round to 0.5%, and merge to `minimumIntervalMeters`, preserving net rise.
   5. Write through `CourseFile.jsonData()`, then load the result back through `CourseLoader`.
-- Acceptance checks per course (expected elevations, drops, gain/loss, steepest incline, no dips at named bridges) live in `config.json`. They come from the course's research note, and must pass.
+- Acceptance checks per course live in `config.json`. They come from the course's research note, and must pass. Kinds:
+  - `elevationAt`, `maximumElevation`, `minimumElevation`, `drop`;
+  - `gain` / `loss` / `netBalance`, optionally at a stated `smoothingWindowMeters`;
+  - `maximumIncline`, globally or within a window;
+  - `climb`: a hill survives as an interval at or above a grade;
+  - `noDip`.
+
+  Use `minimumElevation` rather than `noDip` at river crossings, which are real low points. When a check fails, find the cause in the data first; change a check only when primary data shows the expectation itself was wrong, and say so in the PR.
 - Data files. Machine-written files are compact, sorted-key JSON, marked `-diff linguist-generated` in `.gitattributes`; review them through the report, not the diff. Authored files (`config.json`, `waypoints.geojson`) stay pretty-printed.
-  - `route.json`: the routed line as a precision-6 encoded polyline (~0.1 m), plus provenance (router or relation, licence, OSM timestamp). Coordinates are rounded once, when written; every later step decodes and uses the stored points.
+  - `route.json`: the routed line as a precision-6 encoded polyline (~0.1 m), plus provenance (router, or relation ID, version and last-edit time; licence; OSM timestamp). Coordinates are rounded once, when written; every later step decodes and uses the stored points.
   - `osm-structures.json`: bridges, tunnels and covered ways the route runs along, as `{kind, osmWayId, name, highway, startMeters, endMeters}` spans on the measured route's raw distance axis. The `route` step computes them with the config's structure settings, and records those settings and a route fingerprint. `build` refuses stale spans.
+  - Elevation providers (`Tools/CourseTool/Sources/course-tool/Network.swift`):
+    - `gsi`: Japan, one point per request, paced at 1/s.
+    - `usgs3dep`: United States, 3DEP ImageServer `getSamples`, 500 points per request. The service can silently return fewer samples than points; missing points are re-requested.
+    - Each provider labels every sample with its source (GSI `hsrc`, or the 3DEP project name); `trustedSources` lists the labels to keep.
   - `elevation-samples.json`: `elevations` (one per sample, as returned by the provider), `sourceCodes` (one character per sample; `?` = not fetched) with a `sources` legend, sample spacing, smoothing and a route fingerprint. Sample positions aren't stored: `RouteSampling.positions` recomputes them exactly from `route.json` and the config.
 - Data licences: anything derived from OSM is ODbL; elevation sources need credit. See `CourseData/LICENSE.md`. Every course file's `source.attribution` carries its credit line.
 

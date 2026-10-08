@@ -84,10 +84,12 @@ do {
         properties["router"] = routerBaseURL
     case .osmRelation(let id, let start):
         log("importing OSM relation \(id)")
-        let (relationLine, timestamp) = try await Overpass.relationRoute(id: id, start: start)
-        line = relationLine
+        let relation = try await Overpass.relationRoute(id: id, start: start)
+        line = relation.line
         properties["osmRelation"] = String(id)
-        properties["osmTimestamp"] = timestamp
+        properties["osmRelationVersion"] = String(relation.version)
+        properties["osmRelationEdited"] = relation.edited
+        properties["osmTimestamp"] = relation.timestamp
     }
     // The route is rounded once, here, by encoding; everything downstream uses the stored (decoded) points.
     let routeFile = RouteFile(line: line, properties: properties)
@@ -121,6 +123,7 @@ func structuresFile(config: CourseConfig, route: [Coordinate], ways: [StructureS
     let provider: any ElevationProvider
     switch config.elevation.provider {
     case "gsi": provider = GSIElevationProvider()
+    case "usgs3dep": provider = USGS3DEPElevationProvider()
     default:
         throw PipelineError("elevation provider \(config.elevation.provider) is not implemented yet")
     }
