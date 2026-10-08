@@ -55,3 +55,21 @@ targets:
       testTargets:
         - package: ConquerHillsKit/CourseKitTests
         - package: ConquerHillsKit/WorkoutKitTests
+        - ConquerHillsUITests
+
+  # UI walkthrough with screenshots; run locally with `make ui-test` (not part of `make check`).
+  ConquerHillsUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - AppUITests
+    dependencies:
+      - target: ConquerHills
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.hills-app.conquerhills.uitests
+        TEST_TARGET_NAME: ConquerHills
+        GENERATE_INFOPLIST_FILE: YES
+        TARGETED_DEVICE_FAMILY: "1"
+        SWIFT_VERSION: "6.0"
+        CODE_SIGN_STYLE: Automatic

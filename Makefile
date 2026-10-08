@@ -2,11 +2,12 @@ PROJECT := ConquerHills.xcodeproj
 SCHEME := ConquerHills
 PACKAGE_PATH := Packages/ConquerHillsKit
 TOOL_PATH := Tools/CourseTool
-SWIFT_SOURCES := App Tools/make-app-icon.swift $(PACKAGE_PATH)/Package.swift $(PACKAGE_PATH)/Sources $(PACKAGE_PATH)/Tests \
-	$(TOOL_PATH)/Package.swift $(TOOL_PATH)/Sources $(TOOL_PATH)/Tests
+SWIFT_SOURCES := App AppUITests Tools/make-app-icon.swift $(PACKAGE_PATH)/Package.swift $(PACKAGE_PATH)/Sources \
+	$(PACKAGE_PATH)/Tests $(TOOL_PATH)/Package.swift $(TOOL_PATH)/Sources $(TOOL_PATH)/Tests
 COURSE_TOOL := swift run --package-path $(TOOL_PATH) -c release course-tool
 
-.PHONY: bootstrap generate open test build format lint check course-route course-elevation course-build courses-check
+.PHONY: bootstrap generate open test build format lint check ui-test course-route course-elevation course-build \
+	courses-check
 
 # The main checkout, which differs from the current directory inside a git worktree.
 MAIN_CHECKOUT := $(shell dirname "$$(git rev-parse --path-format=absolute --git-common-dir)")
@@ -57,6 +58,14 @@ format:
 ## lint: check formatting; fails on any violation
 lint:
 	swift format lint --strict --recursive --parallel $(SWIFT_SOURCES)
+
+## ui-test: walk through a Test Hills run in the iOS Simulator, saving screenshots to .scratch/ui-test/ (local only)
+UI_TEST_DEVICE ?= iPhone 17 Pro
+ui-test: $(PROJECT)/project.pbxproj
+	rm -rf .scratch/ui-test && mkdir -p .scratch/ui-test
+	xcodebuild test -quiet -project $(PROJECT) -scheme $(SCHEME) -only-testing:ConquerHillsUITests \
+		-destination 'platform=iOS Simulator,name=$(UI_TEST_DEVICE)' -resultBundlePath .scratch/ui-test/result.xcresult
+	xcrun xcresulttool export attachments --path .scratch/ui-test/result.xcresult --output-path .scratch/ui-test
 
 ## course-route ID=<id>: route source → route.geojson, refresh osm-structures.json (network)
 course-route:
