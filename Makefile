@@ -1,9 +1,9 @@
 PROJECT := ConquerHills.xcodeproj
 SCHEME := ConquerHills
 PACKAGE_PATH := Packages/ConquerHillsKit
-SWIFT_SOURCES := App Tools $(PACKAGE_PATH)/Package.swift $(PACKAGE_PATH)/Sources $(PACKAGE_PATH)/Tests
+SWIFT_SOURCES := App AppUITests Tools $(PACKAGE_PATH)/Package.swift $(PACKAGE_PATH)/Sources $(PACKAGE_PATH)/Tests
 
-.PHONY: bootstrap generate open test build format lint check
+.PHONY: bootstrap generate open test build format lint check ui-test
 
 # The main checkout, which differs from the current directory inside a git worktree.
 MAIN_CHECKOUT := $(shell dirname "$$(git rev-parse --path-format=absolute --git-common-dir)")
@@ -53,6 +53,14 @@ format:
 ## lint: check formatting; fails on any violation
 lint:
 	swift format lint --strict --recursive --parallel $(SWIFT_SOURCES)
+
+## ui-test: walk through a Test Hills run in the iOS Simulator, saving screenshots to .scratch/ui-test/ (local only)
+UI_TEST_DEVICE ?= iPhone 17 Pro
+ui-test: $(PROJECT)/project.pbxproj
+	rm -rf .scratch/ui-test && mkdir -p .scratch/ui-test
+	xcodebuild test -quiet -project $(PROJECT) -scheme $(SCHEME) -only-testing:ConquerHillsUITests \
+		-destination 'platform=iOS Simulator,name=$(UI_TEST_DEVICE)' -resultBundlePath .scratch/ui-test/result.xcresult
+	xcrun xcresulttool export attachments --path .scratch/ui-test/result.xcresult --output-path .scratch/ui-test
 
 ## check: lint, test, and build; run before opening a PR (and in CI)
 check: lint test build
