@@ -47,7 +47,6 @@ struct CourseView: View {
             Section {
                 CourseProfileChart(course: course, segment: segment)
                     .padding(.top, 16)
-                facts
             }
 
             Section("Segment") {
@@ -93,6 +92,10 @@ struct CourseView: View {
 
             Section {
                 startPanel
+            }
+
+            Section("Course") {
+                facts
             }
 
             Section("About this data") {
