@@ -25,11 +25,20 @@ final class RunModel: Identifiable {
     /// Increments on every incline change; drives the screen flash and haptic.
     private(set) var changeCount = 0
 
+    /// The saved history entry once the run is over, or nil if it wasn't saved (under a minute) or was deleted.
+    private(set) var savedEntryID: UUID?
+    private var hasRecordedOutcome = false
+    private let history: RunHistoryModel
+
     private let clockOrigin = ContinuousClock.now
     private var tickTask: Task<Void, Never>?
     private let announcer = SpeechAnnouncer()
 
-    init(course: Course, segment: CourseSegment, settings: TreadmillSettings, startingSpeed: Speed) {
+    init(
+        course: Course, segment: CourseSegment, settings: TreadmillSettings, startingSpeed: Speed,
+        history: RunHistoryModel
+    ) {
+        self.history = history
         courseName = course.name
         let workout = Workout(course: course, segment: segment, settings: settings, startingSpeed: startingSpeed)
         self.workout = workout
@@ -65,6 +74,13 @@ final class RunModel: Identifiable {
 
     func end() { apply(workout.end(at: now)) }
 
+    /// Removes this run from history, from the summary's Delete button.
+    func deleteSavedRun() {
+        guard let id = savedEntryID else { return }
+        history.delete(id)
+        savedEntryID = nil
+    }
+
     /// Stops ticking and speech and lets the screen sleep again. Called when the run screen goes away.
     func stop() {
         tickTask?.cancel()
@@ -98,6 +114,10 @@ final class RunModel: Identifiable {
         announcer.speak(
             AnnouncementPolicy.announcements(for: events, currentInclinePercent: snapshot.currentInclinePercent))
         if workout.state.isOver {
+            if !hasRecordedOutcome {
+                hasRecordedOutcome = true
+                savedEntryID = history.save(workout.record)
+            }
             tickTask?.cancel()
             tickTask = nil
             UIApplication.shared.isIdleTimerDisabled = false

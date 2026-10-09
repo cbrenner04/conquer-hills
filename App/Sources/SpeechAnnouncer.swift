@@ -2,8 +2,9 @@ import AVFoundation
 import WorkoutKit
 
 /// Speaks prompts over whatever else is playing. Music is lowered (podcasts pause) while a prompt is spoken,
-/// then restored.
+/// then restored. Launching with `-silentSpeech` (as the UI walkthrough does) turns speech off.
 final class SpeechAnnouncer: NSObject {
+    private let isSilent = ProcessInfo.processInfo.arguments.contains("-silentSpeech")
     private let synthesizer = AVSpeechSynthesizer()
     private var sessionActive = false
 
@@ -13,7 +14,7 @@ final class SpeechAnnouncer: NSObject {
     }
 
     func speak(_ announcements: [Announcement]) {
-        guard !announcements.isEmpty else { return }
+        guard !announcements.isEmpty, !isSilent else { return }
         activateSession()
         for announcement in announcements {
             synthesizer.speak(AVSpeechUtterance(string: announcement.text))

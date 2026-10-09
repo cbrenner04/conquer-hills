@@ -12,6 +12,7 @@ struct RunSetupView: View {
     @AppStorage("baselinePercent") private var baselinePercent = 1.0
     @State private var segmentID = "full-course"
     @State private var run: RunModel?
+    @Environment(RunHistoryModel.self) private var history
 
     static let baselineChoices: [Double] = [0, 0.5, 1, 1.5, 2]
 
@@ -102,7 +103,8 @@ struct RunSetupView: View {
     }
 
     private func startRun() {
-        let model = RunModel(course: course, segment: segment, settings: settings, startingSpeed: speed)
+        let model = RunModel(
+            course: course, segment: segment, settings: settings, startingSpeed: speed, history: history)
         run = model
         model.start()
     }

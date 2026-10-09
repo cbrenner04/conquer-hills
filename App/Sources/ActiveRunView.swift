@@ -18,7 +18,9 @@ struct ActiveRunView: View {
         ZStack {
             Color.black.ignoresSafeArea()
             if model.isOver {
-                SummaryView(record: model.workout.record, onDone: finish(onDone), onRunAgain: finish(onRunAgain))
+                SummaryView(
+                    record: model.workout.record, isSaved: model.savedEntryID != nil,
+                    onDelete: model.deleteSavedRun, onDone: finish(onDone), onRunAgain: finish(onRunAgain))
             } else {
                 runContent
                 flash

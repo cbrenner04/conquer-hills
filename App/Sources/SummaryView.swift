@@ -1,11 +1,16 @@
 import SwiftUI
 import WorkoutKit
 
-/// Shown when a run finishes or is ended: what was run and how it went. Not saved yet (spec 08).
+/// Shown when a run finishes or is ended: what was run, how it went, and whether it was saved to history.
 struct SummaryView: View {
     let record: WorkoutRecord
+    let isSaved: Bool
+    let onDelete: () -> Void
     let onDone: () -> Void
     let onRunAgain: () -> Void
+
+    @State private var confirmingDelete = false
+    @State private var deleted = false
 
     var body: some View {
         VStack(spacing: 24) {
@@ -19,15 +24,9 @@ struct SummaryView: View {
                     .foregroundStyle(.secondary)
             }
 
-            Grid(alignment: .leading, horizontalSpacing: 24, verticalSpacing: 12) {
-                row("Distance", RunFormatting.miles(record.distanceMeters))
-                row("Time", RunFormatting.duration(record.activeDuration))
-                row("Average speed", record.averageSpeed.map(RunFormatting.speed) ?? "—")
-                row("Incline changes", "\(record.inclineChanges.count)")
-                row("Highest incline", RunFormatting.incline(record.maximumInclinePercent))
-                row("Baseline", RunFormatting.incline(record.settings.baselinePercent))
-            }
-            .font(.title3.monospacedDigit())
+            RunStatsGrid(record: record, font: .title3)
+
+            savedState
 
             Spacer()
 
@@ -45,12 +44,31 @@ struct SummaryView: View {
         }
         .padding(24)
         .foregroundStyle(.white)
+        .confirmationDialog("Delete this run?", isPresented: $confirmingDelete, titleVisibility: .visible) {
+            Button("Delete", role: .destructive) {
+                onDelete()
+                deleted = true
+            }
+        }
     }
 
-    private func row(_ label: String, _ value: String) -> some View {
-        GridRow {
-            Text(label).foregroundStyle(.secondary)
-            Text(value).bold()
+    @ViewBuilder
+    private var savedState: some View {
+        if deleted {
+            Label("Deleted from history", systemImage: "trash")
+                .foregroundStyle(.secondary)
+        } else if isSaved {
+            HStack(spacing: 16) {
+                Label("Saved to history", systemImage: "checkmark.circle.fill")
+                    .foregroundStyle(.green)
+                Button("Delete this run", role: .destructive) { confirmingDelete = true }
+                    .font(.subheadline)
+                    .foregroundStyle(.red)
+            }
+        } else {
+            Label("Not saved: under a minute of running", systemImage: "info.circle")
+                .font(.subheadline)
+                .foregroundStyle(.secondary)
         }
     }
 }
