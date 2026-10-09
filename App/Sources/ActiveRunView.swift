@@ -68,6 +68,10 @@ struct ActiveRunView: View {
             Spacer(minLength: 8)
             nextChange
             Spacer(minLength: 8)
+            if model.profileSamples.count > 1 {
+                RunProfileStrip(samples: model.profileSamples, positionMeters: snapshot.coursePositionMeters)
+                    .padding(.bottom, 6)
+            }
             progress
             Spacer(minLength: 16)
             SpeedControl(speed: snapshot.speed, isLarge: true) { newSpeed in
