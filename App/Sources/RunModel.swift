@@ -17,6 +17,8 @@ final class RunModel: Identifiable {
 
     let id = UUID()
     let courseName: String
+    /// The segment's elevation, for the run screen's profile strip.
+    let profileSamples: [ElevationSample]
     private(set) var workout: Workout
     private(set) var snapshot: WorkoutSnapshot
     /// True between a warning and the change it warns about.
@@ -36,9 +38,10 @@ final class RunModel: Identifiable {
 
     init(
         course: Course, segment: CourseSegment, settings: TreadmillSettings, startingSpeed: Speed,
-        history: RunHistoryModel
+        history: RunHistoryModel, profileSamples: [ElevationSample] = []
     ) {
         self.history = history
+        self.profileSamples = profileSamples
         courseName = course.name
         let workout = Workout(course: course, segment: segment, settings: settings, startingSpeed: startingSpeed)
         self.workout = workout

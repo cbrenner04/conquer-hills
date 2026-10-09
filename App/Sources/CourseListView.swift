@@ -23,16 +23,26 @@ struct CourseListView: View {
             .navigationTitle("Courses")
             .toolbarTitleDisplayMode(.inline)
             .toolbar {
-                NavigationLink {
-                    HistoryListView()
-                } label: {
-                    Label("History", systemImage: "clock.arrow.circlepath")
+                ToolbarItem(placement: .topBarLeading) {
+                    NavigationLink {
+                        AboutView(courses: courses)
+                    } label: {
+                        Label("About", systemImage: "info.circle")
+                    }
+                    .accessibilityIdentifier("about")
                 }
-                .accessibilityIdentifier("history")
+                ToolbarItem(placement: .topBarTrailing) {
+                    NavigationLink {
+                        HistoryListView()
+                    } label: {
+                        Label("History", systemImage: "clock.arrow.circlepath")
+                    }
+                    .accessibilityIdentifier("history")
+                }
             }
             .navigationDestination(for: String.self) { id in
                 if let course = courses.first(where: { $0.id == id }) {
-                    RunSetupView(course: course, onDone: { path.removeAll() })
+                    CourseView(course: course, onDone: { path.removeAll() })
                 }
             }
             .overlay {
@@ -63,14 +73,18 @@ private struct CourseRow: View {
     let course: Course
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 4) {
-            Text(course.name)
-                .font(.headline)
-            Text(
-                "\(course.edition) · \(RunFormatting.miles(course.distanceMeters)) · ↑ \(RunFormatting.feet(course.stats.elevationGainMeters))"
-            )
-            .font(.subheadline)
-            .foregroundStyle(.secondary)
+        HStack(spacing: 12) {
+            VStack(alignment: .leading, spacing: 4) {
+                Text(course.name)
+                    .font(.headline)
+                Text(
+                    "\(course.edition) · \(RunFormatting.miles(course.distanceMeters)) · ↑ \(RunFormatting.feet(course.stats.elevationGainMeters))"
+                )
+                .font(.subheadline)
+                .foregroundStyle(.secondary)
+            }
+            Spacer()
+            ProfileSparkline(course: course)
         }
         .padding(.vertical, 4)
     }

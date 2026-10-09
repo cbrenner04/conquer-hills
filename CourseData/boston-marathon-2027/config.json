@@ -280,6 +280,12 @@
       "id": "newton-hills",
       "name": "Newton Hills (miles 16–21)",
       "startMeters": 25750
+    },
+    {
+      "endMeters": 33796,
+      "id": "heartbreak-hill",
+      "name": "Heartbreak Hill (miles 20–21)",
+      "startMeters": 32187
     }
   ],
   "source": {
