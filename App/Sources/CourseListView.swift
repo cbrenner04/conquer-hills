@@ -22,6 +22,14 @@ struct CourseListView: View {
             }
             .navigationTitle("Courses")
             .toolbarTitleDisplayMode(.inline)
+            .toolbar {
+                NavigationLink {
+                    HistoryListView()
+                } label: {
+                    Label("History", systemImage: "clock.arrow.circlepath")
+                }
+                .accessibilityIdentifier("history")
+            }
             .navigationDestination(for: String.self) { id in
                 if let course = courses.first(where: { $0.id == id }) {
                     RunSetupView(course: course, onDone: { path.removeAll() })

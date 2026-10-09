@@ -6,6 +6,7 @@ import XCTest
 final class RunFlowUITests: XCTestCase {
     func testTestHillsRun() throws {
         let app = XCUIApplication()
+        app.launchArguments = ["-silentSpeech"]  // no spoken prompts through the Mac's speakers
         app.launch()
         snapshot("1-course-list")
 
@@ -32,13 +33,25 @@ final class RunFlowUITests: XCTestCase {
         app.buttons["pause-resume"].tap()
         snapshot("7-paused")
         app.buttons["overlay-resume"].tap()
+        sleep(28)  // past a minute of running, so the run is saved to history
 
         app.buttons["end"].tap()
         snapshot("8-end-confirmation")
         // The confirmation's End button, not the run screen's.
         app.buttons.matching(NSPredicate(format: "label == 'End' AND identifier != 'end'")).firstMatch.tap()
         XCTAssertTrue(app.buttons["done"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["Saved to history"].exists)
         snapshot("9-summary")
+
+        app.buttons["done"].tap()
+        app.buttons["history"].tap()
+        let run = app.buttons["history-run"].firstMatch
+        XCTAssertTrue(run.waitForExistence(timeout: 5))
+        snapshot("10-history")
+
+        run.tap()
+        XCTAssertTrue(app.staticTexts["Incline"].waitForExistence(timeout: 5))
+        snapshot("11-run-detail")
     }
 
     private func snapshot(_ name: String) {

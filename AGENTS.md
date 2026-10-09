@@ -60,7 +60,7 @@ CourseData/<id>/             committed pipeline inputs per course (config, waypo
                              elevation samples; ~70 KB); CourseData/LICENSE.md holds the data licences
 Packages/ConquerHillsKit/    all non-UI logic, as a local Swift package
   Sources/CourseKit/         course model, bundled data loading, validation
-  Sources/WorkoutKit/        workout engine: progress, prompts, pause/resume, run record (depends on CourseKit)
+  Sources/WorkoutKit/        workout engine, prompt wording, run history store (depends on CourseKit)
   Tests/                     one test target per module
 ```
 
@@ -129,12 +129,20 @@ waypoints.geojson ─route─▶ route.json + osm-structures.json ─elevation�
 
 ## App
 
-- Screens: course list → run setup (segment, starting speed, baseline incline) → run (full-screen) → summary. Test Hills appears only in Debug builds.
+- Screens: course list → run setup (segment, starting speed, baseline incline) → run (full-screen) → summary. History (toolbar on the course list) → run detail. Test Hills appears only in Debug builds.
 - `RunModel` (app target, `@Observable`, main actor) owns the `Workout`, ticks it every 0.25 s from `ContinuousClock`, keeps the screen awake during a run, and hands each batch of events to `AnnouncementPolicy` → `SpeechAnnouncer`.
 - Wording, the late-event policy, and display formatting live in WorkoutKit (`PromptWording`, `AnnouncementPolicy`, `RunFormatting`) and are unit-tested; keep the app target free of logic worth testing.
 - Speech uses the `.playback` / `.voicePrompt` audio session with `.duckOthers` and `.interruptSpokenAudioAndMixWithOthers`, active only while speaking, so music dips under prompts and podcasts pause and resume.
 - The setup screen remembers the last speed and baseline (`@AppStorage`). The baseline defaults to 1%.
-- UI elements a test drives have accessibility identifiers (`start`, `speed-step-±1/±10`, `pause-resume`, `end`, `done`).
+- Launch argument `-silentSpeech` turns spoken prompts off; the UI walkthrough uses it so tests are silent.
+- UI elements a test drives have accessibility identifiers (`start`, `speed-step-±1/±10`, `pause-resume`, `overlay-resume`, `end`, `done`, `history`, `history-run`).
+
+## Run history
+
+- When a run finishes or is ended with at least 1 minute of active running (`RunHistoryStore.minimumActiveDuration`), `RunModel` saves its `WorkoutRecord` through `RunHistoryModel` (app, `@Observable`, in the environment). The summary shows "Saved to history" with Delete.
+- `RunHistoryStore` (WorkoutKit, unit-tested) writes one file per run, `Application Support/RunHistory/<uuid>.json`, as `RunHistoryEntry` `{schemaVersion, id, savedAt, record}` (ISO 8601 dates, sorted keys). Unreadable or newer-schema files are skipped, logged, and left on disk.
+- **Changing `WorkoutRecord`**: saved runs must keep decoding. Add new fields as optionals or with decoding defaults; for anything else, bump `RunHistoryEntry.currentSchemaVersion` and migrate in the store, with a test that decodes an old file.
+- History screens rebuild their charts from the record with `RunChartData` (incline and speed steps against distance, pause positions) and `RunTotals` (last 7 days, overall). Export goes through the share sheet as JSON (`RunExport`).
 
 ## Xcode project
 

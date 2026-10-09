@@ -4,10 +4,12 @@ import SwiftUI
 @main
 struct ConquerHillsApp: App {
     private let courses = CourseLibrary.loadBundled()
+    @State private var history = RunHistoryModel()
 
     var body: some Scene {
         WindowGroup {
             CourseListView(courses: courses)
+                .environment(history)
         }
     }
 }
