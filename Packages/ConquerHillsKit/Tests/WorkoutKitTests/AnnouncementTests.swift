@@ -17,8 +17,8 @@ struct PromptWordingTests {
                 .upcomingChange(fromPercent: 6.5, toPercent: 2, secondsRemaining: 7.4),
                 "Incline down to 2 percent in 7 seconds."
             ),
-            (.inclineChange(fromPercent: 3, toPercent: 6.5), "Up to 6.5 percent."),
-            (.inclineChange(fromPercent: 2, toPercent: 0), "Down to 0 percent."),
+            (.inclineChange(fromPercent: 3, toPercent: 6.5), "Now: up to 6.5 percent."),
+            (.inclineChange(fromPercent: 2, toPercent: 0), "Now: down to 0 percent."),
             (.resumed(inclinePercent: 12.5), "Resumed. Incline 12.5 percent."),
             (.finished, "Course complete."),
         ])
@@ -86,7 +86,7 @@ struct AnnouncementPolicyTests {
 
         let announcements = AnnouncementPolicy.announcements(for: events, currentInclinePercent: 6.5)
 
-        #expect(announcements.map(\.text) == ["Up to 6.5 percent."])
+        #expect(announcements.map(\.text) == ["Now: up to 6.5 percent."])
     }
 
     @Test("Catch-up comes before on-time events that don't set the incline")

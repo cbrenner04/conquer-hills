@@ -20,7 +20,8 @@ struct ActiveRunView: View {
             if model.isOver {
                 SummaryView(
                     record: model.workout.record, isSaved: model.savedEntryID != nil,
-                    onDelete: model.deleteSavedRun, onDone: finish(onDone), onRunAgain: finish(onRunAgain))
+                    onDelete: model.deleteSavedRun, onReflect: model.updateReflection, onDone: finish(onDone),
+                    onRunAgain: finish(onRunAgain))
             } else {
                 runContent
                 flash
@@ -95,7 +96,7 @@ struct ActiveRunView: View {
                 .accessibilityLabel("Incline \(RunFormatting.incline(snapshot.currentInclinePercent))")
             TimelineView(.periodic(from: .now, by: 1)) { context in
                 if let change = model.lastChange, context.date.timeIntervalSince(change.at) < 6 {
-                    Text("\(change.isUp ? "▲" : "▼") from \(RunFormatting.incline(change.fromPercent))")
+                    Text("NOW \(change.isUp ? "▲" : "▼") from \(RunFormatting.incline(change.fromPercent))")
                         .font(.title2.bold())
                         .foregroundStyle(change.isUp ? Self.upColor : Self.downColor)
                 } else {

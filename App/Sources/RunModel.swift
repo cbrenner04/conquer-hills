@@ -77,6 +77,12 @@ final class RunModel: Identifiable {
 
     func end() { apply(workout.end(at: now)) }
 
+    /// Saves the runner's rating and notes for this run, from the summary.
+    func updateReflection(rating: Int?, notes: String) {
+        guard let id = savedEntryID else { return }
+        history.updateReflection(id, rating: rating, notes: notes)
+    }
+
     /// Removes this run from history, from the summary's Delete button.
     func deleteSavedRun() {
         guard let id = savedEntryID else { return }

@@ -93,8 +93,12 @@ private struct HistoryRow: View {
                 Spacer()
                 OutcomeBadge(outcome: record.outcome)
             }
-            Text("\(record.course.name) · \(record.segment.name ?? "Custom segment")")
-                .font(.headline)
+            HStack {
+                Text("\(record.course.name) · \(record.segment.name ?? "Custom segment")")
+                    .font(.headline)
+                Spacer()
+                RunReflectionBadge(entry: entry)
+            }
             Text(
                 "\(RunFormatting.miles(record.distanceMeters)) · \(RunFormatting.duration(record.activeDuration)) · \(record.averageSpeed.map(RunFormatting.speed) ?? "—")"
             )
@@ -124,6 +128,14 @@ struct RunDetailView: View {
     @Environment(RunHistoryModel.self) private var history
     @Environment(\.dismiss) private var dismiss
     @State private var confirmingDelete = false
+    @State private var rating: Int?
+    @State private var notes: String
+
+    init(entry: RunHistoryEntry) {
+        self.entry = entry
+        _rating = State(initialValue: entry.rating)
+        _notes = State(initialValue: entry.notes ?? "")
+    }
 
     private var record: WorkoutRecord { entry.record }
     private var chart: RunChartData { RunChartData(record) }
@@ -145,6 +157,11 @@ struct RunDetailView: View {
                     }
                 }
                 RunStatsGrid(record: record)
+            }
+
+            Section {
+                RunReflectionEditor(rating: $rating, notes: $notes)
+                    .padding(.vertical, 4)
             }
 
             Section("Incline") {
@@ -169,6 +186,9 @@ struct RunDetailView: View {
                 preview: SharePreview("Conquer Hills run")
             )
         }
+        .scrollDismissesKeyboard(.interactively)
+        .onChange(of: rating) { history.updateReflection(entry.id, rating: rating, notes: notes) }
+        .onChange(of: notes) { history.updateReflection(entry.id, rating: rating, notes: notes) }
         .confirmationDialog("Delete this run?", isPresented: $confirmingDelete, titleVisibility: .visible) {
             Button("Delete", role: .destructive) {
                 history.delete(entry.id)

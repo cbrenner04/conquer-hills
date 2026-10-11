@@ -73,6 +73,13 @@ final class RunFlowUITests: XCTestCase {
         app.buttons.matching(NSPredicate(format: "label == 'End' AND identifier != 'end'")).firstMatch.tap()
         XCTAssertTrue(app.buttons["done"].waitForExistence(timeout: 5))
         XCTAssertTrue(app.staticTexts["Saved to history"].exists)
+
+        // "How'd it go?": four stars and a note.
+        app.buttons["star-4"].tap()
+        let notes = app.descendants(matching: .any)["reflection-notes"]
+        notes.tap()
+        notes.typeText("Felt strong on the climb.")
+        app.buttons["reflection-done"].tap()
         snapshot("14-summary")
 
         app.buttons["done"].tap()
@@ -83,6 +90,9 @@ final class RunFlowUITests: XCTestCase {
 
         run.tap()
         XCTAssertTrue(app.staticTexts["Incline"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.buttons["star-4"].isSelected, "The rating should carry over to the run detail")
+        XCTAssertEqual(
+            app.descendants(matching: .any)["reflection-notes"].value as? String, "Felt strong on the climb.")
         snapshot("16-run-detail")
     }
 

@@ -1,24 +1,50 @@
 import Foundation
 import os
 
-/// One saved run: a `WorkoutRecord` with an identity and the time it was saved.
+/// One saved run: a `WorkoutRecord` with an identity, the time it was saved, and the runner's own reflection on
+/// it ("How'd it go?").
 public struct RunHistoryEntry: Identifiable, Equatable, Sendable, Codable {
     public static let currentSchemaVersion = 1
+    public static let ratingRange = 1...5
 
     public let schemaVersion: Int
     public let id: UUID
     public let savedAt: Date
     public let record: WorkoutRecord
+    /// The runner's star rating, 1–5, or nil if not rated. Optional so runs saved before it existed still load.
+    public private(set) var rating: Int?
+    /// The runner's notes to self, or nil if there are none.
+    public private(set) var notes: String?
 
-    public init(id: UUID = UUID(), savedAt: Date, record: WorkoutRecord) {
+    public init(id: UUID = UUID(), savedAt: Date, record: WorkoutRecord, rating: Int? = nil, notes: String? = nil) {
         self.schemaVersion = Self.currentSchemaVersion
         self.id = id
         self.savedAt = savedAt
         self.record = record
+        setReflection(rating: rating, notes: notes)
+    }
+
+    /// Sets the rating and notes. A rating outside 1–5 is clamped; notes are trimmed, and empty notes become nil.
+    public mutating func setReflection(rating: Int?, notes: String?) {
+        self.rating = rating.map { min(max($0, Self.ratingRange.lowerBound), Self.ratingRange.upperBound) }
+        let trimmed = notes?.trimmingCharacters(in: .whitespacesAndNewlines) ?? ""
+        self.notes = trimmed.isEmpty ? nil : trimmed
     }
 
     /// When the run started, or when it was saved if it never started.
     public var date: Date { record.startedAt ?? savedAt }
+
+    public init(from decoder: any Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        schemaVersion = try container.decode(Int.self, forKey: .schemaVersion)
+        id = try container.decode(UUID.self, forKey: .id)
+        savedAt = try container.decode(Date.self, forKey: .savedAt)
+        record = try container.decode(WorkoutRecord.self, forKey: .record)
+        // Absent in runs saved before reflections existed; normalized like any other input.
+        setReflection(
+            rating: try container.decodeIfPresent(Int.self, forKey: .rating),
+            notes: try container.decodeIfPresent(String.self, forKey: .notes))
+    }
 }
 
 /// Saved runs as one JSON file per run (`<id>.json`) in a directory, normally Application Support/RunHistory.
@@ -77,6 +103,18 @@ public struct RunHistoryStore: Sendable {
             }
         }
         return entries.sorted { $0.date > $1.date }
+    }
+
+    /// Updates a saved run's rating and notes, returning the new entry, or nil if the run isn't in the store.
+    @discardableResult
+    public func updateReflection(id: UUID, rating: Int?, notes: String?) throws -> RunHistoryEntry? {
+        let url = url(for: id)
+        guard let data = try? Data(contentsOf: url),
+            var entry = try? Self.decoder.decode(RunHistoryEntry.self, from: data)
+        else { return nil }
+        entry.setReflection(rating: rating, notes: notes)
+        try Self.encoder.encode(entry).write(to: url, options: .atomic)
+        return entry
     }
 
     public func delete(id: UUID) throws {
