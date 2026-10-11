@@ -27,7 +27,8 @@ public struct Announcement: Equatable, Sendable {
 /// Spoken wording for workout events.
 ///
 /// Inclines are given as the target first, with the direction: the absolute number is what the treadmill's
-/// display shows, so it is the quickest to match.
+/// display shows, so it is the quickest to match. The change itself starts with "Now", so it can't be mistaken
+/// for the warning that came before it.
 public enum PromptWording {
     /// An incline for speech: "6.5" or "1" (no trailing ".0").
     public static func spokenIncline(_ percent: Double) -> String {
@@ -49,7 +50,7 @@ public enum PromptWording {
         case .inclineChange(let from, let to):
             let isUp = to > from
             return Announcement(
-                kind: .change(isUp: isUp), text: "\(isUp ? "Up" : "Down") to \(spokenIncline(to)) percent.")
+                kind: .change(isUp: isUp), text: "Now: \(isUp ? "up" : "down") to \(spokenIncline(to)) percent.")
         case .resumed(let incline):
             return Announcement(kind: .resume, text: "Resumed. Incline \(spokenIncline(incline)) percent.")
         case .finished:

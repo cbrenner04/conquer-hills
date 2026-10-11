@@ -129,6 +129,115 @@ struct RunHistoryTests {
     }
 }
 
+@Suite("Run reflection")
+struct RunReflectionTests {
+    private let directory = FileManager.default.temporaryDirectory.appending(path: "RunReflectionTests-\(UUID())")
+    private var store: RunHistoryStore { RunHistoryStore(directory: directory) }
+
+    private func record() throws -> WorkoutRecord {
+        var workout = try TestHills.workout()
+        startRun(&workout)
+        workout.end(at: at(100))
+        return workout.record
+    }
+
+    private func cleanUp() {
+        try? FileManager.default.removeItem(at: directory)
+    }
+
+    @Test("A new run has no rating or notes")
+    func startsEmpty() throws {
+        defer { cleanUp() }
+        let entry = try store.save(try record())
+
+        #expect(entry.rating == nil)
+        #expect(entry.notes == nil)
+    }
+
+    @Test("A rating and notes are saved, listed back, and can be changed and cleared")
+    func updateAndClear() throws {
+        defer { cleanUp() }
+        let entry = try store.save(try record())
+
+        let updated = try #require(try store.updateReflection(id: entry.id, rating: 4, notes: "Legs felt good."))
+        #expect(updated.rating == 4)
+        #expect(updated.notes == "Legs felt good.")
+        #expect(store.list() == [updated])
+        #expect(updated.record == entry.record)
+
+        let cleared = try #require(try store.updateReflection(id: entry.id, rating: nil, notes: ""))
+        #expect(cleared.rating == nil)
+        #expect(cleared.notes == nil)
+        #expect(store.list() == [cleared])
+    }
+
+    @Test("Notes are trimmed, and blank notes are stored as none")
+    func notesNormalized() throws {
+        var entry = RunHistoryEntry(savedAt: startDate, record: try record())
+
+        entry.setReflection(rating: 3, notes: "  Tough hills.\n\n")
+        #expect(entry.notes == "Tough hills.")
+
+        entry.setReflection(rating: 3, notes: "   \n ")
+        #expect(entry.notes == nil)
+    }
+
+    @Test("Ratings outside 1–5 are clamped", arguments: [(0, 1), (9, 5), (-3, 1), (5, 5), (1, 1)])
+    func ratingClamped(input: Int, expected: Int) throws {
+        var entry = RunHistoryEntry(savedAt: startDate, record: try record())
+
+        entry.setReflection(rating: input, notes: nil)
+
+        #expect(entry.rating == expected)
+    }
+
+    @Test("Updating a run that isn't in the store does nothing")
+    func updateMissing() throws {
+        #expect(try store.updateReflection(id: UUID(), rating: 5, notes: "x") == nil)
+    }
+
+    @Test("A run saved before reflections existed still loads, unrated")
+    func loadsOldFiles() throws {
+        defer { cleanUp() }
+        let entry = try store.save(try record())
+        let url = directory.appending(path: "\(entry.id.uuidString).json")
+        var json = try #require(try JSONSerialization.jsonObject(with: Data(contentsOf: url)) as? [String: Any])
+        json.removeValue(forKey: "rating")
+        json.removeValue(forKey: "notes")
+        #expect(json.keys.sorted() == ["id", "record", "savedAt", "schemaVersion"])
+        try JSONSerialization.data(withJSONObject: json).write(to: url)
+
+        let loaded = try #require(store.list().first)
+        #expect(loaded.id == entry.id)
+        #expect(loaded.rating == nil)
+        #expect(loaded.notes == nil)
+    }
+
+    @Test("A stored rating outside 1–5 is clamped when loaded")
+    func clampsOnLoad() throws {
+        defer { cleanUp() }
+        let entry = try store.save(try record())
+        let url = directory.appending(path: "\(entry.id.uuidString).json")
+        var json = try #require(try JSONSerialization.jsonObject(with: Data(contentsOf: url)) as? [String: Any])
+        json["rating"] = 12
+        try JSONSerialization.data(withJSONObject: json).write(to: url)
+
+        #expect(store.list().first?.rating == 5)
+    }
+
+    @Test("Export includes the rating and notes")
+    func exportIncludesReflection() throws {
+        defer { cleanUp() }
+        let entry = try store.save(try record())
+        try store.updateReflection(id: entry.id, rating: 2, notes: "Too fast early.")
+
+        let text = String(decoding: try RunHistoryStore.exportData(store.list()), as: UTF8.self)
+
+        #expect(text.contains("\"rating\" : 2"))
+        #expect(text.contains("Too fast early."))
+    }
+}
+
 @Suite("Run chart data")
 struct RunChartDataTests {
     @Test("Incline steps start at the starting incline, follow each change, and run to the end")

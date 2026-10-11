@@ -134,16 +134,17 @@ waypoints.geojson ─route─▶ route.json + osm-structures.json ─elevation�
 - Custom segments are edited through `CustomSegmentRange` (CourseKit): 0.1 mi grid, end may be the exact finish, minimum 0.5 mi, boundaries can't cross. `RunPreview` (WorkoutKit) counts the changes the engine will announce; a test keeps it equal to the engine for every bundled segment.
 - Charts use `ElevationChartData` (downsample keeping extremes; slice a segment) and display feet and miles. The run screen shows a thin profile strip of the segment with a position marker (`RunProfileStrip`).
 - `RunModel` (app target, `@Observable`, main actor) owns the `Workout`, ticks it every 0.25 s from `ContinuousClock`, keeps the screen awake during a run, and hands each batch of events to `AnnouncementPolicy` → `SpeechAnnouncer`.
-- Wording, the late-event policy, and display formatting live in WorkoutKit (`PromptWording`, `AnnouncementPolicy`, `RunFormatting`) and are unit-tested; keep the app target free of logic worth testing.
+- Wording, the late-event policy, and display formatting live in WorkoutKit (`PromptWording`, `AnnouncementPolicy`, `RunFormatting`) and are unit-tested; keep the app target free of logic worth testing. The warning says "Incline up to 6.5 percent in 10 seconds."; the change itself starts with "Now" ("Now: up to 6.5 percent.") and the run screen shows "NOW" for a few seconds, so the two can't be confused.
 - Speech uses the `.playback` / `.voicePrompt` audio session with `.duckOthers` and `.interruptSpokenAudioAndMixWithOthers`, active only while speaking, so music dips under prompts and podcasts pause and resume.
 - The course screen remembers the last speed and baseline (`@AppStorage`). The baseline defaults to 1%.
 - Launch argument `-silentSpeech` turns spoken prompts off; the UI walkthrough uses it so tests are silent.
-- UI elements a test drives have accessibility identifiers (`start`, `speed-step-±1/±10`, `segment-<id>`, `segment-custom`, `custom-start-±1/±10`, `custom-end-±1/±10`, `run-preview`, `pause-resume`, `overlay-resume`, `end`, `done`, `history`, `history-run`, `about`). Course screens scroll: tests swipe until a control is hittable.
+- UI elements a test drives have accessibility identifiers (`start`, `speed-step-±1/±10`, `segment-<id>`, `segment-custom`, `custom-start-±1/±10`, `custom-end-±1/±10`, `run-preview`, `pause-resume`, `overlay-resume`, `end`, `done`, `star-1`…`star-5`, `reflection-notes`, `reflection-done`, `history`, `history-run`, `about`). Course screens scroll: tests swipe until a control is hittable.
 
 ## Run history
 
 - When a run finishes or is ended with at least 1 minute of active running (`RunHistoryStore.minimumActiveDuration`), `RunModel` saves its `WorkoutRecord` through `RunHistoryModel` (app, `@Observable`, in the environment). The summary shows "Saved to history" with Delete.
-- `RunHistoryStore` (WorkoutKit, unit-tested) writes one file per run, `Application Support/RunHistory/<uuid>.json`, as `RunHistoryEntry` `{schemaVersion, id, savedAt, record}` (ISO 8601 dates, sorted keys). Unreadable or newer-schema files are skipped, logged, and left on disk.
+- `RunHistoryStore` (WorkoutKit, unit-tested) writes one file per run, `Application Support/RunHistory/<uuid>.json`, as `RunHistoryEntry` `{schemaVersion, id, savedAt, record, rating?, notes?}` (ISO 8601 dates, sorted keys). Unreadable or newer-schema files are skipped, logged, and left on disk.
+- "How'd it go?": a saved run can carry the runner's `rating` (1–5 stars, nil = not rated) and `notes`. They live on the entry, not in `WorkoutRecord`, and are optional so older files load. `RunHistoryEntry.setReflection` normalizes them (rating clamped, notes trimmed, blank → nil), including when a file is decoded; `RunHistoryStore.updateReflection` rewrites the file. `RunReflectionEditor` (app) edits them on the summary and in the run detail, saving on every change; nothing blocks Done. This is the runner's own reflection: feedback about the app is gathered verbally, not in the app.
 - **Changing `WorkoutRecord`**: saved runs must keep decoding. Add new fields as optionals or with decoding defaults; for anything else, bump `RunHistoryEntry.currentSchemaVersion` and migrate in the store, with a test that decodes an old file.
 - History screens rebuild their charts from the record with `RunChartData` (incline and speed steps against distance, pause positions) and `RunTotals` (last 7 days, overall). Export goes through the share sheet as JSON (`RunExport`).
 
@@ -166,7 +167,7 @@ waypoints.geojson ─route─▶ route.json + osm-structures.json ─elevation�
 | `make course-route ID=<id>` / `make course-elevation ID=<id>` / `make course-build ID=<id>` | Course data pipeline steps (see "Course data pipeline") |
 | `make course-report ID=<id>` | Rebuilds the review report and serves it at `http://localhost:8765` (needed for map tiles) |
 | `make courses-check` | Rebuilds every course from `CourseData/` offline and fails if a bundled file differs or a check fails |
-| `make ui-test` | Walks through the course screens (About, Boston, a custom segment) and a Test Hills run to History in the iOS Simulator, silently, and exports screenshots to `.scratch/ui-test/` (local only, about two minutes) |
+| `make ui-test` | Walks through the course screens (About, Boston, a custom segment) and a Test Hills run, rating and notes, and History in the iOS Simulator, silently, and exports screenshots to `.scratch/ui-test/` (local only, about two minutes) |
 
 ## CI
 

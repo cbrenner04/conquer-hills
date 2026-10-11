@@ -26,6 +26,12 @@ final class RunHistoryModel {
         return entry.id
     }
 
+    /// Saves the runner's rating and notes for a saved run.
+    func updateReflection(_ id: UUID, rating: Int?, notes: String) {
+        _ = try? store?.updateReflection(id: id, rating: rating, notes: notes)
+        reload()
+    }
+
     func delete(_ id: UUID) {
         try? store?.delete(id: id)
         reload()
