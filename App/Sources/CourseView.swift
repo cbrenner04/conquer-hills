@@ -223,6 +223,12 @@ struct CourseView: View {
                 .font(.footnote)
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
+            Text(
+                "Tip: start changing when you hear the warning, so you reach the new incline around \u{201C}now\u{201D}. The treadmill takes a few seconds to move."
+            )
+            .font(.footnote)
+            .foregroundStyle(.secondary)
+            .multilineTextAlignment(.center)
         }
         .frame(maxWidth: .infinity)
         .padding(.vertical, 8)
