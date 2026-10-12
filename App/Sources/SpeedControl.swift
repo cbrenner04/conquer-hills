@@ -15,7 +15,7 @@ struct SpeedControl: View {
                 .font(.system(size: isLarge ? 44 : 34, weight: .bold, design: .rounded).monospacedDigit())
                 .lineLimit(1)
                 .fixedSize()
-                .frame(minWidth: isLarge ? 96 : 80)
+                .frame(minWidth: isLarge ? 88 : 80)
                 .accessibilityLabel("Speed \(RunFormatting.speed(speed))")
             stepButton("+", steps: 1)
             stepButton("+1", steps: 10)
@@ -29,8 +29,8 @@ struct SpeedControl: View {
 
     private func stepButton(_ title: String, steps: Int) -> some View {
         Button(title) { onChange(speed.stepped(by: steps)) }
-            .font(.system(size: isLarge ? 24 : 20, weight: .semibold, design: .rounded))
-            .frame(minWidth: isLarge ? 52 : 44, minHeight: isLarge ? 60 : 44)
+            .font(.system(size: isLarge ? 26 : 20, weight: .semibold, design: .rounded))
+            .frame(minWidth: isLarge ? 56 : 44, minHeight: isLarge ? 68 : 44)
             .buttonStyle(.bordered)
             .accessibilityIdentifier("speed-step-\(steps)")
             .accessibilityLabel(

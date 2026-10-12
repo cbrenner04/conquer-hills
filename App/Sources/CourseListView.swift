@@ -31,7 +31,13 @@ struct CourseListView: View {
                     }
                     .accessibilityIdentifier("about")
                 }
-                ToolbarItem(placement: .topBarTrailing) {
+                ToolbarItemGroup(placement: .topBarTrailing) {
+                    NavigationLink {
+                        SettingsView()
+                    } label: {
+                        Label("Settings", systemImage: "gearshape")
+                    }
+                    .accessibilityIdentifier("settings")
                     NavigationLink {
                         HistoryListView()
                     } label: {

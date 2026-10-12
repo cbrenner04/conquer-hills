@@ -17,6 +17,13 @@ final class RunFlowUITests: XCTestCase {
         snapshot("02-about")
         app.navigationBars.buttons.firstMatch.tap()
 
+        // Settings: how other audio behaves during prompts, and the voice.
+        app.buttons["settings"].tap()
+        XCTAssertTrue(app.buttons["audio-mode-lower"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.buttons["audio-mode-lower"].isSelected, "Lower it should be the default")
+        snapshot("02b-settings")
+        app.navigationBars.buttons.firstMatch.tap()
+
         // Boston: the course screen, then Newton Hills, then a custom segment.
         app.staticTexts["Boston Marathon"].tap()
         XCTAssertTrue(app.buttons["segment-full-course"].waitForExistence(timeout: 5))
