@@ -1,0 +1,590 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -87.62075,
+          41.88065
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start: Columbus Dr just south of Monroe St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.620235,
+          41.891803
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Columbus Dr & Grand Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6296377,
+          41.8916443
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Grand Ave & Dearborn St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6292907,
+          41.8781794
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Dearborn St & Jackson Blvd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6322624,
+          41.8781445
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Jackson Blvd & LaSalle St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6327964,
+          41.9130707
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "LaSalle Dr & Clark St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.633489,
+          41.916198
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Stockton Dr (8 km)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6336278,
+          41.9257466
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Fullerton Pkwy & Cannon Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.637822,
+          41.931719
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Cannon Dr (10 km)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.63935,
+          41.935
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sheridan Rd north of Diversey Pkwy"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.64145,
+          41.94508
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Inner Lake Shore Dr south of Addison St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6450122,
+          41.9530622
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Inner Lake Shore Dr & Sheridan Rd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6496461,
+          41.9527494
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sheridan Rd & Broadway"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.644472,
+          41.9339
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Broadway (15 km)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.644906,
+          41.9328069
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Broadway & Clark St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6382716,
+          41.9219695
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Clark St & Webster Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6389414,
+          41.9219584
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Webster Ave & Sedgwick St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6385802,
+          41.9110387
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sedgwick St & North Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6346935,
+          41.9110894
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "North Ave & Wells St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.634159,
+          41.892907
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Wells St & Ontario St (20 km)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6339752,
+          41.886821
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Wells St & Wacker Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6369563,
+          41.8793573
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Wacker Dr & Adams St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6765807,
+          41.8787513
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Adams St & Damen Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.676483,
+          41.878021
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Damen Ave (25 km)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6765464,
+          41.877474
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Damen Ave & Jackson Blvd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6472349,
+          41.8779467
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Jackson Blvd & Halsted St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.647041,
+          41.8695539
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Halsted St & Taylor St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6616419,
+          41.8693403
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Taylor St & Loomis St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.66148,
+          41.865449
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Loomis St (30 km)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6613098,
+          41.8578812
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Loomis St & 18th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6466494,
+          41.8581016
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "18th St & Halsted St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6465496,
+          41.8546894
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Halsted St & Canalport Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.650877,
+          41.852668
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Canalport Ave & Cermak Rd (turn point)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6320346,
+          41.852919
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Cermak Rd & Wentworth Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.632162,
+          41.847624
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Wentworth Ave (35 km)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6318822,
+          41.8455256
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Wentworth Ave & 26th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6236453,
+          41.8456398
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "26th St & Michigan Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6232438,
+          41.8310468
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Michigan Ave & 35th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6217813,
+          41.8310632
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "35th St & Indiana Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6219165,
+          41.8383638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Indiana Ave & 31st St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6233187,
+          41.8383486
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "31st St & Michigan Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.623722,
+          41.852149
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Michigan Ave (40 km)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.624211,
+          41.8675039
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Michigan Ave & Roosevelt Rd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6203204,
+          41.8674478
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Roosevelt Rd & Columbus Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.62032,
+          41.86934
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: Columbus Dr north of Roosevelt Rd"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

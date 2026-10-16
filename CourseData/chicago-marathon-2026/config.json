@@ -1,0 +1,361 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 184.5,
+      "min": 182,
+      "name": "Start elevation 182–184.5 m (certificate 182 m; lidar 183.1 m)"
+    },
+    {
+      "atMeters": 42195,
+      "kind": "elevationAt",
+      "max": 185.5,
+      "min": 183,
+      "name": "Finish elevation 183–185.5 m (certificate 184 m; lidar 184.3 m)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 188,
+      "name": "Highest point ≤ 188 m (catches the 193 m plaza deck over Lower Columbus)"
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 176.5,
+      "name": "Lowest point ≥ 176.5 m (catches any river or expressway bridge reading; real low 177.3 m)"
+    },
+    {
+      "fromMeters": 4650,
+      "kind": "minimumElevation",
+      "min": 179,
+      "name": "LaSalle St bridges and the gap between them have no false dip: lowest point ≥ 179 m",
+      "toMeters": 4950
+    },
+    {
+      "fromMeters": 42050,
+      "kind": "minimumElevation",
+      "min": 179,
+      "name": "No false dip at the path tunnel under Columbus Dr before the finish: lowest point ≥ 179 m",
+      "toMeters": 42195
+    },
+    {
+      "atMeters": 41920,
+      "kind": "noDip",
+      "name": "Roosevelt Rd bridge over the Metra tracks is never a dip",
+      "radiusMeters": 80
+    },
+    {
+      "fromMeters": 41990,
+      "kind": "drop",
+      "max": 7.5,
+      "min": 5,
+      "name": "Mount Roosevelt rise 5–7.5 m (Michigan Ave to Columbus Dr)",
+      "toMeters": 41650
+    },
+    {
+      "fromMeters": 41650,
+      "kind": "climb",
+      "min": 2.5,
+      "name": "Mount Roosevelt (41.65–41.95 km) survives as a climb of ≥ +2.5%",
+      "toMeters": 41950
+    },
+    {
+      "fromMeters": 22500,
+      "kind": "maximumIncline",
+      "max": 1.5,
+      "name": "West and south sides (22.5–33.7 km): no climb above +1.5%",
+      "toMeters": 33700
+    },
+    {
+      "fromMeters": 34300,
+      "kind": "maximumIncline",
+      "max": 1.5,
+      "name": "Chinatown to Roosevelt Rd (34.3–41.6 km): no climb above +1.5%",
+      "toMeters": 41600
+    },
+    {
+      "kind": "gain",
+      "max": 75,
+      "min": 35,
+      "name": "Gain 35–75 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "loss",
+      "max": 75,
+      "min": 35,
+      "name": "Loss 35–75 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 5,
+      "name": "Steepest incline within ±5%"
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 41.8895731,
+        "longitude": -87.620395
+      },
+      "name": "1 km: Columbus Dr north of North Water St",
+      "officialMeters": 1000
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 41.8915,
+        "longitude": -87.62963
+      },
+      "name": "2 km: Dearborn St south of Grand Ave",
+      "officialMeters": 2000
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 41.8805,
+        "longitude": -87.62936
+      },
+      "name": "Mile 2: Dearborn St south of Monroe St",
+      "officialMeters": 3219
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 41.916198,
+        "longitude": -87.633489
+      },
+      "name": "8 km: Stockton Dr (certificate GPS)",
+      "officialMeters": 8000
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 41.931719,
+        "longitude": -87.637822
+      },
+      "name": "10 km: Cannon Dr (certificate GPS)",
+      "officialMeters": 10000
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 41.9339,
+        "longitude": -87.644472
+      },
+      "name": "15 km: Broadway (certificate GPS)",
+      "officialMeters": 15000
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 41.892907,
+        "longitude": -87.634159
+      },
+      "name": "20 km: Wells St & Ontario St (certificate GPS)",
+      "officialMeters": 20000
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 41.884416,
+        "longitude": -87.637061
+      },
+      "name": "Halfway: Wacker Dr & Randolph St (certificate GPS)",
+      "officialMeters": 21097.5
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 41.8792229,
+        "longitude": -87.6472752
+      },
+      "name": "Mile 14: Adams St west of Halsted St",
+      "officialMeters": 22531
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 41.878021,
+        "longitude": -87.676483
+      },
+      "name": "25 km: Damen Ave (certificate GPS)",
+      "officialMeters": 25000
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 41.8694526,
+        "longitude": -87.6542185
+      },
+      "name": "Mile 18: Taylor St east of Aberdeen St",
+      "officialMeters": 28968
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 41.865449,
+        "longitude": -87.66148
+      },
+      "name": "30 km: Loomis St (certificate GPS)",
+      "officialMeters": 30000
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 41.8567262,
+        "longitude": -87.6466099
+      },
+      "name": "Mile 20: Halsted St south of 19th St",
+      "officialMeters": 32187
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 41.847624,
+        "longitude": -87.632162
+      },
+      "name": "35 km: Wentworth Ave (certificate GPS)",
+      "officialMeters": 35000
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 41.852149,
+        "longitude": -87.623722
+      },
+      "name": "40 km: Michigan Ave (certificate GPS)",
+      "officialMeters": 40000
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 41.8674152,
+        "longitude": -87.6226756
+      },
+      "name": "Mile 26: Roosevelt Rd east of Indiana Ave",
+      "officialMeters": 41843
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 41.86934,
+        "longitude": -87.62032
+      },
+      "name": "Finish: Columbus Dr north of Roosevelt Rd",
+      "officialMeters": 42195
+    }
+  ],
+  "description": "Grant Park to Grant Park through 29 neighbourhoods: north to Lincoln Park and Lakeview, back through the Loop, west to the West Loop, south through Little Italy, Pilsen and Chinatown, and back up Michigan Avenue. Almost flat, with small rises at the river bridges and one short climb, \"Mount Roosevelt\", just before the finish. Unofficial.",
+  "edition": "2026",
+  "elevation": {
+    "provider": "usgs3dep",
+    "trustedSources": [
+      "IL_4_County_QL1_LiDAR_2016_B16"
+    ]
+  },
+  "id": "chicago-marathon-2026",
+  "location": "Chicago, Illinois, USA",
+  "manualSpans": [
+    {
+      "action": "interpolate",
+      "endMeters": 4900,
+      "reason": "LaSalle St river bridge, the untagged 50 m between it and the LaSalle Dr viaduct, and the viaduct: lidar reads the ground and river below (false dip of about 4 m)",
+      "startMeters": 4760
+    },
+    {
+      "action": "keep",
+      "endMeters": 21630,
+      "reason": "Upper Wacker Dr is the course; lidar reads its deck. Lower Wacker runs beneath and would otherwise be flagged as a parallel tunnel",
+      "startMeters": 20700
+    },
+    {
+      "action": "interpolate",
+      "endMeters": 42140,
+      "reason": "Museum Campus path tunnel under Columbus Dr before the finish: crosses under the course, so structure detection misses it (false dip of about 4–5 m)",
+      "startMeters": 42090
+    }
+  ],
+  "name": "Chicago Marathon",
+  "officialDistanceMeters": 42195,
+  "processing": {
+    "checkpointSearchRadiusMeters": 150,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 300,
+    "minimumIntervalMeters": 200,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "corridorMeters": 200,
+    "highways": [
+      "trunk",
+      "trunk_link",
+      "primary",
+      "primary_link",
+      "secondary",
+      "secondary_link",
+      "tertiary",
+      "tertiary_link",
+      "unclassified",
+      "residential",
+      "living_street",
+      "service",
+      "pedestrian",
+      "road"
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 42195,
+      "id": "mount-roosevelt",
+      "name": "Final 2 miles and Mount Roosevelt (mile 24.2 to the finish)",
+      "startMeters": 38976
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name": "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url": "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes": "2026 course, with mile 2 on Dearborn St (State St in earlier years). Route traced over OpenStreetMap streets in race order, including the covered Lower Columbus underpass; distances calibrated to the GPS split points on the course's USATF certification (IL23038NM). Elevations from USGS 3DEP 1 m lidar (2017); river bridges, expressway overpasses and the Lower Columbus underpass are interpolated, so the small dip under Columbus Dr near the start is flattened. The only real climb is \"Mount Roosevelt\" in the last half-mile. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": true
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [
+      "motorway",
+      "motorway_link"
+    ],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}
