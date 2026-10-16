@@ -82,20 +82,36 @@ public struct CourseConfig: Codable, Equatable, Sendable {
         public var avoidWays: [Int]
         /// Ways that cost half their length, so the route takes them over a parallel alternative.
         public var preferWays: [Int]
+        /// Straight links where OSM leaves a gap the course crosses (a path that stops short of the road across
+        /// tram tracks). Each end snaps to the nearest OSM node of a usable way.
+        public var joins: [Join]
+
+        public struct Join: Codable, Equatable, Sendable {
+            public var from: Coordinate
+            public var to: Coordinate
+            public var reason: String
+
+            public init(from: Coordinate, to: Coordinate, reason: String) {
+                self.from = from
+                self.to = to
+                self.reason = reason
+            }
+        }
 
         public init(
             corridorMeters: Double = 200, highways: [String]? = nil, includeWays: [Int] = [], avoidWays: [Int] = [],
-            preferWays: [Int] = []
+            preferWays: [Int] = [], joins: [Join] = []
         ) {
             self.corridorMeters = corridorMeters
             self.highways = highways
             self.includeWays = includeWays
             self.avoidWays = avoidWays
             self.preferWays = preferWays
+            self.joins = joins
         }
 
         private enum CodingKeys: String, CodingKey {
-            case corridorMeters, highways, includeWays, avoidWays, preferWays
+            case corridorMeters, highways, includeWays, avoidWays, preferWays, joins
         }
 
         public init(from decoder: any Decoder) throws {
@@ -105,7 +121,8 @@ public struct CourseConfig: Codable, Equatable, Sendable {
                 highways: try container.decodeIfPresent([String].self, forKey: .highways),
                 includeWays: try container.decodeIfPresent([Int].self, forKey: .includeWays) ?? [],
                 avoidWays: try container.decodeIfPresent([Int].self, forKey: .avoidWays) ?? [],
-                preferWays: try container.decodeIfPresent([Int].self, forKey: .preferWays) ?? [])
+                preferWays: try container.decodeIfPresent([Int].self, forKey: .preferWays) ?? [],
+                joins: try container.decodeIfPresent([Join].self, forKey: .joins) ?? [])
         }
     }
 

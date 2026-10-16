@@ -26,6 +26,14 @@ The data is used under the GSI content terms (Public Data License 1.0, compatibl
 
 Affected files: `tokyo-marathon-2027/elevation-samples.json` and `App/Resources/Courses/tokyo-marathon-2027.course.json`.
 
+## Geoscience Australia: elevation (Sydney)
+
+> Elevation: Digital Elevation Model of Australia derived from LiDAR 5 Metre Grid, © Commonwealth of Australia (Geoscience Australia), CC BY 4.0, processed by Conquer Hills.
+
+Used under the Creative Commons Attribution 4.0 International licence (Geoscience Australia catalogue record 89644). The values were processed (interpolated across bridges, viaducts and noisy stretches, smoothed, and converted to grades). The Harbour Bridge deck (`sydney-marathon-2027/profiles.json`) is modelled from a published height (52 m above the water, Engineers Australia), not measured.
+
+Affected files: `sydney-marathon-2027/elevation-samples.json`, `sydney-marathon-2027/profiles.json` and `App/Resources/Courses/sydney-marathon-2027.course.json`. Sydney's distances are calibrated to the course's U-turns and finish at the distances the organiser publishes, stored as our own data points.
+
 ## U.S. Geological Survey: elevation (Boston, Big Sur, Chicago, New York)
 
 > Map services and data available from U.S. Geological Survey, National Geospatial Program. Elevation: U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs), processed by Conquer Hills.
