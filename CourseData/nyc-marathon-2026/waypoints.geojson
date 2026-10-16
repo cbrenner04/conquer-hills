@@ -1,0 +1,733 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -74.0613316,
+          40.601792
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start (Blue): Verrazzano-Narrows Bridge upper-level approach, Staten Island"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -74.04539,
+          40.6063
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Verrazzano-Narrows Bridge, upper level, Brooklyn-bound"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -74.02646,
+          40.61478
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Dahlgren Pl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -74.0301733,
+          40.6183384
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "92nd St & 4th Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -74.0201324,
+          40.6391098
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "4th Ave & 63rd St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9856511,
+          40.6739438
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "4th Ave & 3rd St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.978061,
+          40.6848845
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "4th Ave & Flatbush Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9793605,
+          40.6866914
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Flatbush Ave & Lafayette Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9600156,
+          40.6888779
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lafayette Ave & Classon Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9551271,
+          40.6894516
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lafayette Ave & Bedford Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9572295,
+          40.6999991
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bedford Ave & Lynch St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9644203,
+          40.7075372
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bedford Ave & Division Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9638802,
+          40.7102684
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bedford Ave & Broadway"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.962552,
+          40.712526
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bedford Ave & S 3rd St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9516433,
+          40.7234878
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bedford Ave & Nassau Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.950788,
+          40.723772
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Nassau Ave & Manhattan Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9542532,
+          40.7302057
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Manhattan Ave & Greenpoint Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9514256,
+          40.7304718
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Greenpoint Ave & McGuinness Blvd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.952655,
+          40.739245
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Pulaski Bridge, southbound roadway (lift span)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.951292,
+          40.7436586
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "11th St & 48th Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9536756,
+          40.7440068
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "48th Ave & Vernon Blvd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.952248,
+          40.7482677
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Vernon Blvd & 10th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9516444,
+          40.7489444
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "10th St & 44th Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9437238,
+          40.7474113
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "44th Dr & Hunter St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9432473,
+          40.7477084
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hunter St & Crescent St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9406478,
+          40.7505312
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Crescent St & Queens Plaza South"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.94544,
+          40.75288
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Queensboro Bridge, lower roadway (Queens span)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9548,
+          40.75693
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Queensboro Bridge, lower roadway (main span)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.962912,
+          40.760368
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Queensboro Bridge, lower roadway (Manhattan ramp)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9643559,
+          40.7606212
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "U-turn onto E 59th St near 2nd Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.961955,
+          40.7596231
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "E 59th St & 1st Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9536338,
+          40.7710306
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "1st Ave & E 77th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9442196,
+          40.7839383
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "1st Ave & E 97th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9313894,
+          40.8018365
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "1st Ave & E 125th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.92885,
+          40.80352
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Willis Avenue Bridge"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9242442,
+          40.8071758
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Willis Ave & E 135th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9265383,
+          40.8081583
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "E 135th St & Alexander Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9237024,
+          40.8119777
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Alexander Ave & E 141st St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.924683,
+          40.812384
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "E 141st St & 3rd Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9271386,
+          40.8109714
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "3rd Ave & E 138th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.93396,
+          40.8142
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Madison Avenue Bridge"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9362392,
+          40.8146523
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "5th Ave & E 138th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9427583,
+          40.8057381
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "5th Ave & W 124th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9443406,
+          40.8064044
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "W 124th St & Mount Morris Park West"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9461817,
+          40.80389
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mount Morris Park West & W 120th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9446222,
+          40.8032304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "W 120th St & 5th Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9585567,
+          40.7840871
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "5th Ave & E 90th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9612014,
+          40.7815288
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Drive, north of 86th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9637798,
+          40.7812466
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Drive at 84th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.96761,
+          40.77635
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Drive at 77th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9709036,
+          40.7707403
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Drive at 68th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.97308,
+          40.76646
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Drive at 61st St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9730294,
+          40.7642754
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "5th Ave & Central Park South"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9813948,
+          40.7681044
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Central Park South & Columbus Circle"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9797563,
+          40.7695705
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "West Drive at 62nd St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9767214,
+          40.7724589
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: West Drive at W 67th St"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

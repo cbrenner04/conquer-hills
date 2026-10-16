@@ -1,0 +1,958 @@
+{
+  "description" : "Staten Island to Central Park through all five boroughs. The Verrazzano-Narrows Bridge climb at the start, Fourth Avenue and Lafayette Avenue through Brooklyn, the Pulaski Bridge at halfway, the long Queensboro Bridge climb, First Avenue, the Willis and Madison Avenue bridges through the Bronx, the Fifth Avenue climb near mile 23, then the Central Park rollers to the finish. Unofficial.",
+  "developmentOnly" : false,
+  "distanceMeters" : 42195,
+  "edition" : "2026",
+  "elevationProfile" : {
+    "elevationsMeters" : [
+      34.2,
+      38.4,
+      42.3,
+      45.7,
+      49.5,
+      53.4,
+      57.4,
+      61.5,
+      65.6,
+      69.1,
+      72.6,
+      75.7,
+      77.8,
+      79.2,
+      79.9,
+      79.7,
+      78.8,
+      77.2,
+      74.9,
+      71.6,
+      68.1,
+      64.5,
+      60.3,
+      56.3,
+      52.4,
+      48.5,
+      44.5,
+      40.5,
+      36.5,
+      32.4,
+      28.4,
+      24.3,
+      19.9,
+      16,
+      16.4,
+      17.8,
+      19.2,
+      20.2,
+      22.5,
+      25.1,
+      25,
+      24.3,
+      23.8,
+      23.1,
+      22.2,
+      21.7,
+      22.2,
+      22.8,
+      23.4,
+      23.4,
+      22.8,
+      22.4,
+      23,
+      22.7,
+      22.2,
+      23,
+      24.5,
+      26,
+      26,
+      24.6,
+      24.6,
+      24.4,
+      23.7,
+      23.2,
+      23.4,
+      25.3,
+      27.1,
+      28.3,
+      27.6,
+      26.8,
+      25.9,
+      25,
+      24.2,
+      23.3,
+      22.6,
+      22.9,
+      23.3,
+      23.6,
+      23.2,
+      22.1,
+      20.1,
+      17.9,
+      15.8,
+      13.7,
+      11.6,
+      9.4,
+      7.6,
+      6.6,
+      6.3,
+      6.5,
+      7,
+      7.4,
+      7.3,
+      7.4,
+      8.8,
+      10.4,
+      11.4,
+      12.2,
+      13,
+      14,
+      15.1,
+      16.1,
+      16.4,
+      16,
+      15.3,
+      14.7,
+      14,
+      12.6,
+      11,
+      9.4,
+      7.8,
+      6.7,
+      7,
+      7,
+      6.3,
+      5.8,
+      5.9,
+      6.5,
+      7.1,
+      7.8,
+      8.5,
+      9,
+      8.6,
+      8.8,
+      10.7,
+      12.8,
+      13.8,
+      13.8,
+      12.5,
+      11.7,
+      12.9,
+      14.8,
+      17,
+      19.5,
+      21.9,
+      24.4,
+      27,
+      28.8,
+      28.8,
+      26.7,
+      23.9,
+      21.8,
+      19.8,
+      18.9,
+      19.8,
+      20.5,
+      19.5,
+      18.4,
+      16.8,
+      14.8,
+      13.9,
+      13.8,
+      14.5,
+      13.4,
+      11.9,
+      10.5,
+      9.3,
+      8.1,
+      6.5,
+      5,
+      3.8,
+      3.9,
+      4.8,
+      5.6,
+      7.4,
+      10.1,
+      12.5,
+      13.7,
+      15,
+      15.9,
+      15.1,
+      14,
+      13.2,
+      13.5,
+      14.1,
+      15.1,
+      16,
+      17,
+      16.8,
+      14.9,
+      12.5,
+      9.6,
+      7.7,
+      7.9,
+      8.8,
+      9,
+      7.2,
+      5.7,
+      4.4,
+      3.6,
+      3.4,
+      3.4,
+      3.2,
+      3.9,
+      4.8,
+      5.1,
+      7,
+      7.2,
+      7.9,
+      10,
+      10.9,
+      8.7,
+      5.2,
+      3,
+      2.9,
+      2.8,
+      2.8,
+      3,
+      3.3,
+      6.1,
+      10.3,
+      14.4,
+      16.3,
+      15.9,
+      15,
+      11.7,
+      7.6,
+      5.6,
+      5.2,
+      5.6,
+      4.3,
+      3.4,
+      2.7,
+      2.7,
+      2.5,
+      3.1,
+      3.9,
+      4.7,
+      5.4,
+      5.5,
+      4.9,
+      4.4,
+      4.2,
+      4.4,
+      5.3,
+      7.1,
+      9.1,
+      12.6,
+      16.2,
+      19.6,
+      23.1,
+      26.7,
+      30.2,
+      33.7,
+      37.2,
+      40.6,
+      43.3,
+      43.8,
+      44,
+      44,
+      43.8,
+      42.7,
+      39.7,
+      36.3,
+      32.9,
+      29.3,
+      25.7,
+      22.2,
+      19.2,
+      17.2,
+      16,
+      14,
+      13.3,
+      12.5,
+      12.6,
+      13.6,
+      15,
+      16.4,
+      15.9,
+      14.2,
+      12.4,
+      9.7,
+      9.4,
+      10.2,
+      11,
+      12.3,
+      13.5,
+      14,
+      15.3,
+      17.9,
+      18.2,
+      14.7,
+      12.6,
+      11.3,
+      9.5,
+      7.2,
+      4.4,
+      3.1,
+      2.5,
+      2.4,
+      2.3,
+      2.6,
+      3,
+      3.1,
+      3,
+      3,
+      3.3,
+      3.2,
+      2.9,
+      2.8,
+      2.8,
+      3,
+      3,
+      3.1,
+      3,
+      3.1,
+      2.8,
+      3.1,
+      2.9,
+      2.8,
+      2.9,
+      3.6,
+      3.8,
+      7.4,
+      10.6,
+      11.1,
+      11,
+      13.3,
+      15.5,
+      14.1,
+      12.1,
+      11.2,
+      7.8,
+      6,
+      7.5,
+      8.9,
+      9.3,
+      9.4,
+      8,
+      6.6,
+      5.7,
+      4.8,
+      3.6,
+      3.4,
+      4,
+      6.9,
+      8.4,
+      9.8,
+      9.4,
+      6.1,
+      3.5,
+      3.8,
+      4.3,
+      4.8,
+      5.6,
+      6.1,
+      6.7,
+      6.6,
+      6.7,
+      6.8,
+      6.2,
+      6.7,
+      7.6,
+      8.4,
+      8.5,
+      8.2,
+      7.9,
+      7.4,
+      6.9,
+      6.6,
+      6.3,
+      6.1,
+      5.9,
+      5.7,
+      5.4,
+      5.1,
+      5,
+      5.5,
+      7,
+      9.3,
+      11.9,
+      14.5,
+      16.6,
+      18.5,
+      20.5,
+      22.8,
+      24.4,
+      26.5,
+      29.7,
+      32,
+      33.7,
+      33.6,
+      33.2,
+      32.9,
+      32.5,
+      31.9,
+      33,
+      32.8,
+      29.8,
+      30.2,
+      32,
+      29.9,
+      25.1,
+      20.3,
+      17.9,
+      18.2,
+      21.3,
+      24.7,
+      24.8,
+      22.7,
+      23,
+      24.1,
+      24.2,
+      22,
+      18.9,
+      16,
+      15.5,
+      15.6,
+      15.2,
+      15.7,
+      16.5,
+      18.1,
+      20.9,
+      23.3,
+      24.6,
+      24.7,
+      24,
+      22.2,
+      21.9,
+      21.4,
+      21.7,
+      24.5,
+      26
+    ],
+    "sampleSpacingMeters" : 100
+  },
+  "id" : "nyc-marathon-2026",
+  "inclineChanges" : [
+    {
+      "atMeters" : 0,
+      "inclinePercent" : 4
+    },
+    {
+      "atMeters" : 800,
+      "inclinePercent" : 3.5
+    },
+    {
+      "atMeters" : 1100,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 1300,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 1500,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 1700,
+      "inclinePercent" : -3
+    },
+    {
+      "atMeters" : 1900,
+      "inclinePercent" : -3.5
+    },
+    {
+      "atMeters" : 2100,
+      "inclinePercent" : -4
+    },
+    {
+      "atMeters" : 3300,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 3700,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 3900,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 4500,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 4900,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 5200,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 5400,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 5800,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 6400,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 6700,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 7400,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 7700,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 7900,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 8600,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 8900,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 9100,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 9300,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 9500,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 10200,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 10600,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 11100,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 11300,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 11600,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 12100,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 12300,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 12700,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 12900,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 13100,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 13700,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 13900,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 14300,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 14500,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 15000,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 15200,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 16000,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 16300,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 16600,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 16900,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 17200,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 17800,
+      "inclinePercent" : -2.5
+    },
+    {
+      "atMeters" : 18200,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 18500,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 18900,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 19300,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 19600,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 19800,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 20000,
+      "inclinePercent" : -2.5
+    },
+    {
+      "atMeters" : 20300,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 20600,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 20800,
+      "inclinePercent" : 3.5
+    },
+    {
+      "atMeters" : 21200,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 21400,
+      "inclinePercent" : -3
+    },
+    {
+      "atMeters" : 21700,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 21900,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 22200,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 22500,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 22800,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 23100,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 23400,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 23600,
+      "inclinePercent" : 3.5
+    },
+    {
+      "atMeters" : 24600,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 25100,
+      "inclinePercent" : -3.5
+    },
+    {
+      "atMeters" : 25800,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 26100,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 26400,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 26700,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 26900,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 27200,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 28000,
+      "inclinePercent" : -3
+    },
+    {
+      "atMeters" : 28200,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 28400,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 28700,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 29000,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 29200,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 31200,
+      "inclinePercent" : 3.5
+    },
+    {
+      "atMeters" : 31400,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 31600,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 31800,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 32100,
+      "inclinePercent" : -2.5
+    },
+    {
+      "atMeters" : 32300,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 32500,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 32700,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 32900,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 33200,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 33400,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 33800,
+      "inclinePercent" : -3
+    },
+    {
+      "atMeters" : 34000,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 34600,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 35100,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 35300,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 35600,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 36000,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 36200,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 36400,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 36700,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 37700,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 38000,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 39100,
+      "inclinePercent" : -4
+    },
+    {
+      "atMeters" : 39400,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 39700,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 39900,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 40200,
+      "inclinePercent" : -3
+    },
+    {
+      "atMeters" : 40500,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 40900,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 41100,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 41400,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 41700,
+      "inclinePercent" : 1
+    }
+  ],
+  "location" : "Staten Island to Manhattan, New York, USA",
+  "name" : "New York City Marathon",
+  "processing" : {
+    "generatedOn" : "2026-10-16",
+    "parameters" : {
+      "calibrationScales" : "0-6437:0.9965 6437-11265:0.9955 11265-12875:1.0006 12875-14484:0.9932 14484-17703:0.9937 17703-19312:1.0057 19312-21098:0.9558 21098-27359:0.9683 27359-28968:0.9811 28968-30000:0.9829 30000-33796:0.9917 33796-35000:0.9712 35000-37015:0.9835 37015-42195:0.9606",
+      "deckProfiles" : "Verrazzano-Narrows Bridge (upper level); Pulaski Bridge; Queensboro (Ed Koch) Bridge (lower level, inner roadway); Willis Avenue Bridge; Madison Avenue Bridge",
+      "elevationProvider" : "usgs3dep",
+      "gradeBlockMeters" : "100",
+      "inclineStepPercent" : "0.5",
+      "minimumIntervalMeters" : "200",
+      "osmStructuresTimestamp" : "2026-10-16T18:50:47Z",
+      "routeSmoothingMeters" : "40",
+      "sampleSpacingMeters" : "10",
+      "smoothingWindowMeters" : "100"
+    },
+    "tool" : "course-tool 0.1.0"
+  },
+  "schemaVersion" : 1,
+  "segments" : [
+    {
+      "endMeters" : 4000,
+      "id" : "verrazzano",
+      "name" : "Verrazzano-Narrows Bridge (start to mile 2.5)",
+      "startMeters" : 0
+    },
+    {
+      "endMeters" : 25750,
+      "id" : "queensboro",
+      "name" : "Queensboro Bridge (miles 14–16)",
+      "startMeters" : 22531
+    },
+    {
+      "endMeters" : 42195,
+      "id" : "fifth-avenue-finish",
+      "name" : "Fifth Avenue and Central Park (mile 21 to the finish)",
+      "startMeters" : 33796
+    }
+  ],
+  "source" : {
+    "attribution" : "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program; bridge decks from the 2017 NYC Topobathymetric Lidar (NYC Office of Technology and Innovation, via NOAA Digital Coast) and USGS lidar; processed by Conquer Hills. Unofficial: not affiliated with or endorsed by New York Road Runners.",
+    "elevation" : {
+      "kind" : "modeled",
+      "license" : "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program. Bridge decks: 2017 NYC Topobathymetric Lidar, NYC Office of Technology and Innovation",
+      "name" : "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs), with bridge-deck profiles from public lidar point clouds",
+      "url" : "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes" : "Blue start course (upper deck of the Verrazzano-Narrows Bridge); the Pink start runs on the lower deck and through Dyker Heights. Route traced over OpenStreetMap streets in the order the race uses them, including the 2026 Bronx change (E 141st St and Third Ave); distances calibrated to features whose distances are published on the course's 2022 USATF certification (NY22001JHP), which predates the Bronx change, so miles 20–21 absorb about 60 m. Elevations from USGS 3DEP 1 m lidar (2014); bare-earth data removes bridges, so the five bridge decks use control points measured from the 2017 NYC lidar (and USGS 2014 lidar for the Verrazzano main span). Downhills are flat on a treadmill without decline. Unofficial.",
+    "route" : {
+      "license" : "ODbL-1.0",
+      "name" : "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url" : "https://www.openstreetmap.org/copyright"
+    },
+    "verified" : false
+  },
+  "stats" : {
+    "elevationGainMeters" : 293.4,
+    "elevationLossMeters" : 301.7,
+    "maximumElevationMeters" : 79.9,
+    "minimumElevationMeters" : 2.3
+  }
+}

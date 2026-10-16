@@ -90,6 +90,22 @@ do {
         properties["osmRelationVersion"] = String(relation.version)
         properties["osmRelationEdited"] = relation.edited
         properties["osmTimestamp"] = relation.timestamp
+    case .osmGraph(let settings):
+        let waypoints = try GeoJSON.readWaypoints(Data(contentsOf: files.waypoints))
+        log("downloading OSM ways within \(Int(settings.corridorMeters)) m of \(waypoints.count) waypoints")
+        let corridor = try await OSMData.corridor(around: waypoints.map(\.location), settings: settings)
+        log("  \(corridor.ways.count) ways from \(corridor.source)")
+        let routed = try RouteGraph.route(
+            through: waypoints, ways: corridor.ways, nodes: corridor.nodes, settings: settings)
+        line = routed.line
+        log("  routed \(Int(routed.lengthMeters)) m over \(routed.wayIDs.count) ways")
+        let versions = Dictionary(corridor.ways.map { ($0.id, $0.version) }, uniquingKeysWith: { a, _ in a })
+        properties["router"] = "osmGraph"
+        properties["osmSource"] = corridor.source
+        properties["osmTimestamp"] = corridor.timestamp
+        properties["osmWays"] = routed.wayIDs.map { id in "\(id)v\(versions[id].flatMap { $0 }.map(String.init) ?? "?")"
+        }
+        .joined(separator: " ")
     }
     // The route is rounded once, here, by encoding; everything downstream uses the stored (decoded) points.
     let routeFile = RouteFile(line: line, properties: properties)

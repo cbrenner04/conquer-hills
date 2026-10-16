@@ -28,6 +28,9 @@ public struct CourseConfig: Codable, Equatable, Sendable {
         case waypoints(routerBaseURL: String)
         /// An OpenStreetMap route relation; its member ways are chained into one line starting near `start`.
         case osmRelation(id: Int, start: Coordinate)
+        /// Hand-picked waypoints (`waypoints.geojson`) routed by `RouteGraph` over OSM ways fetched around them,
+        /// ignoring one-way and access tags. For courses no public router traces.
+        case osmGraph(OSMGraphSettings)
 
         private enum CodingKeys: String, CodingKey { case kind, routerBaseURL, relationId, start }
 
@@ -40,6 +43,8 @@ public struct CourseConfig: Codable, Equatable, Sendable {
                 self = .osmRelation(
                     id: try container.decode(Int.self, forKey: .relationId),
                     start: try container.decode(Coordinate.self, forKey: .start))
+            case "osmGraph":
+                self = .osmGraph(try OSMGraphSettings(from: decoder))
             case let other:
                 throw DecodingError.dataCorruptedError(
                     forKey: .kind, in: container, debugDescription: "unknown route kind \(other)")
@@ -56,7 +61,51 @@ public struct CourseConfig: Codable, Equatable, Sendable {
                 try container.encode("osmRelation", forKey: .kind)
                 try container.encode(id, forKey: .relationId)
                 try container.encode(start, forKey: .start)
+            case .osmGraph(let settings):
+                try container.encode("osmGraph", forKey: .kind)
+                try settings.encode(to: encoder)
             }
+        }
+    }
+
+    /// Settings for an `osmGraph` route, written next to `kind` in the config's `route` object.
+    public struct OSMGraphSettings: Codable, Equatable, Sendable {
+        /// Ways within this distance of the line through the waypoints are downloaded. Waypoints must be close
+        /// enough together that the course stays inside it.
+        public var corridorMeters: Double
+        /// OSM `highway` values the route may use; nil means `RouteGraph.defaultHighways` (roads). Add `path`,
+        /// `track`, `footway` or `cycleway` for trails and greenways. Sidewalks and crossings are never used.
+        public var highways: [String]?
+        /// Ways used whatever their tags, e.g. a city wall that isn't a `highway`.
+        public var includeWays: [Int]
+        /// Ways never used: the deck or carriageway the course doesn't take where roads are stacked or parallel.
+        public var avoidWays: [Int]
+        /// Ways that cost half their length, so the route takes them over a parallel alternative.
+        public var preferWays: [Int]
+
+        public init(
+            corridorMeters: Double = 200, highways: [String]? = nil, includeWays: [Int] = [], avoidWays: [Int] = [],
+            preferWays: [Int] = []
+        ) {
+            self.corridorMeters = corridorMeters
+            self.highways = highways
+            self.includeWays = includeWays
+            self.avoidWays = avoidWays
+            self.preferWays = preferWays
+        }
+
+        private enum CodingKeys: String, CodingKey {
+            case corridorMeters, highways, includeWays, avoidWays, preferWays
+        }
+
+        public init(from decoder: any Decoder) throws {
+            let container = try decoder.container(keyedBy: CodingKeys.self)
+            self.init(
+                corridorMeters: try container.decodeIfPresent(Double.self, forKey: .corridorMeters) ?? 200,
+                highways: try container.decodeIfPresent([String].self, forKey: .highways),
+                includeWays: try container.decodeIfPresent([Int].self, forKey: .includeWays) ?? [],
+                avoidWays: try container.decodeIfPresent([Int].self, forKey: .avoidWays) ?? [],
+                preferWays: try container.decodeIfPresent([Int].self, forKey: .preferWays) ?? [])
         }
     }
 

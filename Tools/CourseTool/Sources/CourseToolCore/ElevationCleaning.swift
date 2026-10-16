@@ -6,6 +6,8 @@ public enum SuspectReason: Equatable, Sendable, CustomStringConvertible {
     case untrustedSource(String)
     case structure(wayID: Int, kind: String, name: String?)
     case manual(String)
+    /// Replaced by an authored profile (`profiles.json`), not interpolated.
+    case profile(String)
 
     public var description: String {
         switch self {
@@ -13,6 +15,7 @@ public enum SuspectReason: Equatable, Sendable, CustomStringConvertible {
         case .untrustedSource(let source): "source \(source)"
         case .structure(let id, let kind, let name): "\(kind) \(name ?? "") (OSM way \(id))"
         case .manual(let reason): "manual: \(reason)"
+        case .profile(let name): "profile: \(name)"
         }
     }
 }
@@ -38,6 +41,8 @@ public struct CleanedElevation: Equatable, Sendable {
     public var reasons: [SuspectReason?]
     public var spans: [InterpolatedSpan]
     public var steepSteps: [SteepStep]
+    /// Stretches set from authored profiles instead of measured data.
+    public var profileSpans: [ProfileSpan] = []
 }
 
 public enum ElevationCleaning {
@@ -74,23 +79,26 @@ public enum ElevationCleaning {
     }
 
     /// Replaces suspect samples by linear interpolation between the nearest trusted samples. Suspect runs at the
-    /// start or end take the nearest trusted value.
+    /// start or end take the nearest trusted value. Samples in `fixed` (from profiles) take that value and count as
+    /// trusted.
     public static func clean(
         samples: [ElevationSamplesFile.Sample], distances: [Double], reasons: [SuspectReason?],
-        steepStepPercent: Double
+        fixed: [Int: Double] = [:], steepStepPercent: Double
     ) throws -> CleanedElevation {
-        let trusted = samples.indices.filter { reasons[$0] == nil }
-        guard !trusted.isEmpty else { throw PipelineError("no trusted elevation samples") }
-        var cleaned = samples.map { $0.elevationMeters ?? 0 }
+        func suspect(_ k: Int) -> Bool { reasons[k] != nil && fixed[k] == nil }
+        guard samples.indices.contains(where: { !suspect($0) }) else {
+            throw PipelineError("no trusted elevation samples")
+        }
+        var cleaned = samples.indices.map { fixed[$0] ?? samples[$0].elevationMeters ?? 0 }
         var spans: [InterpolatedSpan] = []
         var i = 0
         while i < samples.count {
-            guard reasons[i] != nil else {
+            guard suspect(i) else {
                 i += 1
                 continue
             }
             var j = i
-            while j + 1 < samples.count && reasons[j + 1] != nil { j += 1 }
+            while j + 1 < samples.count && suspect(j + 1) { j += 1 }
             let left = i > 0 ? i - 1 : nil
             let right = j + 1 < samples.count ? j + 1 : nil
             for k in i...j {
@@ -99,7 +107,7 @@ public enum ElevationCleaning {
                     let t = (distances[k] - distances[l]) / (distances[r] - distances[l])
                     cleaned[k] = cleaned[l] + t * (cleaned[r] - cleaned[l])
                 case (let l?, nil): cleaned[k] = cleaned[l]
-                case (nil, let r?): cleaned[k] = samples[r].elevationMeters!
+                case (nil, let r?): cleaned[k] = cleaned[r]
                 case (nil, nil): break
                 }
             }

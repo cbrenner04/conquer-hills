@@ -63,6 +63,7 @@ public enum ReviewReport {
             <span><i class="swatch" style="background:repeating-linear-gradient(90deg,#888 0 4px,transparent 4px 8px)"></i>router output</span>\
             <span><i class="swatch" style="background:#ff9800;height:6px"></i>bridge / tunnel (elevation interpolated)</span>\
             <span><i class="swatch" style="background:#e53935;height:6px"></i>other interpolated samples</span>\
+            \(result.cleaned.profileSpans.isEmpty ? "" : "<span><i class=\"swatch\" style=\"background:#00acc1;height:6px\"></i>deck profile (authored elevations)</span>")\
             <span>● checkpoints: green = calibration anchor, blue = checked only · grey dots: waypoints · labels every 5 km. Toggle layers top right.</span></p>
             """
 
@@ -71,7 +72,8 @@ public enum ReviewReport {
             <p class="legend"><span><i class="swatch" style="background:#bbb"></i>measured</span>\
             <span><i class="swatch" style="background:#ef6c00"></i>cleaned</span>\
             <span><i class="swatch" style="background:#1565c0"></i>smoothed (used)</span>\
-            <span><i class="swatch" style="background:#ffcdd2"></i>interpolated span</span></p>
+            <span><i class="swatch" style="background:#ffcdd2"></i>interpolated span</span>\
+            \(result.cleaned.profileSpans.isEmpty ? "" : "<span><i class=\"swatch\" style=\"background:#b2ebf2\"></i>deck profile (dots: control points)</span>")</p>
             """
         html +=
             "<h2>Incline</h2>\n" + inclineChart(result, treadmill0: treadmill0, treadmill1: treadmill1, total: total)
@@ -135,6 +137,23 @@ public enum ReviewReport {
                 + "<td>\(escape(span.reasons.joined(separator: "; ")))</td></tr>\n"
         }
         html += "</table>\n"
+        if !result.cleaned.profileSpans.isEmpty {
+            html +=
+                "<h2>Deck profiles</h2>\n<p>Elevations set from authored control points (<code>profiles.json</code>) "
+                + "instead of measured data.</p>\n<table><tr><th>Structure</th><th>From km</th><th>To km</th>"
+                + "<th>Points</th><th>Ends → crest</th><th>Source</th></tr>\n"
+            for span in result.cleaned.profileSpans {
+                let elevations = span.controlPoints.map(\.elevationMeters)
+                html +=
+                    "<tr><td>\(escape(span.name))</td>"
+                    + "<td class=\"num\">\(format(span.startMeters / 1000, "%.3f"))</td>"
+                    + "<td class=\"num\">\(format(span.endMeters / 1000, "%.3f"))</td>"
+                    + "<td class=\"num\">\(span.controlPoints.count)</td>"
+                    + "<td class=\"num\">\(format(elevations.first ?? 0, "%.1f")) / \(format(elevations.last ?? 0, "%.1f"))"
+                    + " → \(format(elevations.max() ?? 0, "%.1f")) m</td><td>\(escape(span.source))</td></tr>\n"
+            }
+            html += "</table>\n"
+        }
         if !result.cleaned.steepSteps.isEmpty {
             html += "<h2>Steep 10 m steps after cleaning</h2>\n<table><tr><th>At km</th><th>Grade</th></tr>\n"
             for step in result.cleaned.steepSteps {
@@ -177,12 +196,22 @@ public enum ReviewReport {
                 + "width=\"\(f(max(1, x(span.endMeters) - x(span.startMeters))))\" "
                 + "height=\"\(f(height - pad.top - pad.bottom))\" fill=\"#ffcdd2\"/>\n"
         }
+        for span in result.cleaned.profileSpans {
+            svg +=
+                "<rect x=\"\(f(x(span.startMeters)))\" y=\"\(f(pad.top))\" "
+                + "width=\"\(f(max(1, x(span.endMeters) - x(span.startMeters))))\" "
+                + "height=\"\(f(height - pad.top - pad.bottom))\" fill=\"#b2ebf2\"><title>\(escape(span.name))</title></rect>\n"
+        }
         svg += axes(width: width, height: height, pad: pad, total: total, lo: lo, hi: hi, unit: "m", x: x, y: y)
         let d = result.cleaned.distances
         svg += polyline(
             zip(d, result.cleaned.measured).compactMap { distance, e in e.map { (x(distance), y($0)) } }, "#bbb", 1)
         svg += polyline(zip(d, result.cleaned.cleaned).map { (x($0), y($1)) }, "#ef6c00", 1)
         svg += polyline(zip(result.smoothed.distances, result.smoothed.elevations).map { (x($0), y($1)) }, "#1565c0", 2)
+        for point in result.cleaned.profileSpans.flatMap(\.controlPoints) {
+            svg +=
+                "<circle cx=\"\(f(x(point.meters)))\" cy=\"\(f(y(point.elevationMeters)))\" r=\"2\" fill=\"#00838f\"/>\n"
+        }
         for point in result.located {
             let px = f(x(point.checkpoint.officialMeters))
             svg +=
@@ -287,7 +316,13 @@ public enum ReviewReport {
             return result
         }
         let structureRuns = runs { if case .structure = $0 { true } else { false } }
-        let otherRuns = runs { if case .structure = $0 { false } else { true } }
+        let profileRuns = runs { if case .profile = $0 { true } else { false } }
+        let otherRuns = runs {
+            switch $0 {
+            case .structure, .profile: false
+            default: true
+            }
+        }
 
         // Labels every 5 km, at halfway, and at the finish, placed at the calibrated distance.
         let distances = result.cleaned.distances
@@ -332,11 +367,14 @@ public enum ReviewReport {
               .map(r => L.polyline(r, {color: '#ff9800', weight: 10, opacity: 0.9})));
             const other = L.layerGroup([\(otherRuns.joined(separator: ","))]
               .map(r => L.polyline(r, {color: '#e53935', weight: 10, opacity: 0.9})));
+            const profiles = L.layerGroup([\(profileRuns.joined(separator: ","))]
+              .map(r => L.polyline(r, {color: '#00acc1', weight: 10, opacity: 0.9})));
             const routeLine = \(json(course.map(\.location)));
             L.polyline(routeLine, {color: '#fff', weight: 11, opacity: 1}).addTo(map);
             const route = L.polyline(routeLine, {color: '#d500f9', weight: 6, opacity: 1}).addTo(map);
             structures.addTo(map);
             other.addTo(map);
+            profiles.addTo(map);
             const waypoints = L.layerGroup([\(waypoints)].map(w =>
               L.circleMarker([w[0], w[1]], {radius: 3, color: '#555', weight: 1, fillOpacity: 0.8}).bindTooltip(w[2])));
             const checkpoints = L.layerGroup([\(checkpoints)].map(c =>
@@ -348,7 +386,8 @@ public enum ReviewReport {
             L.marker([\(f(finish.latitude, 6)), \(f(finish.longitude, 6))], {icon: L.divIcon({className: 'end-label', html: 'FINISH', iconSize: null})}).addTo(map);
             L.control.layers(null, {
               'Router output (raw line)': raw, 'Waypoints': waypoints, 'Checkpoints': checkpoints,
-              'Bridges & tunnels': structures, 'Other interpolated samples': other, 'km labels': labels,
+              'Bridges & tunnels': structures, 'Other interpolated samples': other, 'Deck profiles': profiles,
+              'km labels': labels,
             }, {collapsed: false}).addTo(map);
             map.fitBounds(route.getBounds());
             </script>
