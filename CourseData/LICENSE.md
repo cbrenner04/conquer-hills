@@ -26,15 +26,15 @@ The data is used under the GSI content terms (Public Data License 1.0, compatibl
 
 Affected files: `tokyo-marathon-2027/elevation-samples.json` and `App/Resources/Courses/tokyo-marathon-2027.course.json`.
 
-## U.S. Geological Survey: elevation (Boston)
+## U.S. Geological Survey: elevation (Boston, Big Sur)
 
 > Map services and data available from U.S. Geological Survey, National Geospatial Program. Elevation: U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs), processed by Conquer Hills.
 
 3DEP data is in the public domain ("free and in the public domain. There are no restrictions"; https://www.usgs.gov/faqs/what-are-terms-uselicensing-map-services-and-data-national-map). The acknowledgement above is the one USGS requests. The values were processed (interpolated across bridges, smoothed, and converted to grades). Nothing here implies USGS endorsement.
 
-Affected files: `boston-marathon-2027/elevation-samples.json` and `App/Resources/Courses/boston-marathon-2027.course.json`.
+Affected files: `boston-marathon-2027/elevation-samples.json`, `big-sur-marathon-2027/elevation-samples.json`, and the matching `App/Resources/Courses/<id>.course.json` files.
 
-Distances for Boston are calibrated to a few street-corner mileages published on the course's USATF certification (MA21002JK), stored as our own data points in `config.json`; no part of the certificate is reproduced.
+Distances for Boston are calibrated to a few street-corner mileages published on the course's USATF certification (MA21002JK), stored as our own data points in `config.json`; no part of the certificate is reproduced. Big Sur is calibrated the same way to its USATF certification (CA23018DT).
 
 ## In the app
 

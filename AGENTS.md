@@ -52,7 +52,8 @@ App/Sources/                 SwiftUI app target: thin UI layer only (screens, Ru
 AppUITests/                  local UI walkthrough with screenshots (`make ui-test`; not in CI)
 App/Resources/               asset catalog
 App/Resources/Courses/       bundled course files (<id>.course.json); see docs/course-format.md
-docs/                        reference docs (course-format.md: the course file schema)
+docs/                        reference docs (course-format.md: the course file schema; course-rechecks.md: when
+                             to re-check each bundled course against the next official map)
 .github/workflows/ci.yml     CI: runs `make check` on PRs and pushes to main
 Tools/                       developer scripts (e.g. make-app-icon.swift regenerates the app icon)
 Tools/CourseTool/            Swift package: course-tool, the offline course data pipeline (+ tests)
@@ -80,7 +81,7 @@ Real courses are generated offline by `course-tool` from public data and committ
 
 ```
 waypoints.geojson ─route─▶ route.json + osm-structures.json ─elevation─▶ elevation-samples.json ─build─▶ <id>.course.json
- (or an OSM relation)        (OSRM pedestrian router, Overpass)  (GSI / USGS, ~1 req/s, resumable)   (offline) + review report
+ (or an OSM relation)        (OSRM router, Overpass)             (GSI / USGS, ~1 req/s, resumable)   (offline) + review report
 ```
 
 - `make course-route ID=<id>` and `make course-elevation ID=<id>` use the network and write their results into `CourseData/<id>/`. Elevation fetching is slow (about 1 sample per second; a marathon is ~70 minutes) and resumes where it stopped.
@@ -114,9 +115,10 @@ waypoints.geojson ─route─▶ route.json + osm-structures.json ─elevation�
 ### Adding a course
 
 1. Write `CourseData/<id>/config.json`, copying an existing one: sources and attribution, route source (`waypoints` + router, or `osmRelation` + start point), elevation provider and trusted source labels, checkpoints (marking exact features as anchors), processing parameters, curated segments, and acceptance checks.
-2. For a `waypoints` route, add `waypoints.geojson`: ordered points on the course's streets. Run `make course-route ID=<id>` and iterate until every stretch between checkpoints is within tolerance. Check the map in the report.
+2. For a `waypoints` route, add `waypoints.geojson`: ordered points on the course's streets, and set `routerBaseURL` to an OSRM-compatible router. The profile is per course: `routed-foot` for city courses; `routed-car` where the foot profile leaves the race road (Big Sur's Highway 1, where it detours onto the Old Coast Road). Run `make course-route ID=<id>` and iterate until every stretch between checkpoints is within tolerance. Check the map in the report.
 3. Run `make course-elevation ID=<id>`, then `make course-build ID=<id>`. Review the report (`make course-report ID=<id>`) with the owner before merging. Set `source.verified` only after the owner has compared the route with the official map.
-4. A new elevation provider implements `ElevationProvider` (`Tools/CourseTool/Sources/course-tool/Network.swift`) and reports a per-sample source label.
+4. Add the course to [docs/course-rechecks.md](docs/course-rechecks.md): the edition modelled, the next race, when its next official course information appears, and what could change.
+5. A new elevation provider implements `ElevationProvider` (`Tools/CourseTool/Sources/course-tool/Network.swift`) and reports a per-sample source label.
 
 ## Workout engine
 
