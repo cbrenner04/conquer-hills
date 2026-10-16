@@ -8,28 +8,34 @@ public struct BuildInputs: Sendable {
     public var structures: StructuresFile
     public var route: [Coordinate]
     public var waypoints: [NamedPoint]
+    /// Authored deck profiles (`profiles.json`), if the course has any.
+    public var profiles: [ProfilesFile.Profile]
 
     public init(
         config: CourseConfig, samples: ElevationSamplesFile, structures: StructuresFile, route: [Coordinate],
-        waypoints: [NamedPoint]
+        waypoints: [NamedPoint], profiles: [ProfilesFile.Profile] = []
     ) {
         self.config = config
         self.samples = samples
         self.structures = structures
         self.route = route
         self.waypoints = waypoints
+        self.profiles = profiles
     }
 
     public static func load(from files: CourseDataFiles, config: CourseConfig) throws -> BuildInputs {
         let waypoints =
             FileManager.default.fileExists(atPath: files.waypoints.path)
             ? try GeoJSON.readWaypoints(Data(contentsOf: files.waypoints)) : []
+        let profiles =
+            FileManager.default.fileExists(atPath: files.profiles.path)
+            ? try PipelineJSON.decode(ProfilesFile.self, from: files.profiles).profiles : []
         return BuildInputs(
             config: config,
             samples: try PipelineJSON.decode(ElevationSamplesFile.self, from: files.elevationSamples),
             structures: try PipelineJSON.decode(StructuresFile.self, from: files.structures),
             route: try PipelineJSON.decode(RouteFile.self, from: files.route).line,
-            waypoints: waypoints)
+            waypoints: waypoints, profiles: profiles)
     }
 }
 
@@ -110,12 +116,28 @@ public enum CourseBuilder {
         let samples = allSamples.filter { $0.distanceMeters <= calibration.rawEnd + 1e-6 }
         let distances = samples.map { roundTo(calibration.official(forRaw: $0.distanceMeters), places: 3) }
 
-        // 2. Clean: interpolate bridges, tunnels, untrusted sources and manual spans.
-        let reasons = ElevationCleaning.suspectReasons(
+        // 2. Clean: interpolate bridges, tunnels, untrusted sources and manual spans; then set profiled structures
+        // from their control points, which take precedence.
+        var reasons = ElevationCleaning.suspectReasons(
             samples: samples, distances: distances, trustedSources: config.elevation.trustedSources,
             structures: inputs.structures.spans, manualSpans: config.manualSpans)
-        let cleaned = try ElevationCleaning.clean(
+        var cleaned = try ElevationCleaning.clean(
             samples: samples, distances: distances, reasons: reasons, steepStepPercent: settings.steepStepPercent)
+        if !inputs.profiles.isEmpty {
+            let located = try DeckProfiles.locate(inputs.profiles, samples: samples)
+            let (fixed, profileSpans) = try DeckProfiles.resolve(
+                inputs.profiles, located: located, rawDistances: samples.map(\.distanceMeters), base: cleaned.cleaned,
+                official: { roundTo(calibration.official(forRaw: $0), places: 3) })
+            for span in profileSpans {
+                for i in distances.indices where distances[i] >= span.startMeters && distances[i] <= span.endMeters {
+                    reasons[i] = .profile(span.name)
+                }
+            }
+            cleaned = try ElevationCleaning.clean(
+                samples: samples, distances: distances, reasons: reasons, fixed: fixed,
+                steepStepPercent: settings.steepStepPercent)
+            cleaned.profileSpans = profileSpans
+        }
 
         // 3. Smooth, then 4. turn grade into incline intervals.
         let smoothed = ElevationSeries(distances: distances, elevations: cleaned.cleaned)
@@ -174,7 +196,7 @@ public enum CourseBuilder {
         let scales = calibration.sectionScales.map {
             String(format: "%.0f-%.0f:%.4f", $0.fromOfficial, $0.toOfficial, $0.scale)
         }
-        return [
+        var parameters = [
             "routeSmoothingMeters": number(p.routeSmoothingMeters),
             "sampleSpacingMeters": number(p.sampleSpacingMeters),
             "smoothingWindowMeters": number(p.smoothingWindowMeters),
@@ -185,6 +207,10 @@ public enum CourseBuilder {
             "osmStructuresTimestamp": inputs.structures.osmTimestamp,
             "calibrationScales": scales.joined(separator: " "),
         ]
+        if !inputs.profiles.isEmpty {
+            parameters["deckProfiles"] = inputs.profiles.map(\.name).joined(separator: "; ")
+        }
+        return parameters
     }
 }
 

@@ -1,0 +1,1129 @@
+{
+  "profiles": [
+    {
+      "method": "Medians of lidar returns within 3 m of the OSM centreline of the Brooklyn-bound upper roadway in 5 m bins, tracked as one surface; the 2017 survey (class 17 on the deck, class 2 on the approaches) everywhere except the suspended main span between the towers, where the 2014 survey fills the 2017 data gap; points kept every <=50 m and wherever a straight line would miss the profile by more than 0.1 m.",
+      "name": "Verrazzano-Narrows Bridge (upper level)",
+      "points": [
+        {
+          "elevationMeters": 34.5,
+          "latitude": 40.601792,
+          "longitude": -74.0613316
+        },
+        {
+          "elevationMeters": 35.7,
+          "latitude": 40.6017674,
+          "longitude": -74.0609193
+        },
+        {
+          "elevationMeters": 37.3,
+          "latitude": 40.6017589,
+          "longitude": -74.0604467
+        },
+        {
+          "elevationMeters": 39.2,
+          "latitude": 40.6017739,
+          "longitude": -74.0599154
+        },
+        {
+          "elevationMeters": 40.9,
+          "latitude": 40.6018304,
+          "longitude": -74.0593893
+        },
+        {
+          "elevationMeters": 42.7,
+          "latitude": 40.60194,
+          "longitude": -74.0588778
+        },
+        {
+          "elevationMeters": 43.7,
+          "latitude": 40.6020422,
+          "longitude": -74.0585498
+        },
+        {
+          "elevationMeters": 44.6,
+          "latitude": 40.6021484,
+          "longitude": -74.0582238
+        },
+        {
+          "elevationMeters": 45.7,
+          "latitude": 40.6022723,
+          "longitude": -74.0578434
+        },
+        {
+          "elevationMeters": 46.8,
+          "latitude": 40.6023785,
+          "longitude": -74.0575173
+        },
+        {
+          "elevationMeters": 48.6,
+          "latitude": 40.6025378,
+          "longitude": -74.0570283
+        },
+        {
+          "elevationMeters": 50.4,
+          "latitude": 40.6026971,
+          "longitude": -74.0565392
+        },
+        {
+          "elevationMeters": 52.1,
+          "latitude": 40.6028558,
+          "longitude": -74.0560498
+        },
+        {
+          "elevationMeters": 53.8,
+          "latitude": 40.6030144,
+          "longitude": -74.0555604
+        },
+        {
+          "elevationMeters": 55.6,
+          "latitude": 40.6031729,
+          "longitude": -74.0550709
+        },
+        {
+          "elevationMeters": 57.4,
+          "latitude": 40.6033314,
+          "longitude": -74.0545814
+        },
+        {
+          "elevationMeters": 59.2,
+          "latitude": 40.60349,
+          "longitude": -74.0540919
+        },
+        {
+          "elevationMeters": 60.8,
+          "latitude": 40.6036309,
+          "longitude": -74.0536568
+        },
+        {
+          "elevationMeters": 62.5,
+          "latitude": 40.6037718,
+          "longitude": -74.0532217
+        },
+        {
+          "elevationMeters": 64.2,
+          "latitude": 40.6039127,
+          "longitude": -74.0527866
+        },
+        {
+          "elevationMeters": 65.9,
+          "latitude": 40.6040536,
+          "longitude": -74.0523515
+        },
+        {
+          "elevationMeters": 66.8,
+          "latitude": 40.6041593,
+          "longitude": -74.0520251
+        },
+        {
+          "elevationMeters": 67.9,
+          "latitude": 40.6042826,
+          "longitude": -74.0516444
+        },
+        {
+          "elevationMeters": 69.4,
+          "latitude": 40.6044232,
+          "longitude": -74.0512091
+        },
+        {
+          "elevationMeters": 71.0,
+          "latitude": 40.6045813,
+          "longitude": -74.0507194
+        },
+        {
+          "elevationMeters": 72.4,
+          "latitude": 40.6047219,
+          "longitude": -74.0502841
+        },
+        {
+          "elevationMeters": 74.1,
+          "latitude": 40.6048976,
+          "longitude": -74.0497399
+        },
+        {
+          "elevationMeters": 75.2,
+          "latitude": 40.6050381,
+          "longitude": -74.0493046
+        },
+        {
+          "elevationMeters": 76.3,
+          "latitude": 40.6051786,
+          "longitude": -74.0488693
+        },
+        {
+          "elevationMeters": 77.2,
+          "latitude": 40.6053367,
+          "longitude": -74.0483795
+        },
+        {
+          "elevationMeters": 78.1,
+          "latitude": 40.6054948,
+          "longitude": -74.0478898
+        },
+        {
+          "elevationMeters": 78.4,
+          "latitude": 40.6055827,
+          "longitude": -74.0476177
+        },
+        {
+          "elevationMeters": 78.8,
+          "latitude": 40.6056881,
+          "longitude": -74.0472912
+        },
+        {
+          "elevationMeters": 79.2,
+          "latitude": 40.6057935,
+          "longitude": -74.0469647
+        },
+        {
+          "elevationMeters": 79.6,
+          "latitude": 40.6059164,
+          "longitude": -74.0465838
+        },
+        {
+          "elevationMeters": 79.7,
+          "latitude": 40.6060218,
+          "longitude": -74.0462573
+        },
+        {
+          "elevationMeters": 79.9,
+          "latitude": 40.606057,
+          "longitude": -74.0461485
+        },
+        {
+          "elevationMeters": 79.9,
+          "latitude": 40.6061799,
+          "longitude": -74.0457675
+        },
+        {
+          "elevationMeters": 80.0,
+          "latitude": 40.6063204,
+          "longitude": -74.0453322
+        },
+        {
+          "elevationMeters": 79.9,
+          "latitude": 40.6064083,
+          "longitude": -74.0450601
+        },
+        {
+          "elevationMeters": 79.8,
+          "latitude": 40.6065137,
+          "longitude": -74.0447336
+        },
+        {
+          "elevationMeters": 79.5,
+          "latitude": 40.6066542,
+          "longitude": -74.0442983
+        },
+        {
+          "elevationMeters": 79.1,
+          "latitude": 40.6067947,
+          "longitude": -74.0438629
+        },
+        {
+          "elevationMeters": 78.6,
+          "latitude": 40.6069528,
+          "longitude": -74.0433731
+        },
+        {
+          "elevationMeters": 78.1,
+          "latitude": 40.6070582,
+          "longitude": -74.0430466
+        },
+        {
+          "elevationMeters": 77.5,
+          "latitude": 40.6071811,
+          "longitude": -74.0426657
+        },
+        {
+          "elevationMeters": 76.9,
+          "latitude": 40.6072865,
+          "longitude": -74.0423392
+        },
+        {
+          "elevationMeters": 76.3,
+          "latitude": 40.6073919,
+          "longitude": -74.0420127
+        },
+        {
+          "elevationMeters": 75.5,
+          "latitude": 40.6074973,
+          "longitude": -74.0416861
+        },
+        {
+          "elevationMeters": 74.7,
+          "latitude": 40.6076026,
+          "longitude": -74.0413596
+        },
+        {
+          "elevationMeters": 73.8,
+          "latitude": 40.607708,
+          "longitude": -74.0410331
+        },
+        {
+          "elevationMeters": 72.8,
+          "latitude": 40.6078134,
+          "longitude": -74.0407066
+        },
+        {
+          "elevationMeters": 71.2,
+          "latitude": 40.6079715,
+          "longitude": -74.0402168
+        },
+        {
+          "elevationMeters": 69.7,
+          "latitude": 40.6081295,
+          "longitude": -74.039727
+        },
+        {
+          "elevationMeters": 68.1,
+          "latitude": 40.6082876,
+          "longitude": -74.0392372
+        },
+        {
+          "elevationMeters": 66.5,
+          "latitude": 40.6084457,
+          "longitude": -74.0387475
+        },
+        {
+          "elevationMeters": 65.6,
+          "latitude": 40.608551,
+          "longitude": -74.0384209
+        },
+        {
+          "elevationMeters": 63.9,
+          "latitude": 40.6086915,
+          "longitude": -74.0379856
+        },
+        {
+          "elevationMeters": 62.1,
+          "latitude": 40.608832,
+          "longitude": -74.0375502
+        },
+        {
+          "elevationMeters": 60.3,
+          "latitude": 40.6089901,
+          "longitude": -74.0370604
+        },
+        {
+          "elevationMeters": 58.7,
+          "latitude": 40.6091306,
+          "longitude": -74.036625
+        },
+        {
+          "elevationMeters": 56.9,
+          "latitude": 40.6092886,
+          "longitude": -74.0361352
+        },
+        {
+          "elevationMeters": 54.9,
+          "latitude": 40.6094642,
+          "longitude": -74.035591
+        },
+        {
+          "elevationMeters": 53.0,
+          "latitude": 40.6096398,
+          "longitude": -74.0350468
+        },
+        {
+          "elevationMeters": 51.2,
+          "latitude": 40.6098154,
+          "longitude": -74.0345025
+        },
+        {
+          "elevationMeters": 49.1,
+          "latitude": 40.6099826,
+          "longitude": -74.0339538
+        },
+        {
+          "elevationMeters": 47.4,
+          "latitude": 40.6101305,
+          "longitude": -74.0334585
+        },
+        {
+          "elevationMeters": 45.4,
+          "latitude": 40.6102948,
+          "longitude": -74.0329083
+        },
+        {
+          "elevationMeters": 43.4,
+          "latitude": 40.6104591,
+          "longitude": -74.032358
+        },
+        {
+          "elevationMeters": 41.6,
+          "latitude": 40.6106076,
+          "longitude": -74.0318631
+        },
+        {
+          "elevationMeters": 39.9,
+          "latitude": 40.610761,
+          "longitude": -74.0313708
+        },
+        {
+          "elevationMeters": 38.2,
+          "latitude": 40.6109454,
+          "longitude": -74.0308976
+        },
+        {
+          "elevationMeters": 36.3,
+          "latitude": 40.6111743,
+          "longitude": -74.0304591
+        },
+        {
+          "elevationMeters": 34.2,
+          "latitude": 40.6114636,
+          "longitude": -74.0300065
+        },
+        {
+          "elevationMeters": 32.4,
+          "latitude": 40.6117462,
+          "longitude": -74.0296255
+        },
+        {
+          "elevationMeters": 30.8,
+          "latitude": 40.612024,
+          "longitude": -74.0293249
+        },
+        {
+          "elevationMeters": 28.9,
+          "latitude": 40.6123619,
+          "longitude": -74.0290317
+        },
+        {
+          "elevationMeters": 27.9,
+          "latitude": 40.6125918,
+          "longitude": -74.0288451
+        },
+        {
+          "elevationMeters": 26.6,
+          "latitude": 40.6128612,
+          "longitude": -74.0286302
+        },
+        {
+          "elevationMeters": 24.7,
+          "latitude": 40.6131605,
+          "longitude": -74.0283671
+        },
+        {
+          "elevationMeters": 23.2,
+          "latitude": 40.6134132,
+          "longitude": -74.0281199
+        },
+        {
+          "elevationMeters": 21.5,
+          "latitude": 40.613704,
+          "longitude": -74.0278407
+        },
+        {
+          "elevationMeters": 20.0,
+          "latitude": 40.6139576,
+          "longitude": -74.0275949
+        },
+        {
+          "elevationMeters": 18.4,
+          "latitude": 40.6142015,
+          "longitude": -74.0273329
+        },
+        {
+          "elevationMeters": 16.5,
+          "latitude": 40.6144714,
+          "longitude": -74.0270196
+        },
+        {
+          "elevationMeters": 15.6,
+          "latitude": 40.6146401,
+          "longitude": -74.0268239
+        },
+        {
+          "elevationMeters": 15.3,
+          "latitude": 40.6147762,
+          "longitude": -74.026669
+        },
+        {
+          "elevationMeters": 15.2,
+          "latitude": 40.6149446,
+          "longitude": -74.0264729
+        },
+        {
+          "elevationMeters": 16.2,
+          "latitude": 40.6152813,
+          "longitude": -74.0261847
+        },
+        {
+          "elevationMeters": 17.2,
+          "latitude": 40.6156534,
+          "longitude": -74.025974
+        },
+        {
+          "elevationMeters": 18.4,
+          "latitude": 40.6160245,
+          "longitude": -74.0257601
+        },
+        {
+          "elevationMeters": 18.9,
+          "latitude": 40.6162865,
+          "longitude": -74.0261915
+        },
+        {
+          "elevationMeters": 19.3,
+          "latitude": 40.6165321,
+          "longitude": -74.0266869
+        }
+      ],
+      "source": "2017 NYC Topobathymetric Lidar (NYC OTI, NOAA Digital Coast 9306), class 17 bridge decks; USGS 2014 NYC lidar for the main span"
+    },
+    {
+      "method": "Medians of 2017 lidar returns within 2.5 m of the OSM centreline of the southbound roadway (run northbound) in 5 m bins, tracked as one surface; points kept every <=50 m and wherever a straight line would miss the profile by more than 0.1 m.",
+      "name": "Pulaski Bridge",
+      "points": [
+        {
+          "elevationMeters": 6.1,
+          "latitude": 40.7363995,
+          "longitude": -73.9528294
+        },
+        {
+          "elevationMeters": 8.1,
+          "latitude": 40.7368462,
+          "longitude": -73.9529044
+        },
+        {
+          "elevationMeters": 9.8,
+          "latitude": 40.7372484,
+          "longitude": -73.9529714
+        },
+        {
+          "elevationMeters": 12.0,
+          "latitude": 40.7376957,
+          "longitude": -73.9530396
+        },
+        {
+          "elevationMeters": 13.9,
+          "latitude": 40.7381444,
+          "longitude": -73.9530151
+        },
+        {
+          "elevationMeters": 15.8,
+          "latitude": 40.7385825,
+          "longitude": -73.9528787
+        },
+        {
+          "elevationMeters": 16.3,
+          "latitude": 40.7388007,
+          "longitude": -73.9528054
+        },
+        {
+          "elevationMeters": 16.4,
+          "latitude": 40.7392372,
+          "longitude": -73.9526593
+        },
+        {
+          "elevationMeters": 16.2,
+          "latitude": 40.73963,
+          "longitude": -73.9525282
+        },
+        {
+          "elevationMeters": 16.0,
+          "latitude": 40.7400229,
+          "longitude": -73.9523969
+        },
+        {
+          "elevationMeters": 15.7,
+          "latitude": 40.7404598,
+          "longitude": -73.952253
+        },
+        {
+          "elevationMeters": 15.5,
+          "latitude": 40.7408528,
+          "longitude": -73.9521227
+        },
+        {
+          "elevationMeters": 15.2,
+          "latitude": 40.7410711,
+          "longitude": -73.9520496
+        },
+        {
+          "elevationMeters": 13.5,
+          "latitude": 40.7414639,
+          "longitude": -73.951918
+        },
+        {
+          "elevationMeters": 11.8,
+          "latitude": 40.7418566,
+          "longitude": -73.9517863
+        },
+        {
+          "elevationMeters": 10.1,
+          "latitude": 40.7422494,
+          "longitude": -73.9516547
+        },
+        {
+          "elevationMeters": 8.4,
+          "latitude": 40.7425975,
+          "longitude": -73.9515322
+        },
+        {
+          "elevationMeters": 7.1,
+          "latitude": 40.7428179,
+          "longitude": -73.9514735
+        },
+        {
+          "elevationMeters": 6.4,
+          "latitude": 40.7430417,
+          "longitude": -73.9514409
+        },
+        {
+          "elevationMeters": 6.2,
+          "latitude": 40.7432637,
+          "longitude": -73.9513918
+        },
+        {
+          "elevationMeters": 6.2,
+          "latitude": 40.7433526,
+          "longitude": -73.951373
+        },
+        {
+          "elevationMeters": 5.6,
+          "latitude": 40.743618,
+          "longitude": -73.9513065
+        }
+      ],
+      "source": "2017 NYC Topobathymetric Lidar (NYC OTI, NOAA Digital Coast 9306), class 17 bridge decks"
+    },
+    {
+      "method": "Where the lower roadway is visible (Queens approach, Manhattan ramp) the median of 2017 returns within the course lanes; under the upper deck, the upper-deck surface above the course lanes minus 6.83 m, the median offset of sparse 2017 returns that reach the lower roadway through the deck edge; points kept every <=50 m and wherever a straight line would miss the profile by more than 0.1 m.",
+      "name": "Queensboro (Ed Koch) Bridge (lower level, inner roadway)",
+      "points": [
+        {
+          "elevationMeters": 8.3,
+          "latitude": 40.7509508,
+          "longitude": -73.9409884
+        },
+        {
+          "elevationMeters": 9.7,
+          "latitude": 40.7511764,
+          "longitude": -73.941501
+        },
+        {
+          "elevationMeters": 11.5,
+          "latitude": 40.7513791,
+          "longitude": -73.9419626
+        },
+        {
+          "elevationMeters": 12.9,
+          "latitude": 40.7515554,
+          "longitude": -73.9423758
+        },
+        {
+          "elevationMeters": 14.3,
+          "latitude": 40.7517318,
+          "longitude": -73.9427889
+        },
+        {
+          "elevationMeters": 15.1,
+          "latitude": 40.751842,
+          "longitude": -73.9430471
+        },
+        {
+          "elevationMeters": 16.7,
+          "latitude": 40.7520404,
+          "longitude": -73.9435119
+        },
+        {
+          "elevationMeters": 18.3,
+          "latitude": 40.7522608,
+          "longitude": -73.9440285
+        },
+        {
+          "elevationMeters": 19.8,
+          "latitude": 40.752459,
+          "longitude": -73.9444934
+        },
+        {
+          "elevationMeters": 21.3,
+          "latitude": 40.7526572,
+          "longitude": -73.9449584
+        },
+        {
+          "elevationMeters": 23.1,
+          "latitude": 40.7528775,
+          "longitude": -73.945475
+        },
+        {
+          "elevationMeters": 24.6,
+          "latitude": 40.7530772,
+          "longitude": -73.9459388
+        },
+        {
+          "elevationMeters": 26.2,
+          "latitude": 40.7532782,
+          "longitude": -73.9464016
+        },
+        {
+          "elevationMeters": 27.9,
+          "latitude": 40.7535016,
+          "longitude": -73.946916
+        },
+        {
+          "elevationMeters": 29.4,
+          "latitude": 40.7537026,
+          "longitude": -73.9473788
+        },
+        {
+          "elevationMeters": 30.9,
+          "latitude": 40.7539036,
+          "longitude": -73.9478417
+        },
+        {
+          "elevationMeters": 32.5,
+          "latitude": 40.7541046,
+          "longitude": -73.9483046
+        },
+        {
+          "elevationMeters": 34.1,
+          "latitude": 40.7543279,
+          "longitude": -73.948819
+        },
+        {
+          "elevationMeters": 35.6,
+          "latitude": 40.7545289,
+          "longitude": -73.9492818
+        },
+        {
+          "elevationMeters": 37.1,
+          "latitude": 40.7547301,
+          "longitude": -73.9497446
+        },
+        {
+          "elevationMeters": 38.7,
+          "latitude": 40.7549312,
+          "longitude": -73.9502074
+        },
+        {
+          "elevationMeters": 40.3,
+          "latitude": 40.7551546,
+          "longitude": -73.9507217
+        },
+        {
+          "elevationMeters": 41.8,
+          "latitude": 40.7553557,
+          "longitude": -73.9511845
+        },
+        {
+          "elevationMeters": 42.6,
+          "latitude": 40.7554674,
+          "longitude": -73.9514416
+        },
+        {
+          "elevationMeters": 43.4,
+          "latitude": 40.7556015,
+          "longitude": -73.9517502
+        },
+        {
+          "elevationMeters": 43.6,
+          "latitude": 40.7557132,
+          "longitude": -73.9520073
+        },
+        {
+          "elevationMeters": 43.7,
+          "latitude": 40.7558473,
+          "longitude": -73.9523159
+        },
+        {
+          "elevationMeters": 43.8,
+          "latitude": 40.756026,
+          "longitude": -73.9527273
+        },
+        {
+          "elevationMeters": 43.9,
+          "latitude": 40.7562271,
+          "longitude": -73.9531901
+        },
+        {
+          "elevationMeters": 43.9,
+          "latitude": 40.7564059,
+          "longitude": -73.9536015
+        },
+        {
+          "elevationMeters": 44.0,
+          "latitude": 40.7566069,
+          "longitude": -73.9540644
+        },
+        {
+          "elevationMeters": 44.0,
+          "latitude": 40.756808,
+          "longitude": -73.9545272
+        },
+        {
+          "elevationMeters": 44.0,
+          "latitude": 40.7570091,
+          "longitude": -73.9549901
+        },
+        {
+          "elevationMeters": 43.9,
+          "latitude": 40.7571878,
+          "longitude": -73.9554015
+        },
+        {
+          "elevationMeters": 43.8,
+          "latitude": 40.7573442,
+          "longitude": -73.9557615
+        },
+        {
+          "elevationMeters": 43.8,
+          "latitude": 40.757523,
+          "longitude": -73.9561729
+        },
+        {
+          "elevationMeters": 43.7,
+          "latitude": 40.7577017,
+          "longitude": -73.9565843
+        },
+        {
+          "elevationMeters": 43.4,
+          "latitude": 40.7578804,
+          "longitude": -73.9569958
+        },
+        {
+          "elevationMeters": 42.4,
+          "latitude": 40.7580368,
+          "longitude": -73.9573558
+        },
+        {
+          "elevationMeters": 41.2,
+          "latitude": 40.7582156,
+          "longitude": -73.9577672
+        },
+        {
+          "elevationMeters": 40.1,
+          "latitude": 40.758372,
+          "longitude": -73.9581272
+        },
+        {
+          "elevationMeters": 38.5,
+          "latitude": 40.7585954,
+          "longitude": -73.9586415
+        },
+        {
+          "elevationMeters": 36.9,
+          "latitude": 40.7588188,
+          "longitude": -73.9591558
+        },
+        {
+          "elevationMeters": 35.4,
+          "latitude": 40.7590198,
+          "longitude": -73.9596187
+        },
+        {
+          "elevationMeters": 33.7,
+          "latitude": 40.7592432,
+          "longitude": -73.960133
+        },
+        {
+          "elevationMeters": 32.2,
+          "latitude": 40.759467,
+          "longitude": -73.960647
+        },
+        {
+          "elevationMeters": 31.1,
+          "latitude": 40.7595837,
+          "longitude": -73.9609004
+        },
+        {
+          "elevationMeters": 30.5,
+          "latitude": 40.759677,
+          "longitude": -73.961103
+        },
+        {
+          "elevationMeters": 28.7,
+          "latitude": 40.7599102,
+          "longitude": -73.9616097
+        },
+        {
+          "elevationMeters": 27.2,
+          "latitude": 40.7601161,
+          "longitude": -73.9620689
+        },
+        {
+          "elevationMeters": 25.4,
+          "latitude": 40.760338,
+          "longitude": -73.9625843
+        },
+        {
+          "elevationMeters": 23.6,
+          "latitude": 40.7605601,
+          "longitude": -73.9630996
+        },
+        {
+          "elevationMeters": 22.7,
+          "latitude": 40.7606487,
+          "longitude": -73.9634333
+        },
+        {
+          "elevationMeters": 21.7,
+          "latitude": 40.7606885,
+          "longitude": -73.9637847
+        },
+        {
+          "elevationMeters": 20.6,
+          "latitude": 40.7606681,
+          "longitude": -73.9641353
+        },
+        {
+          "elevationMeters": 20.2,
+          "latitude": 40.7606317,
+          "longitude": -73.9643065
+        },
+        {
+          "elevationMeters": 20.2,
+          "latitude": 40.7605743,
+          "longitude": -73.9642456
+        },
+        {
+          "elevationMeters": 19.3,
+          "latitude": 40.7603982,
+          "longitude": -73.9638322
+        },
+        {
+          "elevationMeters": 18.4,
+          "latitude": 40.7602245,
+          "longitude": -73.963417
+        },
+        {
+          "elevationMeters": 17.8,
+          "latitude": 40.7600773,
+          "longitude": -73.9630504
+        },
+        {
+          "elevationMeters": 17.1,
+          "latitude": 40.7599118,
+          "longitude": -73.9626295
+        },
+        {
+          "elevationMeters": 16.4,
+          "latitude": 40.7597612,
+          "longitude": -73.9622653
+        },
+        {
+          "elevationMeters": 16.2,
+          "latitude": 40.759696,
+          "longitude": -73.9621097
+        },
+        {
+          "elevationMeters": 16.3,
+          "latitude": 40.7596248,
+          "longitude": -73.9619587
+        }
+      ],
+      "source": "2017 NYC Topobathymetric Lidar (NYC OTI, NOAA Digital Coast 9306), class 17 bridge decks (upper deck and the visible ends of the lower level), with the hidden lower roadway derived from the upper deck; USGS 2014 NYC lidar for the upper deck where 2017 has a 75 m void over the west channel"
+    },
+    {
+      "method": "Medians of 2017 lidar returns within 3 m of the OSM centreline in 5 m bins, tracked as one surface, from First Ave over the swing span and the Bronx approach to the junction with E 135th St; points kept every <=50 m and wherever a straight line would miss the profile by more than 0.1 m.",
+      "name": "Willis Avenue Bridge",
+      "points": [
+        {
+          "elevationMeters": 6.8,
+          "latitude": 40.8023808,
+          "longitude": -73.9307243
+        },
+        {
+          "elevationMeters": 8.1,
+          "latitude": 40.8025659,
+          "longitude": -73.9305557
+        },
+        {
+          "elevationMeters": 9.5,
+          "latitude": 40.8027676,
+          "longitude": -73.9303198
+        },
+        {
+          "elevationMeters": 10.4,
+          "latitude": 40.8029438,
+          "longitude": -73.9300504
+        },
+        {
+          "elevationMeters": 10.7,
+          "latitude": 40.8031205,
+          "longitude": -73.929707
+        },
+        {
+          "elevationMeters": 11.1,
+          "latitude": 40.8032745,
+          "longitude": -73.9293454
+        },
+        {
+          "elevationMeters": 11.3,
+          "latitude": 40.8034411,
+          "longitude": -73.9289937
+        },
+        {
+          "elevationMeters": 11.0,
+          "latitude": 40.8036671,
+          "longitude": -73.928551
+        },
+        {
+          "elevationMeters": 10.6,
+          "latitude": 40.8039156,
+          "longitude": -73.9280566
+        },
+        {
+          "elevationMeters": 10.7,
+          "latitude": 40.8040395,
+          "longitude": -73.9278092
+        },
+        {
+          "elevationMeters": 11.3,
+          "latitude": 40.8041881,
+          "longitude": -73.9275121
+        },
+        {
+          "elevationMeters": 12.7,
+          "latitude": 40.8044358,
+          "longitude": -73.9270171
+        },
+        {
+          "elevationMeters": 14.0,
+          "latitude": 40.8046968,
+          "longitude": -73.9265345
+        },
+        {
+          "elevationMeters": 15.4,
+          "latitude": 40.8049635,
+          "longitude": -73.9260572
+        },
+        {
+          "elevationMeters": 15.9,
+          "latitude": 40.8051518,
+          "longitude": -73.9258026
+        },
+        {
+          "elevationMeters": 15.9,
+          "latitude": 40.8053233,
+          "longitude": -73.9256106
+        },
+        {
+          "elevationMeters": 15.5,
+          "latitude": 40.8055081,
+          "longitude": -73.9254413
+        },
+        {
+          "elevationMeters": 14.3,
+          "latitude": 40.80582,
+          "longitude": -73.9252041
+        },
+        {
+          "elevationMeters": 13.2,
+          "latitude": 40.8060955,
+          "longitude": -73.9250024
+        },
+        {
+          "elevationMeters": 12.0,
+          "latitude": 40.8064106,
+          "longitude": -73.9247725
+        },
+        {
+          "elevationMeters": 11.7,
+          "latitude": 40.8065682,
+          "longitude": -73.9246575
+        },
+        {
+          "elevationMeters": 12.0,
+          "latitude": 40.8068432,
+          "longitude": -73.9244548
+        },
+        {
+          "elevationMeters": 12.4,
+          "latitude": 40.8071656,
+          "longitude": -73.9242479
+        }
+      ],
+      "source": "2017 NYC Topobathymetric Lidar (NYC OTI, NOAA Digital Coast 9306), class 17 bridge decks"
+    },
+    {
+      "method": "Medians of 2017 lidar returns within 2.5 m of the OSM centreline in 5 m bins, tracked as one surface, from E 138th St in the Bronx over the bridge and the E 138th St viaduct to Fifth Ave; points kept every <=50 m and wherever a straight line would miss the profile by more than 0.1 m.",
+      "name": "Madison Avenue Bridge",
+      "points": [
+        {
+          "elevationMeters": 7.5,
+          "latitude": 40.8136023,
+          "longitude": -73.9309559
+        },
+        {
+          "elevationMeters": 7.7,
+          "latitude": 40.8137166,
+          "longitude": -73.9312112
+        },
+        {
+          "elevationMeters": 7.7,
+          "latitude": 40.8138521,
+          "longitude": -73.9315189
+        },
+        {
+          "elevationMeters": 7.9,
+          "latitude": 40.8139435,
+          "longitude": -73.9317233
+        },
+        {
+          "elevationMeters": 8.4,
+          "latitude": 40.8140367,
+          "longitude": -73.9319262
+        },
+        {
+          "elevationMeters": 9.3,
+          "latitude": 40.8141409,
+          "longitude": -73.9321874
+        },
+        {
+          "elevationMeters": 9.8,
+          "latitude": 40.8141589,
+          "longitude": -73.9325418
+        },
+        {
+          "elevationMeters": 9.8,
+          "latitude": 40.8141763,
+          "longitude": -73.9331342
+        },
+        {
+          "elevationMeters": 9.8,
+          "latitude": 40.8141918,
+          "longitude": -73.9336673
+        },
+        {
+          "elevationMeters": 9.7,
+          "latitude": 40.8142156,
+          "longitude": -73.9342592
+        },
+        {
+          "elevationMeters": 9.4,
+          "latitude": 40.8142273,
+          "longitude": -73.9344364
+        },
+        {
+          "elevationMeters": 8.9,
+          "latitude": 40.814239,
+          "longitude": -73.9346136
+        },
+        {
+          "elevationMeters": 7.3,
+          "latitude": 40.8143355,
+          "longitude": -73.9350645
+        },
+        {
+          "elevationMeters": 5.4,
+          "latitude": 40.8145335,
+          "longitude": -73.93553
+        },
+        {
+          "elevationMeters": 3.8,
+          "latitude": 40.8147072,
+          "longitude": -73.9359455
+        },
+        {
+          "elevationMeters": 3.3,
+          "latitude": 40.814771,
+          "longitude": -73.9361023
+        }
+      ],
+      "source": "2017 NYC Topobathymetric Lidar (NYC OTI, NOAA Digital Coast 9306), class 17 bridge decks"
+    }
+  ]
+}

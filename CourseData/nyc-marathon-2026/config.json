@@ -1,0 +1,529 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 37,
+      "min": 32,
+      "name": "Start elevation 32–37 m (lidar 34.5 m at the Blue start on the bridge approach; the certificate's 30 m is rounded or for another point)"
+    },
+    {
+      "atMeters": 1600,
+      "kind": "elevationAt",
+      "max": 81,
+      "min": 76,
+      "name": "Verrazzano crest near mile 1: 76–81 m (lidar 79.9 m; certificate highest 79 m)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 81,
+      "name": "Highest point ≤ 81 m (the Verrazzano crest)"
+    },
+    {
+      "fromMeters": 300,
+      "kind": "climb",
+      "min": 3,
+      "name": "Verrazzano side span climbs at ≥ +3%",
+      "toMeters": 1300
+    },
+    {
+      "fromMeters": 1600,
+      "kind": "drop",
+      "max": 58,
+      "min": 45,
+      "name": "Verrazzano crest to 4th Ave drops 45–58 m",
+      "toMeters": 4000
+    },
+    {
+      "fromMeters": 20700,
+      "kind": "climb",
+      "min": 2.5,
+      "name": "Pulaski Bridge (20.7–21.5 km) climbs at ≥ +2.5%",
+      "toMeters": 21500
+    },
+    {
+      "fromMeters": 23500,
+      "kind": "climb",
+      "min": 3,
+      "name": "Queensboro Bridge (23.5–24.8 km) climbs at ≥ +3%",
+      "toMeters": 24800
+    },
+    {
+      "fromMeters": 24900,
+      "kind": "drop",
+      "max": 38,
+      "min": 32,
+      "name": "Queensboro Bridge rise 32–38 m (Queens Plaza to the crest; lidar 8.3 → 44.0 m)",
+      "toMeters": 23600
+    },
+    {
+      "fromMeters": 31200,
+      "kind": "climb",
+      "min": 2.5,
+      "name": "Willis Avenue Bridge (31.2–32.1 km) climbs at ≥ +2.5%",
+      "toMeters": 32100
+    },
+    {
+      "fromMeters": 33400,
+      "kind": "minimumElevation",
+      "min": 3,
+      "name": "Madison Avenue Bridge has no false dip: lowest point ≥ 3 m",
+      "toMeters": 33900
+    },
+    {
+      "fromMeters": 36700,
+      "kind": "climb",
+      "min": 2,
+      "name": "Fifth Avenue climb (36.7–38.1 km) at ≥ +2%",
+      "toMeters": 38100
+    },
+    {
+      "fromMeters": 38000,
+      "kind": "drop",
+      "max": 31,
+      "min": 24,
+      "name": "Fifth Avenue climb rise 24–31 m",
+      "toMeters": 36800
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 1,
+      "name": "Lowest point ≥ 1 m (certificate lowest 2 m; nothing at river level)"
+    },
+    {
+      "atMeters": 1600,
+      "kind": "noDip",
+      "name": "Verrazzano crest is never a dip",
+      "radiusMeters": 200
+    },
+    {
+      "atMeters": 21150,
+      "kind": "noDip",
+      "name": "Pulaski crest is never a dip",
+      "radiusMeters": 200
+    },
+    {
+      "atMeters": 24850,
+      "kind": "noDip",
+      "name": "Queensboro crest is never a dip",
+      "radiusMeters": 200
+    },
+    {
+      "atMeters": 31800,
+      "kind": "noDip",
+      "name": "Willis Avenue Bridge crest is never a dip",
+      "radiusMeters": 200
+    },
+    {
+      "atMeters": 42195,
+      "kind": "elevationAt",
+      "max": 28,
+      "min": 24,
+      "name": "Finish elevation 24–28 m (certificate 25 m)"
+    },
+    {
+      "kind": "gain",
+      "max": 320,
+      "min": 260,
+      "name": "Gain 260–320 m (at 100 m smoothing; first-build calibration, guides say 247–271 m from coarser data)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "loss",
+      "max": 328,
+      "min": 268,
+      "name": "Loss 268–328 m (at 100 m smoothing; gain + ~8 m)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 7,
+      "name": "Steepest incline within ±7%"
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 40.625727,
+        "longitude": -74.027153
+      },
+      "name": "Mile 3: 4th Ave at 82nd St",
+      "officialMeters": 4828
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 40.6271934,
+        "longitude": -74.0265669
+      },
+      "name": "5 km: 4th Ave at 80th St",
+      "officialMeters": 5000
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 40.6391098,
+        "longitude": -74.0201324
+      },
+      "name": "Mile 4: 4th Ave at 63rd St",
+      "officialMeters": 6437
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 40.6504237,
+        "longitude": -74.0085556
+      },
+      "name": "Mile 5: 4th Ave after 43rd St",
+      "officialMeters": 8047
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 40.6644266,
+        "longitude": -73.9939901
+      },
+      "name": "10 km: 4th Ave after 18th St",
+      "officialMeters": 10000
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 40.6739438,
+        "longitude": -73.9856511
+      },
+      "name": "Mile 7: 4th Ave at 3rd St",
+      "officialMeters": 11265
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 40.686725,
+        "longitude": -73.9790593
+      },
+      "name": "Mile 8: Lafayette Ave at Rockwell Pl (all starts merged)",
+      "officialMeters": 12875
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 40.6888779,
+        "longitude": -73.9600156
+      },
+      "name": "Mile 9: Lafayette Ave at Classon Ave",
+      "officialMeters": 14484
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 40.6999991,
+        "longitude": -73.9572295
+      },
+      "name": "Mile 10: Bedford Ave after Lynch St",
+      "officialMeters": 16093
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 40.712526,
+        "longitude": -73.962552
+      },
+      "name": "Mile 11: Bedford Ave at S 3rd St",
+      "officialMeters": 17703
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 40.723772,
+        "longitude": -73.950788
+      },
+      "name": "Mile 12: Manhattan Ave after the turn from Nassau Ave",
+      "officialMeters": 19312
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 40.7382166,
+        "longitude": -73.9528976
+      },
+      "name": "Halfway: Pulaski Bridge ramp, level with Ash St",
+      "officialMeters": 21098
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 40.74888,
+        "longitude": -73.9513
+      },
+      "name": "Mile 14: 44th Dr east of 10th St",
+      "officialMeters": 22531
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 40.76069,
+        "longitude": -73.96378
+      },
+      "name": "Mile 16: Queensboro Bridge ramp, before the U-turn onto 59th St",
+      "officialMeters": 25750
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 40.7710306,
+        "longitude": -73.9536338
+      },
+      "name": "Mile 17: 1st Ave at E 77th St",
+      "officialMeters": 27359
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 40.7839383,
+        "longitude": -73.9442196
+      },
+      "name": "Mile 18: 1st Ave at E 97th St",
+      "officialMeters": 28968
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 40.7921784,
+        "longitude": -73.9382001
+      },
+      "name": "30 km: 1st Ave at E 110th St",
+      "officialMeters": 30000
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 40.7966814,
+        "longitude": -73.934912
+      },
+      "name": "Mile 19: 1st Ave at E 117th St",
+      "officialMeters": 30578
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 40.8071758,
+        "longitude": -73.9242442
+      },
+      "name": "Mile 20: E 135th St after the Willis Avenue Bridge",
+      "officialMeters": 32187
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 40.81421,
+        "longitude": -73.9342
+      },
+      "name": "Mile 21: Madison Avenue Bridge, Manhattan end",
+      "officialMeters": 33796
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 40.8064189,
+        "longitude": -73.9422694
+      },
+      "name": "35 km: 5th Ave at E 125th St",
+      "officialMeters": 35000
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 40.8051509,
+        "longitude": -73.9452617
+      },
+      "name": "Mile 22: Mount Morris Park West at W 122nd St",
+      "officialMeters": 35406
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 40.7923469,
+        "longitude": -73.9525217
+      },
+      "name": "Mile 23: 5th Ave at E 103rd St",
+      "officialMeters": 37015
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 40.7812466,
+        "longitude": -73.9637798
+      },
+      "name": "Mile 24: East Drive at 84th St",
+      "officialMeters": 38624
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 40.7707403,
+        "longitude": -73.9709036
+      },
+      "name": "40 km: East Drive at 68th St",
+      "officialMeters": 40000
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 40.7690985,
+        "longitude": -73.9728299
+      },
+      "name": "Mile 25: East Drive at 65th St",
+      "officialMeters": 40234
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 40.7695705,
+        "longitude": -73.9797563
+      },
+      "name": "Mile 26: West Drive at 62nd St",
+      "officialMeters": 41843
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 40.7724589,
+        "longitude": -73.9767214
+      },
+      "name": "Finish: West Drive at W 67th St",
+      "officialMeters": 42195
+    }
+  ],
+  "description": "Staten Island to Central Park through all five boroughs. The Verrazzano-Narrows Bridge climb at the start, Fourth Avenue and Lafayette Avenue through Brooklyn, the Pulaski Bridge at halfway, the long Queensboro Bridge climb, First Avenue, the Willis and Madison Avenue bridges through the Bronx, the Fifth Avenue climb near mile 23, then the Central Park rollers to the finish. Unofficial.",
+  "edition": "2026",
+  "elevation": {
+    "provider": "usgs3dep",
+    "trustedSources": [
+      "NY_CMPG_2013"
+    ]
+  },
+  "id": "nyc-marathon-2026",
+  "location": "Staten Island to Manhattan, New York, USA",
+  "manualSpans": [],
+  "name": "New York City Marathon",
+  "officialDistanceMeters": 42195,
+  "processing": {
+    "checkpointSearchRadiusMeters": 150,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 300,
+    "minimumIntervalMeters": 200,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "avoidWays": [
+      46858888,
+      46858871,
+      46858872,
+      865473231,
+      10670862,
+      622841166,
+      622841186,
+      32947293,
+      198924630,
+      198924631,
+      198924632,
+      198924633,
+      544616716,
+      544616717,
+      814002681,
+      5700571,
+      5706587,
+      46419224,
+      46419222,
+      220140925,
+      220140928,
+      300894089,
+      300894090,
+      375172503,
+      387040313,
+      547936835,
+      547936839,
+      547936843,
+      198924628,
+      198924629,
+      32947559,
+      32947509,
+      1442719401,
+      32947290,
+      198924625,
+      198595507,
+      539018144
+    ],
+    "corridorMeters": 200,
+    "includeWays": [
+      1442719403,
+      1113117239,
+      1113117238,
+      153232761,
+      5669353,
+      1419588330
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 4000,
+      "id": "verrazzano",
+      "name": "Verrazzano-Narrows Bridge (start to mile 2.5)",
+      "startMeters": 0
+    },
+    {
+      "endMeters": 25750,
+      "id": "queensboro",
+      "name": "Queensboro Bridge (miles 14–16)",
+      "startMeters": 22531
+    },
+    {
+      "endMeters": 42195,
+      "id": "fifth-avenue-finish",
+      "name": "Fifth Avenue and Central Park (mile 21 to the finish)",
+      "startMeters": 33796
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program; bridge decks from the 2017 NYC Topobathymetric Lidar (NYC Office of Technology and Innovation, via NOAA Digital Coast) and USGS lidar; processed by Conquer Hills. Unofficial: not affiliated with or endorsed by New York Road Runners.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program. Bridge decks: 2017 NYC Topobathymetric Lidar, NYC Office of Technology and Innovation",
+      "name": "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs), with bridge-deck profiles from public lidar point clouds",
+      "url": "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes": "Blue start course (upper deck of the Verrazzano-Narrows Bridge); the Pink start runs on the lower deck and through Dyker Heights. Route traced over OpenStreetMap streets in the order the race uses them, including the 2026 Bronx change (E 141st St and Third Ave); distances calibrated to features whose distances are published on the course's 2022 USATF certification (NY22001JHP), which predates the Bronx change, so miles 20–21 absorb about 60 m. Elevations from USGS 3DEP 1 m lidar (2014); bare-earth data removes bridges, so the five bridge decks use control points measured from the 2017 NYC lidar (and USGS 2014 lidar for the Verrazzano main span). Downhills are flat on a treadmill without decline. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": false
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}

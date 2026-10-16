@@ -173,6 +173,127 @@ enum Overpass {
     }
 }
 
+/// OSM ways and nodes around a course, for `RouteGraph`.
+///
+/// Asks Overpass (and its mirror) for the ways in a corridor around the waypoints. Overpass is often overloaded; if
+/// every endpoint fails, falls back to the OSM API's `map` call over small boxes along the waypoints, paced at one
+/// request a second.
+enum OSMData {
+    struct Corridor {
+        var ways: [RouteGraph.Way]
+        var nodes: [Int: Coordinate]
+        /// Where the data came from, for provenance.
+        var source: String
+        var timestamp: String
+    }
+
+    static func corridor(around waypoints: [Coordinate], settings: CourseConfig.OSMGraphSettings) async throws
+        -> Corridor
+    {
+        do {
+            return try await overpass(around: waypoints, settings: settings)
+        } catch {
+            log("  Overpass unavailable (\(error)); falling back to the OSM API")
+            return try await mapBoxes(around: waypoints, settings: settings)
+        }
+    }
+
+    private static func overpass(around waypoints: [Coordinate], settings: CourseConfig.OSMGraphSettings)
+        async throws -> Corridor
+    {
+        let polyline = waypoints.map { String(format: "%.6f,%.6f", $0.latitude, $0.longitude) }
+            .joined(separator: ",")
+        let highways = (settings.highways ?? RouteGraph.defaultHighways).joined(separator: "|")
+        let extra =
+            settings.includeWays.isEmpty
+            ? "" : "way(id:\(settings.includeWays.map(String.init).joined(separator: ",")));"
+        let response = try await Overpass.query(
+            """
+            [out:json][timeout:300];
+            (
+              way(around:\(Int(settings.corridorMeters)),\(polyline))["highway"~"^(\(highways))$"];
+              \(extra)
+            );
+            out meta;
+            >;
+            out skel qt;
+            """)
+        let (ways, nodes) = graphData(response.elements)
+        return Corridor(ways: ways, nodes: nodes, source: "Overpass", timestamp: response.osm3s.timestampOSMBase)
+    }
+
+    private static func mapBoxes(around waypoints: [Coordinate], settings: CourseConfig.OSMGraphSettings)
+        async throws -> Corridor
+    {
+        // Boxes no longer than ~1 km along the waypoint line, padded by the corridor, stay far below the API's
+        // area and node limits.
+        var boxes: [(south: Double, west: Double, north: Double, east: Double)] = []
+        for (a, b) in zip(waypoints, waypoints.dropFirst()) {
+            let pieces = max(1, Int((Geo.distance(a, b) / 1000).rounded(.up)))
+            for k in 0..<pieces {
+                func at(_ t: Double) -> Coordinate {
+                    Coordinate(
+                        latitude: a.latitude + (b.latitude - a.latitude) * t,
+                        longitude: a.longitude + (b.longitude - a.longitude) * t)
+                }
+                let p = at(Double(k) / Double(pieces))
+                let q = at(Double(k + 1) / Double(pieces))
+                let padLatitude = settings.corridorMeters / 111_195
+                let padLongitude = padLatitude / cos(p.latitude * .pi / 180)
+                boxes.append(
+                    (
+                        min(p.latitude, q.latitude) - padLatitude, min(p.longitude, q.longitude) - padLongitude,
+                        max(p.latitude, q.latitude) + padLatitude, max(p.longitude, q.longitude) + padLongitude
+                    ))
+            }
+        }
+        var elements: [Int: Overpass.Response.Element] = [:]
+        var nodes: [Int: Overpass.Response.Element] = [:]
+        for (number, box) in boxes.enumerated() {
+            let url = URL(
+                string: String(
+                    format: "https://api.openstreetmap.org/api/0.6/map.json?bbox=%.6f,%.6f,%.6f,%.6f", box.west,
+                    box.south, box.east, box.north))!
+            struct Response: Decodable { let elements: [Overpass.Response.Element] }
+            let response = try JSONDecoder().decode(Response.self, from: try await HTTP.get(url))
+            for element in response.elements {
+                if element.type == "way" { elements[element.id] = element }
+                if element.type == "node" { nodes[element.id] = element }
+            }
+            if (number + 1) % 10 == 0 { log("  OSM API: \(number + 1)/\(boxes.count) boxes") }
+            try await Task.sleep(for: .seconds(1))
+        }
+        for id in settings.includeWays where elements[id] == nil {
+            struct Response: Decodable { let elements: [Overpass.Response.Element] }
+            let url = URL(string: "https://api.openstreetmap.org/api/0.6/way/\(id)/full.json")!
+            for element in try JSONDecoder().decode(Response.self, from: try await HTTP.get(url)).elements {
+                if element.type == "way" { elements[element.id] = element }
+                if element.type == "node" { nodes[element.id] = element }
+            }
+            try await Task.sleep(for: .seconds(1))
+        }
+        let (ways, locations) = graphData(Array(elements.values) + Array(nodes.values))
+        let timestamp = ways.compactMap { elements[$0.id]?.timestamp }.max() ?? "unknown"
+        return Corridor(
+            ways: ways.sorted { $0.id < $1.id }, nodes: locations, source: "OSM API map", timestamp: timestamp)
+    }
+
+    private static func graphData(_ elements: [Overpass.Response.Element]) -> ([RouteGraph.Way], [Int: Coordinate]) {
+        var ways: [RouteGraph.Way] = []
+        var nodes: [Int: Coordinate] = [:]
+        for element in elements {
+            if element.type == "node", let lat = element.lat, let lon = element.lon {
+                nodes[element.id] = Coordinate(latitude: lat, longitude: lon)
+            } else if element.type == "way", let wayNodes = element.nodes {
+                ways.append(
+                    RouteGraph.Way(id: element.id, version: element.version, nodes: wayNodes, tags: element.tags ?? [:])
+                )
+            }
+        }
+        return (ways, nodes)
+    }
+}
+
 /// USGS 3D Elevation Program, through the 3DEP ImageServer's batch `getSamples`.
 ///
 /// Each point gets the best available DEM (1 m lidar where it exists); the source label is that dataset's project
