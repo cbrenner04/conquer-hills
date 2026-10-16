@@ -1,0 +1,308 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 97,
+      "min": 92,
+      "name": "Start elevation 92–97 m (lidar; the certificate says 93 m)"
+    },
+    {
+      "atMeters": 42195,
+      "kind": "elevationAt",
+      "max": 9.5,
+      "min": 6.5,
+      "name": "Finish elevation 6.5–9.5 m (lidar 7.9 m; the certificate's 3 m looks rounded)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 173,
+      "min": 168,
+      "name": "Highest point 168–173 m (Hurricane Point, official 560 ft = 170.7 m)"
+    },
+    {
+      "fromMeters": 15700,
+      "kind": "maximumElevation",
+      "max": 173,
+      "min": 168,
+      "name": "Hurricane Point summit (15.7–19.5 km) 168–173 m",
+      "toMeters": 19500
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 4.5,
+      "name": "Lowest point ≥ 4.5 m (Monastery Beach 5.6 m; an uncorrected bridge would dip lower)"
+    },
+    {
+      "fromMeters": 19300,
+      "kind": "drop",
+      "max": 160,
+      "min": 148,
+      "name": "Hurricane Point rise 148–160 m (Little Sur River → summit)",
+      "toMeters": 15700
+    },
+    {
+      "fromMeters": 15900,
+      "kind": "climb",
+      "min": 4.5,
+      "name": "Hurricane Point steep part (15.9–17.7 km) climbs at ≥ +4.5%",
+      "toMeters": 17700
+    },
+    {
+      "fromMeters": 18500,
+      "kind": "climb",
+      "min": 2,
+      "name": "Hurricane Point final pitch (18.5–19.25 km) climbs at ≥ +2%",
+      "toMeters": 19250
+    },
+    {
+      "fromMeters": 19300,
+      "kind": "drop",
+      "max": 95,
+      "min": 84,
+      "name": "Descent to Bixby Bridge drops 84–95 m",
+      "toMeters": 20950
+    },
+    {
+      "fromMeters": 490,
+      "kind": "minimumElevation",
+      "min": 62,
+      "name": "Big Sur River bridge has no false dip: lowest point ≥ 62 m",
+      "toMeters": 630
+    },
+    {
+      "fromMeters": 15700,
+      "kind": "minimumElevation",
+      "min": 13,
+      "name": "Little Sur River bridge has no false dip: lowest point ≥ 13 m",
+      "toMeters": 15880
+    },
+    {
+      "fromMeters": 20950,
+      "kind": "minimumElevation",
+      "min": 78,
+      "name": "Bixby Bridge has no false dip (lidar reads 3.5 m under the deck): lowest point ≥ 78 m",
+      "toMeters": 21250
+    },
+    {
+      "fromMeters": 22100,
+      "kind": "minimumElevation",
+      "min": 41,
+      "name": "Rocky Creek bridge has no false dip: lowest point ≥ 41 m",
+      "toMeters": 22280
+    },
+    {
+      "fromMeters": 26750,
+      "kind": "minimumElevation",
+      "min": 27,
+      "name": "Garrapata Creek bridge has no false dip: lowest point ≥ 27 m",
+      "toMeters": 26900
+    },
+    {
+      "fromMeters": 28980,
+      "kind": "minimumElevation",
+      "min": 30,
+      "name": "Granite Canyon bridge has no false dip: lowest point ≥ 30 m",
+      "toMeters": 29120
+    },
+    {
+      "fromMeters": 34630,
+      "kind": "minimumElevation",
+      "min": 26,
+      "name": "Malpaso Creek bridge has no false dip: lowest point ≥ 26 m",
+      "toMeters": 34750
+    },
+    {
+      "fromMeters": 36470,
+      "kind": "minimumElevation",
+      "min": 28,
+      "name": "Bridge at Carmel Highlands (≈36.5 km) has no false dip: lowest point ≥ 28 m",
+      "toMeters": 36560
+    },
+    {
+      "fromMeters": 41760,
+      "kind": "minimumElevation",
+      "min": 8.5,
+      "name": "Carmel River Bridge has no false dip: lowest point ≥ 8.5 m",
+      "toMeters": 41970
+    },
+    {
+      "fromMeters": 34750,
+      "kind": "climb",
+      "min": 2.5,
+      "name": "Yankee Point hill (34.75–35.8 km) climbs at ≥ +2.5%",
+      "toMeters": 35800
+    },
+    {
+      "fromMeters": 35840,
+      "kind": "drop",
+      "max": 44,
+      "min": 34,
+      "name": "Yankee Point hill rise 34–44 m",
+      "toMeters": 34720
+    },
+    {
+      "fromMeters": 40000,
+      "kind": "climb",
+      "min": 3,
+      "name": "Last hill, Carmel Highlands to the Carmel River (40.0–40.7 km), climbs at ≥ +3%",
+      "toMeters": 40700
+    },
+    {
+      "kind": "gain",
+      "max": 560,
+      "min": 475,
+      "name": "Gain 475–560 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "loss",
+      "max": 650,
+      "min": 565,
+      "name": "Loss 565–650 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 9,
+      "name": "Steepest incline within ±9%"
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 36.357594,
+        "longitude": -121.902369
+      },
+      "name": "Hurricane Point turnout, north end (mile 12)",
+      "officialMeters": 19312
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 36.371527,
+        "longitude": -121.901911
+      },
+      "name": "Bixby Creek Bridge (halfway)",
+      "officialMeters": 21097
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 36.488055,
+        "longitude": -121.9377441
+      },
+      "name": "Yankee Point Dr, north junction (mile 22)",
+      "officialMeters": 35405
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 36.516022,
+        "longitude": -121.936687
+      },
+      "name": "Point Lobos entrance",
+      "officialMeters": 38752
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 36.5365797,
+        "longitude": -121.9121437
+      },
+      "name": "Carmel River Bridge, north-east end",
+      "officialMeters": 41956
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 36.538488,
+        "longitude": -121.910945
+      },
+      "name": "Finish: Highway 1 south of Rio Rd",
+      "officialMeters": 42195
+    }
+  ],
+  "description": "Big Sur Station to Carmel along Highway 1 on the California coast. Rolling miles past Point Sur, the long climb to Hurricane Point (miles 10–12), Bixby Bridge at halfway, then coastal rollers and the Carmel Highlands hills in the last 5 miles. Unofficial.",
+  "edition": "2027",
+  "elevation": {
+    "provider": "usgs3dep",
+    "trustedSources": [
+      "CA_AZ_FEMA_R9_Lidar_2017_D18"
+    ]
+  },
+  "id": "big-sur-marathon-2027",
+  "location": "Big Sur to Carmel, California, USA",
+  "manualSpans": [],
+  "name": "Big Sur International Marathon",
+  "officialDistanceMeters": 42195,
+  "processing": {
+    "checkpointSearchRadiusMeters": 150,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 300,
+    "minimumIntervalMeters": 300,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "kind": "waypoints",
+    "routerBaseURL": "https://routing.openstreetmap.de/routed-car"
+  },
+  "segments": [
+    {
+      "endMeters": 19300,
+      "id": "hurricane-point",
+      "name": "Hurricane Point (miles 9.8–12)",
+      "startMeters": 15700
+    },
+    {
+      "endMeters": 40900,
+      "id": "carmel-highlands-hills",
+      "name": "Carmel Highlands hills (miles 21.5–25.4)",
+      "startMeters": 34600
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the Big Sur Marathon Foundation.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name": "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url": "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes": "Route traced along California Highway 1 on OpenStreetMap; distances calibrated to features whose distances are published on the course's USATF certification (CA23018DT). Elevations from USGS 3DEP 1 m lidar (2018); the ten bridges, Bixby included, are interpolated between their ends, which matches their level decks. The lidar puts the start at 94 m and the finish at 8 m; official figures differ slightly (certificate 93 m and 3 m). Downhills, including the long descent from Hurricane Point to Bixby Bridge, are flat on a treadmill without decline. Landslides have occasionally forced a one-year out-and-back course from Carmel; this is the standard point-to-point course. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills along California Highway 1)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": false
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [
+      "motorway",
+      "motorway_link"
+    ],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}

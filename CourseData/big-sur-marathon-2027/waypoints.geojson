@@ -1,0 +1,70 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -121.7814,
+          36.24766
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start: Big Sur Station entrance road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -121.902667,
+          36.356902
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hurricane Point summit, Highway 1"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -121.901911,
+          36.371527
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bixby Creek Bridge"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -121.937744,
+          36.488055
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Highway 1 at Yankee Point Dr (north junction)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -121.910945,
+          36.538488
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: Highway 1 south of Rio Rd, Carmel"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
