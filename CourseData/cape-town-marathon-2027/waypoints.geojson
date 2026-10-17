@@ -1,0 +1,733 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          18.4101181,
+          -33.9049077
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start: Fritz Sonnenberg Road beside the stadium"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4081715,
+          -33.8997017
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Fritz Sonnenberg Road & Beach Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4178824,
+          -33.9049792
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Beach Road & Portswood Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4131435,
+          -33.9085266
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Portswood Road & Helen Suzman Boulevard"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.422208,
+          -33.9155847
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Helen Suzman Boulevard & Buitengracht Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4237459,
+          -33.9144001
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Buitengracht Street & Dock Road (onto Nelson Mandela Boulevard)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4316499,
+          -33.9170952
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Nelson Mandela Boulevard (N2) viaduct, eastbound"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4331665,
+          -33.9248079
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "N2 viaduct over the N1 interchange"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4355441,
+          -33.9292093
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "N2 viaduct, east end"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4387715,
+          -33.9314325
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "N2 off-ramp to Searle Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4406062,
+          -33.9315035
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Off-ramp & Searle Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4408333,
+          -33.9278308
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Searle Street & Sir Lowry Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.455563,
+          -33.9313553
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Victoria Road & Salt River Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4659509,
+          -33.9400963
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Main Road at Groote Schuur Hospital"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4708708,
+          -33.947695
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Main Road, Mowbray"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4709797,
+          -33.9578863
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Main Road at the Baxter Theatre"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.464485,
+          -33.9731542
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Main Road, Newlands"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4645603,
+          -33.9747763
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Main Road & Claremont Boulevard"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4670982,
+          -33.9834957
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Claremont Boulevard & Stanhope Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4682027,
+          -33.9828605
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Stanhope Road & Palmyra Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.472928,
+          -33.9724217
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Palmyra Road & Keurboom Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4744151,
+          -33.9680924
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Camp Ground Road, Rondebosch"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4762738,
+          -33.9635324
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Camp Ground Road & Sandown Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4821592,
+          -33.9662671
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sandown Road, Rondebosch"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4894644,
+          -33.9693092
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sandown Road & Milner Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4852435,
+          -33.959093
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Milner Road, Rondebosch Common"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4864356,
+          -33.9521279
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Milner Road & Klipfontein Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4841238,
+          -33.9510026
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Klipfontein Road & Sawkins Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4804901,
+          -33.9550696
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Campground Road, west side of the Common"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.47913,
+          -33.9595662
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Campground Road & Park Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4783102,
+          -33.959656
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Park Road & Liesbeek Parkway"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4766803,
+          -33.9455523
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Liesbeek Parkway, Mowbray"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.475098,
+          -33.9365243
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Liesbeek Parkway & Station Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4730315,
+          -33.9339638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Liesbeek Parkway, Observatory"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4721376,
+          -33.9309026
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Liesbeek Parkway & Malta Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.464757,
+          -33.9295617
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Malta Road & Lower Main Road & Albert Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4598649,
+          -33.9284133
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Albert Road at Salt River Circle"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4484495,
+          -33.9266608
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Albert Road & Lower Church Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4353249,
+          -33.9266589
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Newmarket Street & Russell Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4352644,
+          -33.9275375
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Russell Street & Sir Lowry Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4269604,
+          -33.9273891
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sir Lowry Road & Darling Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4217004,
+          -33.9234992
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Darling Street & Adderley Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.420103,
+          -33.924949
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Adderley Street & Wale Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4134304,
+          -33.931148
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Government Avenue & Orange Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4137176,
+          -33.9270498
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Orange Street & Long Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4224397,
+          -33.9194388
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Long Street & Riebeek Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4201206,
+          -33.9177268
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Riebeek Street & Buitengracht Street & Somerset Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4155048,
+          -33.9113166
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Somerset Road & Main Road, Green Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.408629,
+          -33.9074941
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Main Road, Green Point (westbound)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.3993312,
+          -33.9080035
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Main Road at Hill Road, Green Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.3976075,
+          -33.9081675
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Main Road & Three Anchor Bay Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.3971128,
+          -33.9070415
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Three Anchor Bay Road & Beach Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.3790368,
+          -33.9215603
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Turnaround: Beach Road & Queens Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.3985261,
+          -33.9063941
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Beach Road & Helen Suzman Boulevard"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.4063768,
+          -33.9071695
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Helen Suzman Boulevard & Vlei Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.406556,
+          -33.9062344
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: Vlei Road"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
