@@ -1,0 +1,751 @@
+{
+  "description" : "Green Point to Green Point: Beach Road and the Foreshore, the elevated N2 to the Searle St off-ramp, down through Woodstock, Main Road through Observatory, Rondebosch and Newlands to Claremont, a loop around Rondebosch Common, Liesbeek Parkway, Salt River and Woodstock back to City Hall, the climb up Government Avenue through the Company's Garden, down Long St, and the Sea Point promenade out and back to the finish. Unofficial.",
+  "developmentOnly" : false,
+  "distanceMeters" : 42195,
+  "edition" : "2027",
+  "elevationProfile" : {
+    "elevationsMeters" : [
+      10.3,
+      9.5,
+      9,
+      8.5,
+      7.7,
+      6.9,
+      5.9,
+      6,
+      6.4,
+      6.6,
+      6.4,
+      7,
+      7.7,
+      9.5,
+      11.3,
+      12.1,
+      12.4,
+      12.6,
+      12.9,
+      13.6,
+      14,
+      14.8,
+      15.3,
+      15.9,
+      16.9,
+      17.4,
+      17.7,
+      18,
+      17.5,
+      16.4,
+      15.3,
+      14.2,
+      13.2,
+      12.1,
+      10.6,
+      7.9,
+      5.3,
+      4.3,
+      4.7,
+      5.2,
+      5.7,
+      6.2,
+      6.7,
+      7.2,
+      7.7,
+      8.2,
+      8.7,
+      9.2,
+      9.7,
+      10.2,
+      10.7,
+      11.2,
+      11.7,
+      12.2,
+      12.7,
+      13.2,
+      13.7,
+      14.2,
+      14.7,
+      15.2,
+      15.7,
+      16.2,
+      17,
+      20.4,
+      24.1,
+      28.2,
+      32.2,
+      35.1,
+      31.4,
+      25,
+      18.8,
+      13.3,
+      11.2,
+      10.6,
+      10,
+      9.7,
+      9.9,
+      11.2,
+      13,
+      14.4,
+      15.6,
+      16.6,
+      17.9,
+      19.7,
+      21.3,
+      22.8,
+      24.5,
+      26.1,
+      27.4,
+      28.1,
+      28.4,
+      28.5,
+      28.7,
+      29.3,
+      30.1,
+      31,
+      31.9,
+      32.4,
+      32.6,
+      32.4,
+      31.5,
+      29.5,
+      26.2,
+      23.1,
+      22.1,
+      22.3,
+      22.7,
+      23.3,
+      24.2,
+      24.6,
+      24.4,
+      23.6,
+      20.7,
+      18,
+      16.5,
+      15.9,
+      15.2,
+      14.2,
+      13.5,
+      13.1,
+      12.9,
+      12.4,
+      11.1,
+      11.3,
+      16.1,
+      17.3,
+      17.3,
+      17.2,
+      17.8,
+      18.4,
+      19.9,
+      20.3,
+      19.7,
+      19.1,
+      19.7,
+      20.1,
+      20.1,
+      21.8,
+      23.8,
+      25.5,
+      26.3,
+      26.2,
+      27.1,
+      28.5,
+      28.1,
+      27,
+      26.1,
+      26.2,
+      26.6,
+      27.7,
+      32.5,
+      31.2,
+      27,
+      24.8,
+      24.1,
+      23.9,
+      24.5,
+      25.3,
+      26.1,
+      27.1,
+      26.6,
+      26.1,
+      25.7,
+      25.2,
+      24.7,
+      23.7,
+      22.3,
+      21.2,
+      20.6,
+      20.7,
+      21.5,
+      21.9,
+      22.2,
+      22.3,
+      22.7,
+      23.3,
+      22.8,
+      20.7,
+      16.4,
+      12,
+      10.3,
+      10.9,
+      12.7,
+      15.6,
+      19.3,
+      21.5,
+      21.8,
+      20.8,
+      19.6,
+      19,
+      18.3,
+      18.2,
+      18,
+      16.2,
+      13.1,
+      10.5,
+      9,
+      10.1,
+      14.3,
+      17.2,
+      19,
+      20.6,
+      21.8,
+      22.3,
+      22.8,
+      22.9,
+      22.4,
+      21.6,
+      20.4,
+      18.9,
+      17.6,
+      16.7,
+      17.5,
+      18.1,
+      18.2,
+      18.1,
+      18.7,
+      18.9,
+      20.2,
+      21.5,
+      21.9,
+      22.1,
+      22.1,
+      20.7,
+      18.3,
+      15.5,
+      12.7,
+      10,
+      8.6,
+      8.1,
+      7.6,
+      7.1,
+      6.7,
+      6.4,
+      6.1,
+      6.2,
+      6.3,
+      6.4,
+      6.2,
+      6,
+      5.6,
+      5.2,
+      5.2,
+      5,
+      5,
+      4.8,
+      4.6,
+      4.4,
+      4.3,
+      4.5,
+      5,
+      4.4,
+      4.1,
+      4.5,
+      4.9,
+      6.3,
+      7,
+      9.7,
+      8.9,
+      7.5,
+      6.2,
+      6.9,
+      8.3,
+      8.4,
+      8,
+      7.8,
+      7.9,
+      8,
+      8.7,
+      9.1,
+      8.8,
+      8.3,
+      8,
+      7.7,
+      7.5,
+      7.4,
+      6.8,
+      6.1,
+      5.4,
+      4.6,
+      4.2,
+      4.2,
+      4.4,
+      4.3,
+      5,
+      5,
+      5.3,
+      5.9,
+      6.4,
+      6.1,
+      5.8,
+      6.8,
+      5.6,
+      5.1,
+      5.3,
+      5.8,
+      6,
+      6.5,
+      7.5,
+      6.8,
+      6.2,
+      6.1,
+      6.3,
+      6.8,
+      7.6,
+      8.9,
+      10.8,
+      12.6,
+      14.1,
+      16.1,
+      18.6,
+      20.6,
+      22.6,
+      25.2,
+      28.1,
+      31.4,
+      34.8,
+      35.1,
+      32.6,
+      30,
+      28.8,
+      26.4,
+      23.3,
+      21.3,
+      19.9,
+      19,
+      18.4,
+      17.9,
+      16.8,
+      15.4,
+      13.9,
+      12.8,
+      11,
+      11.7,
+      13.8,
+      15.6,
+      17.5,
+      19.5,
+      20.8,
+      21.7,
+      21.3,
+      20.6,
+      19.9,
+      19.5,
+      19.3,
+      19.2,
+      18.4,
+      17.5,
+      16.7,
+      16,
+      15.1,
+      14.2,
+      13.5,
+      12.9,
+      12.4,
+      11.8,
+      11.3,
+      10.7,
+      10.6,
+      10.7,
+      10.9,
+      11,
+      9.2,
+      6.4,
+      6.7,
+      6.4,
+      5.7,
+      5.4,
+      5.5,
+      5.3,
+      5.5,
+      5.6,
+      5.3,
+      5.5,
+      5.6,
+      5.9,
+      6.2,
+      6.5,
+      6.9,
+      7.2,
+      7.5,
+      7.5,
+      8.1,
+      8.7,
+      8.2,
+      8.6,
+      9.2,
+      9.1,
+      9.2,
+      8.6,
+      8.1,
+      8.7,
+      8.2,
+      7.4,
+      7.5,
+      7.2,
+      7,
+      6.6,
+      6.2,
+      6,
+      5.7,
+      5.6,
+      5.3,
+      5.5,
+      5.5,
+      5.3,
+      5.5,
+      5.3,
+      5.3,
+      6.2,
+      6.9,
+      6.5,
+      5.9,
+      6.3,
+      6.7,
+      7.7,
+      8.5,
+      9.6,
+      10.4,
+      10.9,
+      11.7,
+      12.1,
+      10.7
+    ],
+    "sampleSpacingMeters" : 100
+  },
+  "id" : "cape-town-marathon-2027",
+  "inclineChanges" : [
+    {
+      "atMeters" : 0,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 300,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 600,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 2700,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 3400,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 3700,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 6200,
+      "inclinePercent" : 3.5
+    },
+    {
+      "atMeters" : 6700,
+      "inclinePercent" : -5.5
+    },
+    {
+      "atMeters" : 7100,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 7600,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 7900,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 8200,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 8800,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 9300,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 9700,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 10300,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 11100,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 11700,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 12300,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 12700,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 13100,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 13600,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 13900,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 14300,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 14600,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 15000,
+      "inclinePercent" : -2.5
+    },
+    {
+      "atMeters" : 15300,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 15900,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 16900,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 17700,
+      "inclinePercent" : -2.5
+    },
+    {
+      "atMeters" : 18100,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 18500,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 19200,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 19700,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 20200,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 20500,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 20800,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 21100,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 22200,
+      "inclinePercent" : -2.5
+    },
+    {
+      "atMeters" : 22700,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 23400,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 25200,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 25700,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 26000,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 26900,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 28100,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 28500,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 28800,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 29300,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 29800,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 30500,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 31300,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 31700,
+      "inclinePercent" : -2.5
+    },
+    {
+      "atMeters" : 32300,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 32800,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 33200,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 33900,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 34500,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 35100,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 36300,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 37400,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 38600,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 39600,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 40000,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 41200,
+      "inclinePercent" : 0.5
+    }
+  ],
+  "location" : "Green Point, Cape Town, South Africa",
+  "name" : "Cape Town Marathon",
+  "processing" : {
+    "generatedOn" : "2026-10-17",
+    "parameters" : {
+      "calibrationScales" : "0-26700:0.9811 26700-30700:0.9978 30700-38700:0.9966 38700-42195:1.0234",
+      "elevationProvider" : "wmsPoint",
+      "gradeBlockMeters" : "100",
+      "inclineStepPercent" : "0.5",
+      "minimumIntervalMeters" : "300",
+      "osmStructuresTimestamp" : "2026-10-17T03:52:48Z",
+      "routeSmoothingMeters" : "40",
+      "sampleSpacingMeters" : "10",
+      "smoothingWindowMeters" : "100"
+    },
+    "tool" : "course-tool 0.1.0"
+  },
+  "schemaVersion" : 1,
+  "segments" : [
+    {
+      "endMeters" : 33300,
+      "id" : "company-gardens",
+      "name" : "Company's Garden climb (km 30–33)",
+      "startMeters" : 29900
+    },
+    {
+      "endMeters" : 42195,
+      "id" : "final-12k",
+      "name" : "Final 12K: Gardens to the finish",
+      "startMeters" : 30000
+    }
+  ],
+  "source" : {
+    "attribution" : "Route: © OpenStreetMap contributors (ODbL). Elevation: City of Cape Town LiDAR (2025 2 m digital terrain model), processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race, its organisers or the World Marathon Majors.",
+    "elevation" : {
+      "kind" : "modeled",
+      "license" : "City of Cape Town Open Data Policy (open data, no named licence)",
+      "name" : "City of Cape Town 2025 LiDAR 2 m digital terrain model (bare earth)",
+      "url" : "https://cityimg.capetown.gov.za/erdas-iws/ogc/wms/GeoSpatial%20Datasets?service=WMS&request=GetCapabilities"
+    },
+    "notes" : "2026 course, Stadium Start. Route traced over OpenStreetMap streets in race order; no measurement certificate is public, so distances are calibrated to the course's published km points (the N2 off-ramp, Salt River Circle, City Hall, Government Avenue, the Sea Point turnaround) and the finish. Elevations from the City of Cape Town's 2025 bare-earth lidar; the elevated N2 and other bridges are interpolated, which flattens a small hump on the viaduct. Downhills are flat on a treadmill without decline. Unofficial.",
+    "route" : {
+      "license" : "ODbL-1.0",
+      "name" : "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url" : "https://www.openstreetmap.org/copyright"
+    },
+    "verified" : true
+  },
+  "stats" : {
+    "elevationGainMeters" : 207,
+    "elevationLossMeters" : 206.6,
+    "maximumElevationMeters" : 35.6,
+    "minimumElevationMeters" : 4.1
+  }
+}

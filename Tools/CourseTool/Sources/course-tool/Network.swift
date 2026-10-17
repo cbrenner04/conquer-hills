@@ -404,6 +404,32 @@ struct GADem5mElevationProvider: ElevationProvider {
     }
 }
 
+/// A WMS raster layer queried one point per request (`WMSPoint`), such as the City of Cape Town's lidar terrain model.
+///
+/// Requests start one per second, whatever their latency, as for GSI.
+struct WMSPointElevationProvider: ElevationProvider {
+    let name = "wmsPoint"
+    let batchSize = 30
+    let settings: CourseConfig.WMSPointSettings
+
+    func elevations(at points: [Coordinate]) async throws -> [ElevationReading] {
+        try await withThrowingTaskGroup(of: (Int, ElevationReading).self) { group in
+            for (index, point) in points.enumerated() {
+                group.addTask {
+                    try await Task.sleep(for: .seconds(Double(index)))
+                    return (
+                        index,
+                        try WMSPoint.reading(from: try await HTTP.get(WMSPoint.url(settings, at: point)), settings)
+                    )
+                }
+            }
+            var readings = [ElevationReading?](repeating: nil, count: points.count)
+            for try await (index, reading) in group { readings[index] = reading }
+            return readings.map { $0! }
+        }
+    }
+}
+
 /// Geospatial Information Authority of Japan elevation API: one point per request.
 ///
 /// Requests start one per second, whatever their latency, so the server sees a steady ~1 request/second.

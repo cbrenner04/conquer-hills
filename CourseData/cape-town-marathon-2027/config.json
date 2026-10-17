@@ -1,0 +1,272 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 12,
+      "min": 8,
+      "name": "Start elevation 8–12 m (lidar 9.8 m on Fritz Sonnenberg Rd; official 11 m)"
+    },
+    {
+      "atMeters": 42195,
+      "kind": "elevationAt",
+      "max": 14,
+      "min": 10,
+      "name": "Finish elevation 10–14 m (lidar 12.2 m on Vlei Rd)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 40,
+      "min": 34,
+      "name": "Highest point 34–40 m (lidar tops 35.8–37.7 m; the official 41 m reads high)"
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 2,
+      "name": "Lowest point ≥ 2 m"
+    },
+    {
+      "fromMeters": 23500,
+      "kind": "minimumElevation",
+      "max": 6,
+      "min": 2,
+      "name": "Liesbeek Parkway low point 2–6 m (lidar 3.5 m)",
+      "toMeters": 26000
+    },
+    {
+      "fromMeters": 3500,
+      "kind": "minimumElevation",
+      "min": 4,
+      "name": "N2 viaduct has no false trough: lowest point ≥ 4 m (lidar reads 3.4 m under the deck)",
+      "toMeters": 5800
+    },
+    {
+      "fromMeters": 5700,
+      "kind": "climb",
+      "min": 2,
+      "name": "Climb to the Searle St off-ramp at ≥ +2%",
+      "toMeters": 6500
+    },
+    {
+      "fromMeters": 6700,
+      "kind": "drop",
+      "max": 33,
+      "min": 25,
+      "name": "Woodstock descent from the top of Searle St to Victoria Rd drops 25–33 m",
+      "toMeters": 7500
+    },
+    {
+      "atMeters": 9700,
+      "kind": "elevationAt",
+      "max": 39,
+      "min": 32,
+      "name": "Main Rd at Groote Schuur 32–39 m"
+    },
+    {
+      "fromMeters": 30700,
+      "kind": "climb",
+      "min": 2,
+      "name": "Company's Garden climb at ≥ +2%",
+      "toMeters": 31600
+    },
+    {
+      "fromMeters": 31600,
+      "kind": "drop",
+      "max": 27,
+      "min": 21,
+      "name": "Company's Garden rises 21–27 m (lidar 12.6 → 36.5 m)",
+      "toMeters": 30700
+    },
+    {
+      "fromMeters": 31700,
+      "kind": "drop",
+      "max": 28,
+      "min": 20,
+      "name": "Descent from the top of the Gardens down Orange St and Long St to Riebeek St drops 20–28 m",
+      "toMeters": 33200
+    },
+    {
+      "fromMeters": 36500,
+      "kind": "maximumIncline",
+      "max": 1,
+      "name": "Sea Point loop is flat: incline ≤ +1%",
+      "toMeters": 41200
+    },
+    {
+      "kind": "gain",
+      "max": 260,
+      "min": 150,
+      "name": "Gain 150–260 m (at 100 m smoothing; official +215 m, likely from a surface model)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 8,
+      "name": "Steepest incline within ±8%"
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": false,
+      "location": {
+        "latitude": -33.9314325,
+        "longitude": 18.4387715
+      },
+      "name": "N2 off-ramp at Searle St (spectator point, 6.5 km)",
+      "officialMeters": 6500
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": -33.96,
+        "longitude": 18.4856
+      },
+      "name": "Milner Rd at Rondebosch Common (cut-off 4, 20 km)",
+      "officialMeters": 20000
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": -33.9284133,
+        "longitude": 18.4598649
+      },
+      "name": "Salt River Circle",
+      "officialMeters": 26700
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": -33.924949,
+        "longitude": 18.420103
+      },
+      "name": "Government Avenue at Wale St",
+      "officialMeters": 30700
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": -33.9270498,
+        "longitude": 18.4137176
+      },
+      "name": "Long St at Orange St",
+      "officialMeters": 32100
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": -33.9215603,
+        "longitude": 18.3790368
+      },
+      "name": "Sea Point turnaround: Beach Rd at Queens Rd (cut-off 9, 38.7 km)",
+      "officialMeters": 38700
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": -33.9062344,
+        "longitude": 18.406556
+      },
+      "name": "Finish: Vlei Rd",
+      "officialMeters": 42195
+    }
+  ],
+  "description": "Green Point to Green Point: Beach Road and the Foreshore, the elevated N2 to the Searle St off-ramp, down through Woodstock, Main Road through Observatory, Rondebosch and Newlands to Claremont, a loop around Rondebosch Common, Liesbeek Parkway, Salt River and Woodstock back to City Hall, the climb up Government Avenue through the Company's Garden, down Long St, and the Sea Point promenade out and back to the finish. Unofficial.",
+  "edition": "2027",
+  "elevation": {
+    "provider": "wmsPoint",
+    "trustedSources": [
+      "LiDAR2025_2m_DTM_v1.tif"
+    ],
+    "wms": {
+      "labelPath": "layers.0.info.name",
+      "layer": "Elevation_DTM_2m",
+      "maskPath": "layers.0.raw.bands.1.value",
+      "url": "https://cityimg.capetown.gov.za/erdas-iws/ogc/wms/GeoSpatial%20Datasets",
+      "valuePath": "layers.0.raw.bands.0.value"
+    }
+  },
+  "id": "cape-town-marathon-2027",
+  "location": "Green Point, Cape Town, South Africa",
+  "manualSpans": [],
+  "name": "Cape Town Marathon",
+  "officialDistanceMeters": 42195,
+  "processing": {
+    "checkpointSearchRadiusMeters": 75,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 300,
+    "minimumIntervalMeters": 300,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "joins": [
+      {
+        "from": {
+          "latitude": -33.924949,
+          "longitude": 18.420103
+        },
+        "reason": "Wale St to the foot of Government Avenue: OSM links them only by a pedestrian crossing (15 m)",
+        "to": {
+          "latitude": -33.9249736,
+          "longitude": 18.41994
+        }
+      }
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 33300,
+      "id": "company-gardens",
+      "name": "Company's Garden climb (km 30–33)",
+      "startMeters": 29900
+    },
+    {
+      "endMeters": 42195,
+      "id": "final-12k",
+      "name": "Final 12K: Gardens to the finish",
+      "startMeters": 30000
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: City of Cape Town LiDAR (2025 2 m digital terrain model), processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race, its organisers or the World Marathon Majors.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "City of Cape Town Open Data Policy (open data, no named licence)",
+      "name": "City of Cape Town 2025 LiDAR 2 m digital terrain model (bare earth)",
+      "url": "https://cityimg.capetown.gov.za/erdas-iws/ogc/wms/GeoSpatial%20Datasets?service=WMS&request=GetCapabilities"
+    },
+    "notes": "2026 course, Stadium Start. Route traced over OpenStreetMap streets in race order; no measurement certificate is public, so distances are calibrated to the course's published km points (the N2 off-ramp, Salt River Circle, City Hall, Government Avenue, the Sea Point turnaround) and the finish. Elevations from the City of Cape Town's 2025 bare-earth lidar; the elevated N2 and other bridges are interpolated, which flattens a small hump on the viaduct. Downhills are flat on a treadmill without decline. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": true
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [],
+    "ignoredTunnelHighways": [
+      "corridor",
+      "cycleway",
+      "footway",
+      "motorway",
+      "motorway_link",
+      "path",
+      "pedestrian",
+      "platform",
+      "steps"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}

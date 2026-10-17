@@ -16,6 +16,14 @@ Affected files: `*/waypoints.geojson`, `*/route.json`, `*/osm-structures.json`, 
 
 Waypoints are our own hand-picked points, mostly placed on OpenStreetMap junctions, so they are treated as derived too.
 
+## City of Cape Town: elevation (Cape Town)
+
+> Elevation: City of Cape Town LiDAR (2025 2 m digital terrain model), processed by Conquer Hills.
+
+The City publishes its lidar elevation models as open data under its Open Data Policy (Policy 27781, 2020), which defines open data as data that "can be freely used, shared and built-on by anyone, anywhere, for any purpose"; its open data terms of use provide the data "as is" and name no licence or attribution clause. We credit the City anyway. The values were read point by point from the City's public WMS (layer `Elevation_DTM_2m`, source file `LiDAR2025_2m_DTM_v1.tif`) and processed (interpolated across bridges and the elevated N2, smoothed, and converted to grades). Nothing here implies the City's endorsement.
+
+Affected files: `cape-town-marathon-2027/elevation-samples.json` and `App/Resources/Courses/cape-town-marathon-2027.course.json`. Cape Town's distances are calibrated to km points the organiser publishes for spectators, stored as our own data points.
+
 ## Geospatial Information Authority of Japan (国土地理院): elevation (Tokyo)
 
 > 標高データ：国土地理院 標高API（基盤地図情報 数値標高モデル）をもとに Conquer Hills が加工して作成

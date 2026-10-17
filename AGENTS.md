@@ -82,7 +82,7 @@ Real courses are generated offline by `course-tool` from public data and committ
 
 ```
 waypoints.geojson ─route─▶ route.json + osm-structures.json ─elevation─▶ elevation-samples.json ─build─▶ <id>.course.json
- (or an OSM relation)        (OSRM router or own OSM graph,      (GSI / USGS / GA, resumable)         (offline) + review report
+ (or an OSM relation)        (OSRM router or own OSM graph,      (GSI / USGS / GA / WMS, resumable)   (offline) + review report
                               Overpass)                                        + profiles.json
 ```
 
@@ -115,6 +115,7 @@ waypoints.geojson ─route─▶ route.json + osm-structures.json ─elevation�
     - `gsi`: Japan, one point per request, paced at 1/s.
     - `usgs3dep`: United States, 3DEP ImageServer `getSamples`, 500 points per request. The service can silently return fewer samples than points; missing points are re-requested.
     - `gaDem5m`: Australia, Geoscience Australia's national 5 m lidar DEM, MapServer `identify` with a multipoint (500 points, ~17 s per request). Responses carry each hit pixel's centre and value, matched back to points by position (`GADem`, tested on recorded responses). No source label exists, so samples are `ga5m`, or `ga5m-water` below 1 m (bridge spans read the water).
+    - `wmsPoint`: any WMS raster layer that answers `GetFeatureInfo` with JSON, one point per request, paced at 1/s (Cape Town: the City's 2025 2 m lidar terrain model). `elevation.wms` gives the URL and layer and dotted paths into the response for the value, an optional mask (0 = no data) and the source label, or a fixed `label` (`WMSPoint`, tested on recorded responses).
     - Each provider labels every sample with its source (GSI `hsrc`, or the 3DEP project name); `trustedSources` lists the labels to keep.
   - `profiles.json` (optional): elevation control points for structures bare-earth data can't see, such as bridge decks that are real climbs. Each profile has `name`, `source` (citation), `method`, and `points` in course order from where the structure leaves the ground to where it rejoins it, each `{latitude, longitude}` with `elevationMeters` (absolute) or `riseMeters` (above the straight line between the profile's ends, for modelled humps). The build places points on the route by position (within 30 m, in order, each profile after the previous one) and replaces every sample between the first and last point by straight lines through them. The report draws them in teal. Commit the points with their provenance, not any extraction script that needs third-party software.
   - `elevation-samples.json`: `elevations` (one per sample, as returned by the provider), `sourceCodes` (one character per sample; `?` = not fetched) with a `sources` legend, sample spacing, smoothing and a route fingerprint. Sample positions aren't stored: `RouteSampling.positions` recomputes them exactly from `route.json` and the config.

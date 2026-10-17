@@ -127,10 +127,29 @@ public struct CourseConfig: Codable, Equatable, Sendable {
     }
 
     public struct ElevationSettings: Codable, Equatable, Sendable {
-        /// `gsi` (Japan, single-point API) or `usgs3dep` (United States).
+        /// `gsi` (Japan, single-point API), `usgs3dep` (United States), `gaDem5m` (Australia) or `wmsPoint` (a WMS
+        /// raster layer, configured by `wms`).
         public var provider: String
         /// Source labels, as reported per sample by the provider, that are trusted. Others are interpolated.
         public var trustedSources: [String]
+        /// The service and response fields for `wmsPoint`.
+        public var wms: WMSPointSettings?
+    }
+
+    /// A WMS `GetFeatureInfo` service that returns a raster layer's raw value as JSON. Paths are dotted keys into the
+    /// response, where numeric parts index arrays (e.g. `layers.0.raw.bands.0.value`).
+    public struct WMSPointSettings: Codable, Equatable, Sendable {
+        /// The service URL without a query.
+        public var url: String
+        public var layer: String
+        /// The elevation in meters: a number or a numeric string. A point without one has no data.
+        public var valuePath: String
+        /// A mask value; where it is 0 the point has no data (e.g. sea, outside the survey).
+        public var maskPath: String?
+        /// The per-sample source label (e.g. the source raster's file name)…
+        public var labelPath: String?
+        /// …or a fixed label, for services that report none.
+        public var label: String?
     }
 
     public struct StructureSettings: Codable, Equatable, Sendable {
