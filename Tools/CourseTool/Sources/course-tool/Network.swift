@@ -361,6 +361,49 @@ struct USGS3DEPElevationProvider: ElevationProvider {
     }
 }
 
+/// Geoscience Australia's national 5 m LiDAR DEM, through the `DEM_LiDAR_5m_2025` MapServer's `identify` with a
+/// multipoint (decoded by `GADem`). Up to 500 points a request, about 17 s each; requests are spaced a second apart,
+/// and points left out of a response are asked for again.
+struct GADem5mElevationProvider: ElevationProvider {
+    let name = "gaDem5m"
+    let batchSize = 500
+
+    func elevations(at points: [Coordinate]) async throws -> [ElevationReading] {
+        var readings = [ElevationReading?](repeating: nil, count: points.count)
+        for attempt in 1...4 {
+            let pending = points.indices.filter { readings[$0] == nil }
+            if pending.isEmpty { break }
+            if attempt > 1 { log("  GA: asking again for \(pending.count) points left out of the response") }
+            let batch = pending.map { points[$0] }
+            for (offset, reading) in try GADem.readings(from: try await Self.identify(batch), for: batch).enumerated() {
+                readings[pending[offset]] = reading
+            }
+            try await Task.sleep(for: .seconds(1))
+        }
+        guard readings.allSatisfy({ $0 != nil }) else {
+            throw PipelineError("GA kept leaving points out of its responses; try again later")
+        }
+        return readings.map { $0! }
+    }
+
+    private static func identify(_ points: [Coordinate]) async throws -> Data {
+        let pointList = points.map { String(format: "[%.7f,%.7f]", $0.longitude, $0.latitude) }.joined(separator: ",")
+        let lats = points.map(\.latitude)
+        let lons = points.map(\.longitude)
+        // `identify` requires a map extent and image size; with zero tolerance they only need to cover the points.
+        let extent = String(
+            format: "%.6f,%.6f,%.6f,%.6f", lons.min()! - 0.01, lats.min()! - 0.01, lons.max()! + 0.01,
+            lats.max()! + 0.01)
+        return try await HTTP.postForm(
+            URL(string: "https://services.ga.gov.au/gis/rest/services/DEM_LiDAR_5m_2025/MapServer/identify")!,
+            fields: [
+                "geometry": "{\"points\":[\(pointList)],\"spatialReference\":{\"wkid\":4326}}",
+                "geometryType": "esriGeometryMultipoint", "sr": "4326", "layers": "all", "tolerance": "0",
+                "mapExtent": extent, "imageDisplay": "400,400,96", "returnGeometry": "true", "f": "json",
+            ])
+    }
+}
+
 /// Geospatial Information Authority of Japan elevation API: one point per request.
 ///
 /// Requests start one per second, whatever their latency, so the server sees a steady ~1 request/second.

@@ -138,6 +138,24 @@ struct RouteGraphTests {
         }
     }
 
+    @Test("A join links a dead-end path to the road it stops short of")
+    func joins() throws {
+        // Road 1–5 ends at 500 m; a path-like way 6–2 starts 20 m further east and runs to 1000 m.
+        var nodes = square
+        nodes[6] = at(520, 0)
+        let ways = [road(90, [1, 5]), road(91, [6, 2])]
+        let points = [waypoint("west", 0, 0), waypoint("east", 1000, 0)]
+        let join = CourseConfig.OSMGraphSettings.Join(from: at(500, 0), to: at(520, 0), reason: "test gap")
+
+        let result = try RouteGraph.route(through: points, ways: ways, nodes: nodes, settings: .init(joins: [join]))
+
+        #expect(abs(result.lengthMeters - 1000) < 1)
+        #expect(result.wayIDs == [90, 91])
+        #expect(throws: PipelineError.self) {
+            try RouteGraph.route(through: points, ways: ways, nodes: nodes, settings: .init())
+        }
+    }
+
     @Test("A waypoint far from every usable way fails")
     func waypointOffRoute() {
         #expect(throws: PipelineError.self) {

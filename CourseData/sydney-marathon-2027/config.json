@@ -1,0 +1,353 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 88,
+      "min": 83,
+      "name": "Start elevation 83–88 m (GA 5 m: 85.8 m)"
+    },
+    {
+      "atMeters": 42195,
+      "kind": "elevationAt",
+      "max": 5,
+      "min": 2,
+      "name": "Finish elevation 2–5 m (GA 5 m: 3.5 m)"
+    },
+    {
+      "fromMeters": 0,
+      "kind": "drop",
+      "max": 85,
+      "min": 80,
+      "name": "Net drop 80–85 m (official −83 m)",
+      "toMeters": 42195
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 88,
+      "name": "Highest point ≤ 88 m: the start"
+    },
+    {
+      "fromMeters": 1800,
+      "kind": "maximumElevation",
+      "max": 60,
+      "min": 50,
+      "name": "Harbour Bridge crest 50–60 m (deck about 52 m above the water)",
+      "toMeters": 2800
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 1.5,
+      "name": "Lowest point ≥ 1.5 m (bridge and viaduct spans read the water; real low points about 2.2 m)"
+    },
+    {
+      "atMeters": 8500,
+      "kind": "noDip",
+      "name": "Western Distributor viaduct over Darling Harbour is never a dip",
+      "radiusMeters": 400
+    },
+    {
+      "fromMeters": 1550,
+      "kind": "climb",
+      "min": 1,
+      "name": "Harbour Bridge climb at ≥ +1%",
+      "toMeters": 2300
+    },
+    {
+      "fromMeters": 12000,
+      "kind": "climb",
+      "min": 1.5,
+      "name": "The Rocks to Martin Place (12–13 km) at ≥ +1.5%",
+      "toMeters": 13000
+    },
+    {
+      "fromMeters": 14450,
+      "kind": "climb",
+      "min": 1.5,
+      "name": "Oxford St to Taylor Square (14.45–15.9 km) at ≥ +1.5%",
+      "toMeters": 15900
+    },
+    {
+      "fromMeters": 39600,
+      "kind": "climb",
+      "min": 1,
+      "name": "Final climb from Mrs Macquarie's Chair (39.6–41.1 km) at ≥ +1%",
+      "toMeters": 41100
+    },
+    {
+      "fromMeters": 41100,
+      "kind": "drop",
+      "max": 32,
+      "min": 26,
+      "name": "Macquarie St finish descent drops 26–32 m",
+      "toMeters": 42100
+    },
+    {
+      "fromMeters": 0,
+      "kind": "drop",
+      "max": 56,
+      "min": 48,
+      "name": "Start descent drops 48–56 m",
+      "toMeters": 1200
+    },
+    {
+      "atMeters": 15900,
+      "kind": "elevationAt",
+      "max": 55,
+      "min": 50,
+      "name": "Taylor Square 50–55 m"
+    },
+    {
+      "kind": "gain",
+      "max": 345,
+      "min": 255,
+      "name": "Gain 255–345 m (at 100 m smoothing; official +313 m)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "loss",
+      "max": 430,
+      "min": 335,
+      "name": "Loss 335–430 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 8,
+      "name": "Steepest incline within ±8%"
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": false,
+      "location": {
+        "latitude": -33.8603302,
+        "longitude": 151.2029154
+      },
+      "name": "10 km: Hickson Rd, Barangaroo",
+      "officialMeters": 10000
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": -33.8606279,
+        "longitude": 151.2085649
+      },
+      "name": "George St & Alfred St, The Rocks",
+      "officialMeters": 11900
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": -33.869229,
+        "longitude": 151.2118482
+      },
+      "name": "Top of Macquarie St (Queens Square)",
+      "officialMeters": 14000
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": -33.8799247,
+        "longitude": 151.2160446
+      },
+      "name": "Taylor Square (Oxford St & Flinders St)",
+      "officialMeters": 15400
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": -33.9009111,
+        "longitude": 151.2158314
+      },
+      "name": "Dacey Ave spur U-turn",
+      "officialMeters": 18470
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": -33.9312417,
+        "longitude": 151.2366618
+      },
+      "name": "Anzac Pde turnaround, Kingsford",
+      "officialMeters": 22915
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": -33.8953946,
+        "longitude": 151.2226709
+      },
+      "name": "Moore Park: Lang Rd hairpin",
+      "officialMeters": 29700
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": -33.8918683,
+        "longitude": 151.2235419
+      },
+      "name": "Driver Ave, Moore Park (second pass)",
+      "officialMeters": 34800
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": -33.8819886,
+        "longitude": 151.2172226
+      },
+      "name": "Taylor Square (second pass)",
+      "officialMeters": 36200
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": -33.8599764,
+        "longitude": 151.2222276
+      },
+      "name": "Mrs Macquarie's Chair turnaround",
+      "officialMeters": 39226
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": -33.8701365,
+        "longitude": 151.2126048
+      },
+      "name": "Top of Macquarie St (second pass)",
+      "officialMeters": 40800
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": -33.8580573,
+        "longitude": 151.2141482
+      },
+      "name": "Finish: Opera House forecourt",
+      "officialMeters": 42195
+    }
+  ],
+  "description": "North Sydney to the Opera House: a fast drop from Miller St to the Harbour Bridge, the bridge climb, Pyrmont and Darling Harbour, the city hills up to Oxford St, Anzac Parade out to Kingsford and back, a loop of Centennial Park, then down through the Domain to Mrs Macquarie's Chair and a final climb before the run-in to the Opera House. Unofficial.",
+  "edition": "2027",
+  "elevation": {
+    "provider": "gaDem5m",
+    "trustedSources": [
+      "ga5m"
+    ]
+  },
+  "id": "sydney-marathon-2027",
+  "location": "North Sydney to Sydney Opera House, New South Wales, Australia",
+  "manualSpans": [
+    {
+      "action": "interpolate",
+      "endMeters": 4775,
+      "reason": "Western Distributor in its covered section near Darling Harbour: the DEM reads the plaza above the road (a 9 m hump for 150 m)",
+      "startMeters": 4600
+    },
+    {
+      "action": "interpolate",
+      "endMeters": 11300,
+      "reason": "Circular Quay: the DEM is noisy (±5 m between neighbouring samples) around the station and the elevated Cahill Expressway",
+      "startMeters": 11130
+    }
+  ],
+  "name": "Sydney Marathon",
+  "officialDistanceMeters": 42195,
+  "processing": {
+    "checkpointSearchRadiusMeters": 75,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 300,
+    "minimumIntervalMeters": 300,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "corridorMeters": 250,
+    "includeWays": [
+      1029458176,
+      1426924019,
+      1473951284,
+      1483134076
+    ],
+    "joins": [
+      {
+        "from": {
+          "latitude": -33.861218,
+          "longitude": 151.208377
+        },
+        "reason": "George St to the Alfred St plaza at Circular Quay: OSM maps the plaza as pedestrian ways that don't meet George St (light rail stop between)",
+        "to": {
+          "latitude": -33.8615121,
+          "longitude": 151.2082925
+        }
+      },
+      {
+        "from": {
+          "latitude": -33.89036,
+          "longitude": 151.2206
+        },
+        "reason": "Anzac Pde to the Moore Park shared path to Driver Ave: the path stops short of Anzac Pde at the light rail tracks in OSM",
+        "to": {
+          "latitude": -33.8903562,
+          "longitude": 151.2211687
+        }
+      }
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 16000,
+      "id": "city-hills",
+      "name": "City hills: The Rocks to Taylor Square (km 11.9–16)",
+      "startMeters": 11900
+    },
+    {
+      "endMeters": 42195,
+      "id": "final-8k",
+      "name": "Final 8K: Moore Park to the Opera House",
+      "startMeters": 34800
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: Digital Elevation Model of Australia derived from LiDAR 5 Metre Grid, © Commonwealth of Australia (Geoscience Australia), CC BY 4.0, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "CC BY 4.0 (Geoscience Australia)",
+      "name": "Geoscience Australia national 5 m LiDAR DEM (bare earth)",
+      "url": "https://services.ga.gov.au/gis/rest/services/DEM_LiDAR_5m_2025/MapServer"
+    },
+    "notes": "2025/2026 course (the organiser changed the route in 2024 and 2025). Route traced over OpenStreetMap streets in race order; no measurement certificate is public, so distances are calibrated to the course's U-turns and the finish at their published distances. Elevations from Geoscience Australia's 5 m bare-earth lidar DEM; bridges and viaducts are interpolated, except the Harbour Bridge, whose deck is modelled from published heights (about 52 m above the water at mid-span). Downhills are flat on a treadmill without decline. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": true
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [],
+    "ignoredTunnelHighways": [
+      "corridor",
+      "cycleway",
+      "footway",
+      "motorway",
+      "motorway_link",
+      "path",
+      "pedestrian",
+      "platform",
+      "steps"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}

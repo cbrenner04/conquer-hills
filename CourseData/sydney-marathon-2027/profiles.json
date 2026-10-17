@@ -1,0 +1,26 @@
+{
+  "profiles": [
+    {
+      "method": "Modelled from published heights: straight lines from the measured ground where the deck leaves it at Milsons Point and rejoins it at The Rocks, to a crest of 52 m at mid-span. The real deck curves, so its grades near the ends are probably steeper (the railway climbs at 1 in 40).",
+      "name": "Sydney Harbour Bridge",
+      "points": [
+        {
+          "latitude": -33.8454705,
+          "longitude": 151.2118434,
+          "riseMeters": 0
+        },
+        {
+          "elevationMeters": 52,
+          "latitude": -33.8519972,
+          "longitude": 151.2109137
+        },
+        {
+          "latitude": -33.8606131,
+          "longitude": 151.2059435,
+          "riseMeters": 0
+        }
+      ],
+      "source": "Engineers Australia heritage listing (the deck is suspended 52 m above the water); the deck's ends follow the measured approaches (Geoscience Australia 5 m DEM)"
+    }
+  ]
+}

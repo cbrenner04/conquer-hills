@@ -140,6 +140,7 @@ func structuresFile(config: CourseConfig, route: [Coordinate], ways: [StructureS
     switch config.elevation.provider {
     case "gsi": provider = GSIElevationProvider()
     case "usgs3dep": provider = USGS3DEPElevationProvider()
+    case "gaDem5m": provider = GADem5mElevationProvider()
     default:
         throw PipelineError("elevation provider \(config.elevation.provider) is not implemented yet")
     }

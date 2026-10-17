@@ -88,6 +88,19 @@ public enum RouteGraph {
         }
         guard !segments.isEmpty else { throw PipelineError("no usable ways in the downloaded corridor") }
 
+        // Joins link the nearest usable OSM nodes to each end with a straight segment (way 0: not an OSM way).
+        let graphNodes = Array(index.values)
+        for join in settings.joins {
+            let ends = try [join.from, join.to].map { end -> Int in
+                let p = projection.point(end)
+                guard let nearest = graphNodes.min(by: { points[$0].distance(to: p) < points[$1].distance(to: p) }),
+                    points[nearest].distance(to: p) <= maximumSnapMeters
+                else { throw PipelineError("join \"\(join.reason)\": no usable OSM node near one end") }
+                return nearest
+            }
+            segments.append(Segment(a: ends[0], b: ends[1], way: 0, costFactor: 1))
+        }
+
         // Snap each waypoint to the nearest point on any segment.
         var snaps: [Int: [(t: Double, node: Int)]] = [:]
         var waypointNodes: [Int] = []
@@ -140,7 +153,7 @@ public enum RouteGraph {
                 let step = points[a].distance(to: points[b])
                 length += step
                 // Zero-length steps join a snapped waypoint to a junction; they don't use the way.
-                if step > 0.01 && !wayIDs.contains(way) { wayIDs.append(way) }
+                if step > 0.01 && way != 0 && !wayIDs.contains(way) { wayIDs.append(way) }
             }
             path.append(contentsOf: legPath.dropFirst())
         }

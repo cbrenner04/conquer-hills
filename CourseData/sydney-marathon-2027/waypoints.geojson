@@ -1,0 +1,1539 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          151.2080876,
+          -33.8328661
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start: Miller Street & Ridge Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2068652,
+          -33.8389044
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Miller Street & Mount Street & Pacific Highway"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2105561,
+          -33.8425077
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Arthur Street & Pacific Highway"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.20913,
+          -33.854837
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sydney Harbour Bridge (Bradfield Hwy, main span)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2063282,
+          -33.8594888
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bradfield Hwy Southbound"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.203241,
+          -33.8697978
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Western Distributor (tunnel under Sussex St)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2030059,
+          -33.873364
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Western Distributor (covered)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2015086,
+          -33.8741326
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Fig Street Offramp"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.1969351,
+          -33.8749407
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Fig Street & Fig Street Offramp & Harris Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.1968637,
+          -33.8748116
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Harris Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.1939376,
+          -33.8697121
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Harris Street & Miller Street & Union Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.1918297,
+          -33.8660531
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Harris Street & Pirrama Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.1919535,
+          -33.8641881
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Pirrama Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.1919649,
+          -33.864069
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Pirrama Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.1920194,
+          -33.863961
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Pirrama Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.1920867,
+          -33.8638947
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Pirrama Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.1927589,
+          -33.8636098
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Pirrama Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.1928626,
+          -33.8636187
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Pirrama Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.1929698,
+          -33.8636494
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Pirrama Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.1930549,
+          -33.8636977
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Pirrama Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.1948844,
+          -33.8664343
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Pirrama Road & residential"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.1939285,
+          -33.8676509
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Jones Bay Road & Pyrmont Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.1980995,
+          -33.8738405
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Western Distributor Onramp (viaduct)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2023861,
+          -33.8728031
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Western Distributor (viaduct over Darling Harbour)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2027602,
+          -33.8716379
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "King Street Offramp"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2028125,
+          -33.8705047
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "King Street Offramp (north)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2036364,
+          -33.8688079
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "King Street & King Street Offramp & Sussex Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2036296,
+          -33.868746
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sussex Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2030115,
+          -33.863314
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hickson Road & Watermans Quay"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2025785,
+          -33.8587313
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hickson Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2069925,
+          -33.8557086
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hickson Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.20843,
+          -33.854231
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "service"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2088296,
+          -33.8538647
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hickson Road & service"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2097269,
+          -33.8543034
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hickson Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2100895,
+          -33.8550749
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hickson Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2100514,
+          -33.8552673
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hickson Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2099271,
+          -33.8553863
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hickson Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2088507,
+          -33.8557623
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hickson Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2083766,
+          -33.8612177
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "George Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2092599,
+          -33.8616095
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Alfred Street & Pitt Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2083262,
+          -33.8688968
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "King Street & Pitt Street & Pitt Street Mall"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2096778,
+          -33.8690813
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Castlereagh Street & King Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2110805,
+          -33.8647207
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bent Street & Bligh Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2125342,
+          -33.8657237
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bent Street & Macquarie Street & Shakespeare Place"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2119883,
+          -33.869807
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Macquarie Street & Prince Albert Road & St. James Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2119784,
+          -33.8698759
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Macquarie Street & Prince Albert Road & St. James Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.212212,
+          -33.8766169
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "College Street & service"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2121291,
+          -33.8769022
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "College Street & Liverpool Street & Oxford Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2168616,
+          -33.8805897
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Oxford Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2181458,
+          -33.8851267
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Flinders Street & South Dowling Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.220658,
+          -33.8905325
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Anzac Parade"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2213799,
+          -33.8949063
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "primary_link"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2225345,
+          -33.901454
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Alison Road & Anzac Parade & Dacey Avenue"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2155821,
+          -33.9009796
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Dacey Avenue & primary_link"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2220134,
+          -33.9015139
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Dacey Avenue"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2225483,
+          -33.9015591
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Alison Road & Anzac Parade & Dacey Avenue"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2232971,
+          -33.9089945
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Anzac Parade & Duke Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2249846,
+          -33.9134753
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Anzac Parade"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2261068,
+          -33.9178948
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Anzac Parade & Day Avenue"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2268567,
+          -33.9222392
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Anzac Parade"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2304605,
+          -33.9261767
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Anzac Parade & Sturt Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2351827,
+          -33.9295025
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Anzac Parade"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2366618,
+          -33.9312417
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Anzac Parade & Broadbent Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2371521,
+          -33.9312275
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Anzac Parade & Broadbent Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2331574,
+          -33.9278592
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Anzac Parade"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.228412,
+          -33.9243664
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Anzac Parade & Rainbow Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2265951,
+          -33.9196442
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Anzac Parade & service"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2252322,
+          -33.9139076
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Anzac Parade"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.223901,
+          -33.9043938
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Anzac Parade"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.222448,
+          -33.8996104
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Anzac Parade"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2216339,
+          -33.8951602
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Anzac Parade & Cleveland Street & Lang Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.220658,
+          -33.8905325
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Anzac Parade"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.219332,
+          -33.887104
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Anzac Parade (U-turn near Flinders St)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2208282,
+          -33.891096
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Anzac Parade"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2235089,
+          -33.8915249
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Driver Avenue"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.223879,
+          -33.895381
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Driver Avenue"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2238818,
+          -33.8957436
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Driver Avenue & Lang Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2225375,
+          -33.8953795
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "tertiary_link"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2277407,
+          -33.8977388
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Grand Drive & unclassified"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2292394,
+          -33.9022295
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Grand Drive & service"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2339293,
+          -33.9047088
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Grand Drive"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2398524,
+          -33.9019837
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Grand Drive & Musgrave Avenue"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2404402,
+          -33.8976554
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Grand Drive & Robinson Drive"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2366932,
+          -33.8944791
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Grand Drive"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2306063,
+          -33.8964491
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Grand Drive"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.226789,
+          -33.8970335
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Robertson Road & unclassified"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2269836,
+          -33.8968409
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Cook Road & Lang Road & Robertson Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2238818,
+          -33.8957436
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Driver Avenue & Lang Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2232687,
+          -33.8892765
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Driver Avenue"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2223505,
+          -33.887149
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Driver Avenue"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2223705,
+          -33.8870911
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Driver Avenue & Moore Park Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2220144,
+          -33.8869578
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Moore Park Road & Moore Park Road Offramp"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2190871,
+          -33.8866881
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Anzac Parade & Flinders Street & Moore Park Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.219025,
+          -33.8865981
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Flinders Street & Moore Park Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2171588,
+          -33.8807393
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Oxford Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2121291,
+          -33.8769022
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "College Street & Liverpool Street & Oxford Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.212212,
+          -33.8766169
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "College Street & service"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2130327,
+          -33.8705319
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "College Street & Saint Mary's Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2131369,
+          -33.8704085
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Prince Albert Road & Saint Mary's Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2134932,
+          -33.8705437
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Prince Albert Road & Saint Mary's Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2135121,
+          -33.870382
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Prince Albert Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2177149,
+          -33.8673221
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Art Gallery Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.220814,
+          -33.8641342
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mrs Macquaries Road & service"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2225401,
+          -33.8623923
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mrs Macquaries Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2222012,
+          -33.8599337
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mrs Macquaries Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.222104,
+          -33.8598506
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mrs Macquaries Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2220242,
+          -33.8598403
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mrs Macquaries Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2219395,
+          -33.8598608
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mrs Macquaries Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.221884,
+          -33.8599089
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mrs Macquaries Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2218614,
+          -33.859965
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mrs Macquaries Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.220215,
+          -33.8641815
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mrs Macquaries Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2167226,
+          -33.8684106
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Art Gallery Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2119883,
+          -33.869807
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Macquarie Street & Prince Albert Road & St. James Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2120469,
+          -33.8694008
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Macquarie Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2128806,
+          -33.8632789
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bridge Street & Conservatorium Road & Macquarie Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2134944,
+          -33.8590426
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Macquarie Street"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2135716,
+          -33.8588531
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Macquarie Street & service"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.21419,
+          -33.8579008
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: Cahill Walk & pedestrian"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
