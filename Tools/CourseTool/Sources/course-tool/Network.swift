@@ -294,70 +294,59 @@ enum OSMData {
     }
 }
 
-/// USGS 3D Elevation Program, through the 3DEP ImageServer's batch `getSamples`.
+/// An ArcGIS ImageServer's batch `getSamples` (decoded by `ImageServerSamples`): the USGS 3D Elevation Program by
+/// default (`usgs3dep`), or any other elevation service configured by `elevation.imageServer` (`imageServer`).
 ///
-/// Each point gets the best available DEM (1 m lidar where it exists); the source label is that dataset's project
-/// name, e.g. `MA_CentralEastern_2021_B21`. The service advertises 2,000 points a request but can silently return
-/// fewer samples than points, so requests are kept to 500 points and any point left out of a response is asked for
-/// again. Requests are spaced a few seconds apart.
-struct USGS3DEPElevationProvider: ElevationProvider {
-    let name = "usgs3dep"
+/// For 3DEP, each point gets the best available DEM (1 m lidar where it exists) and the source label is that dataset's
+/// project name, e.g. `MA_CentralEastern_2021_B21`. The service advertises 2,000 points a request but can silently
+/// return fewer samples than points, so requests are kept to 500 points and any point left out of a response is
+/// asked for again. Requests are spaced a few seconds apart.
+struct ImageServerElevationProvider: ElevationProvider {
+    let name: String
     let batchSize = 500
+    var url = "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer"
+    var zFactor = 1.0
+    var label: String?
+
+    static let usgs3dep = ImageServerElevationProvider(name: "usgs3dep")
+
+    init(name: String) { self.name = name }
+
+    init(settings: CourseConfig.ImageServerSettings) {
+        name = "imageServer"
+        url = settings.url
+        zFactor = settings.zFactor
+        label = settings.label
+    }
 
     func elevations(at points: [Coordinate]) async throws -> [ElevationReading] {
         var readings = [ElevationReading?](repeating: nil, count: points.count)
         for attempt in 1...4 {
             let pending = points.indices.filter { readings[$0] == nil }
             if pending.isEmpty { break }
-            if attempt > 1 { log("  3DEP: asking again for \(pending.count) points left out of the response") }
-            let returned = try await Self.samples(at: pending.map { points[$0] })
+            if attempt > 1 { log("  ImageServer: asking again for \(pending.count) points left out of the response") }
+            let returned = try await samples(at: pending.map { points[$0] })
             for (offset, reading) in returned { readings[pending[offset]] = reading }
             try await Task.sleep(for: .seconds(3))
         }
         guard readings.allSatisfy({ $0 != nil }) else {
-            throw PipelineError("3DEP kept leaving points out of its responses; try again later")
+            throw PipelineError("the ImageServer kept leaving points out of its responses; try again later")
         }
         return readings.map { $0! }
     }
 
     /// The samples the service returned, keyed by position in `points`. A sample whose value isn't a number is
     /// recorded as no data; a point missing from the response is left out, so it can be asked for again.
-    private static func samples(at points: [Coordinate]) async throws -> [Int: ElevationReading] {
+    private func samples(at points: [Coordinate]) async throws -> [Int: ElevationReading] {
         let pointList = points.map { String(format: "[%.7f,%.7f]", $0.longitude, $0.latitude) }.joined(separator: ",")
-        let url = URL(
-            string: "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/getSamples")!
         let data = try await HTTP.postForm(
-            url,
+            URL(string: url + "/getSamples")!,
             fields: [
                 "geometry": "{\"points\":[\(pointList)],\"spatialReference\":{\"wkid\":4326}}",
                 "geometryType": "esriGeometryMultipoint", "returnFirstValueOnly": "true",
                 "interpolation": "RSP_BilinearInterpolation", "outFields": "Name", "f": "json",
             ])
-        struct Response: Decodable {
-            struct Sample: Decodable {
-                struct Attributes: Decodable {
-                    let name: String?
-                    enum CodingKeys: String, CodingKey { case name = "Name" }
-                }
-                let locationId: Int
-                let value: String
-                let attributes: Attributes?
-            }
-            let samples: [Sample]?
-        }
-        guard let samples = try JSONDecoder().decode(Response.self, from: data).samples else {
-            throw PipelineError("unexpected 3DEP response: \(String(decoding: data.prefix(300), as: UTF8.self))")
-        }
-        var result: [Int: ElevationReading] = [:]
-        for sample in samples where sample.locationId >= 0 && sample.locationId < points.count {
-            if let value = Double(sample.value) {
-                result[sample.locationId] = ElevationReading(
-                    elevationMeters: (value * 1000).rounded() / 1000, source: sample.attributes?.name ?? "unknown")
-            } else {
-                result[sample.locationId] = ElevationReading(elevationMeters: nil, source: "no data")
-            }
-        }
-        return result
+        return try ImageServerSamples.readings(from: data, pointCount: points.count, zFactor: zFactor, label: label)
     }
 }
 
