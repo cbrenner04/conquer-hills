@@ -1,0 +1,815 @@
+{
+  "description" : "From Manitou Springs City Hall (6,300 ft) up Ruxton Avenue and Barr Trail: the Ws, No Name Creek, the runnable stretch to Barr Camp, above treeline at the A-Frame and up the Golden Stairs to the turnaround near the summit (about 14,050 ft), then back down the same trail to Ruxton Avenue. The Ascent is the first 13.32 miles. Most of the climb is steeper than the treadmill goes; the descent is flat without decline. Unofficial.",
+  "developmentOnly" : false,
+  "distanceMeters" : 42180,
+  "edition" : "2027",
+  "elevationProfile" : {
+    "elevationsMeters" : [
+      1921.5,
+      1924,
+      1927.8,
+      1928.9,
+      1932.7,
+      1933.4,
+      1933.4,
+      1934.7,
+      1938,
+      1941.3,
+      1944.8,
+      1949.7,
+      1954,
+      1959.1,
+      1966.6,
+      1975,
+      1982.2,
+      1989.8,
+      1999.3,
+      2007,
+      2014.4,
+      2026.2,
+      2043.1,
+      2054.2,
+      2063.7,
+      2078.7,
+      2091.5,
+      2108.4,
+      2117.6,
+      2133.4,
+      2145.5,
+      2159.1,
+      2174.3,
+      2188.7,
+      2199.1,
+      2211.6,
+      2227.7,
+      2243.9,
+      2258.3,
+      2272.8,
+      2286,
+      2296.5,
+      2310.4,
+      2327.1,
+      2340.1,
+      2354.7,
+      2367.9,
+      2382.7,
+      2396.3,
+      2409.1,
+      2423,
+      2439.7,
+      2453.7,
+      2467.7,
+      2481.8,
+      2496.1,
+      2509.7,
+      2522.8,
+      2536.2,
+      2549.3,
+      2559.6,
+      2568.2,
+      2579.1,
+      2585.1,
+      2596.2,
+      2613.5,
+      2628.7,
+      2633.8,
+      2640.4,
+      2656.6,
+      2666.5,
+      2680.7,
+      2696.5,
+      2709.3,
+      2723.8,
+      2738.4,
+      2752,
+      2767.3,
+      2777.5,
+      2783,
+      2790.5,
+      2796.8,
+      2807.2,
+      2818.3,
+      2826.6,
+      2833.8,
+      2838.1,
+      2843,
+      2845,
+      2845.4,
+      2843.7,
+      2851,
+      2859.4,
+      2870.6,
+      2878.2,
+      2882.3,
+      2887.3,
+      2899.3,
+      2911.4,
+      2916,
+      2914.3,
+      2913.8,
+      2914.5,
+      2915.5,
+      2919.2,
+      2925.3,
+      2933.3,
+      2929.6,
+      2933.7,
+      2942.1,
+      2953.4,
+      2965.7,
+      2979.4,
+      2993.3,
+      3006.1,
+      3018.5,
+      3031.6,
+      3043.4,
+      3055.8,
+      3067.1,
+      3078.7,
+      3087,
+      3097.4,
+      3105.9,
+      3116.2,
+      3127.6,
+      3139.7,
+      3152.7,
+      3164.2,
+      3172.7,
+      3183.3,
+      3193.7,
+      3205.8,
+      3219.1,
+      3231.8,
+      3244.1,
+      3257.4,
+      3270.6,
+      3283.1,
+      3297.1,
+      3308.9,
+      3321.3,
+      3334.8,
+      3347.7,
+      3360.1,
+      3374.9,
+      3388.9,
+      3402.3,
+      3413.4,
+      3425.2,
+      3439.2,
+      3451.1,
+      3464.8,
+      3478.5,
+      3491.8,
+      3505.5,
+      3520.3,
+      3534.3,
+      3546.7,
+      3559.1,
+      3572.4,
+      3585.5,
+      3600.3,
+      3615.6,
+      3629.9,
+      3643.7,
+      3655.6,
+      3668.1,
+      3679.2,
+      3689.7,
+      3700.4,
+      3711.3,
+      3720,
+      3731.8,
+      3744.5,
+      3755.2,
+      3768,
+      3784,
+      3800.4,
+      3814.2,
+      3828.5,
+      3840.1,
+      3849,
+      3860.1,
+      3874.1,
+      3887.7,
+      3902,
+      3913.8,
+      3927.8,
+      3943,
+      3955.7,
+      3965.7,
+      3976.8,
+      3990.9,
+      4002.6,
+      4014.7,
+      4025.2,
+      4036.4,
+      4049.9,
+      4062.7,
+      4073.3,
+      4089.1,
+      4107.9,
+      4121.3,
+      4133.4,
+      4144.6,
+      4157.9,
+      4167.6,
+      4178.2,
+      4189.8,
+      4216.5,
+      4232.4,
+      4240.3,
+      4261.4,
+      4278,
+      4274.5,
+      4258.3,
+      4237.1,
+      4229.2,
+      4206.5,
+      4183.9,
+      4174.3,
+      4163.7,
+      4153.3,
+      4140,
+      4129.2,
+      4115.6,
+      4102.4,
+      4083.6,
+      4071.8,
+      4060.7,
+      4047.4,
+      4034,
+      4023.1,
+      4012.5,
+      4000,
+      3988.4,
+      3974.2,
+      3964,
+      3953.4,
+      3941,
+      3924.8,
+      3911.8,
+      3899.9,
+      3886,
+      3872.2,
+      3857.9,
+      3847.5,
+      3838.4,
+      3825.9,
+      3811.8,
+      3798.5,
+      3781,
+      3764.7,
+      3752.4,
+      3741.3,
+      3728.1,
+      3717.3,
+      3708.6,
+      3697.4,
+      3687,
+      3676.8,
+      3664.7,
+      3653.2,
+      3640.4,
+      3626.2,
+      3610.9,
+      3596.7,
+      3582.1,
+      3569.3,
+      3556.7,
+      3544.8,
+      3532.4,
+      3517.3,
+      3502.9,
+      3489.7,
+      3475.4,
+      3461.3,
+      3448.5,
+      3436.3,
+      3422.7,
+      3410.8,
+      3399.5,
+      3385.7,
+      3371.4,
+      3357.1,
+      3344.6,
+      3331.7,
+      3318.2,
+      3306,
+      3294.2,
+      3280.1,
+      3267.7,
+      3254.2,
+      3240.9,
+      3229.1,
+      3215.9,
+      3202.7,
+      3191.1,
+      3180.5,
+      3170.8,
+      3161.8,
+      3149.5,
+      3136.8,
+      3124.6,
+      3113.4,
+      3104.1,
+      3095.5,
+      3084.6,
+      3076.7,
+      3064.5,
+      3053,
+      3040.7,
+      3027.7,
+      3015,
+      3002.6,
+      2989.5,
+      2975.5,
+      2962.4,
+      2949.9,
+      2939.6,
+      2931.6,
+      2930.5,
+      2932.3,
+      2923.8,
+      2917.6,
+      2915.1,
+      2914.3,
+      2913.8,
+      2915,
+      2915.8,
+      2908.4,
+      2896.4,
+      2884.5,
+      2882.2,
+      2876.4,
+      2868.5,
+      2857.1,
+      2848.3,
+      2844,
+      2845.2,
+      2845.4,
+      2842,
+      2836.9,
+      2832.7,
+      2824.6,
+      2816.1,
+      2804.4,
+      2795.1,
+      2789.1,
+      2781.7,
+      2775.9,
+      2763.9,
+      2749,
+      2735.3,
+      2719.7,
+      2707,
+      2693.6,
+      2677,
+      2663.6,
+      2654.1,
+      2637.9,
+      2633.7,
+      2625.4,
+      2612.1,
+      2594.1,
+      2584.7,
+      2578,
+      2567.2,
+      2558.8,
+      2548.7,
+      2533.8,
+      2520.2,
+      2507.9,
+      2494.9,
+      2480,
+      2465.7,
+      2451.8,
+      2438.4,
+      2421.3,
+      2407.7,
+      2395.1,
+      2381.7,
+      2366.9,
+      2353.2,
+      2338.5,
+      2325.8,
+      2309.5,
+      2295.7,
+      2284.7,
+      2271.9,
+      2257.5,
+      2242.3,
+      2226.4,
+      2211,
+      2198.8,
+      2188.2,
+      2173.5,
+      2158.7,
+      2144.6,
+      2133.2,
+      2117.5,
+      2108.1,
+      2091.3,
+      2078.6,
+      2063.6,
+      2054.2,
+      2043.2,
+      2026.4,
+      2014.6,
+      2007.2,
+      1999.6,
+      1990.1,
+      1982.5,
+      1975.3,
+      1967.1,
+      1959.3,
+      1954.3,
+      1950,
+      1945,
+      1941.6,
+      1938,
+      1935.3
+    ],
+    "sampleSpacingMeters" : 100
+  },
+  "id" : "pikes-peak-marathon-2027",
+  "inclineChanges" : [
+    {
+      "atMeters" : 0,
+      "inclinePercent" : 3
+    },
+    {
+      "atMeters" : 400,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 700,
+      "inclinePercent" : 3.5
+    },
+    {
+      "atMeters" : 1000,
+      "inclinePercent" : 4.5
+    },
+    {
+      "atMeters" : 1300,
+      "inclinePercent" : 8
+    },
+    {
+      "atMeters" : 1800,
+      "inclinePercent" : 9
+    },
+    {
+      "atMeters" : 2100,
+      "inclinePercent" : 12.5
+    },
+    {
+      "atMeters" : 2400,
+      "inclinePercent" : 13.5
+    },
+    {
+      "atMeters" : 3500,
+      "inclinePercent" : 14
+    },
+    {
+      "atMeters" : 5600,
+      "inclinePercent" : 13
+    },
+    {
+      "atMeters" : 5900,
+      "inclinePercent" : 10
+    },
+    {
+      "atMeters" : 6800,
+      "inclinePercent" : 13.5
+    },
+    {
+      "atMeters" : 7800,
+      "inclinePercent" : 6.5
+    },
+    {
+      "atMeters" : 8100,
+      "inclinePercent" : 9.5
+    },
+    {
+      "atMeters" : 8500,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 9000,
+      "inclinePercent" : 8.5
+    },
+    {
+      "atMeters" : 9800,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 10300,
+      "inclinePercent" : 3.5
+    },
+    {
+      "atMeters" : 10800,
+      "inclinePercent" : 12
+    },
+    {
+      "atMeters" : 12000,
+      "inclinePercent" : 9
+    },
+    {
+      "atMeters" : 12300,
+      "inclinePercent" : 11.5
+    },
+    {
+      "atMeters" : 12800,
+      "inclinePercent" : 10
+    },
+    {
+      "atMeters" : 13100,
+      "inclinePercent" : 12.5
+    },
+    {
+      "atMeters" : 13500,
+      "inclinePercent" : 13.5
+    },
+    {
+      "atMeters" : 13900,
+      "inclinePercent" : 12.5
+    },
+    {
+      "atMeters" : 14400,
+      "inclinePercent" : 14
+    },
+    {
+      "atMeters" : 14700,
+      "inclinePercent" : 12
+    },
+    {
+      "atMeters" : 15100,
+      "inclinePercent" : 14
+    },
+    {
+      "atMeters" : 15700,
+      "inclinePercent" : 13
+    },
+    {
+      "atMeters" : 16100,
+      "inclinePercent" : 14.5
+    },
+    {
+      "atMeters" : 16500,
+      "inclinePercent" : 11
+    },
+    {
+      "atMeters" : 17200,
+      "inclinePercent" : 12
+    },
+    {
+      "atMeters" : 17600,
+      "inclinePercent" : 14.5
+    },
+    {
+      "atMeters" : 18100,
+      "inclinePercent" : 13
+    },
+    {
+      "atMeters" : 19000,
+      "inclinePercent" : 11.5
+    },
+    {
+      "atMeters" : 19700,
+      "inclinePercent" : 14.5
+    },
+    {
+      "atMeters" : 20200,
+      "inclinePercent" : 12.5
+    },
+    {
+      "atMeters" : 20600,
+      "inclinePercent" : 10.5
+    },
+    {
+      "atMeters" : 20900,
+      "inclinePercent" : 17.5
+    },
+    {
+      "atMeters" : 21400,
+      "inclinePercent" : -15.5
+    },
+    {
+      "atMeters" : 22000,
+      "inclinePercent" : -11
+    },
+    {
+      "atMeters" : 22500,
+      "inclinePercent" : -15
+    },
+    {
+      "atMeters" : 22800,
+      "inclinePercent" : -12
+    },
+    {
+      "atMeters" : 23400,
+      "inclinePercent" : -13
+    },
+    {
+      "atMeters" : 23700,
+      "inclinePercent" : -11
+    },
+    {
+      "atMeters" : 24000,
+      "inclinePercent" : -14
+    },
+    {
+      "atMeters" : 24600,
+      "inclinePercent" : -13.5
+    },
+    {
+      "atMeters" : 25300,
+      "inclinePercent" : -12
+    },
+    {
+      "atMeters" : 25700,
+      "inclinePercent" : -10
+    },
+    {
+      "atMeters" : 26100,
+      "inclinePercent" : -12
+    },
+    {
+      "atMeters" : 26400,
+      "inclinePercent" : -14.5
+    },
+    {
+      "atMeters" : 26800,
+      "inclinePercent" : -12.5
+    },
+    {
+      "atMeters" : 27200,
+      "inclinePercent" : -13.5
+    },
+    {
+      "atMeters" : 28200,
+      "inclinePercent" : -14
+    },
+    {
+      "atMeters" : 28500,
+      "inclinePercent" : -12.5
+    },
+    {
+      "atMeters" : 29000,
+      "inclinePercent" : -13.5
+    },
+    {
+      "atMeters" : 29400,
+      "inclinePercent" : -12.5
+    },
+    {
+      "atMeters" : 29800,
+      "inclinePercent" : -9.5
+    },
+    {
+      "atMeters" : 30100,
+      "inclinePercent" : -12
+    },
+    {
+      "atMeters" : 30500,
+      "inclinePercent" : -9
+    },
+    {
+      "atMeters" : 30900,
+      "inclinePercent" : -12
+    },
+    {
+      "atMeters" : 32100,
+      "inclinePercent" : -3.5
+    },
+    {
+      "atMeters" : 32500,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 33000,
+      "inclinePercent" : -10.5
+    },
+    {
+      "atMeters" : 33300,
+      "inclinePercent" : -7
+    },
+    {
+      "atMeters" : 33900,
+      "inclinePercent" : -2.5
+    },
+    {
+      "atMeters" : 34400,
+      "inclinePercent" : -9.5
+    },
+    {
+      "atMeters" : 34800,
+      "inclinePercent" : -6.5
+    },
+    {
+      "atMeters" : 35100,
+      "inclinePercent" : -14
+    },
+    {
+      "atMeters" : 35500,
+      "inclinePercent" : -12.5
+    },
+    {
+      "atMeters" : 36500,
+      "inclinePercent" : -9
+    },
+    {
+      "atMeters" : 37000,
+      "inclinePercent" : -13.5
+    },
+    {
+      "atMeters" : 37400,
+      "inclinePercent" : -14
+    },
+    {
+      "atMeters" : 38200,
+      "inclinePercent" : -13.5
+    },
+    {
+      "atMeters" : 39000,
+      "inclinePercent" : -15
+    },
+    {
+      "atMeters" : 39400,
+      "inclinePercent" : -13
+    },
+    {
+      "atMeters" : 40900,
+      "inclinePercent" : -8
+    },
+    {
+      "atMeters" : 41600,
+      "inclinePercent" : -4
+    }
+  ],
+  "location" : "Manitou Springs, Colorado, USA",
+  "name" : "Pikes Peak Marathon",
+  "processing" : {
+    "generatedOn" : "2026-10-19",
+    "parameters" : {
+      "calibrationScales" : "0-6920:1.0134 6920-12231:1.0114 12231-16415:1.0952 16415-21436:1.1176 21436-26458:1.1187 26458-30642:1.0933 30642-35953:1.0127 35953-42180:1.0186",
+      "elevationProvider" : "usgs3dep",
+      "gradeBlockMeters" : "100",
+      "inclineStepPercent" : "0.5",
+      "minimumIntervalMeters" : "300",
+      "osmStructuresTimestamp" : "2026-10-19T20:25:21Z",
+      "routeSmoothingMeters" : "0",
+      "sampleSpacingMeters" : "10",
+      "smoothingWindowMeters" : "100"
+    },
+    "tool" : "course-tool 0.1.0"
+  },
+  "schemaVersion" : 1,
+  "segments" : [
+    {
+      "endMeters" : 21436,
+      "id" : "the-ascent",
+      "name" : "The Ascent: Manitou Springs to the summit (miles 0–13.3)",
+      "startMeters" : 0
+    },
+    {
+      "endMeters" : 6920,
+      "id" : "the-ws",
+      "name" : "The Ws (miles 1.2–4.3)",
+      "startMeters" : 1963
+    },
+    {
+      "endMeters" : 12231,
+      "id" : "no-name-to-barr-camp",
+      "name" : "No Name Creek to Barr Camp (miles 4.3–7.6)",
+      "startMeters" : 6920
+    },
+    {
+      "endMeters" : 21436,
+      "id" : "above-barr-camp",
+      "name" : "Above Barr Camp to the summit (miles 7.6–13.3)",
+      "startMeters" : 12231
+    }
+  ],
+  "source" : {
+    "attribution" : "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program (1 m lidar), processed by Conquer Hills. Map services and data available from U.S. Geological Survey, National Geospatial Program. \"Pikes Peak Marathon\" is a registered trademark of Pikes Peak Marathon, Inc. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation" : {
+      "kind" : "modeled",
+      "license" : "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name" : "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url" : "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes" : "The course unchanged since 1976: Manitou Springs up Barr Trail to the turnaround near the summit and back. Route traced over OpenStreetMap roads and Barr Trail; the course is uncertified and states 26.21 miles, so distances are scaled to the race's published aid-station mileages (No Name Creek, Barr Camp, A-Frame, the turnaround, and the same points on the way down). OpenStreetMap runs short above Barr Camp, where the switchbacks are tighter than it maps, so those sections are stretched about 7%. Elevations from USGS 3DEP 1 m lidar. Grades above your treadmill's maximum are capped, and the descent is flat without decline. The altitude, up to 14,050 ft, can't be simulated. Unofficial.",
+    "route" : {
+      "license" : "ODbL-1.0",
+      "name" : "OpenStreetMap (route traced by Conquer Hills over OSM roads and Barr Trail)",
+      "url" : "https://www.openstreetmap.org/copyright"
+    },
+    "verified" : true
+  },
+  "stats" : {
+    "elevationGainMeters" : 2377.8,
+    "elevationLossMeters" : 2364,
+    "maximumElevationMeters" : 4280.4,
+    "minimumElevationMeters" : 1921.5
+  }
+}

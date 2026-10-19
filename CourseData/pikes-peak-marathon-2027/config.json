@@ -1,0 +1,307 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 1924,
+      "min": 1919,
+      "name": "Start 1,919–1,924 m (City Hall benchmark 6,300.46 ft = 1,920.4 m)"
+    },
+    {
+      "atMeters": 42180,
+      "kind": "elevationAt",
+      "max": 1940,
+      "min": 1930,
+      "name": "Finish 1,930–1,940 m (Ruxton Ave at Manitou Ave; lidar 1,935 m)"
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    },
+    {
+      "atMeters": 21436,
+      "kind": "elevationAt",
+      "max": 4290,
+      "min": 4272,
+      "name": "Turnaround 4,272–4,290 m (about 14,050 ft; lidar 4,284 m raw, 4,278 m after 100 m smoothing)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 4292,
+      "min": 4272,
+      "name": "Highest point 4,272–4,292 m: the turnaround, not the 4,302 m summit"
+    },
+    {
+      "atMeters": 6920,
+      "kind": "elevationAt",
+      "max": 2690,
+      "min": 2645,
+      "name": "No Name Creek, up: 2,645–2,690 m (official 8,800 ft, a round figure; lidar 8,725 ft)"
+    },
+    {
+      "atMeters": 12231,
+      "kind": "elevationAt",
+      "max": 3112,
+      "min": 3090,
+      "name": "Barr Camp, up: 3,090–3,112 m (official 10,200 ft; lidar 10,165 ft)"
+    },
+    {
+      "atMeters": 16415,
+      "kind": "elevationAt",
+      "max": 3660,
+      "min": 3615,
+      "name": "A-Frame, up: 3,615–3,660 m (official 12,000 ft; lidar 11,912 ft)"
+    },
+    {
+      "atMeters": 26457,
+      "kind": "elevationAt",
+      "max": 3660,
+      "min": 3615,
+      "name": "A-Frame, down: 3,615–3,660 m"
+    },
+    {
+      "atMeters": 30641,
+      "kind": "elevationAt",
+      "max": 3112,
+      "min": 3090,
+      "name": "Barr Camp, down: 3,090–3,112 m"
+    },
+    {
+      "atMeters": 35952,
+      "kind": "elevationAt",
+      "max": 2690,
+      "min": 2645,
+      "name": "No Name Creek, down: 2,645–2,690 m"
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 1915,
+      "name": "Nothing below 1,915 m (the start is the low point)"
+    },
+    {
+      "fromMeters": 12231,
+      "kind": "drop",
+      "max": 455,
+      "min": 425,
+      "name": "No Name Creek to Barr Camp rises 425–455 m (official 1,450 ft = 442 m, 8.3%)",
+      "toMeters": 6920
+    },
+    {
+      "fromMeters": 6920,
+      "kind": "drop",
+      "max": 665,
+      "min": 630,
+      "name": "Hydro Street to No Name Creek rises 630–665 m (official 2,150 ft = 655 m)",
+      "toMeters": 1963
+    },
+    {
+      "fromMeters": 1963,
+      "kind": "climb",
+      "min": 11,
+      "name": "The Ws survive at ≥ +11% (official average 13.4%)",
+      "toMeters": 6920
+    },
+    {
+      "fromMeters": 12231,
+      "kind": "climb",
+      "min": 11,
+      "name": "Above Barr Camp survives at ≥ +11% (official 13.1% and 12.4%)",
+      "toMeters": 21436
+    },
+    {
+      "kind": "gain",
+      "max": 2420,
+      "min": 2340,
+      "name": "Gain 2,340–2,420 m at 100 m smoothing (official 7,750 ft = 2,362 m to the turnaround)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 22,
+      "name": "No incline above ±22%"
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 38.8567031,
+        "longitude": -104.9577247
+      },
+      "name": "No Name Creek (up)",
+      "officialMeters": 6920
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 38.8473079,
+        "longitude": -105.0071479
+      },
+      "name": "Barr Camp (up)",
+      "officialMeters": 12231
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 38.8423431,
+        "longitude": -105.0265624
+      },
+      "name": "A-Frame (up)",
+      "officialMeters": 16415
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 38.8403984,
+        "longitude": -105.041978
+      },
+      "name": "Turnaround: top of Barr Trail (Ascent finish)",
+      "officialMeters": 21436
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 38.8423431,
+        "longitude": -105.0265624
+      },
+      "name": "A-Frame (down)",
+      "officialMeters": 26458
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 38.8473079,
+        "longitude": -105.0071479
+      },
+      "name": "Barr Camp (down)",
+      "officialMeters": 30642
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 38.8567031,
+        "longitude": -104.9577247
+      },
+      "name": "No Name Creek (down)",
+      "officialMeters": 35953
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 38.8591199,
+        "longitude": -104.9196482
+      },
+      "name": "Finish: Ruxton Ave at Manitou Ave",
+      "officialMeters": 42180
+    }
+  ],
+  "description": "From Manitou Springs City Hall (6,300 ft) up Ruxton Avenue and Barr Trail: the Ws, No Name Creek, the runnable stretch to Barr Camp, above treeline at the A-Frame and up the Golden Stairs to the turnaround near the summit (about 14,050 ft), then back down the same trail to Ruxton Avenue. The Ascent is the first 13.32 miles. Most of the climb is steeper than the treadmill goes; the descent is flat without decline. Unofficial.",
+  "edition": "2027",
+  "elevation": {
+    "provider": "usgs3dep",
+    "trustedSources": [
+      "CO_EasternColorado_2018_A18",
+      "CO_ArapahoRooseveltPikeNF_D23"
+    ]
+  },
+  "id": "pikes-peak-marathon-2027",
+  "location": "Manitou Springs, Colorado, USA",
+  "manualSpans": [],
+  "name": "Pikes Peak Marathon",
+  "officialDistanceMeters": 42180,
+  "processing": {
+    "checkpointSearchRadiusMeters": 20,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 600,
+    "minimumIntervalMeters": 300,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 0,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 70
+  },
+  "route": {
+    "highways": [
+      "motorway",
+      "motorway_link",
+      "trunk",
+      "trunk_link",
+      "primary",
+      "primary_link",
+      "secondary",
+      "secondary_link",
+      "tertiary",
+      "tertiary_link",
+      "unclassified",
+      "residential",
+      "living_street",
+      "service",
+      "pedestrian",
+      "road",
+      "path",
+      "footway"
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 21436,
+      "id": "the-ascent",
+      "name": "The Ascent: Manitou Springs to the summit (miles 0–13.3)",
+      "startMeters": 0
+    },
+    {
+      "endMeters": 6920,
+      "id": "the-ws",
+      "name": "The Ws (miles 1.2–4.3)",
+      "startMeters": 1963
+    },
+    {
+      "endMeters": 12231,
+      "id": "no-name-to-barr-camp",
+      "name": "No Name Creek to Barr Camp (miles 4.3–7.6)",
+      "startMeters": 6920
+    },
+    {
+      "endMeters": 21436,
+      "id": "above-barr-camp",
+      "name": "Above Barr Camp to the summit (miles 7.6–13.3)",
+      "startMeters": 12231
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program (1 m lidar), processed by Conquer Hills. Map services and data available from U.S. Geological Survey, National Geospatial Program. \"Pikes Peak Marathon\" is a registered trademark of Pikes Peak Marathon, Inc. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name": "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url": "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes": "The course unchanged since 1976: Manitou Springs up Barr Trail to the turnaround near the summit and back. Route traced over OpenStreetMap roads and Barr Trail; the course is uncertified and states 26.21 miles, so distances are scaled to the race's published aid-station mileages (No Name Creek, Barr Camp, A-Frame, the turnaround, and the same points on the way down). OpenStreetMap runs short above Barr Camp, where the switchbacks are tighter than it maps, so those sections are stretched about 7%. Elevations from USGS 3DEP 1 m lidar. Grades above your treadmill's maximum are capped, and the descent is flat without decline. The altitude, up to 14,050 ft, can't be simulated. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM roads and Barr Trail)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": true
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [
+      "motorway",
+      "motorway_link"
+    ],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}
