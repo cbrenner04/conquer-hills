@@ -865,7 +865,7 @@
       "name" : "OpenStreetMap (route traced by Conquer Hills over county roads and 4WD tracks)",
       "url" : "https://www.openstreetmap.org/copyright"
     },
-    "verified" : false
+    "verified" : true
   },
   "stats" : {
     "elevationGainMeters" : 1886.3,
