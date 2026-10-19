@@ -1,0 +1,1422 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          13.3606221,
+          52.5152375
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start: Straße des 17. Juni"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3524991,
+          52.5147166
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Straße des 17. Juni"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3316046,
+          52.5133158
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Salzufer & Straße des 17. Juni & tertiary"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3231714,
+          52.512772
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Straße des 17. Juni"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3250587,
+          52.5175071
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Franklinstraße & Salzufer & secondary"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3286262,
+          52.5220306
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Franklinstraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3298631,
+          52.5235618
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Gotzkowskystraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3300483,
+          52.5237581
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Alt-Moabit"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3301338,
+          52.5237741
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Alt-Moabit"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3393023,
+          52.5256895
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Alt-Moabit & Krefelder Straße & secondary"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3469631,
+          52.5248682
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Alt-Moabit & service"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3540559,
+          52.5239171
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Alt-Moabit"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3624774,
+          52.5229029
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Alt-Moabit"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3680402,
+          52.5223177
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Alt-Moabit & Elisabeth-Abegg-Straße & Moltkebrücke"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3704992,
+          52.5209207
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Otto-von-Bismarck-Allee & Willy-Brandt-Straße & service"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3738186,
+          52.5209174
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Konrad-Adenauer-Straße & Otto-von-Bismarck-Allee"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3875681,
+          52.5238633
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Friedrichstraße & Reinhardtstraße & service"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3876663,
+          52.5240189
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "service"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3872279,
+          52.5271678
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Chausseestraße & Friedrichstraße & Torstraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3968635,
+          52.5292693
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Torstraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.4072443,
+          52.5292807
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Christinenstraße & Torstraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.4156569,
+          52.5267704
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Karl-Liebknecht-Straße & Mollstraße & primary"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.412359,
+          52.524069
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Alexanderstraße & Karl-Liebknecht-Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.4125332,
+          52.5240292
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Alexanderstraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.4215272,
+          52.5205497
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Karl-Marx-Allee"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.4289101,
+          52.5186998
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Strausberger Platz"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.427817,
+          52.5180991
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lichtenberger Straße & Strausberger Platz"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.4241466,
+          52.5135483
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Holzmarktstraße & Lichtenberger Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.4213814,
+          52.5100697
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Michaelkirchstraße & service"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.421171,
+          52.5097722
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Köpenicker Straße & Michaelkirchstraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.4209687,
+          52.5098248
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Köpenicker Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.4164569,
+          52.5109966
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Brückenstraße & Heinrich-Heine-Straße & Köpenicker Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.4124576,
+          52.5058484
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Heinrich-Heine-Straße & service"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.4103969,
+          52.5037433
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Oranienstraße & secondary"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.4092251,
+          52.5017523
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Prinzenstraße & Ritterstraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.4096517,
+          52.5017419
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "service"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.4177571,
+          52.4992434
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Reichenberger Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.4180092,
+          52.4988153
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kottbusser Tor & Skalitzer Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.4183808,
+          52.4987854
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kottbusser Straße & Kottbusser Tor"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.4219367,
+          52.4933305
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kottbusser Damm"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.4249906,
+          52.4881649
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kottbusser Damm"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.4241095,
+          52.4864722
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hasenheide & Hermannplatz"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.4238868,
+          52.4865372
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hasenheide"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.4146488,
+          52.4881673
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hasenheide & service"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.4077307,
+          52.4888603
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lilienthalstraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3943921,
+          52.4914305
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Gneisenaustraße & Zossener Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.386769,
+          52.492955
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Yorckstraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3767126,
+          52.4914908
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Katzbachstraße & Yorckstraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3693827,
+          52.4929736
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Katzlerstraße & Yorckstraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.361592,
+          52.4943629
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Goebenstraße & service"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.361162,
+          52.494413
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Goebenstraße & Potsdamer Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3609414,
+          52.4942478
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Goebenstraße & Pallasstraße & Potsdamer Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3602945,
+          52.4906059
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Potsdamer Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3601998,
+          52.4905033
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Grunewaldstraße & Hauptstraße & Potsdamer Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.349036,
+          52.4894722
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Eisenacher Straße & Grunewaldstraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3451453,
+          52.4891544
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Grunewaldstraße & Martin-Luther-Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3451402,
+          52.4890201
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Grunewaldstraße & Martin-Luther-Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3449074,
+          52.4889977
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Grunewaldstraße & Martin-Luther-Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3450204,
+          52.4838986
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Martin-Luther-Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3448544,
+          52.4792362
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hauptstraße & Martin-Luther-Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3360632,
+          52.4723469
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hauptstraße & Niedstraße & residential"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3326824,
+          52.4691574
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rheinstraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3325631,
+          52.469045
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rheinstraße & Schmiljanstraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3323769,
+          52.4691133
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Schmiljanstraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3290085,
+          52.4713378
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Friedrich-Wilhelm-Platz & Schmiljanstraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3283543,
+          52.4712667
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Friedrich-Wilhelm-Platz"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3282727,
+          52.4713129
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Friedrich-Wilhelm-Platz"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3277751,
+          52.471517
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Friedrich-Wilhelm-Platz & Wiesbadener Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3194552,
+          52.4716363
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Südwestkorso & Wiesbadener Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3124047,
+          52.4685749
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Südwestkorso & service"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3091979,
+          52.4675224
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Breitenbachplatz & Dillenburger Straße & Südwestkorso"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3080892,
+          52.4683475
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Dillenburger Straße & Lentzeallee & Schlangenbader Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.306343,
+          52.4676818
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lentzeallee & Spilstraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.2985449,
+          52.4689385
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lentzeallee & service"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.2891748,
+          52.4707643
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rheinbabenallee"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.283086,
+          52.4753032
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rheinbabenallee & service"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.2812287,
+          52.4767123
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rheinbabenallee"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.2812178,
+          52.4769054
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hohenzollerndamm"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.299262,
+          52.4871471
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hohenzollerndamm"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3063739,
+          52.4881997
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bielefelder Straße & Hohenzollerndamm"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3140195,
+          52.4904187
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Fehrbelliner Platz & Hohenzollerndamm"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3142288,
+          52.4904849
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Fehrbelliner Platz & Hohenzollerndamm"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3140538,
+          52.4906041
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Fehrbelliner Platz"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.310339,
+          52.49343
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Brandenburgische Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3101778,
+          52.4935745
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Brandenburgische Straße & Konstanzer Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.313162,
+          52.500547
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kurfürstendamm & Leibnizstraße & Olivaer Platz"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3133836,
+          52.5005792
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kurfürstendamm"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3252449,
+          52.5024318
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kurfürstendamm & Uhlandstraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3340195,
+          52.5044521
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kurfürstendamm"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.341705,
+          52.5022813
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Tauentzienstraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3501337,
+          52.5003961
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kleiststraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3620724,
+          52.4979267
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bülowstraße & Potsdamer Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3652121,
+          52.5025574
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Potsdamer Straße & service"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3698921,
+          52.5084315
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Potsdamer Straße & Scharounplatz"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3774351,
+          52.5095111
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Leipziger Platz"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3918249,
+          52.5104777
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Charlottenstraße & Leipziger Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3967392,
+          52.5109681
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Jerusalemer Straße & Leipziger Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3966924,
+          52.5112163
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Jerusalemer Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3964393,
+          52.5125182
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Anton-Wilhelm-Amo-Straße & Hausvogteiplatz & Jerusalemer Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3936058,
+          52.5123507
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Anton-Wilhelm-Amo-Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3934634,
+          52.5123429
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Anton-Wilhelm-Amo-Straße & Markgrafenstraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3930467,
+          52.5149009
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Markgrafenstraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3928867,
+          52.5149902
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Französische Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3927687,
+          52.514983
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Französische Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3864288,
+          52.5145853
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Französische Straße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3861957,
+          52.5147087
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Glinkastraße"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3858218,
+          52.5166697
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Glinkastraße & Unter den Linden"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3782406,
+          52.5163167
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Pariser Platz"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3720299,
+          52.5159671
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: Straße des 17. Juni"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
