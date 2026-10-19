@@ -354,7 +354,7 @@
       "name": "OpenStreetMap (route traced by Conquer Hills over OSM roads, greenways and paths)",
       "url": "https://www.openstreetmap.org/copyright"
     },
-    "verified": false
+    "verified": true
   },
   "structures": {
     "bufferMeters": 12,
