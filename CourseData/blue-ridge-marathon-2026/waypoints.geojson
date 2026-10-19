@@ -1,0 +1,2683 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9406519,
+          37.2684933
+        ]
+      },
+      "properties": {
+        "name": "Start: S Jefferson St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9409045,
+          37.2667794
+        ]
+      },
+      "properties": {
+        "name": "South Jefferson Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9413103,
+          37.2638952
+        ]
+      },
+      "properties": {
+        "name": "South Jefferson Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9414926,
+          37.2614668
+        ]
+      },
+      "properties": {
+        "name": "South Jefferson Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9414056,
+          37.2609537
+        ]
+      },
+      "properties": {
+        "name": "Walnut Avenue Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9408548,
+          37.2606305
+        ]
+      },
+      "properties": {
+        "name": "Walnut Avenue Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.937518,
+          37.258455
+        ]
+      },
+      "properties": {
+        "name": "Walnut Avenue Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.934962,
+          37.256677
+        ]
+      },
+      "properties": {
+        "name": "Walnut Avenue Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.932962,
+          37.255348
+        ]
+      },
+      "properties": {
+        "name": "Walnut Avenue Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.932638,
+          37.255181
+        ]
+      },
+      "properties": {
+        "name": "J B Fishburn Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.929972,
+          37.253812
+        ]
+      },
+      "properties": {
+        "name": "J B Fishburn Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.927356,
+          37.252039
+        ]
+      },
+      "properties": {
+        "name": "J B Fishburn Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.926542,
+          37.24977
+        ]
+      },
+      "properties": {
+        "name": "J B Fishburn Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.926684,
+          37.246849
+        ]
+      },
+      "properties": {
+        "name": "J B Fishburn Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.929242,
+          37.245119
+        ]
+      },
+      "properties": {
+        "name": "J B Fishburn Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.931841,
+          37.246556
+        ]
+      },
+      "properties": {
+        "name": "J B Fishburn Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.934472,
+          37.245501
+        ]
+      },
+      "properties": {
+        "name": "J B Fishburn Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.936872,
+          37.243104
+        ]
+      },
+      "properties": {
+        "name": "J B Fishburn Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9372829,
+          37.2428338
+        ]
+      },
+      "properties": {
+        "name": "J B Fishburn Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.937538,
+          37.242494
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.937871,
+          37.241696
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.938996,
+          37.23933
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.93985,
+          37.236665
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9416292,
+          37.2357486
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9434428,
+          37.2349869
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9439042,
+          37.234786
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.946195,
+          37.232842
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.948373,
+          37.230966
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9505945,
+          37.2289506
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.95209,
+          37.22666
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.949978,
+          37.221622
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9512967,
+          37.2191738
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.951059,
+          37.218934
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.947908,
+          37.218289
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9452998,
+          37.2180748
+        ]
+      },
+      "properties": {
+        "name": "secondary_link"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.944993,
+          37.218293
+        ]
+      },
+      "properties": {
+        "name": "Blue Ridge Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.944598,
+          37.219028
+        ]
+      },
+      "properties": {
+        "name": "Roanoke Mountain Loop Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.943301,
+          37.216799
+        ]
+      },
+      "properties": {
+        "name": "Roanoke Mountain Loop Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.940474,
+          37.215693
+        ]
+      },
+      "properties": {
+        "name": "Roanoke Mountain Loop Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.939808,
+          37.213664
+        ]
+      },
+      "properties": {
+        "name": "Roanoke Mountain Loop Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.938546,
+          37.215964
+        ]
+      },
+      "properties": {
+        "name": "Roanoke Mountain Loop Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.939282,
+          37.218072
+        ]
+      },
+      "properties": {
+        "name": "Roanoke Mountain Loop Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9387686,
+          37.2203373
+        ]
+      },
+      "properties": {
+        "name": "service"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.938092,
+          37.220133
+        ]
+      },
+      "properties": {
+        "name": "Roanoke Mountain Loop Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.938112,
+          37.217486
+        ]
+      },
+      "properties": {
+        "name": "Roanoke Mountain Loop Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.936203,
+          37.215512
+        ]
+      },
+      "properties": {
+        "name": "Roanoke Mountain Loop Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.935664,
+          37.2144
+        ]
+      },
+      "properties": {
+        "name": "Roanoke Mountain Loop Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.936118,
+          37.211542
+        ]
+      },
+      "properties": {
+        "name": "service"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.935556,
+          37.21094
+        ]
+      },
+      "properties": {
+        "name": "Roanoke Mountain summit overlook loop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.936155,
+          37.21193
+        ]
+      },
+      "properties": {
+        "name": "Roanoke Mountain Loop Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.935664,
+          37.2144
+        ]
+      },
+      "properties": {
+        "name": "Roanoke Mountain Loop Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.935635,
+          37.214704
+        ]
+      },
+      "properties": {
+        "name": "Roanoke Mountain Loop Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.937253,
+          37.217199
+        ]
+      },
+      "properties": {
+        "name": "Roanoke Mountain Loop Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.938029,
+          37.219216
+        ]
+      },
+      "properties": {
+        "name": "Roanoke Mountain Loop Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9384151,
+          37.2204238
+        ]
+      },
+      "properties": {
+        "name": "service"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.938876,
+          37.219969
+        ]
+      },
+      "properties": {
+        "name": "Roanoke Mountain Loop Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.93976,
+          37.217431
+        ]
+      },
+      "properties": {
+        "name": "Roanoke Mountain Loop Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.938692,
+          37.215316
+        ]
+      },
+      "properties": {
+        "name": "Roanoke Mountain Loop Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.940122,
+          37.214047
+        ]
+      },
+      "properties": {
+        "name": "Roanoke Mountain Loop Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.941212,
+          37.215868
+        ]
+      },
+      "properties": {
+        "name": "Roanoke Mountain Loop Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.944198,
+          37.217188
+        ]
+      },
+      "properties": {
+        "name": "Roanoke Mountain Loop Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.944743,
+          37.219071
+        ]
+      },
+      "properties": {
+        "name": "Blue Ridge Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9451455,
+          37.2181497
+        ]
+      },
+      "properties": {
+        "name": "secondary_link"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.945946,
+          37.218114
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.949402,
+          37.218451
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9512967,
+          37.2191738
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.951448,
+          37.219502
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.949945,
+          37.221742
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.952133,
+          37.226791
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9505945,
+          37.2289506
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.949598,
+          37.230371
+        ]
+      },
+      "properties": {
+        "name": "service"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.950362,
+          37.231017
+        ]
+      },
+      "properties": {
+        "name": "service"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.951655,
+          37.232122
+        ]
+      },
+      "properties": {
+        "name": "service"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.951434,
+          37.233515
+        ]
+      },
+      "properties": {
+        "name": "service"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.950022,
+          37.230967
+        ]
+      },
+      "properties": {
+        "name": "service"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.949183,
+          37.230327
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.947255,
+          37.232394
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.944859,
+          37.234143
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9434428,
+          37.2349869
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9414747,
+          37.2358116
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.939588,
+          37.237961
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.938767,
+          37.240358
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9376886,
+          37.2420577
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Parkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.937603,
+          37.242705
+        ]
+      },
+      "properties": {
+        "name": "Prospect Road Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.937616,
+          37.243024
+        ]
+      },
+      "properties": {
+        "name": "Prospect Road Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.936508,
+          37.245274
+        ]
+      },
+      "properties": {
+        "name": "Prospect Road Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.935709,
+          37.248046
+        ]
+      },
+      "properties": {
+        "name": "Prospect Road Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9343309,
+          37.2498379
+        ]
+      },
+      "properties": {
+        "name": "unclassified"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.932463,
+          37.250462
+        ]
+      },
+      "properties": {
+        "name": "service"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9320604,
+          37.2506734
+        ]
+      },
+      "properties": {
+        "name": "Star Trail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.931731,
+          37.25084
+        ]
+      },
+      "properties": {
+        "name": "path"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9316441,
+          37.2512348
+        ]
+      },
+      "properties": {
+        "name": "Mill Mountain Star overlook path"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9325636,
+          37.2509302
+        ]
+      },
+      "properties": {
+        "name": "cycleway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9328819,
+          37.250749
+        ]
+      },
+      "properties": {
+        "name": "cycleway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9355334,
+          37.2499297
+        ]
+      },
+      "properties": {
+        "name": "service"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9358957,
+          37.2496553
+        ]
+      },
+      "properties": {
+        "name": "service"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.936544,
+          37.249586
+        ]
+      },
+      "properties": {
+        "name": "Prospect Road Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.935919,
+          37.25063
+        ]
+      },
+      "properties": {
+        "name": "Prospect Road Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.933593,
+          37.251831
+        ]
+      },
+      "properties": {
+        "name": "Prospect Road Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.932754,
+          37.252108
+        ]
+      },
+      "properties": {
+        "name": "Prospect Road Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.935884,
+          37.252088
+        ]
+      },
+      "properties": {
+        "name": "Prospect Road Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.938394,
+          37.250617
+        ]
+      },
+      "properties": {
+        "name": "Prospect Road Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.938696,
+          37.250185
+        ]
+      },
+      "properties": {
+        "name": "Prospect Road Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.937653,
+          37.251898
+        ]
+      },
+      "properties": {
+        "name": "Prospect Road Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.935772,
+          37.254019
+        ]
+      },
+      "properties": {
+        "name": "Prospect Road Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.935671,
+          37.254077
+        ]
+      },
+      "properties": {
+        "name": "Prospect Road Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.934803,
+          37.254598
+        ]
+      },
+      "properties": {
+        "name": "Prospect Road Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9352041,
+          37.2549075
+        ]
+      },
+      "properties": {
+        "name": "Sylvan Road Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.933297,
+          37.25552
+        ]
+      },
+      "properties": {
+        "name": "Walnut Avenue Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9359433,
+          37.2573574
+        ]
+      },
+      "properties": {
+        "name": "Walnut Avenue Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9377339,
+          37.2586063
+        ]
+      },
+      "properties": {
+        "name": "Walnut Avenue Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.938028,
+          37.258596
+        ]
+      },
+      "properties": {
+        "name": "Hamilton Terrace Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9384591,
+          37.2578368
+        ]
+      },
+      "properties": {
+        "name": "cycleway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9389523,
+          37.2580104
+        ]
+      },
+      "properties": {
+        "name": "Roanoke River Greenway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9379898,
+          37.2589751
+        ]
+      },
+      "properties": {
+        "name": "Roanoke River Greenway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9356833,
+          37.261222
+        ]
+      },
+      "properties": {
+        "name": "Roanoke River Greenway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9335968,
+          37.25995
+        ]
+      },
+      "properties": {
+        "name": "Roanoke River Greenway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9318058,
+          37.2576887
+        ]
+      },
+      "properties": {
+        "name": "Roanoke River Greenway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9298413,
+          37.2563964
+        ]
+      },
+      "properties": {
+        "name": "Roanoke River Greenway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9319605,
+          37.2584667
+        ]
+      },
+      "properties": {
+        "name": "Roanoke River Greenway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9338504,
+          37.2604991
+        ]
+      },
+      "properties": {
+        "name": "Roanoke River Greenway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9362837,
+          37.2605862
+        ]
+      },
+      "properties": {
+        "name": "Roanoke River Greenway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9382716,
+          37.2587226
+        ]
+      },
+      "properties": {
+        "name": "Roanoke River Greenway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9390128,
+          37.2579348
+        ]
+      },
+      "properties": {
+        "name": "Roanoke River Greenway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9399233,
+          37.2552775
+        ]
+      },
+      "properties": {
+        "name": "Roanoke River Greenway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9410626,
+          37.2529576
+        ]
+      },
+      "properties": {
+        "name": "Roanoke River Greenway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9423,
+          37.2523388
+        ]
+      },
+      "properties": {
+        "name": "Roanoke River Greenway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.942753,
+          37.2523998
+        ]
+      },
+      "properties": {
+        "name": "Roanoke River Greenway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9430494,
+          37.2524379
+        ]
+      },
+      "properties": {
+        "name": "Roanoke River Greenway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.943883,
+          37.2524954
+        ]
+      },
+      "properties": {
+        "name": "Roanoke River Greenway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.946011,
+          37.252398
+        ]
+      },
+      "properties": {
+        "name": "cycleway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9467778,
+          37.2510512
+        ]
+      },
+      "properties": {
+        "name": "Rosalind Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.947169,
+          37.25051
+        ]
+      },
+      "properties": {
+        "name": "McClanahan Street Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9468836,
+          37.2502621
+        ]
+      },
+      "properties": {
+        "name": "Rosalind Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.947632,
+          37.249243
+        ]
+      },
+      "properties": {
+        "name": "22nd Street Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9503143,
+          37.2505009
+        ]
+      },
+      "properties": {
+        "name": "Broadway Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9516864,
+          37.2501073
+        ]
+      },
+      "properties": {
+        "name": "Avenham Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9534979,
+          37.2476535
+        ]
+      },
+      "properties": {
+        "name": "Avenham Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9551703,
+          37.2453908
+        ]
+      },
+      "properties": {
+        "name": "Avenham Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.956744,
+          37.243258
+        ]
+      },
+      "properties": {
+        "name": "Avenham Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.958876,
+          37.241178
+        ]
+      },
+      "properties": {
+        "name": "Avenham Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9599548,
+          37.2404252
+        ]
+      },
+      "properties": {
+        "name": "Clydesdale Street Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.960291,
+          37.238167
+        ]
+      },
+      "properties": {
+        "name": "Somerset Street Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.961627,
+          37.23752
+        ]
+      },
+      "properties": {
+        "name": "Peakwood Drive Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.962315,
+          37.236711
+        ]
+      },
+      "properties": {
+        "name": "Peakwood Drive Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.96088,
+          37.235253
+        ]
+      },
+      "properties": {
+        "name": "Peakwood Drive Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.95902,
+          37.234541
+        ]
+      },
+      "properties": {
+        "name": "Peakwood Drive Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.961018,
+          37.232613
+        ]
+      },
+      "properties": {
+        "name": "Peakwood Drive Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.960166,
+          37.23204
+        ]
+      },
+      "properties": {
+        "name": "Peakwood Drive Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.957597,
+          37.233306
+        ]
+      },
+      "properties": {
+        "name": "Peakwood Drive Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.954538,
+          37.234555
+        ]
+      },
+      "properties": {
+        "name": "Peakwood Drive Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.953528,
+          37.234808
+        ]
+      },
+      "properties": {
+        "name": "West Ridge Road Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.951841,
+          37.236491
+        ]
+      },
+      "properties": {
+        "name": "West Ridge Road Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.950665,
+          37.236623
+        ]
+      },
+      "properties": {
+        "name": "West Ridge Road Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.952484,
+          37.236411
+        ]
+      },
+      "properties": {
+        "name": "West Ridge Road Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.953585,
+          37.235332
+        ]
+      },
+      "properties": {
+        "name": "West Ridge Road Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.955398,
+          37.235837
+        ]
+      },
+      "properties": {
+        "name": "Burnleigh Road Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.956169,
+          37.235754
+        ]
+      },
+      "properties": {
+        "name": "Rosalind Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.955791,
+          37.237894
+        ]
+      },
+      "properties": {
+        "name": "Rosalind Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.954191,
+          37.240234
+        ]
+      },
+      "properties": {
+        "name": "Rosalind Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.952474,
+          37.242706
+        ]
+      },
+      "properties": {
+        "name": "Rosalind Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9515445,
+          37.2437463
+        ]
+      },
+      "properties": {
+        "name": "27th Street Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9482163,
+          37.2423633
+        ]
+      },
+      "properties": {
+        "name": "27th Street Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.948123,
+          37.242271
+        ]
+      },
+      "properties": {
+        "name": "South Jefferson Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.947615,
+          37.240377
+        ]
+      },
+      "properties": {
+        "name": "South Jefferson Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.945056,
+          37.239408
+        ]
+      },
+      "properties": {
+        "name": "South Jefferson Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.944901,
+          37.24231
+        ]
+      },
+      "properties": {
+        "name": "Cornwallis Avenue Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.943853,
+          37.245123
+        ]
+      },
+      "properties": {
+        "name": "Cornwallis Avenue Southeast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.946182,
+          37.246237
+        ]
+      },
+      "properties": {
+        "name": "South Jefferson Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9451467,
+          37.2483443
+        ]
+      },
+      "properties": {
+        "name": "South Jefferson Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9445125,
+          37.2493925
+        ]
+      },
+      "properties": {
+        "name": "South Jefferson Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9441073,
+          37.2503253
+        ]
+      },
+      "properties": {
+        "name": "South Jefferson Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9437215,
+          37.2511788
+        ]
+      },
+      "properties": {
+        "name": "South Jefferson Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9432347,
+          37.2520576
+        ]
+      },
+      "properties": {
+        "name": "South Jefferson Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9424474,
+          37.2546559
+        ]
+      },
+      "properties": {
+        "name": "South Jefferson Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9422932,
+          37.2553061
+        ]
+      },
+      "properties": {
+        "name": "South Jefferson Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9419515,
+          37.2571181
+        ]
+      },
+      "properties": {
+        "name": "South Jefferson Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9417339,
+          37.2581871
+        ]
+      },
+      "properties": {
+        "name": "South Jefferson Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9416046,
+          37.2588506
+        ]
+      },
+      "properties": {
+        "name": "South Jefferson Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.941473,
+          37.259819
+        ]
+      },
+      "properties": {
+        "name": "South Jefferson Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.94147,
+          37.260122
+        ]
+      },
+      "properties": {
+        "name": "South Jefferson Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9414886,
+          37.2610664
+        ]
+      },
+      "properties": {
+        "name": "South Jefferson Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9413103,
+          37.2638952
+        ]
+      },
+      "properties": {
+        "name": "South Jefferson Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9412989,
+          37.2645937
+        ]
+      },
+      "properties": {
+        "name": "Highland Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.944711,
+          37.264626
+        ]
+      },
+      "properties": {
+        "name": "Highland Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9465591,
+          37.2649385
+        ]
+      },
+      "properties": {
+        "name": "Highland Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9497272,
+          37.2652176
+        ]
+      },
+      "properties": {
+        "name": "Highland Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9507492,
+          37.2653091
+        ]
+      },
+      "properties": {
+        "name": "5th Street Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9509291,
+          37.2639811
+        ]
+      },
+      "properties": {
+        "name": "5th Street Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9512186,
+          37.2624394
+        ]
+      },
+      "properties": {
+        "name": "Walnut Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.953807,
+          37.261884
+        ]
+      },
+      "properties": {
+        "name": "service"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.954566,
+          37.264021
+        ]
+      },
+      "properties": {
+        "name": "service"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.951316,
+          37.264148
+        ]
+      },
+      "properties": {
+        "name": "service"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.951052,
+          37.264433
+        ]
+      },
+      "properties": {
+        "name": "Washington Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.952864,
+          37.265048
+        ]
+      },
+      "properties": {
+        "name": "6th Street Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9530787,
+          37.2655127
+        ]
+      },
+      "properties": {
+        "name": "Highland Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.953142,
+          37.265518
+        ]
+      },
+      "properties": {
+        "name": "6th Street Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9527724,
+          37.2682416
+        ]
+      },
+      "properties": {
+        "name": "6th Street Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9524261,
+          37.2699532
+        ]
+      },
+      "properties": {
+        "name": "Luck Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.95014,
+          37.2697585
+        ]
+      },
+      "properties": {
+        "name": "Luck Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9462653,
+          37.2695682
+        ]
+      },
+      "properties": {
+        "name": "Luck Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9438615,
+          37.269839
+        ]
+      },
+      "properties": {
+        "name": "Luck Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9424602,
+          37.2697227
+        ]
+      },
+      "properties": {
+        "name": "1st Street Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9425865,
+          37.2691757
+        ]
+      },
+      "properties": {
+        "name": "1st Street Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9424127,
+          37.2683544
+        ]
+      },
+      "properties": {
+        "name": "Bullitt Avenue Southwest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.940661,
+          37.268402
+        ]
+      },
+      "properties": {
+        "name": "Finish: Elmwood Park"
+      }
+    }
+  ]
+}
