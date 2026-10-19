@@ -1,0 +1,876 @@
+{
+  "description" : "From E 6th St in Leadville (10,150 ft) on old mining roads and 4WD tracks: around Iron Hill to Adelaide, the Ball Mountain loop to 11,950 ft, past Resurrection and up Mosquito Pass Road to the turnaround at Mosquito Pass (13,185 ft), back down to Resurrection, a shorter return loop over the same valley, and back to town. The steepest course here: grades up to about 18%, capped by the treadmill. Unofficial.",
+  "developmentOnly" : false,
+  "distanceMeters" : 42486,
+  "edition" : "2027",
+  "elevationProfile" : {
+    "elevationsMeters" : [
+      3095,
+      3099.5,
+      3103.5,
+      3108.1,
+      3112.3,
+      3116.7,
+      3120,
+      3122.7,
+      3131.2,
+      3138.4,
+      3144.3,
+      3149,
+      3153.4,
+      3159.4,
+      3164.7,
+      3172.2,
+      3178.8,
+      3186.9,
+      3196.5,
+      3201.9,
+      3208.1,
+      3212.6,
+      3218.6,
+      3222.5,
+      3226.1,
+      3228.7,
+      3231.2,
+      3236.5,
+      3244.7,
+      3255.6,
+      3266.4,
+      3281.6,
+      3299.1,
+      3318.6,
+      3326.7,
+      3335.5,
+      3349,
+      3352.9,
+      3353.5,
+      3352.4,
+      3345,
+      3337.2,
+      3332.3,
+      3333,
+      3337.8,
+      3345.8,
+      3355.3,
+      3366,
+      3378.2,
+      3388.5,
+      3397.6,
+      3407.6,
+      3421.6,
+      3437.2,
+      3452.5,
+      3464.4,
+      3476,
+      3487.4,
+      3503.6,
+      3517.3,
+      3531,
+      3541.4,
+      3552.1,
+      3561.5,
+      3567.7,
+      3570.5,
+      3573.7,
+      3578.1,
+      3583.8,
+      3590.1,
+      3597.3,
+      3609.4,
+      3621.8,
+      3632.8,
+      3640.3,
+      3643.1,
+      3642.5,
+      3638.9,
+      3632.6,
+      3627.4,
+      3620.5,
+      3609,
+      3597.5,
+      3586.6,
+      3574.8,
+      3561.7,
+      3550.2,
+      3538.6,
+      3520.9,
+      3502.4,
+      3484.5,
+      3468,
+      3453.5,
+      3440.4,
+      3425,
+      3409.6,
+      3396.7,
+      3385,
+      3372.9,
+      3362.6,
+      3352.9,
+      3341.5,
+      3328.8,
+      3317.6,
+      3307.7,
+      3296.7,
+      3286.6,
+      3276.9,
+      3267.8,
+      3259.2,
+      3249.4,
+      3242.7,
+      3243.9,
+      3253.2,
+      3261.9,
+      3268.8,
+      3279.3,
+      3288.5,
+      3297.4,
+      3305.6,
+      3316.1,
+      3327.3,
+      3331.5,
+      3328.6,
+      3321.6,
+      3312.9,
+      3305.9,
+      3303.3,
+      3306.3,
+      3312.4,
+      3318.5,
+      3327,
+      3334.4,
+      3342.7,
+      3351.2,
+      3360.3,
+      3371.1,
+      3381.8,
+      3391.7,
+      3400.9,
+      3408.4,
+      3418,
+      3426.3,
+      3429.7,
+      3425.4,
+      3421.5,
+      3418,
+      3413.6,
+      3409.6,
+      3405.5,
+      3400.5,
+      3390.7,
+      3388.9,
+      3391.1,
+      3395.4,
+      3393.9,
+      3390.4,
+      3387.1,
+      3383.4,
+      3378.9,
+      3375.6,
+      3372,
+      3373,
+      3378.4,
+      3383.5,
+      3389.9,
+      3396.5,
+      3405.4,
+      3415.5,
+      3417.1,
+      3417.5,
+      3419.6,
+      3423.1,
+      3432.8,
+      3440.3,
+      3450.7,
+      3459.9,
+      3469,
+      3477.8,
+      3484.2,
+      3490.7,
+      3499.7,
+      3508.7,
+      3516.6,
+      3520.9,
+      3526.1,
+      3531.3,
+      3541,
+      3551.7,
+      3566.6,
+      3584.2,
+      3602.9,
+      3621,
+      3636.8,
+      3652.6,
+      3667.4,
+      3680.7,
+      3695.2,
+      3711.5,
+      3727.4,
+      3742.2,
+      3756.4,
+      3769.4,
+      3785.7,
+      3801.3,
+      3815.7,
+      3830.8,
+      3848.1,
+      3860.9,
+      3877.9,
+      3896.8,
+      3915.4,
+      3927.6,
+      3937,
+      3944.9,
+      3950.4,
+      3959.4,
+      3969.9,
+      3980.4,
+      3994.1,
+      4006,
+      4016.6,
+      4012.3,
+      4001.2,
+      3988.1,
+      3975.7,
+      3965.6,
+      3955.2,
+      3948.5,
+      3941.8,
+      3934,
+      3923.5,
+      3909.2,
+      3889.9,
+      3870.8,
+      3856.3,
+      3843.6,
+      3825.1,
+      3811.4,
+      3795.7,
+      3780.5,
+      3765.1,
+      3752.7,
+      3738.4,
+      3722.9,
+      3707.1,
+      3690.7,
+      3677.3,
+      3664.3,
+      3648.3,
+      3633.2,
+      3617.2,
+      3598.5,
+      3580.3,
+      3563.1,
+      3549.2,
+      3538.9,
+      3530.1,
+      3525.1,
+      3520.2,
+      3515.6,
+      3507.3,
+      3498.4,
+      3489.4,
+      3483.6,
+      3476.8,
+      3467.9,
+      3458.8,
+      3449.6,
+      3439,
+      3432,
+      3422.4,
+      3419.1,
+      3417.3,
+      3417.1,
+      3415.3,
+      3404.8,
+      3396.1,
+      3389.8,
+      3383.3,
+      3378.4,
+      3372.6,
+      3372,
+      3375.6,
+      3378.9,
+      3383.4,
+      3387,
+      3390.2,
+      3393.8,
+      3395.4,
+      3391.2,
+      3389,
+      3389.8,
+      3400,
+      3405.2,
+      3409.3,
+      3413.1,
+      3417.7,
+      3421.1,
+      3424.8,
+      3429.1,
+      3427.4,
+      3419.4,
+      3409.8,
+      3401.9,
+      3393.4,
+      3383.4,
+      3373.2,
+      3362.1,
+      3352.9,
+      3344.3,
+      3336.1,
+      3328.7,
+      3320.2,
+      3313.8,
+      3307.7,
+      3303.5,
+      3304.7,
+      3310.7,
+      3319.4,
+      3326.9,
+      3332.1,
+      3335.7,
+      3343.2,
+      3352.2,
+      3362.2,
+      3375,
+      3385.3,
+      3394.6,
+      3403.7,
+      3416.1,
+      3430.7,
+      3447.6,
+      3460.2,
+      3471.7,
+      3482.3,
+      3497.2,
+      3511.7,
+      3525.9,
+      3537.2,
+      3548,
+      3557.3,
+      3566.6,
+      3566.5,
+      3560.8,
+      3552.7,
+      3543.5,
+      3529.3,
+      3511.1,
+      3492.7,
+      3475.5,
+      3460.3,
+      3446.4,
+      3432.6,
+      3416.5,
+      3402.4,
+      3391.3,
+      3378.9,
+      3368.2,
+      3357.8,
+      3348,
+      3335.8,
+      3323.3,
+      3313.5,
+      3303,
+      3292.2,
+      3282.4,
+      3273,
+      3264.5,
+      3255.1,
+      3246.3,
+      3241.6,
+      3246.8,
+      3257,
+      3264.1,
+      3272.4,
+      3282.8,
+      3291.2,
+      3300.7,
+      3308.2,
+      3319.9,
+      3329.8,
+      3331.6,
+      3333.3,
+      3339.8,
+      3347.4,
+      3354.1,
+      3352.5,
+      3352.8,
+      3345.4,
+      3329.7,
+      3325.6,
+      3311.3,
+      3292.2,
+      3274.3,
+      3262.5,
+      3251.6,
+      3241.5,
+      3234.6,
+      3229.5,
+      3228.6,
+      3224.6,
+      3221.9,
+      3216.9,
+      3211.3,
+      3205.8,
+      3200.3,
+      3193.8,
+      3183.8,
+      3176.8,
+      3169.8,
+      3163,
+      3157.7,
+      3152.2,
+      3148,
+      3143.3,
+      3137,
+      3129.6,
+      3121.5,
+      3119.8,
+      3115.8,
+      3111.7,
+      3107.3,
+      3102.9,
+      3098.9,
+      3095
+    ],
+    "sampleSpacingMeters" : 100
+  },
+  "id" : "leadville-trail-marathon-2027",
+  "inclineChanges" : [
+    {
+      "atMeters" : 0,
+      "inclinePercent" : 4
+    },
+    {
+      "atMeters" : 700,
+      "inclinePercent" : 6
+    },
+    {
+      "atMeters" : 1400,
+      "inclinePercent" : 8
+    },
+    {
+      "atMeters" : 1800,
+      "inclinePercent" : 5.5
+    },
+    {
+      "atMeters" : 2200,
+      "inclinePercent" : 3.5
+    },
+    {
+      "atMeters" : 2700,
+      "inclinePercent" : 10
+    },
+    {
+      "atMeters" : 3000,
+      "inclinePercent" : 17.5
+    },
+    {
+      "atMeters" : 3300,
+      "inclinePercent" : 10
+    },
+    {
+      "atMeters" : 3600,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 3900,
+      "inclinePercent" : -6.5
+    },
+    {
+      "atMeters" : 4200,
+      "inclinePercent" : 5.5
+    },
+    {
+      "atMeters" : 4600,
+      "inclinePercent" : 10.5
+    },
+    {
+      "atMeters" : 5100,
+      "inclinePercent" : 15
+    },
+    {
+      "atMeters" : 5400,
+      "inclinePercent" : 11.5
+    },
+    {
+      "atMeters" : 5700,
+      "inclinePercent" : 14.5
+    },
+    {
+      "atMeters" : 6000,
+      "inclinePercent" : 10
+    },
+    {
+      "atMeters" : 6300,
+      "inclinePercent" : 4
+    },
+    {
+      "atMeters" : 6700,
+      "inclinePercent" : 6.5
+    },
+    {
+      "atMeters" : 7000,
+      "inclinePercent" : 10.5
+    },
+    {
+      "atMeters" : 7400,
+      "inclinePercent" : -3.5
+    },
+    {
+      "atMeters" : 8000,
+      "inclinePercent" : -11.5
+    },
+    {
+      "atMeters" : 8700,
+      "inclinePercent" : -17.5
+    },
+    {
+      "atMeters" : 9100,
+      "inclinePercent" : -14.5
+    },
+    {
+      "atMeters" : 9500,
+      "inclinePercent" : -11.5
+    },
+    {
+      "atMeters" : 10000,
+      "inclinePercent" : -12
+    },
+    {
+      "atMeters" : 10300,
+      "inclinePercent" : -10.5
+    },
+    {
+      "atMeters" : 10600,
+      "inclinePercent" : -9
+    },
+    {
+      "atMeters" : 11100,
+      "inclinePercent" : 6.5
+    },
+    {
+      "atMeters" : 11500,
+      "inclinePercent" : 9
+    },
+    {
+      "atMeters" : 11900,
+      "inclinePercent" : 8.5
+    },
+    {
+      "atMeters" : 12200,
+      "inclinePercent" : -5.5
+    },
+    {
+      "atMeters" : 12700,
+      "inclinePercent" : 5
+    },
+    {
+      "atMeters" : 13000,
+      "inclinePercent" : 8.5
+    },
+    {
+      "atMeters" : 13500,
+      "inclinePercent" : 10
+    },
+    {
+      "atMeters" : 13900,
+      "inclinePercent" : 7
+    },
+    {
+      "atMeters" : 14300,
+      "inclinePercent" : -4.5
+    },
+    {
+      "atMeters" : 15200,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 15800,
+      "inclinePercent" : -4
+    },
+    {
+      "atMeters" : 16100,
+      "inclinePercent" : 6
+    },
+    {
+      "atMeters" : 16800,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 17200,
+      "inclinePercent" : 9
+    },
+    {
+      "atMeters" : 17800,
+      "inclinePercent" : 8
+    },
+    {
+      "atMeters" : 18300,
+      "inclinePercent" : 7
+    },
+    {
+      "atMeters" : 18800,
+      "inclinePercent" : 17.5
+    },
+    {
+      "atMeters" : 19200,
+      "inclinePercent" : 15
+    },
+    {
+      "atMeters" : 20200,
+      "inclinePercent" : 16
+    },
+    {
+      "atMeters" : 21100,
+      "inclinePercent" : 9
+    },
+    {
+      "atMeters" : 21500,
+      "inclinePercent" : 10
+    },
+    {
+      "atMeters" : 21800,
+      "inclinePercent" : 12
+    },
+    {
+      "atMeters" : 22100,
+      "inclinePercent" : -10
+    },
+    {
+      "atMeters" : 22700,
+      "inclinePercent" : -8
+    },
+    {
+      "atMeters" : 23100,
+      "inclinePercent" : -17.5
+    },
+    {
+      "atMeters" : 23400,
+      "inclinePercent" : -14.5
+    },
+    {
+      "atMeters" : 24300,
+      "inclinePercent" : -16
+    },
+    {
+      "atMeters" : 24600,
+      "inclinePercent" : -14.5
+    },
+    {
+      "atMeters" : 25100,
+      "inclinePercent" : -18
+    },
+    {
+      "atMeters" : 25400,
+      "inclinePercent" : -11
+    },
+    {
+      "atMeters" : 25700,
+      "inclinePercent" : -5
+    },
+    {
+      "atMeters" : 26000,
+      "inclinePercent" : -8
+    },
+    {
+      "atMeters" : 26500,
+      "inclinePercent" : -9
+    },
+    {
+      "atMeters" : 27100,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 27500,
+      "inclinePercent" : -7
+    },
+    {
+      "atMeters" : 28100,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 28400,
+      "inclinePercent" : 3.5
+    },
+    {
+      "atMeters" : 28900,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 29200,
+      "inclinePercent" : 4
+    },
+    {
+      "atMeters" : 30100,
+      "inclinePercent" : -8.5
+    },
+    {
+      "atMeters" : 30500,
+      "inclinePercent" : -10.5
+    },
+    {
+      "atMeters" : 30800,
+      "inclinePercent" : -8.5
+    },
+    {
+      "atMeters" : 31300,
+      "inclinePercent" : -5.5
+    },
+    {
+      "atMeters" : 31600,
+      "inclinePercent" : 5.5
+    },
+    {
+      "atMeters" : 32200,
+      "inclinePercent" : 9.5
+    },
+    {
+      "atMeters" : 32900,
+      "inclinePercent" : 14.5
+    },
+    {
+      "atMeters" : 33200,
+      "inclinePercent" : 11.5
+    },
+    {
+      "atMeters" : 33500,
+      "inclinePercent" : 14.5
+    },
+    {
+      "atMeters" : 33800,
+      "inclinePercent" : 10
+    },
+    {
+      "atMeters" : 34200,
+      "inclinePercent" : -6
+    },
+    {
+      "atMeters" : 34600,
+      "inclinePercent" : -17
+    },
+    {
+      "atMeters" : 35000,
+      "inclinePercent" : -14.5
+    },
+    {
+      "atMeters" : 35500,
+      "inclinePercent" : -11.5
+    },
+    {
+      "atMeters" : 36200,
+      "inclinePercent" : -10.5
+    },
+    {
+      "atMeters" : 36500,
+      "inclinePercent" : -8.5
+    },
+    {
+      "atMeters" : 37100,
+      "inclinePercent" : 7.5
+    },
+    {
+      "atMeters" : 37500,
+      "inclinePercent" : 9.5
+    },
+    {
+      "atMeters" : 38100,
+      "inclinePercent" : 5
+    },
+    {
+      "atMeters" : 38600,
+      "inclinePercent" : -3
+    },
+    {
+      "atMeters" : 38900,
+      "inclinePercent" : -14
+    },
+    {
+      "atMeters" : 39400,
+      "inclinePercent" : -11
+    },
+    {
+      "atMeters" : 39700,
+      "inclinePercent" : -4
+    },
+    {
+      "atMeters" : 40200,
+      "inclinePercent" : -5.5
+    },
+    {
+      "atMeters" : 40700,
+      "inclinePercent" : -7.5
+    },
+    {
+      "atMeters" : 41100,
+      "inclinePercent" : -6
+    },
+    {
+      "atMeters" : 41800,
+      "inclinePercent" : -3.5
+    },
+    {
+      "atMeters" : 42100,
+      "inclinePercent" : -4.5
+    }
+  ],
+  "location" : "Leadville, Colorado",
+  "name" : "Leadville Trail Marathon",
+  "processing" : {
+    "generatedOn" : "2026-10-19",
+    "parameters" : {
+      "calibrationScales" : "0-22128:0.9970 22128-42486:1.0043",
+      "elevationProvider" : "usgs3dep",
+      "gradeBlockMeters" : "100",
+      "inclineStepPercent" : "0.5",
+      "minimumIntervalMeters" : "300",
+      "osmStructuresTimestamp" : "2026-10-19T19:50:36Z",
+      "routeSmoothingMeters" : "20",
+      "sampleSpacingMeters" : "10",
+      "smoothingWindowMeters" : "100"
+    },
+    "tool" : "course-tool 0.1.0"
+  },
+  "schemaVersion" : 1,
+  "segments" : [
+    {
+      "endMeters" : 22129,
+      "id" : "mosquito-pass",
+      "name" : "Mosquito Pass climb (miles 10.5–13.8)",
+      "startMeters" : 16900
+    },
+    {
+      "endMeters" : 12231,
+      "id" : "ball-mountain-loop",
+      "name" : "Ball Mountain loop (miles 2.7–7.6)",
+      "startMeters" : 4345
+    },
+    {
+      "endMeters" : 22129,
+      "id" : "out-to-the-pass",
+      "name" : "Start to Mosquito Pass (miles 0–13.8)",
+      "startMeters" : 0
+    }
+  ],
+  "source" : {
+    "attribution" : "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program (1 m lidar), processed by Conquer Hills. Map services and data available from U.S. Geological Survey, National Geospatial Program. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation" : {
+      "kind" : "modeled",
+      "license" : "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name" : "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url" : "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes" : "The 2024–2026 course to the summit of Mosquito Pass (snow has occasionally turned the race short of it). Route traced over the county roads and 4WD tracks of the Leadville mining district on OpenStreetMap, following the organiser's course map; the race is uncertified and states 26.4 miles, so distances are scaled to 26.4 miles between the Mosquito Pass turnaround and the finish and compared with the aid stations' published mileages. Elevations from USGS 3DEP 1 m lidar (three surveys, which agree within centimetres). Grades above your treadmill's maximum are capped, and downhills are flat without decline. The altitude, 10,150–13,190 ft, can't be simulated. Unofficial.",
+    "route" : {
+      "license" : "ODbL-1.0",
+      "name" : "OpenStreetMap (route traced by Conquer Hills over county roads and 4WD tracks)",
+      "url" : "https://www.openstreetmap.org/copyright"
+    },
+    "verified" : true
+  },
+  "stats" : {
+    "elevationGainMeters" : 1886.3,
+    "elevationLossMeters" : 1886.3,
+    "maximumElevationMeters" : 4018,
+    "minimumElevationMeters" : 3095
+  }
+}

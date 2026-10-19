@@ -1,0 +1,616 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2912126,
+          39.2489677
+        ]
+      },
+      "properties": {
+        "name": "Start: E 6th St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2789025,
+          39.2516925
+        ]
+      },
+      "properties": {
+        "name": "shared road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2691575,
+          39.2497062
+        ]
+      },
+      "properties": {
+        "name": "loop junction W"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2697904,
+          39.2455023
+        ]
+      },
+      "properties": {
+        "name": "west loop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2626408,
+          39.2413327
+        ]
+      },
+      "properties": {
+        "name": "west loop S"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2574056,
+          39.2427823
+        ]
+      },
+      "properties": {
+        "name": "Adelaide aid (out)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2469179,
+          39.2402097
+        ]
+      },
+      "properties": {
+        "name": "upper route"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2381031,
+          39.2389097
+        ]
+      },
+      "properties": {
+        "name": "upper E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.234457,
+          39.240042
+        ]
+      },
+      "properties": {
+        "name": "lollipop N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2287847,
+          39.2383912
+        ]
+      },
+      "properties": {
+        "name": "lollipop NE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2256291,
+          39.2353078
+        ]
+      },
+      "properties": {
+        "name": "lollipop E end"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2311371,
+          39.2357131
+        ]
+      },
+      "properties": {
+        "name": "lollipop S"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2335405,
+          39.2328339
+        ]
+      },
+      "properties": {
+        "name": "lower E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2428627,
+          39.2322312
+        ]
+      },
+      "properties": {
+        "name": "lower"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.255784,
+          39.238357
+        ]
+      },
+      "properties": {
+        "name": "lower W"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2574056,
+          39.2427823
+        ]
+      },
+      "properties": {
+        "name": "Adelaide aid (after the Ball Mountain loop)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.258168,
+          39.247553
+        ]
+      },
+      "properties": {
+        "name": "CR3 join"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.241688,
+          39.251424
+        ]
+      },
+      "properties": {
+        "name": "Mosquito Pass Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2320859,
+          39.2533053
+        ]
+      },
+      "properties": {
+        "name": "bend"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2211164,
+          39.2572787
+        ]
+      },
+      "properties": {
+        "name": "Resurrection aid (out)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2193523,
+          39.2607927
+        ]
+      },
+      "properties": {
+        "name": "bend N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.201326,
+          39.2689196
+        ]
+      },
+      "properties": {
+        "name": "mid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.1915844,
+          39.2717097
+        ]
+      },
+      "properties": {
+        "name": "CR3 switchbacks"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.1895015,
+          39.2754546
+        ]
+      },
+      "properties": {
+        "name": "CR3 upper"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.1861242,
+          39.2810569
+        ]
+      },
+      "properties": {
+        "name": "Mosquito Pass (turnaround)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.1895015,
+          39.2754546
+        ]
+      },
+      "properties": {
+        "name": "CR3 upper"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.1915844,
+          39.2717097
+        ]
+      },
+      "properties": {
+        "name": "CR3 switchbacks"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.201326,
+          39.2689196
+        ]
+      },
+      "properties": {
+        "name": "mid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2193523,
+          39.2607927
+        ]
+      },
+      "properties": {
+        "name": "bend N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2211164,
+          39.2572787
+        ]
+      },
+      "properties": {
+        "name": "Resurrection aid (back)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2320859,
+          39.2533053
+        ]
+      },
+      "properties": {
+        "name": "bend"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.241688,
+          39.251424
+        ]
+      },
+      "properties": {
+        "name": "Mosquito Pass Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.258168,
+          39.247553
+        ]
+      },
+      "properties": {
+        "name": "CR3 join"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2574056,
+          39.2427823
+        ]
+      },
+      "properties": {
+        "name": "Adelaide aid (back from the pass)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2469179,
+          39.2402097
+        ]
+      },
+      "properties": {
+        "name": "upper route"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2381031,
+          39.2389097
+        ]
+      },
+      "properties": {
+        "name": "upper E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2369678,
+          39.2377029
+        ]
+      },
+      "properties": {
+        "name": "conn 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2345409,
+          39.2357691
+        ]
+      },
+      "properties": {
+        "name": "conn 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2335405,
+          39.2328339
+        ]
+      },
+      "properties": {
+        "name": "lower E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2428627,
+          39.2322312
+        ]
+      },
+      "properties": {
+        "name": "lower"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.255784,
+          39.238357
+        ]
+      },
+      "properties": {
+        "name": "lower W"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2574056,
+          39.2427823
+        ]
+      },
+      "properties": {
+        "name": "Adelaide aid (after the return loop)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2626408,
+          39.2413327
+        ]
+      },
+      "properties": {
+        "name": "west loop S"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2697904,
+          39.2455023
+        ]
+      },
+      "properties": {
+        "name": "west loop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2691575,
+          39.2497062
+        ]
+      },
+      "properties": {
+        "name": "loop junction W"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2789025,
+          39.2516925
+        ]
+      },
+      "properties": {
+        "name": "shared road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2912126,
+          39.2489677
+        ]
+      },
+      "properties": {
+        "name": "Finish: E 6th St"
+      }
+    }
+  ]
+}

@@ -77,14 +77,25 @@ public enum Checkpoints {
     /// Searching starts after the previous checkpoint, so places the route passes more than once (both
     /// directions of an out-and-back, a bridge crossed twice) resolve to the right pass. Within the first stretch
     /// of samples inside `radiusMeters`, the nearest sample wins; at a turnaround that is the turning point.
+    /// Checkpoints this close together are the same place, visited twice.
+    public static let samePlaceMeters = 25.0
+
     public static func locate(
         _ checkpoints: [CourseConfig.Checkpoint], samples: [ElevationSamplesFile.Sample], radiusMeters: Double
     ) throws -> [LocatedCheckpoint] {
         var result: [LocatedCheckpoint] = []
         var searchFrom = 0
+        var previous: CourseConfig.Checkpoint?
         for checkpoint in checkpoints {
             var best: (index: Int, distance: Double)?
             var index = searchFrom
+            // A checkpoint at the previous one's place is a later visit (an aid station passed again on a loop or an
+            // out-and-back): look for it only after the route has left that place.
+            if let previous, Geo.distance(previous.location, checkpoint.location) <= samePlaceMeters {
+                while index < samples.count, Geo.distance(samples[index].location, previous.location) <= radiusMeters {
+                    index += 1
+                }
+            }
             while index < samples.count {
                 let d = Geo.distance(samples[index].location, checkpoint.location)
                 if d <= radiusMeters {
@@ -104,6 +115,7 @@ public enum Checkpoints {
                     checkpoint: checkpoint, sampleIndex: best.index, rawMeters: samples[best.index].distanceMeters,
                     offRouteMeters: best.distance))
             searchFrom = best.index + 1
+            previous = checkpoint
         }
         return result
     }
