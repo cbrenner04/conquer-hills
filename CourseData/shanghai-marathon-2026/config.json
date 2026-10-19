@@ -48,59 +48,59 @@
       "toMeters": 27600
     },
     {
-      "fromMeters": 30800,
+      "fromMeters": 30700,
       "kind": "climb",
       "min": 0.5,
       "name": "Zhangjiatang creek bridge, southbound: the modelled hump survives at ≥ +0.5%",
-      "toMeters": 31200
+      "toMeters": 31300
     },
     {
-      "fromMeters": 31400,
+      "fromMeters": 31300,
       "kind": "climb",
       "min": 0.5,
       "name": "Chunshen creek bridge, southbound: the modelled hump survives at ≥ +0.5%",
-      "toMeters": 31800
+      "toMeters": 31900
     },
     {
       "fromMeters": 33100,
       "kind": "climb",
       "min": 0.5,
       "name": "Chunshen creek bridge, northbound: the modelled hump survives at ≥ +0.5%",
-      "toMeters": 33500
+      "toMeters": 33700
     },
     {
       "fromMeters": 33700,
       "kind": "climb",
       "min": 0.5,
       "name": "Zhangjiatang creek bridge, northbound: the modelled hump survives at ≥ +0.5%",
-      "toMeters": 34200
+      "toMeters": 34300
     },
     {
-      "fromMeters": 38600,
+      "fromMeters": 38500,
       "kind": "climb",
       "min": 0.5,
       "name": "Wanping South Road over the Longhua creek: the modelled hump survives at ≥ +0.5%",
-      "toMeters": 39000
+      "toMeters": 39100
     },
     {
       "fromMeters": 0,
       "kind": "maximumIncline",
       "max": 0,
-      "name": "Flat from km 0 to 26.9 (no bridges)",
-      "toMeters": 26900
+      "name": "Flat from km 0 to 27 (no bridges)",
+      "toMeters": 27000
     },
     {
-      "fromMeters": 34200,
+      "fromMeters": 34300,
       "kind": "maximumIncline",
       "max": 0,
-      "name": "Flat from km 34.2 to 38.6 (no bridges)",
-      "toMeters": 38600
+      "name": "Flat from km 34.3 to 38.5 (no bridges)",
+      "toMeters": 38500
     },
     {
-      "fromMeters": 39000,
+      "fromMeters": 39100,
       "kind": "maximumIncline",
       "max": 0,
-      "name": "Flat from km 39 to 42.195 (no bridges)",
+      "name": "Flat from km 39.1 to 42.195 (no bridges)",
       "toMeters": 42195
     }
   ],
@@ -134,7 +134,7 @@
     "gradeBlockMeters": 100,
     "inclineStepPercent": 0.5,
     "maximumSectionErrorMeters": 300,
-    "minimumIntervalMeters": 100,
+    "minimumIntervalMeters": 200,
     "profileSampleSpacingMeters": 100,
     "routeSmoothingMeters": 40,
     "sampleSpacingMeters": 10,
@@ -191,13 +191,13 @@
       "name": "Flat model at 4 m with 2 m bridge humps (no usable open elevation data for Shanghai)",
       "url": "https://www.openstreetmap.org/copyright"
     },
-    "notes": "Modelled on the 2025 course: the street sequence from the Shanghai police's 2025 traffic notice, traced over OpenStreetMap streets (the 2026 notice and course map appear about a week before the 6 December race). There is no public certificate or route file, and the southern turnaround's position on Longteng Avenue is estimated from the course length. No open elevation data measures Shanghai's ground: the course is modelled as flat, with 2 m humps at its six creek-bridge crossings (five on Longteng Avenue, one on Wanping South Road). Unofficial.",
+    "notes": "Modelled on the 2025 course: the street sequence from the Shanghai police's 2025 traffic notice, traced over OpenStreetMap streets (the 2026 notice and course map appear about a week before the 6 December race). There is no public certificate or route file, and the southern turnaround's position on Longteng Avenue is estimated from the course length. No open elevation data measures Shanghai's ground: the course is modelled as flat, with 2 m humps (200 m ramps) at its six creek-bridge crossings (five on Longteng Avenue, one on Wanping South Road). Unofficial.",
     "route": {
       "license": "ODbL-1.0",
       "name": "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
       "url": "https://www.openstreetmap.org/copyright"
     },
-    "verified": false
+    "verified": true
   },
   "structures": {
     "bufferMeters": 12,
