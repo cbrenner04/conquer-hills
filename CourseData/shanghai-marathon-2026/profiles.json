@@ -1,0 +1,136 @@
+{
+  "profiles": [
+    {
+      "method": "Modelled: a 2 m rise above the flat model at the middle of the bridge as OpenStreetMap maps it, with straight ramps 200 m long either side (about 1%; on the 450 m Longhua creek bridge, the deck's own half-length). The real height isn't published.",
+      "name": "Longteng Avenue over the Longhua creek (southbound)",
+      "points": [
+        {
+          "latitude": 31.18218,
+          "longitude": 121.458458,
+          "riseMeters": 0
+        },
+        {
+          "latitude": 31.1802646,
+          "longitude": 121.4576542,
+          "riseMeters": 2.0
+        },
+        {
+          "latitude": 31.178306,
+          "longitude": 121.457044,
+          "riseMeters": 0
+        }
+      ],
+      "source": "Bridge position: OpenStreetMap (ODbL). Height and ramps: assumed (2 m over 200 m ramps, chosen so each bridge is a steady climb of about a minute on the treadmill)"
+    },
+    {
+      "method": "Modelled: a 2 m rise above the flat model at the middle of the bridge as OpenStreetMap maps it, with straight ramps 200 m long either side (about 1%; on the 450 m Longhua creek bridge, the deck's own half-length). The real height isn't published.",
+      "name": "Longteng Avenue over the Zhangjiatang creek (southbound)",
+      "points": [
+        {
+          "latitude": 31.151888,
+          "longitude": 121.4522599,
+          "riseMeters": 0
+        },
+        {
+          "latitude": 31.150445,
+          "longitude": 121.4510163,
+          "riseMeters": 2.0
+        },
+        {
+          "latitude": 31.1487198,
+          "longitude": 121.4504454,
+          "riseMeters": 0
+        }
+      ],
+      "source": "Bridge position: OpenStreetMap (ODbL). Height and ramps: assumed (2 m over 200 m ramps, chosen so each bridge is a steady climb of about a minute on the treadmill)"
+    },
+    {
+      "method": "Modelled: a 2 m rise above the flat model at the middle of the bridge as OpenStreetMap maps it, with straight ramps 200 m long either side (about 1%; on the 450 m Longhua creek bridge, the deck's own half-length). The real height isn't published.",
+      "name": "Longteng Avenue over the Chunshen creek (southbound)",
+      "points": [
+        {
+          "latitude": 31.1469708,
+          "longitude": 121.4500197,
+          "riseMeters": 0
+        },
+        {
+          "latitude": 31.1451922,
+          "longitude": 121.4499009,
+          "riseMeters": 2.0
+        },
+        {
+          "latitude": 31.1434269,
+          "longitude": 121.4503026,
+          "riseMeters": 0
+        }
+      ],
+      "source": "Bridge position: OpenStreetMap (ODbL). Height and ramps: assumed (2 m over 200 m ramps, chosen so each bridge is a steady climb of about a minute on the treadmill)"
+    },
+    {
+      "method": "Modelled: a 2 m rise above the flat model at the middle of the bridge as OpenStreetMap maps it, with straight ramps 200 m long either side (about 1%; on the 450 m Longhua creek bridge, the deck's own half-length). The real height isn't published.",
+      "name": "Longteng Avenue over the Chunshen creek (northbound)",
+      "points": [
+        {
+          "latitude": 31.1434269,
+          "longitude": 121.4503026,
+          "riseMeters": 0
+        },
+        {
+          "latitude": 31.1451922,
+          "longitude": 121.4499009,
+          "riseMeters": 2.0
+        },
+        {
+          "latitude": 31.1469708,
+          "longitude": 121.4500197,
+          "riseMeters": 0
+        }
+      ],
+      "source": "Bridge position: OpenStreetMap (ODbL). Height and ramps: assumed (2 m over 200 m ramps, chosen so each bridge is a steady climb of about a minute on the treadmill)"
+    },
+    {
+      "method": "Modelled: a 2 m rise above the flat model at the middle of the bridge as OpenStreetMap maps it, with straight ramps 200 m long either side (about 1%; on the 450 m Longhua creek bridge, the deck's own half-length). The real height isn't published.",
+      "name": "Longteng Avenue over the Zhangjiatang creek (northbound)",
+      "points": [
+        {
+          "latitude": 31.1487198,
+          "longitude": 121.4504454,
+          "riseMeters": 0
+        },
+        {
+          "latitude": 31.150445,
+          "longitude": 121.4510163,
+          "riseMeters": 2.0
+        },
+        {
+          "latitude": 31.151888,
+          "longitude": 121.4522599,
+          "riseMeters": 0
+        }
+      ],
+      "source": "Bridge position: OpenStreetMap (ODbL). Height and ramps: assumed (2 m over 200 m ramps, chosen so each bridge is a steady climb of about a minute on the treadmill)"
+    },
+    {
+      "method": "Modelled: a 2 m rise above the flat model at the middle of the bridge as OpenStreetMap maps it, with straight ramps 200 m long either side (about 1%; on the 450 m Longhua creek bridge, the deck's own half-length). The real height isn't published.",
+      "name": "Wanping South Road over the Longhua creek",
+      "points": [
+        {
+          "latitude": 31.1789814,
+          "longitude": 121.4536138,
+          "riseMeters": 0
+        },
+        {
+          "latitude": 31.1788415,
+          "longitude": 121.4522835,
+          "riseMeters": 2.0
+        },
+        {
+          "latitude": 31.1804977,
+          "longitude": 121.4515392,
+          "riseMeters": 0
+        }
+      ],
+      "source": "Bridge position: OpenStreetMap (ODbL). Height and ramps: assumed (2 m over 200 m ramps, chosen so each bridge is a steady climb of about a minute on the treadmill)"
+    }
+  ]
+}

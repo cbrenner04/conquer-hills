@@ -469,6 +469,18 @@ struct WCSGridElevationProvider: ElevationProvider {
     }
 }
 
+/// No elevation data: every point is `baseMeters`, labelled `flat`. For a course with no usable open elevation data
+/// (Shanghai, where global models show buildings, not ground); real bridge humps come from modelled profiles.
+struct FlatElevationProvider: ElevationProvider {
+    let name = "flat"
+    let batchSize = 10_000
+    let baseMeters: Double
+
+    func elevations(at points: [Coordinate]) async throws -> [ElevationReading] {
+        points.map { _ in ElevationReading(elevationMeters: baseMeters, source: "flat") }
+    }
+}
+
 /// Geospatial Information Authority of Japan elevation API: one point per request.
 ///
 /// Requests start one per second, whatever their latency, so the server sees a steady ~1 request/second.

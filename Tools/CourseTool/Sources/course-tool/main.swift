@@ -147,6 +147,9 @@ func structuresFile(config: CourseConfig, route: [Coordinate], ways: [StructureS
     case "wcsGrid":
         guard let settings = config.elevation.wcs else { throw PipelineError("wcsGrid needs elevation.wcs settings") }
         provider = WCSGridElevationProvider(settings: settings)
+    case "flat":
+        guard let base = config.elevation.baseMeters else { throw PipelineError("flat needs elevation.baseMeters") }
+        provider = FlatElevationProvider(baseMeters: base)
     default:
         throw PipelineError("elevation provider \(config.elevation.provider) is not implemented yet")
     }
