@@ -1,0 +1,285 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 34.5,
+      "min": 32.5,
+      "name": "Start elevation 32.5–34.5 m (DGM1 33.4 m)"
+    },
+    {
+      "atMeters": 42195,
+      "kind": "elevationAt",
+      "max": 35.5,
+      "min": 33.5,
+      "name": "Finish elevation 33.5–35.5 m (DGM1 34.4 m)"
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 55,
+      "min": 52,
+      "name": "Highest point 52–55 m: Dahlem (DGM1 53.5 m)"
+    },
+    {
+      "atMeters": 27900,
+      "kind": "elevationAt",
+      "max": 55,
+      "min": 51,
+      "name": "Lentzeallee / Rheinbabenallee high point (km 27.9) 51–55 m"
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 32.3,
+      "name": "Lowest point ≥ 32.3 m (false bridge readings are 30.75–32.0 m; real low 32.6 m)"
+    },
+    {
+      "fromMeters": 2950,
+      "kind": "minimumElevation",
+      "min": 33.5,
+      "name": "Marchbrücke has no false dip (≥ 33.5 m)",
+      "toMeters": 3200
+    },
+    {
+      "fromMeters": 3620,
+      "kind": "minimumElevation",
+      "min": 34,
+      "name": "Gotzkowskybrücke has no false dip (≥ 34 m)",
+      "toMeters": 3870
+    },
+    {
+      "fromMeters": 6460,
+      "kind": "minimumElevation",
+      "min": 35,
+      "name": "Moltkebrücke has no false dip (≥ 35 m; the water reads 30.75 m, the road beyond the bridge really falls to 35.3 m)",
+      "toMeters": 6760
+    },
+    {
+      "fromMeters": 7020,
+      "kind": "minimumElevation",
+      "min": 34.5,
+      "name": "Kronprinzenbrücke has no false dip (≥ 34.5 m)",
+      "toMeters": 7240
+    },
+    {
+      "fromMeters": 12720,
+      "kind": "minimumElevation",
+      "min": 35,
+      "name": "Michaelbrücke has no false dip (≥ 35 m)",
+      "toMeters": 12990
+    },
+    {
+      "fromMeters": 15540,
+      "kind": "minimumElevation",
+      "min": 34.5,
+      "name": "Kottbusser Brücke has no false dip (≥ 34.5 m)",
+      "toMeters": 15770
+    },
+    {
+      "fromMeters": 31000,
+      "kind": "minimumElevation",
+      "min": 45.5,
+      "name": "Hohenzollerndammbrücke over the A100 has no false dip (≥ 45.5 m)",
+      "toMeters": 31290
+    },
+    {
+      "fromMeters": 27900,
+      "kind": "drop",
+      "max": 20,
+      "min": 16,
+      "name": "Friedenau to Dahlem rises 16–20 m (km 22 → 27.9)",
+      "toMeters": 22000
+    },
+    {
+      "fromMeters": 26000,
+      "kind": "climb",
+      "min": 0.5,
+      "name": "Südwestkorso / Lentzeallee rise survives at ≥ +0.5%",
+      "toMeters": 27900
+    },
+    {
+      "fromMeters": 27900,
+      "kind": "drop",
+      "max": 21,
+      "min": 17,
+      "name": "Dahlem down to Olivaer Platz drops 17–21 m",
+      "toMeters": 33400
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 2,
+      "name": "No incline above ±2% (catches a surviving bridge spike)"
+    },
+    {
+      "kind": "gain",
+      "max": 90,
+      "min": 40,
+      "name": "Gain 40–90 m at 100 m smoothing (DGM1 100 m samples: +73 m)",
+      "smoothingWindowMeters": 100
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 52.5218745,
+        "longitude": 13.368768
+      },
+      "name": "Moltkebrücke (Spree)",
+      "officialMeters": 6600
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 52.5124049,
+        "longitude": 13.423145
+      },
+      "name": "Michaelbrücke (Spree)",
+      "officialMeters": 12800
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 52.4961231,
+        "longitude": 13.4200081
+      },
+      "name": "Kottbusser Brücke (Landwehrkanal)",
+      "officialMeters": 15625
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 52.4876878,
+        "longitude": 13.3002723
+      },
+      "name": "Hohenzollerndammbrücke over the A100",
+      "officialMeters": 31135
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 52.5060524,
+        "longitude": 13.368503
+      },
+      "name": "Potsdamer Brücke (Landwehrkanal)",
+      "officialMeters": 37850
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 52.5162708,
+        "longitude": 13.3777195
+      },
+      "name": "Brandenburg Gate",
+      "officialMeters": 41840
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 52.5159671,
+        "longitude": 13.3720299
+      },
+      "name": "Finish: Straße des 17. Juni",
+      "officialMeters": 42195
+    }
+  ],
+  "description": "A near-loop from the Tiergarten: Straße des 17. Juni past the Victory Column, Moabit and three Spree bridges, the government quarter, Torstraße and Karl-Marx-Allee, Kreuzberg and Hasenheide, Schöneberg, the one gentle climb through Friedenau to Dahlem, down the Hohenzollerndamm to the Kurfürstendamm, Potsdamer Platz, Leipziger Straße and Unter den Linden, finishing through the Brandenburg Gate. Unofficial.",
+  "edition": "2027",
+  "elevation": {
+    "provider": "wmsPoint",
+    "trustedSources": [
+      "be-dgm1"
+    ],
+    "wms": {
+      "label": "be-dgm1",
+      "layer": "c_dgm1",
+      "url": "https://gdi.berlin.de/services/wms/dgm1",
+      "valuePath": "features.0.properties.Höhe_in_Meter_über_NHN"
+    }
+  },
+  "id": "berlin-marathon-2027",
+  "location": "Tiergarten, Berlin, Germany",
+  "manualSpans": [],
+  "name": "Berlin Marathon",
+  "officialDistanceMeters": 42195,
+  "processing": {
+    "checkpointSearchRadiusMeters": 75,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 300,
+    "minimumIntervalMeters": 500,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 300,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "includeWays": [
+      24240306,
+      38345682,
+      38345709
+    ],
+    "joins": [
+      {
+        "from": {
+          "latitude": 52.5162441,
+          "longitude": 13.3772104
+        },
+        "reason": "Platz des 18. März to Straße des 17. Juni west of the Brandenburg Gate: the square's footway stops 22 m short of the road",
+        "to": {
+          "latitude": 52.5162757,
+          "longitude": 13.3768924
+        }
+      }
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 28500,
+      "id": "friedenau-wilder-eber",
+      "name": "Friedenau to the Wilder Eber (km 22–28.5)",
+      "startMeters": 22000
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: Digitales Geländemodell DGM1, © Geoportal Berlin (dl-de/zero-2-0), processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Datenlizenz Deutschland – Zero – 2.0",
+      "name": "Berlin DGM1 digital terrain model (1 m, bare earth)",
+      "url": "https://gdi.berlin.de/services/wms/dgm1?service=WMS&request=GetCapabilities"
+    },
+    "notes": "2026 course (the organiser's map for 2027 isn't out yet). Route traced over OpenStreetMap streets in race order; no measurement certificate is public, so distances are scaled between the start and the finish and compared with the course's bridges and the Brandenburg Gate at their published distances. Elevations from Berlin's official 1 m bare-earth terrain model; bridges are interpolated. Downhills are flat on a treadmill without decline. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": false
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [
+      "motorway",
+      "motorway_link"
+    ],
+    "ignoredTunnelHighways": [
+      "corridor",
+      "cycleway",
+      "footway",
+      "motorway",
+      "motorway_link",
+      "path",
+      "pedestrian",
+      "platform",
+      "steps"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}

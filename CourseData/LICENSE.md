@@ -16,6 +16,14 @@ Affected files: `*/waypoints.geojson`, `*/route.json`, `*/osm-structures.json`, 
 
 Waypoints are our own hand-picked points, mostly placed on OpenStreetMap junctions, so they are treated as derived too.
 
+## Geoportal Berlin: elevation (Berlin)
+
+> Elevation: Digitales Geländemodell DGM1, © Geoportal Berlin (dl-de/zero-2-0), processed by Conquer Hills.
+
+Berlin's official 1 m terrain model (Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen) is published under the Datenlizenz Deutschland – Zero – Version 2.0, which permits any use without conditions and requires no attribution; we credit it anyway. The values were read point by point from the public WMS (layer `c_dgm1`) and processed (interpolated across bridges, smoothed, and converted to grades).
+
+Affected files: `berlin-marathon-2027/elevation-samples.json` and `App/Resources/Courses/berlin-marathon-2027.course.json`. Berlin's distances are compared with the course's bridges and the Brandenburg Gate at distances the organiser publishes, stored as our own data points.
+
 ## City of Cape Town: elevation (Cape Town)
 
 > Elevation: City of Cape Town LiDAR (2025 2 m digital terrain model), processed by Conquer Hills.

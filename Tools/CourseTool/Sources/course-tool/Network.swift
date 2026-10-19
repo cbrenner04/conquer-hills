@@ -406,7 +406,8 @@ struct GADem5mElevationProvider: ElevationProvider {
 
 /// A WMS raster layer queried one point per request (`WMSPoint`), such as the City of Cape Town's lidar terrain model.
 ///
-/// Requests start one per second, whatever their latency, as for GSI.
+/// Requests start one per second, whatever their latency, as for GSI. A server under load can answer with a WMS
+/// exception report instead of JSON; such a point is asked again a few times before the run stops.
 struct WMSPointElevationProvider: ElevationProvider {
     let name = "wmsPoint"
     let batchSize = 30
@@ -417,16 +418,25 @@ struct WMSPointElevationProvider: ElevationProvider {
             for (index, point) in points.enumerated() {
                 group.addTask {
                     try await Task.sleep(for: .seconds(Double(index)))
-                    return (
-                        index,
-                        try WMSPoint.reading(from: try await HTTP.get(WMSPoint.url(settings, at: point)), settings)
-                    )
+                    return (index, try await reading(at: point))
                 }
             }
             var readings = [ElevationReading?](repeating: nil, count: points.count)
             for try await (index, reading) in group { readings[index] = reading }
             return readings.map { $0! }
         }
+    }
+
+    private func reading(at point: Coordinate, attempts: Int = 4) async throws -> ElevationReading {
+        for attempt in 1... {
+            do {
+                return try WMSPoint.reading(from: try await HTTP.get(WMSPoint.url(settings, at: point)), settings)
+            } catch let error as PipelineError where attempt < attempts {
+                log("  WMS: \(error); asking again")
+                try await Task.sleep(for: .seconds(5 * attempt))
+            }
+        }
+        fatalError("unreachable")
     }
 }
 
