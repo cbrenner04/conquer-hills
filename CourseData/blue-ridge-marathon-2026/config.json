@@ -1,0 +1,376 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 291,
+      "min": 285,
+      "name": "Start 285–291 m (certificate 949 ft = 289 m; lidar 287 m)"
+    },
+    {
+      "atMeters": 42195,
+      "kind": "elevationAt",
+      "max": 289,
+      "min": 281,
+      "name": "Finish 281–289 m (certificate 939 ft = 286 m)"
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 655,
+      "min": 645,
+      "name": "Highest point 645–655 m: Roanoke Mountain summit loop (certificate 653 m; lidar 652.4 m)"
+    },
+    {
+      "fromMeters": 10800,
+      "kind": "maximumElevation",
+      "max": 655,
+      "min": 645,
+      "name": "The high point is at the Roanoke Mountain summit loop (mile 7)",
+      "toMeters": 11600
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 273,
+      "name": "Nothing below 273 m (the greenway along the Roanoke River, 275–283 m, is the low section)"
+    },
+    {
+      "fromMeters": 4300,
+      "kind": "drop",
+      "max": 175,
+      "min": 150,
+      "name": "Mill Mountain climb, Walnut Ave to the Mill Mountain Parkway: rises 150–175 m (lidar +162 m)",
+      "toMeters": 1200
+    },
+    {
+      "fromMeters": 11200,
+      "kind": "drop",
+      "max": 240,
+      "min": 220,
+      "name": "Roanoke Mountain, from the parkway low to the summit: rises 220–240 m (the race: \"about 780 feet in just two miles\")",
+      "toMeters": 7500
+    },
+    {
+      "fromMeters": 20500,
+      "kind": "drop",
+      "max": 150,
+      "min": 125,
+      "name": "Mill Mountain Star climb rises 125–150 m",
+      "toMeters": 18100
+    },
+    {
+      "fromMeters": 20500,
+      "kind": "drop",
+      "max": 265,
+      "min": 235,
+      "name": "Prospect Road's Old Road drops 235–265 m",
+      "toMeters": 23800
+    },
+    {
+      "fromMeters": 32400,
+      "kind": "drop",
+      "max": 215,
+      "min": 190,
+      "name": "Peakwood and West Ridge rise 190–215 m from the river",
+      "toMeters": 27500
+    },
+    {
+      "fromMeters": 1300,
+      "kind": "climb",
+      "min": 4,
+      "name": "Mill Mountain climb survives at ≥ +4%",
+      "toMeters": 4300
+    },
+    {
+      "fromMeters": 8350,
+      "kind": "climb",
+      "min": 7,
+      "name": "Roanoke Mountain's core survives at ≥ +7%",
+      "toMeters": 10350
+    },
+    {
+      "fromMeters": 18200,
+      "kind": "climb",
+      "min": 5,
+      "name": "Mill Mountain Star climb survives at ≥ +5%",
+      "toMeters": 20400
+    },
+    {
+      "fromMeters": 29900,
+      "kind": "climb",
+      "min": 6,
+      "name": "Peakwood's S-turns survive at ≥ +6%",
+      "toMeters": 31300
+    },
+    {
+      "fromMeters": 31500,
+      "kind": "climb",
+      "min": 6.5,
+      "name": "West Ridge survives at ≥ +6.5%",
+      "toMeters": 32450
+    },
+    {
+      "fromMeters": 23800,
+      "kind": "maximumIncline",
+      "max": 1,
+      "name": "The greenway is flat (≤ 1%)",
+      "toMeters": 26900
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 12.5,
+      "name": "No incline above ±12.5%"
+    },
+    {
+      "kind": "gain",
+      "max": 1110,
+      "min": 1000,
+      "name": "Gain 1,000–1,110 m at 100 m smoothing (lidar 1,051 m; official 7,430 ft gain plus loss, about 1,132 m each, unsmoothed)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "fromMeters": 855,
+      "kind": "minimumElevation",
+      "min": 282.4,
+      "name": "Walnut Ave bridge (Roanoke River, rail, greenways) has no false dip (≥ 282.4 m)",
+      "toMeters": 1240
+    },
+    {
+      "fromMeters": 5355,
+      "kind": "minimumElevation",
+      "min": 391,
+      "name": "Mill Mountain Pkwy bridge over Yellow Mountain Rd has no false dip (≥ 391 m; the parkway dips to the bridge, real low 392.1 m; a false dip would read about 386 m)",
+      "toMeters": 5465
+    },
+    {
+      "fromMeters": 7506,
+      "kind": "minimumElevation",
+      "min": 418.3,
+      "name": "Mill Mountain Pkwy bridge over Welcome Valley Rd has no false dip (≥ 418.3 m)",
+      "toMeters": 7616
+    },
+    {
+      "fromMeters": 14753,
+      "kind": "minimumElevation",
+      "min": 418.7,
+      "name": "Mill Mountain Pkwy bridge over Welcome Valley Rd has no false dip (≥ 418.7 m)",
+      "toMeters": 14863
+    },
+    {
+      "fromMeters": 18012,
+      "kind": "minimumElevation",
+      "min": 390.7,
+      "name": "Mill Mountain Pkwy bridge over Yellow Mountain Rd has no false dip (≥ 390.7 m)",
+      "toMeters": 18122
+    },
+    {
+      "fromMeters": 36621,
+      "kind": "minimumElevation",
+      "min": 280.0,
+      "name": "Jefferson St bridge (Roanoke River, rail, greenway) has no false dip (≥ 280 m)",
+      "toMeters": 37074
+    },
+    {
+      "fromMeters": 37354,
+      "kind": "minimumElevation",
+      "min": 280.0,
+      "name": "Jefferson St bridge over the South Yard tracks has no false dip (≥ 280 m)",
+      "toMeters": 37504
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 37.256432,
+        "longitude": -79.934618
+      },
+      "name": "Mile 1: Walnut Ave at Ivy St",
+      "officialMeters": 1603
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 37.2116929,
+        "longitude": -79.9361228
+      },
+      "name": "Mile 7: Roanoke Mountain summit overlook loop, at the spur road",
+      "officialMeters": 11265
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 37.2327,
+        "longitude": -79.94653
+      },
+      "name": "Mile 11 (certificate GPS)",
+      "officialMeters": 17703
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 37.24395,
+        "longitude": -79.93724
+      },
+      "name": "Mile 12 (certificate GPS)",
+      "officialMeters": 19312
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 37.25634,
+        "longitude": -79.92978
+      },
+      "name": "Greenway turnaround (certificate GPS)",
+      "officialMeters": 24945
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 37.25481,
+        "longitude": -79.94259
+      },
+      "name": "Mile 23: Jefferson St bridge, north end (certificate GPS)",
+      "officialMeters": 37015
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 37.26494,
+        "longitude": -79.94711
+      },
+      "name": "Mile 24: Highland Ave (certificate GPS)",
+      "officialMeters": 38624
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 37.268402,
+        "longitude": -79.940661
+      },
+      "name": "Finish: Elmwood Park",
+      "officialMeters": 42195
+    }
+  ],
+  "description": "From Elmwood Park in downtown Roanoke: over the Walnut Avenue bridge and up Mill Mountain, along the Mill Mountain Parkway to the Blue Ridge Parkway, up and back down Roanoke Mountain, back to Mill Mountain and up to the Mill Mountain Star, down Prospect Road's Old Road to the Roanoke River Greenway, then Peakwood and West Ridge, over the Jefferson Street bridge, and through Old Southwest and Highland Park to the finish. Unofficial.",
+  "edition": "2026",
+  "elevation": {
+    "provider": "usgs3dep",
+    "trustedSources": [
+      "VA_FEMA-NRCS_SouthCentral_2017_D17"
+    ]
+  },
+  "id": "blue-ridge-marathon-2026",
+  "location": "Roanoke, Virginia",
+  "manualSpans": [],
+  "name": "Blue Ridge Marathon",
+  "officialDistanceMeters": 42195,
+  "processing": {
+    "checkpointSearchRadiusMeters": 100,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 300,
+    "minimumIntervalMeters": 300,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "avoidWays": [
+      20473953,
+      286529147,
+      367452694,
+      686890323,
+      1292923629,
+      1293478528,
+      277381612
+    ],
+    "highways": [
+      "motorway",
+      "motorway_link",
+      "trunk",
+      "trunk_link",
+      "primary",
+      "primary_link",
+      "secondary",
+      "secondary_link",
+      "tertiary",
+      "tertiary_link",
+      "unclassified",
+      "residential",
+      "living_street",
+      "service",
+      "pedestrian",
+      "road",
+      "cycleway",
+      "footway",
+      "path"
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 11250,
+      "id": "roanoke-mountain",
+      "name": "Roanoke Mountain (miles 4.6–7)",
+      "startMeters": 7400
+    },
+    {
+      "endMeters": 11250,
+      "id": "mill-mountain-and-roanoke",
+      "name": "Mill Mountain to Roanoke Mountain (miles 0.7–7)",
+      "startMeters": 1200
+    },
+    {
+      "endMeters": 20450,
+      "id": "mill-mountain-star",
+      "name": "Mill Mountain Star (miles 11.3–12.7)",
+      "startMeters": 18150
+    },
+    {
+      "endMeters": 32500,
+      "id": "peakwood",
+      "name": "Peakwood and West Ridge (miles 17.2–20.2)",
+      "startMeters": 27600
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program (1 m lidar, 2017–18 South Central Virginia acquisition), processed by Conquer Hills. Map services and data available from U.S. Geological Survey, National Geospatial Program. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name": "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url": "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes": "The 2025–2026 course (the Wasena Bridge reroute), USATF certified VA24031RT. Route traced over OpenStreetMap roads, greenways and paths, including the Roanoke Mountain Loop Road, closed to traffic but run up and back down on race day; distances are calibrated to mile points on the certificate, several with GPS. Elevations from USGS 3DEP 1 m lidar; bridges are interpolated. The official \"7,430 ft\" is gain plus loss. Downhills are flat on a treadmill without decline. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM roads, greenways and paths)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": false
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [
+      "motorway",
+      "motorway_link"
+    ],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}
