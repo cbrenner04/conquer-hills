@@ -834,7 +834,7 @@
       "name" : "OpenStreetMap (route traced by Conquer Hills over OSM roads and the Wall)",
       "url" : "https://www.openstreetmap.org/copyright"
     },
-    "verified" : false
+    "verified" : true
   },
   "stats" : {
     "elevationGainMeters" : 1067.1,
