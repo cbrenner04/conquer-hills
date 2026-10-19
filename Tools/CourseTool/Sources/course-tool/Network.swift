@@ -14,6 +14,14 @@ enum HTTP {
         return try await send(request, retrying: retriedStatuses.union(alsoRetrying))
     }
 
+    /// The bytes `range` of `url` (an HTTP range request, answered 206).
+    static func get(_ url: URL, bytes range: Range<Int>) async throws -> Data {
+        var request = URLRequest(url: url)
+        request.setValue(userAgent, forHTTPHeaderField: "User-Agent")
+        request.setValue("bytes=\(range.lowerBound)-\(range.upperBound - 1)", forHTTPHeaderField: "Range")
+        return try await send(request, retrying: retriedStatuses)
+    }
+
     static func postForm(_ url: URL, fields: [String: String]) async throws -> Data {
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
@@ -36,7 +44,7 @@ enum HTTP {
             do {
                 let (data, response) = try await URLSession.shared.data(for: request)
                 let status = (response as? HTTPURLResponse)?.statusCode ?? 0
-                if status == 200 { return data }
+                if status == 200 || status == 206 { return data }
                 if attempt == attempts || !retrying.contains(status) {
                     throw PipelineError("HTTP \(status) from \(request.url?.host() ?? "?")")
                 }
@@ -466,6 +474,38 @@ struct WCSGridElevationProvider: ElevationProvider {
             }
         }
         fatalError("unreachable")
+    }
+}
+
+/// Copernicus GLO-30 (`copernicus`), the global 30 m surface model, from AWS's cloud-optimised GeoTIFFs
+/// (`CopernicusDEM`): for each 1° file the points fall in, the header first, then only the 1024 × 1024 internal tiles
+/// the points need (about 3 MB each), with range requests. A surface model: it sees buildings and forest canopy, so
+/// use it only where nothing better exists (the Great Wall). Every sample is labelled `COP30`.
+struct CopernicusElevationProvider: ElevationProvider {
+    let name = "copernicus"
+    let batchSize = 100_000
+
+    func elevations(at points: [Coordinate]) async throws -> [ElevationReading] {
+        var readings = [ElevationReading?](repeating: nil, count: points.count)
+        let files = Dictionary(grouping: points.indices) { CopernicusDEM.fileURL(for: points[$0]) }
+        for (url, indices) in files.sorted(by: { $0.key.absoluteString < $1.key.absoluteString }) {
+            log("  Copernicus: \(url.lastPathComponent)")
+            let layout = try CopernicusDEM.layout(
+                fromHeader: try await HTTP.get(url, bytes: 0..<CopernicusDEM.headerBytes))
+            var tiles: [Int: [Float]] = [:]
+            for tile in Set(indices.flatMap { layout.tiles(for: points[$0]) }).sorted() {
+                let start = layout.tileOffsets[tile]
+                let data = try await HTTP.get(url, bytes: start..<start + layout.tileByteCounts[tile])
+                tiles[tile] = try CopernicusDEM.pixels(fromTile: data, layout: layout)
+            }
+            for i in indices {
+                let value = layout.elevation(at: points[i], tiles: tiles)
+                readings[i] = ElevationReading(
+                    elevationMeters: value.map { ($0 * 1000).rounded() / 1000 },
+                    source: value == nil ? "no data" : "COP30")
+            }
+        }
+        return readings.map { $0! }
     }
 }
 

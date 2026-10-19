@@ -84,6 +84,10 @@ public enum InclineIntervals {
     /// Grade is averaged over fixed blocks and rounded to `step`; equal neighbours merge. Then, while any interval
     /// is shorter than `minimum`, the shortest is merged into whichever neighbour has the closer incline, and the
     /// merged incline is recomputed from its net rise over its length, so merging preserves net elevation.
+    /// Finally inclines are clamped to ±`maximumInclinePercent` (the app rejects anything steeper as implausible;
+    /// stairs such as the Great Wall's compute to 40–70% over 100 m), which no treadmill reaches anyway.
+    public static let maximumInclinePercent = 30.0
+
     public static func build(
         series: ElevationSeries, totalMeters: Double, blockMeters: Double, minimumMeters: Double, step: Double
     ) -> [InclineInterval] {
@@ -124,7 +128,12 @@ public enum InclineIntervals {
                 with: [InclineInterval(startMeters: start, endMeters: end, inclinePercent: incline(start, end))])
             intervals = mergeEqualNeighbours(intervals)
         }
-        return intervals
+        return mergeEqualNeighbours(
+            intervals.map {
+                var clamped = $0
+                clamped.inclinePercent = min(max($0.inclinePercent, -maximumInclinePercent), maximumInclinePercent)
+                return clamped
+            })
     }
 
     static func mergeEqualNeighbours(_ intervals: [InclineInterval]) -> [InclineInterval] {

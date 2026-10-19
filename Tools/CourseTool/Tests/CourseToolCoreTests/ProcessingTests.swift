@@ -196,6 +196,18 @@ struct IntervalTests {
         #expect(intervals == [InclineInterval(startMeters: 0, endMeters: 600, inclinePercent: 2)])
     }
 
+    @Test("Stairs steeper than 30% are stored at ±30%, the most the app accepts")
+    func clampsStairs() {
+        // Flat, 200 m of stairs at 60%, then 200 m down at 50%.
+        let s = series(length: 1000) { d in d < 400 ? 0 : d < 600 ? (d - 400) * 0.6 : max(120 - (d - 600) * 0.5, 0) }
+
+        let intervals = InclineIntervals.build(
+            series: s, totalMeters: 1000, blockMeters: 100, minimumMeters: 100, step: 0.5)
+
+        #expect(intervals.map(\.inclinePercent).max() == 30)
+        #expect(intervals.map(\.inclinePercent).min() == -30)
+    }
+
     @Test("Total gain minus loss equals finish minus start")
     func gainLossBalance() {
         let s = series(length: 5000) { sin($0 / 300) * 8 + $0 * 0.001 }

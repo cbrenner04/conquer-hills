@@ -128,8 +128,9 @@ public struct CourseConfig: Codable, Equatable, Sendable {
 
     public struct ElevationSettings: Codable, Equatable, Sendable {
         /// `gsi` (Japan, single-point API), `usgs3dep` (United States), `gaDem5m` (Australia), `wmsPoint` (a WMS
-        /// raster layer, configured by `wms`), `wcsGrid` (a WCS coverage as text grids, configured by `wcs`) or `flat`
-        /// (no measured data: every sample is `baseMeters`, labelled `flat`).
+        /// raster layer, configured by `wms`), `wcsGrid` (a WCS coverage as text grids, configured by `wcs`) `copernicus` (the global 30 m
+        /// surface model, where nothing better exists) or `flat` (no measured data: every sample is `baseMeters`, labelled
+        /// `flat`).
         public var provider: String
         /// Source labels, as reported per sample by the provider, that are trusted. Others are interpolated.
         public var trustedSources: [String]
