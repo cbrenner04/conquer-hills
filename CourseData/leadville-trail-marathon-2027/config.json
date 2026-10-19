@@ -1,0 +1,267 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 3099,
+      "min": 3093,
+      "name": "Start 3,093–3,099 m (Leadville 10,152 ft; lidar 3,096 m)"
+    },
+    {
+      "atMeters": 42486,
+      "kind": "elevationAt",
+      "max": 3099,
+      "min": 3093,
+      "name": "Finish 3,093–3,099 m (same place as the start)"
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 4024,
+      "min": 4015,
+      "name": "Highest point 4,015–4,024 m: Mosquito Pass (13,185 ft = 4,019 m; lidar 4,021 m)"
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 3090,
+      "name": "Nothing below 3,090 m (the start/finish is the low point)"
+    },
+    {
+      "kind": "gain",
+      "max": 1940,
+      "min": 1830,
+      "name": "Gain 1,830–1,940 m at 100 m smoothing (official 6,167 ft = 1,880 m)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 22,
+      "name": "No incline above ±22% (steepest 100 m blocks ±19%)"
+    },
+    {
+      "fromMeters": 6500,
+      "kind": "maximumElevation",
+      "max": 3655,
+      "min": 3630,
+      "name": "Ball Mountain loop tops out at 3,630–3,655 m (official profile ≈11,950 ft = 3,642 m)",
+      "toMeters": 8500
+    },
+    {
+      "fromMeters": 4500,
+      "kind": "climb",
+      "min": 8,
+      "name": "The Ball Mountain climb survives at ≥ +8%",
+      "toMeters": 7500
+    },
+    {
+      "fromMeters": 22129,
+      "kind": "drop",
+      "max": 620,
+      "min": 590,
+      "name": "Resurrection up to Mosquito Pass rises 590–620 m (lidar 3,415 → 4,021 m)",
+      "toMeters": 16900
+    },
+    {
+      "fromMeters": 18800,
+      "kind": "climb",
+      "min": 12.5,
+      "name": "The Mosquito Pass straight survives at ≥ +12.5% (real grade 15–18%)",
+      "toMeters": 21100
+    },
+    {
+      "fromMeters": 18800,
+      "kind": "maximumIncline",
+      "max": 19,
+      "name": "Nothing on the Mosquito Pass straight above 19%",
+      "toMeters": 21100
+    },
+    {
+      "fromMeters": 33000,
+      "kind": "maximumElevation",
+      "max": 3580,
+      "min": 3555,
+      "name": "The return loop tops out at 3,555–3,580 m (official profile ≈11,700 ft = 3,566 m)",
+      "toMeters": 35000
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 39.2427823,
+        "longitude": -106.2574056
+      },
+      "name": "Adelaide aid (out)",
+      "officialMeters": 4184
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 39.2427823,
+        "longitude": -106.2574056
+      },
+      "name": "Adelaide aid (after the Ball Mountain loop)",
+      "officialMeters": 12392
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 39.2572386,
+        "longitude": -106.2212053
+      },
+      "name": "Resurrection aid (out)",
+      "officialMeters": 17220
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 39.2810569,
+        "longitude": -106.1861242
+      },
+      "name": "Mosquito Pass (turnaround)",
+      "officialMeters": 22128
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 39.2572386,
+        "longitude": -106.2212053
+      },
+      "name": "Resurrection aid (back)",
+      "officialMeters": 27681
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 39.2427823,
+        "longitude": -106.2574056
+      },
+      "name": "Adelaide aid (back from the pass)",
+      "officialMeters": 32348
+    },
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 39.2427823,
+        "longitude": -106.2574056
+      },
+      "name": "Adelaide aid (after the return loop)",
+      "officialMeters": 38463
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 39.2489677,
+        "longitude": -106.2912126
+      },
+      "name": "Finish: E 6th St",
+      "officialMeters": 42486
+    }
+  ],
+  "description": "From E 6th St in Leadville (10,150 ft) on old mining roads and 4WD tracks: around Iron Hill to Adelaide, the Ball Mountain loop to 11,950 ft, past Resurrection and up Mosquito Pass Road to the turnaround at Mosquito Pass (13,185 ft), back down to Resurrection, a shorter return loop over the same valley, and back to town. The steepest course here: grades up to about 18%, capped by the treadmill. Unofficial.",
+  "edition": "2027",
+  "elevation": {
+    "provider": "usgs3dep",
+    "trustedSources": [
+      "CO_SanLuisJuanMiguel_2020_D20",
+      "CO_ParkFremontCuster_2018_C21",
+      "UT_COUTAML_D24"
+    ]
+  },
+  "id": "leadville-trail-marathon-2027",
+  "location": "Leadville, Colorado",
+  "manualSpans": [],
+  "name": "Leadville Trail Marathon",
+  "officialDistanceMeters": 42486,
+  "processing": {
+    "checkpointSearchRadiusMeters": 150,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 500,
+    "minimumIntervalMeters": 300,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 20,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 25
+  },
+  "route": {
+    "highways": [
+      "motorway",
+      "motorway_link",
+      "trunk",
+      "trunk_link",
+      "primary",
+      "primary_link",
+      "secondary",
+      "secondary_link",
+      "tertiary",
+      "tertiary_link",
+      "unclassified",
+      "residential",
+      "living_street",
+      "service",
+      "pedestrian",
+      "road",
+      "track"
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 22129,
+      "id": "mosquito-pass",
+      "name": "Mosquito Pass climb (miles 10.5–13.8)",
+      "startMeters": 16900
+    },
+    {
+      "endMeters": 12231,
+      "id": "ball-mountain-loop",
+      "name": "Ball Mountain loop (miles 2.7–7.6)",
+      "startMeters": 4345
+    },
+    {
+      "endMeters": 22129,
+      "id": "out-to-the-pass",
+      "name": "Start to Mosquito Pass (miles 0–13.8)",
+      "startMeters": 0
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program (1 m lidar), processed by Conquer Hills. Map services and data available from U.S. Geological Survey, National Geospatial Program. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name": "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url": "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes": "The 2024–2026 course to the summit of Mosquito Pass (snow has occasionally turned the race short of it). Route traced over the county roads and 4WD tracks of the Leadville mining district on OpenStreetMap, following the organiser's course map; the race is uncertified and states 26.4 miles, so distances are scaled to 26.4 miles between the Mosquito Pass turnaround and the finish and compared with the aid stations' published mileages. Elevations from USGS 3DEP 1 m lidar (three surveys, which agree within centimetres). Grades above your treadmill's maximum are capped, and downhills are flat without decline. The altitude, 10,150–13,190 ft, can't be simulated. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over county roads and 4WD tracks)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": false
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [
+      "motorway",
+      "motorway_link"
+    ],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}

@@ -41,6 +41,24 @@ struct CalibrationTests {
         #expect(located.map(\.rawMeters) == [500, 1000, 1500])
     }
 
+    @Test("Consecutive checkpoints at the same place are separate visits")
+    func revisit() throws {
+        // Out to 1000 m and back: an aid station at 200 m is passed at 200 and again at 1800.
+        let samples = (0...200).map { i -> ElevationSamplesFile.Sample in
+            let along = Double(i) * 10
+            let position = along <= 1000 ? along : 2000 - along
+            return .init(distanceMeters: along, location: location(at: position), elevationMeters: 0, source: "t")
+        }
+        let checkpoints = [
+            checkpoint("Aid out", official: 200, at: 200, anchor: false),
+            checkpoint("Aid back", official: 1800, at: 200, anchor: false),
+        ]
+
+        let located = try Checkpoints.locate(checkpoints, samples: samples, radiusMeters: 50)
+
+        #expect(located.map(\.rawMeters) == [200, 1800])
+    }
+
     @Test("A checkpoint far from the route is an error")
     func checkpointOffRoute() {
         let far = CourseConfig.Checkpoint(
