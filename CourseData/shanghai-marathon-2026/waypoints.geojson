@@ -1,0 +1,1708 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4859802,
+          31.2376051
+        ]
+      },
+      "properties": {
+        "name": "Start: Zhongshan East 1st Rd (Bund Bull)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4874436,
+          31.2352518
+        ]
+      },
+      "properties": {
+        "name": "primary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.490386,
+          31.2324514
+        ]
+      },
+      "properties": {
+        "name": "中山东二路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4908979,
+          31.2319726
+        ]
+      },
+      "properties": {
+        "name": "新开河路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4895573,
+          31.231378
+        ]
+      },
+      "properties": {
+        "name": "人民路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4853682,
+          31.2313177
+        ]
+      },
+      "properties": {
+        "name": "人民路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4828041,
+          31.2307884
+        ]
+      },
+      "properties": {
+        "name": "人民路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4822313,
+          31.2328285
+        ]
+      },
+      "properties": {
+        "name": "secondary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4820694,
+          31.2331723
+        ]
+      },
+      "properties": {
+        "name": "河南中路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4811429,
+          31.2368047
+        ]
+      },
+      "properties": {
+        "name": "河南中路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4803336,
+          31.2395424
+        ]
+      },
+      "properties": {
+        "name": "南京路步行街"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4764478,
+          31.2380396
+        ]
+      },
+      "properties": {
+        "name": "南京路步行街"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4739303,
+          31.2374602
+        ]
+      },
+      "properties": {
+        "name": "湖北路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4750563,
+          31.2367491
+        ]
+      },
+      "properties": {
+        "name": "九江路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4707471,
+          31.2357268
+        ]
+      },
+      "properties": {
+        "name": "九江路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4672458,
+          31.2351075
+        ]
+      },
+      "properties": {
+        "name": "南京西路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4660761,
+          31.2332481
+        ]
+      },
+      "properties": {
+        "name": "南京西路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4616808,
+          31.2327632
+        ]
+      },
+      "properties": {
+        "name": "南京西路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4568356,
+          31.23272
+        ]
+      },
+      "properties": {
+        "name": "南京西路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4530557,
+          31.2306873
+        ]
+      },
+      "properties": {
+        "name": "南京西路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4492065,
+          31.229
+        ]
+      },
+      "properties": {
+        "name": "南京西路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4454689,
+          31.2270355
+        ]
+      },
+      "properties": {
+        "name": "南京西路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4416624,
+          31.2250372
+        ]
+      },
+      "properties": {
+        "name": "南京西路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4406051,
+          31.2245044
+        ]
+      },
+      "properties": {
+        "name": "华山路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4416698,
+          31.2207652
+        ]
+      },
+      "properties": {
+        "name": "华山路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4419105,
+          31.2202893
+        ]
+      },
+      "properties": {
+        "name": "华山路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4430263,
+          31.2193385
+        ]
+      },
+      "properties": {
+        "name": "service"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4442853,
+          31.2159338
+        ]
+      },
+      "properties": {
+        "name": "常熟路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4449629,
+          31.2143678
+        ]
+      },
+      "properties": {
+        "name": "淮海中路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4489112,
+          31.2162943
+        ]
+      },
+      "properties": {
+        "name": "淮海中路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4527325,
+          31.2179128
+        ]
+      },
+      "properties": {
+        "name": "淮海中路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4566179,
+          31.2195585
+        ]
+      },
+      "properties": {
+        "name": "淮海中路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4606476,
+          31.2212807
+        ]
+      },
+      "properties": {
+        "name": "淮海中路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4649162,
+          31.2230482
+        ]
+      },
+      "properties": {
+        "name": "淮海中路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4687791,
+          31.2246743
+        ]
+      },
+      "properties": {
+        "name": "马当路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4698096,
+          31.2216618
+        ]
+      },
+      "properties": {
+        "name": "兴业路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4710652,
+          31.2219828
+        ]
+      },
+      "properties": {
+        "name": "黄陂南路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4714482,
+          31.2205518
+        ]
+      },
+      "properties": {
+        "name": "自忠路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4742498,
+          31.2214546
+        ]
+      },
+      "properties": {
+        "name": "自忠路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4741709,
+          31.2219684
+        ]
+      },
+      "properties": {
+        "name": "济南路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4710857,
+          31.2226358
+        ]
+      },
+      "properties": {
+        "name": "湖滨路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4698784,
+          31.2251274
+        ]
+      },
+      "properties": {
+        "name": "淮海中路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.474193,
+          31.2269033
+        ]
+      },
+      "properties": {
+        "name": "淮海中路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4757751,
+          31.2275479
+        ]
+      },
+      "properties": {
+        "name": "西藏南路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4768987,
+          31.2240943
+        ]
+      },
+      "properties": {
+        "name": "西藏南路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4784934,
+          31.2206187
+        ]
+      },
+      "properties": {
+        "name": "西藏南路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4804124,
+          31.2170696
+        ]
+      },
+      "properties": {
+        "name": "西藏南路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.481575,
+          31.2135045
+        ]
+      },
+      "properties": {
+        "name": "西藏南路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4829844,
+          31.2096614
+        ]
+      },
+      "properties": {
+        "name": "西藏南路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4841227,
+          31.2055729
+        ]
+      },
+      "properties": {
+        "name": "西藏南路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4859205,
+          31.2021248
+        ]
+      },
+      "properties": {
+        "name": "西藏南路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4862905,
+          31.2012028
+        ]
+      },
+      "properties": {
+        "name": "高雄路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4826768,
+          31.1995069
+        ]
+      },
+      "properties": {
+        "name": "高雄路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4825888,
+          31.1987278
+        ]
+      },
+      "properties": {
+        "name": "龙华东路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4845911,
+          31.1985494
+        ]
+      },
+      "properties": {
+        "name": "经六路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4883721,
+          31.1991778
+        ]
+      },
+      "properties": {
+        "name": "龙华东路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4908248,
+          31.2021918
+        ]
+      },
+      "properties": {
+        "name": "半淞园路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4914578,
+          31.2049322
+        ]
+      },
+      "properties": {
+        "name": "半淞园路 (turnaround)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4903511,
+          31.2013792
+        ]
+      },
+      "properties": {
+        "name": "半淞园路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4885679,
+          31.199327
+        ]
+      },
+      "properties": {
+        "name": "苗江路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4897366,
+          31.1979649
+        ]
+      },
+      "properties": {
+        "name": "苗江路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4902382,
+          31.1977855
+        ]
+      },
+      "properties": {
+        "name": "苗江路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4927246,
+          31.2006286
+        ]
+      },
+      "properties": {
+        "name": "苗江路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4958588,
+          31.204379
+        ]
+      },
+      "properties": {
+        "name": "苗江路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4965155,
+          31.2058997
+        ]
+      },
+      "properties": {
+        "name": "苗江路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4940348,
+          31.2075083
+        ]
+      },
+      "properties": {
+        "name": "半淞园路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4964397,
+          31.2090116
+        ]
+      },
+      "properties": {
+        "name": "半淞园路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4974554,
+          31.2101531
+        ]
+      },
+      "properties": {
+        "name": "陆家浜路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4989037,
+          31.2085783
+        ]
+      },
+      "properties": {
+        "name": "外马路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4984782,
+          31.2081155
+        ]
+      },
+      "properties": {
+        "name": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4968113,
+          31.2055609
+        ]
+      },
+      "properties": {
+        "name": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4963462,
+          31.204881
+        ]
+      },
+      "properties": {
+        "name": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.496301,
+          31.2044556
+        ]
+      },
+      "properties": {
+        "name": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4959404,
+          31.203968
+        ]
+      },
+      "properties": {
+        "name": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49578,
+          31.2035971
+        ]
+      },
+      "properties": {
+        "name": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4953912,
+          31.2033921
+        ]
+      },
+      "properties": {
+        "name": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4951263,
+          31.2029918
+        ]
+      },
+      "properties": {
+        "name": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4928471,
+          31.199677
+        ]
+      },
+      "properties": {
+        "name": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4912086,
+          31.1982613
+        ]
+      },
+      "properties": {
+        "name": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4879762,
+          31.1960329
+        ]
+      },
+      "properties": {
+        "name": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4850864,
+          31.1973002
+        ]
+      },
+      "properties": {
+        "name": "Riverside greenway (end, by the Xizang South Rd tunnel)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4846172,
+          31.1982279
+        ]
+      },
+      "properties": {
+        "name": "龙华东路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4802338,
+          31.1980675
+        ]
+      },
+      "properties": {
+        "name": "龙华东路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4743211,
+          31.1971756
+        ]
+      },
+      "properties": {
+        "name": "龙华东路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.471096,
+          31.1961255
+        ]
+      },
+      "properties": {
+        "name": "富润路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4724751,
+          31.1930408
+        ]
+      },
+      "properties": {
+        "name": "富润路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4679025,
+          31.1935737
+        ]
+      },
+      "properties": {
+        "name": "江滨路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4659509,
+          31.1933012
+        ]
+      },
+      "properties": {
+        "name": "瑞宁路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4650375,
+          31.1897479
+        ]
+      },
+      "properties": {
+        "name": "瑞宁路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4615697,
+          31.1874211
+        ]
+      },
+      "properties": {
+        "name": "瑞宁路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4587222,
+          31.186281
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4589347,
+          31.1830649
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.457159,
+          31.178967
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道 over the 龙华港 bridge (southbound)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4587822,
+          31.1715168
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4581943,
+          31.1680101
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4596369,
+          31.1643364
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4600713,
+          31.1608849
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4574177,
+          31.1577622
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4549871,
+          31.154689
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4517311,
+          31.1513697
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4502383,
+          31.1478946
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4501553,
+          31.1440775
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4521169,
+          31.1373693
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道 (turnaround near 进木港路; position estimated from the course length)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4522309,
+          31.1373653
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道 (northbound, after the turnaround)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4500327,
+          31.1446601
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4504296,
+          31.1486579
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4524583,
+          31.152082
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4559716,
+          31.1559376
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4588776,
+          31.1595456
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4604096,
+          31.1627675
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4585144,
+          31.1660437
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4582726,
+          31.1666645
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.45441,
+          31.16632
+        ]
+      },
+      "properties": {
+        "name": "丰谷路 (turnaround at 云锦路)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4565847,
+          31.1665642
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4582399,
+          31.1667947
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4589298,
+          31.1703535
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4578098,
+          31.1741741
+        ]
+      },
+      "properties": {
+        "name": "龙腾大道"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.457135,
+          31.177715
+        ]
+      },
+      "properties": {
+        "name": "Side road beside the 龙华港 bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.457327,
+          31.178747
+        ]
+      },
+      "properties": {
+        "name": "Side road beside the 龙华港 bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4532308,
+          31.1788722
+        ]
+      },
+      "properties": {
+        "name": "龙恒东路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4523728,
+          31.1783178
+        ]
+      },
+      "properties": {
+        "name": "云锦路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4503873,
+          31.1816657
+        ]
+      },
+      "properties": {
+        "name": "宛平南路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4482534,
+          31.1841382
+        ]
+      },
+      "properties": {
+        "name": "宛平南路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4476238,
+          31.1806651
+        ]
+      },
+      "properties": {
+        "name": "龙华路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4482222,
+          31.1767628
+        ]
+      },
+      "properties": {
+        "name": "龙华路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4467748,
+          31.1742449
+        ]
+      },
+      "properties": {
+        "name": "龙华路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4429757,
+          31.1753934
+        ]
+      },
+      "properties": {
+        "name": "龙华西路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4403149,
+          31.1761293
+        ]
+      },
+      "properties": {
+        "name": "龙华西路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4379758,
+          31.1791334
+        ]
+      },
+      "properties": {
+        "name": "龙华西路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4364361,
+          31.1796899
+        ]
+      },
+      "properties": {
+        "name": "中山南二路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4385205,
+          31.1814471
+        ]
+      },
+      "properties": {
+        "name": "Finish: Zhongshan South 2nd Rd (Shanghai Stadium)"
+      }
+    }
+  ]
+}

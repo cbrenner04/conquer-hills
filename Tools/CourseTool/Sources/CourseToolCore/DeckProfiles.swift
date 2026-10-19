@@ -73,7 +73,9 @@ public enum DeckProfiles {
 
     /// Each control point's distance along the measured route (raw meters), found in order: every point after the
     /// previous one, every profile after the previous profile, so a structure crossed twice resolves to the right
-    /// pass.
+    /// pass. Points only match stretches of route heading the profile's way at that point (from the point before it
+    /// to the point after), so on an out-and-back along a divided road, a bridge's return carriageway isn't matched
+    /// on the way out.
     public static func locate(
         _ profiles: [ProfilesFile.Profile], samples: [ElevationSamplesFile.Sample]
     ) throws -> [[Double]] {
@@ -86,7 +88,12 @@ public enum DeckProfiles {
             guard profile.points.count >= 2 else {
                 throw PipelineError("profile \"\(profile.name)\" needs at least two points")
             }
+            let located = profile.points.map { projection.point($0.location) }
             return try profile.points.enumerated().map { number, point in
+                // The profile's own direction at this point, from the point before it to the point after.
+                let before = located[max(number - 1, 0)]
+                let after = located[min(number + 1, located.count - 1)]
+                let heading = (x: after.x - before.x, y: after.y - before.y)
                 guard (point.elevationMeters == nil) != (point.riseMeters == nil) else {
                     throw PipelineError(
                         "profile \"\(profile.name)\" point \(number + 1) needs exactly one of elevationMeters and "
@@ -97,7 +104,10 @@ public enum DeckProfiles {
                 var segment = searchFrom
                 while segment < line.count - 1 {
                     let (t, d) = RouteGraph.project(p, line[segment], line[segment + 1])
-                    if d <= maximumOffRouteMeters {
+                    let along =
+                        (line[segment + 1].x - line[segment].x) * heading.x
+                        + (line[segment + 1].y - line[segment].y) * heading.y
+                    if d <= maximumOffRouteMeters, along >= 0 {
                         if best == nil || d < best!.distance { best = (segment, t, d) }
                     } else if best != nil {
                         break

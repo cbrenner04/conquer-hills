@@ -26,6 +26,35 @@ struct DeckProfileTests {
         #expect(zip(located[0], [205.0, 300, 395]).allSatisfy { abs($0 - $1) < 0.01 })
     }
 
+    @Test("On an out-and-back along a divided road, each pass's bridge matches its own direction")
+    func outAndBack() throws {
+        // 1 km north on one carriageway, then back south on the other, 9 m to the east.
+        let east = 0.0001
+        func shifted(_ c: Coordinate) -> Coordinate { Coordinate(latitude: c.latitude, longitude: c.longitude + east) }
+        let samples = (0...200).map { i in
+            let d = Double(i) * 10
+            let c = d <= 1000 ? location(at: d) : shifted(location(at: 2000 - d))
+            return ElevationSamplesFile.Sample(distanceMeters: d, location: c, elevationMeters: 4, source: "flat")
+        }
+        func returnPoint(at meters: Double, rise: Double) -> ProfilesFile.Point {
+            let c = shifted(location(at: meters))
+            return ProfilesFile.Point(latitude: c.latitude, longitude: c.longitude, riseMeters: rise)
+        }
+        let profiles = [
+            ProfilesFile.Profile(
+                name: "Out", source: "test", method: "test",
+                points: [point(at: 300, rise: 0), point(at: 350, rise: 2), point(at: 400, rise: 0)]),
+            ProfilesFile.Profile(
+                name: "Back", source: "test", method: "test",
+                points: [returnPoint(at: 400, rise: 0), returnPoint(at: 350, rise: 2), returnPoint(at: 300, rise: 0)]),
+        ]
+
+        let located = try DeckProfiles.locate(profiles, samples: samples)
+
+        #expect(zip(located[0], [300.0, 350, 400]).allSatisfy { abs($0 - $1) < 0.01 })
+        #expect(zip(located[1], [1600.0, 1650, 1700]).allSatisfy { abs($0 - $1) < 0.01 })
+    }
+
     @Test("A point too far from the route fails")
     func offRoute() {
         let samples = straightSamples(count: 101)

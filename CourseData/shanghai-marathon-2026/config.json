@@ -1,0 +1,221 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 7,
+      "min": 2,
+      "name": "Start 2–7 m (flat model at 4 m)"
+    },
+    {
+      "atMeters": 42195,
+      "kind": "elevationAt",
+      "max": 7,
+      "min": 2,
+      "name": "Finish 2–7 m (flat model at 4 m)"
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 0,
+      "name": "Nothing below 0 m"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 12,
+      "name": "Nothing above 12 m (global surface models read 26–57 m on buildings)"
+    },
+    {
+      "kind": "gain",
+      "max": 40,
+      "name": "Gain ≤ 40 m at 100 m smoothing (third-party estimates 25–45 m; global surface models give 327 m)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 4,
+      "name": "No incline above ±4%"
+    },
+    {
+      "fromMeters": 26900,
+      "kind": "climb",
+      "min": 0.5,
+      "name": "Longteng Avenue over the Longhua creek: the modelled hump survives at ≥ +0.5%",
+      "toMeters": 27600
+    },
+    {
+      "fromMeters": 30800,
+      "kind": "climb",
+      "min": 0.5,
+      "name": "Zhangjiatang creek bridge, southbound: the modelled hump survives at ≥ +0.5%",
+      "toMeters": 31200
+    },
+    {
+      "fromMeters": 31400,
+      "kind": "climb",
+      "min": 0.5,
+      "name": "Chunshen creek bridge, southbound: the modelled hump survives at ≥ +0.5%",
+      "toMeters": 31800
+    },
+    {
+      "fromMeters": 33100,
+      "kind": "climb",
+      "min": 0.5,
+      "name": "Chunshen creek bridge, northbound: the modelled hump survives at ≥ +0.5%",
+      "toMeters": 33500
+    },
+    {
+      "fromMeters": 33700,
+      "kind": "climb",
+      "min": 0.5,
+      "name": "Zhangjiatang creek bridge, northbound: the modelled hump survives at ≥ +0.5%",
+      "toMeters": 34200
+    },
+    {
+      "fromMeters": 38600,
+      "kind": "climb",
+      "min": 0.5,
+      "name": "Wanping South Road over the Longhua creek: the modelled hump survives at ≥ +0.5%",
+      "toMeters": 39000
+    },
+    {
+      "fromMeters": 0,
+      "kind": "maximumIncline",
+      "max": 0,
+      "name": "Flat from km 0 to 26.9 (no bridges)",
+      "toMeters": 26900
+    },
+    {
+      "fromMeters": 34200,
+      "kind": "maximumIncline",
+      "max": 0,
+      "name": "Flat from km 34.2 to 38.6 (no bridges)",
+      "toMeters": 38600
+    },
+    {
+      "fromMeters": 39000,
+      "kind": "maximumIncline",
+      "max": 0,
+      "name": "Flat from km 39 to 42.195 (no bridges)",
+      "toMeters": 42195
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 31.1814471,
+        "longitude": 121.4385205
+      },
+      "name": "Finish: Shanghai Stadium (gate 12)",
+      "officialMeters": 42195
+    }
+  ],
+  "description": "From the Bund Bull on Zhongshan East 1st Road: south along the Bund, Nanjing Road, Jing'an Temple, Huaihai Road and Xintiandi, Xizang South Road to the Huangpu riverside, the Bansongyuan Road out-and-back, the riverside greenway, the West Bund and Longteng Avenue with its creek bridges and two out-and-backs, Longhua Temple, and the finish at Shanghai Stadium in Xujiahui. Flat; the only relief is modelled bridge humps. Unofficial.",
+  "edition": "2026",
+  "elevation": {
+    "baseMeters": 4,
+    "provider": "flat",
+    "trustedSources": [
+      "flat"
+    ]
+  },
+  "id": "shanghai-marathon-2026",
+  "location": "The Bund to Xujiahui, Shanghai, China",
+  "manualSpans": [],
+  "name": "Shanghai Marathon",
+  "officialDistanceMeters": 42195,
+  "processing": {
+    "checkpointSearchRadiusMeters": 75,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 300,
+    "minimumIntervalMeters": 100,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "avoidWays": [
+      233044106
+    ],
+    "corridorMeters": 100,
+    "includeWays": [
+      730656924
+    ],
+    "joins": [
+      {
+        "from": {
+          "latitude": 31.1972783,
+          "longitude": 121.4849754
+        },
+        "reason": "The Huangpu riverside greenway's end by the Xizang South Road tunnel to Longhua East Road: OSM maps no path across the 100 m plaza between them",
+        "to": {
+          "latitude": 31.19823,
+          "longitude": 121.48462
+        }
+      },
+      {
+        "from": {
+          "latitude": 31.1373693,
+          "longitude": 121.4521169
+        },
+        "reason": "The turnaround on Longteng Avenue near Jinmugang Road: across the median from the southbound to the northbound carriageway. Its position is estimated from the course length until the official map gives it",
+        "to": {
+          "latitude": 31.1373653,
+          "longitude": 121.4522309
+        }
+      }
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 35000,
+      "id": "west-bund-bridges",
+      "name": "West Bund bridges (km 26–35)",
+      "startMeters": 26000
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL); street sequence from the Shanghai Public Security Bureau's race-day traffic notice. Elevation: modelled as flat (central Shanghai ≈ 4 m) with bridge humps at creek crossings from OpenStreetMap; not measured. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Modelled by Conquer Hills (bridge positions: OpenStreetMap, ODbL)",
+      "name": "Flat model at 4 m with 2 m bridge humps (no usable open elevation data for Shanghai)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "notes": "Modelled on the 2025 course: the street sequence from the Shanghai police's 2025 traffic notice, traced over OpenStreetMap streets (the 2026 notice and course map appear about a week before the 6 December race). There is no public certificate or route file, and the southern turnaround's position on Longteng Avenue is estimated from the course length. No open elevation data measures Shanghai's ground: the course is modelled as flat, with 2 m humps at its six creek-bridge crossings (five on Longteng Avenue, one on Wanping South Road). Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": false
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [
+      "motorway",
+      "motorway_link"
+    ],
+    "ignoredTunnelHighways": [
+      "corridor",
+      "cycleway",
+      "footway",
+      "motorway",
+      "motorway_link",
+      "path",
+      "pedestrian",
+      "platform",
+      "steps"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}

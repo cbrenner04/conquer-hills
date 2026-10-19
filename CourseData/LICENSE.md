@@ -40,6 +40,14 @@ The City publishes its lidar elevation models as open data under its Open Data P
 
 Affected files: `cape-town-marathon-2027/elevation-samples.json` and `App/Resources/Courses/cape-town-marathon-2027.course.json`. Cape Town's distances are calibrated to km points the organiser publishes for spectators, stored as our own data points.
 
+## Shanghai: modelled elevation (no data source)
+
+> Elevation: modelled as flat (central Shanghai ≈ 4 m) with bridge humps at creek crossings from OpenStreetMap; not measured.
+
+No open elevation data measures the ground in Shanghai: global models (Copernicus GLO-30, SRTM, ASTER) are surface models that read the city's buildings and elevated roads, with hundreds of metres of false gain along the course. `shanghai-marathon-2026/elevation-samples.json` therefore holds a constant 4 m from the pipeline's `flat` provider, and `shanghai-marathon-2026/profiles.json` adds a modelled 2 m hump at each creek bridge the course crosses: positions from OpenStreetMap (ODbL), heights assumed. Nothing in these files is a survey result.
+
+Affected files: `shanghai-marathon-2026/elevation-samples.json`, `shanghai-marathon-2026/profiles.json` and `App/Resources/Courses/shanghai-marathon-2026.course.json`. The street sequence comes from the Shanghai Public Security Bureau's race-day traffic notice (facts, not copied text).
+
 ## Geospatial Information Authority of Japan (国土地理院): elevation (Tokyo)
 
 > 標高データ：国土地理院 標高API（基盤地図情報 数値標高モデル）をもとに Conquer Hills が加工して作成
