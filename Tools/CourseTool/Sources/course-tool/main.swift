@@ -141,6 +141,7 @@ func structuresFile(config: CourseConfig, route: [Coordinate], ways: [StructureS
     case "gsi": provider = GSIElevationProvider()
     case "usgs3dep": provider = USGS3DEPElevationProvider()
     case "gaDem5m": provider = GADem5mElevationProvider()
+    case "copernicus": provider = CopernicusElevationProvider()
     case "wmsPoint":
         guard let settings = config.elevation.wms else { throw PipelineError("wmsPoint needs elevation.wms settings") }
         provider = WMSPointElevationProvider(settings: settings)

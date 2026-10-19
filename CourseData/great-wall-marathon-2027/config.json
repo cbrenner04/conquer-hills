@@ -1,0 +1,297 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 250,
+      "min": 230,
+      "name": "Start 230–250 m (Copernicus 239 m; the official profile ≈240 m)"
+    },
+    {
+      "atMeters": 42195,
+      "kind": "elevationAt",
+      "max": 250,
+      "min": 230,
+      "name": "Finish 230–250 m"
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    },
+    {
+      "fromMeters": 4500,
+      "kind": "maximumElevation",
+      "max": 530,
+      "min": 505,
+      "name": "The Wall's crest, first crossing: 505–530 m (official 515 m; Copernicus reads the ridge 5–15 m high)",
+      "toMeters": 7000
+    },
+    {
+      "fromMeters": 35000,
+      "kind": "maximumElevation",
+      "max": 530,
+      "min": 505,
+      "name": "The Wall's crest, second crossing: 505–530 m",
+      "toMeters": 38000
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 190,
+      "name": "Nothing below 190 m (the official profile's axis starts at 193 m)"
+    },
+    {
+      "fromMeters": 11000,
+      "kind": "minimumElevation",
+      "max": 212,
+      "min": 190,
+      "name": "The valley's low point 190–212 m (official 193 m; Copernicus 201 m)",
+      "toMeters": 17000
+    },
+    {
+      "fromMeters": 5500,
+      "kind": "drop",
+      "max": 300,
+      "min": 250,
+      "name": "Start to the Wall rises 250–300 m (official 240 → 515 m)",
+      "toMeters": 0
+    },
+    {
+      "fromMeters": 0,
+      "kind": "climb",
+      "min": 3,
+      "name": "The road climb to the Wall survives at ≥ +3%",
+      "toMeters": 5000
+    },
+    {
+      "fromMeters": 34500,
+      "kind": "climb",
+      "min": 12.5,
+      "name": "The Goat Track, climbed on the second crossing, is at the treadmill's cap or above",
+      "toMeters": 36500
+    },
+    {
+      "fromMeters": 26000,
+      "kind": "climb",
+      "min": 4,
+      "name": "The valley hill north of Da Ping'an survives at ≥ +4%",
+      "toMeters": 29000
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 30,
+      "name": "No incline beyond ±30% (stairs are clamped; the app rejects steeper)"
+    },
+    {
+      "fromMeters": 8500,
+      "kind": "maximumIncline",
+      "max": 10,
+      "name": "No valley stretch steeper than ±10%",
+      "toMeters": 34500
+    },
+    {
+      "kind": "gain",
+      "max": 1450,
+      "min": 1200,
+      "name": "Gain 1,200–1,450 m at 30 m smoothing (official 1,282–1,340 m)",
+      "smoothingWindowMeters": 30
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 40.24639,
+        "longitude": 117.45589
+      },
+      "name": "Wall point 1: top of the entry stairs (5 km)",
+      "officialMeters": 5000
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 40.24639,
+        "longitude": 117.45589
+      },
+      "name": "Wall point 1 again, on the way back (aid station 2, 37.1 km)",
+      "officialMeters": 37100
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 40.244933,
+        "longitude": 117.439472
+      },
+      "name": "Finish: by Yin & Yang Square",
+      "officialMeters": 42195
+    }
+  ],
+  "description": "From Yin & Yang Square in the Huangyaguan fortress: a 5 km road climb through Xiaoping'an to the Great Wall, west along the Wall and down the steep Goat Track stairs into the fortress, a long loop of valley roads and villages with three runnable climbs, then back over the Wall in reverse and down the same road to the finish. The Wall is steps a treadmill can't reproduce: its climbs are capped and its descents are flat. Unofficial.",
+  "edition": "2027",
+  "elevation": {
+    "provider": "copernicus",
+    "trustedSources": [
+      "COP30"
+    ]
+  },
+  "id": "great-wall-marathon-2027",
+  "location": "Huangyaguan, Tianjin, China",
+  "manualSpans": [],
+  "name": "Great Wall Marathon",
+  "officialDistanceMeters": 42195,
+  "processing": {
+    "checkpointSearchRadiusMeters": 150,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 1300,
+    "minimumIntervalMeters": 300,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 15,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 80
+  },
+  "route": {
+    "highways": [
+      "motorway",
+      "motorway_link",
+      "trunk",
+      "trunk_link",
+      "primary",
+      "primary_link",
+      "secondary",
+      "secondary_link",
+      "tertiary",
+      "tertiary_link",
+      "unclassified",
+      "residential",
+      "living_street",
+      "service",
+      "pedestrian",
+      "road",
+      "track"
+    ],
+    "includeWays": [
+      90078907,
+      90078911,
+      90229111,
+      90229118,
+      90229166,
+      90229187,
+      90229198,
+      222071702,
+      222071714
+    ],
+    "joins": [
+      {
+        "from": {
+          "latitude": 40.244933,
+          "longitude": 117.439472
+        },
+        "reason": "Through the Huangyaguan fortress gate between its walls and the 克黄线 road: OSM maps no way through the gate or across the fortress",
+        "to": {
+          "latitude": 40.244496,
+          "longitude": 117.4402701
+        }
+      },
+      {
+        "from": {
+          "latitude": 40.244933,
+          "longitude": 117.439472
+        },
+        "reason": "Through the Huangyaguan fortress gate between its walls and the 克黄线 road: OSM maps no way through the gate or across the fortress (the road's other carriageway)",
+        "to": {
+          "latitude": 40.2444308,
+          "longitude": 117.4403179
+        }
+      },
+      {
+        "from": {
+          "latitude": 40.214912,
+          "longitude": 117.4410947
+        },
+        "reason": "Across the 泃河 (Ju River) flood plain south of the fortress, crossed twice: OSM maps no path there",
+        "to": {
+          "latitude": 40.2120055,
+          "longitude": 117.4425057
+        }
+      },
+      {
+        "from": {
+          "latitude": 40.2024127,
+          "longitude": 117.4517018
+        },
+        "reason": "Track 825064079 to the 克黄线 road near Da Ping'an: the track stops about 110 m short of the road",
+        "to": {
+          "latitude": 40.202843,
+          "longitude": 117.4504587
+        }
+      },
+      {
+        "from": {
+          "latitude": 40.2033999,
+          "longitude": 117.4505366
+        },
+        "reason": "克黄线 to the lane into Da Ping'an: OSM leaves the lane's end 35 m short of the road",
+        "to": {
+          "latitude": 40.2037026,
+          "longitude": 117.4504375
+        }
+      }
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 5500,
+      "id": "road-climb-to-the-wall",
+      "name": "Road climb to the Wall (km 0–5.5)",
+      "startMeters": 0
+    },
+    {
+      "endMeters": 29000,
+      "id": "valley-hills",
+      "name": "Valley hills (km 16.5–29)",
+      "startMeters": 16500
+    },
+    {
+      "endMeters": 37100,
+      "id": "the-wall-again",
+      "name": "The Wall again (km 34.9–37.1)",
+      "startMeters": 34900
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved; processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Copernicus DEM licence (free, with attribution)",
+      "name": "Copernicus GLO-30 digital surface model (30 m)",
+      "url": "https://spacedata.copernicus.eu/collections/copernicus-digital-elevation-model"
+    },
+    "notes": "The 2026 course: Huangyaguan fortress, the Great Wall, the valley villages, and the Wall again in reverse. The Wall and its stairs come from OpenStreetMap; the valley roads follow OpenStreetMap streets in the order a runner's 2024 track shows, which may differ from the official map by up to about a kilometre in places, so treat the valley hills' positions as approximate. The course is uncertified; distances are scaled to 42.195 km at the Wall's entry point on both passes and the finish. Elevations from the Copernicus 30 m surface model, which reads the Wall's ridge within about 5–20 m. The Wall's stairs are steeper than any treadmill: they are capped, and the descents are flat. Most runners spend about 40% of their race time on the Wall, the part a treadmill reproduces least. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM roads and the Wall)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": true
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [
+      "motorway",
+      "motorway_link"
+    ],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}

@@ -48,6 +48,14 @@ No open elevation data measures the ground in Shanghai: global models (Copernicu
 
 Affected files: `shanghai-marathon-2026/elevation-samples.json`, `shanghai-marathon-2026/profiles.json` and `App/Resources/Courses/shanghai-marathon-2026.course.json`. The street sequence comes from the Shanghai Public Security Bureau's race-day traffic notice (facts, not copied text).
 
+## Copernicus: elevation (Great Wall)
+
+> Elevation: produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved. Processed by Conquer Hills.
+
+The Copernicus GLO-30 surface model is free to use with the credit above; the values were modified (sampled along the route, smoothed, and converted to grades; stairs steeper than 30% are capped). It is a 30 m surface model, so it reads the Great Wall's ridge within about 5–20 m, and it is used only where no better open data exists. As with Shanghai, the course file holds inclines along a distance axis, and the committed route is OpenStreetMap data already public worldwide; nothing here is a survey of China.
+
+Affected files: `great-wall-marathon-2027/elevation-samples.json` and `App/Resources/Courses/great-wall-marathon-2027.course.json`. Distances are scaled to the organiser's stated km at the Wall's entry point on both passes, stored as our own data points.
+
 ## Geospatial Information Authority of Japan (国土地理院): elevation (Tokyo)
 
 > 標高データ：国土地理院 標高API（基盤地図情報 数値標高モデル）をもとに Conquer Hills が加工して作成

@@ -1,0 +1,3567 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.439472,
+          40.244933
+        ]
+      },
+      "properties": {
+        "name": "Start: by Yin & Yang Square (Huangyaguan fortress)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4402701,
+          40.244496
+        ]
+      },
+      "properties": {
+        "name": "克黄线 (after a gap in OSM)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4403179,
+          40.2444308
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.441313,
+          40.2426118
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4405575,
+          40.2408457
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4409274,
+          40.2391457
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4409678,
+          40.2389746
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4428573,
+          40.2390313
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4432637,
+          40.2390416
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4433425,
+          40.2390294
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4439321,
+          40.2374035
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4452815,
+          40.2371824
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4450092,
+          40.2379034
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4459736,
+          40.2393627
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4474513,
+          40.2405362
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.448829,
+          40.2415082
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4482369,
+          40.2399122
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4476483,
+          40.2383208
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4479925,
+          40.2365996
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4488122,
+          40.234705
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.449205,
+          40.2350978
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4503523,
+          40.2353598
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.451389,
+          40.2344731
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4538792,
+          40.2349885
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4542366,
+          40.2346366
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4546337,
+          40.2345262
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4535034,
+          40.2358221
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4535275,
+          40.2376744
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4538906,
+          40.2392387
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4527348,
+          40.240645
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4527986,
+          40.2423359
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4541232,
+          40.2433393
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4546779,
+          40.2450545
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4547185,
+          40.245435
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4550009,
+          40.2457753
+        ]
+      },
+      "properties": {
+        "name": "steps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4558601,
+          40.2463665
+        ]
+      },
+      "properties": {
+        "name": "steps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4557045,
+          40.2465878
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4535029,
+          40.2465426
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.452101,
+          40.2466104
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4516264,
+          40.2467341
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4497612,
+          40.2478763
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4479151,
+          40.2485244
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4472635,
+          40.2487504
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4466119,
+          40.24866
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4456073,
+          40.246828
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4444684,
+          40.2457857
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4445107,
+          40.245914
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4422385,
+          40.2461488
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4407111,
+          40.2457484
+        ]
+      },
+      "properties": {
+        "name": "steps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4406917,
+          40.2455907
+        ]
+      },
+      "properties": {
+        "name": "steps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.440566,
+          40.2453467
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4397297,
+          40.2450794
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.439472,
+          40.244933
+        ]
+      },
+      "properties": {
+        "name": "黄崖关"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4399837,
+          40.2429881
+        ]
+      },
+      "properties": {
+        "name": "黄崖关"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4386342,
+          40.2423
+        ]
+      },
+      "properties": {
+        "name": "黄崖关"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4377804,
+          40.2437147
+        ]
+      },
+      "properties": {
+        "name": "黄崖关"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4378361,
+          40.2445708
+        ]
+      },
+      "properties": {
+        "name": "黄崖关"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4394217,
+          40.2449917
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.439472,
+          40.244933
+        ]
+      },
+      "properties": {
+        "name": "黄崖关"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4402701,
+          40.244496
+        ]
+      },
+      "properties": {
+        "name": "克黄线 (after a gap in OSM)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4403179,
+          40.2444308
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.441313,
+          40.2426118
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4405575,
+          40.2408457
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4409274,
+          40.2391457
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4404731,
+          40.2374746
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4396121,
+          40.2357296
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4395828,
+          40.2342774
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4393692,
+          40.2320717
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4387393,
+          40.2302992
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4388054,
+          40.2286909
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4391459,
+          40.2267678
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4393598,
+          40.2249111
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4395435,
+          40.2236814
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4398528,
+          40.2217098
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4401652,
+          40.2196007
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.440197,
+          40.2177217
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4405511,
+          40.2161958
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4410947,
+          40.214912
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4425057,
+          40.2120055
+        ]
+      },
+      "properties": {
+        "name": "track (after a gap in OSM)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4427779,
+          40.2104632
+        ]
+      },
+      "properties": {
+        "name": "track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4430213,
+          40.209132
+        ]
+      },
+      "properties": {
+        "name": "track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4433997,
+          40.2070889
+        ]
+      },
+      "properties": {
+        "name": "track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4436822,
+          40.2054687
+        ]
+      },
+      "properties": {
+        "name": "track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4440119,
+          40.2032417
+        ]
+      },
+      "properties": {
+        "name": "track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4450646,
+          40.2032363
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.445554,
+          40.203218
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4461296,
+          40.2019864
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4463327,
+          40.2002382
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4465297,
+          40.1982389
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4452376,
+          40.1967314
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4440043,
+          40.1951975
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4427104,
+          40.19373
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4411097,
+          40.1925358
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4402663,
+          40.1907805
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4399852,
+          40.1890318
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4391705,
+          40.1871231
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4379456,
+          40.1857446
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4374961,
+          40.1847271
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4377648,
+          40.1846357
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4405328,
+          40.1833898
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4413841,
+          40.1829615
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4417003,
+          40.1828426
+        ]
+      },
+      "properties": {
+        "name": "马营公路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4439148,
+          40.1821422
+        ]
+      },
+      "properties": {
+        "name": "马营公路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4445854,
+          40.1819443
+        ]
+      },
+      "properties": {
+        "name": "马营公路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4448013,
+          40.1818824
+        ]
+      },
+      "properties": {
+        "name": "马营公路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4472378,
+          40.1811197
+        ]
+      },
+      "properties": {
+        "name": "马营公路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4494859,
+          40.1806683
+        ]
+      },
+      "properties": {
+        "name": "马营公路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4514475,
+          40.1801818
+        ]
+      },
+      "properties": {
+        "name": "马营公路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4532142,
+          40.1795904
+        ]
+      },
+      "properties": {
+        "name": "马营公路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.455746,
+          40.1787068
+        ]
+      },
+      "properties": {
+        "name": "马营公路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4579582,
+          40.1782569
+        ]
+      },
+      "properties": {
+        "name": "马营公路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4602752,
+          40.1780243
+        ]
+      },
+      "properties": {
+        "name": "马营公路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4608454,
+          40.1779903
+        ]
+      },
+      "properties": {
+        "name": "马营公路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4611373,
+          40.1779808
+        ]
+      },
+      "properties": {
+        "name": "马营公路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.461482,
+          40.1779652
+        ]
+      },
+      "properties": {
+        "name": "马营公路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4617205,
+          40.1779479
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4621633,
+          40.1800088
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4628059,
+          40.1814202
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4636177,
+          40.183145
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4644697,
+          40.1848413
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4655855,
+          40.1862767
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4670801,
+          40.1882468
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.468305,
+          40.1898728
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4694783,
+          40.1914199
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4704722,
+          40.1928259
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4711374,
+          40.1936826
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4712688,
+          40.1938573
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4724244,
+          40.1953906
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4743377,
+          40.1961552
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4771575,
+          40.1969681
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4788099,
+          40.1974896
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4808057,
+          40.1979694
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4833045,
+          40.1974945
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4858522,
+          40.1976611
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4868259,
+          40.1973124
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4864841,
+          40.1957755
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4880956,
+          40.1945677
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4887052,
+          40.1930159
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4900751,
+          40.1935752
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.491068,
+          40.1954933
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4931867,
+          40.1959109
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4939027,
+          40.1970722
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4955144,
+          40.1984465
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4972872,
+          40.1990896
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4981249,
+          40.200883
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4990672,
+          40.2021045
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4998917,
+          40.2028319
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4995958,
+          40.2028318
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4998917,
+          40.2028319
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4995958,
+          40.2028318
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4976819,
+          40.2020512
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4970684,
+          40.2020544
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4967721,
+          40.2020136
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4966363,
+          40.2019606
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4948787,
+          40.2005509
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4929866,
+          40.2000838
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4901782,
+          40.2000203
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4881013,
+          40.2004015
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4861736,
+          40.2003489
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4833537,
+          40.1992534
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4817672,
+          40.1986806
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.481144,
+          40.1982994
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4809423,
+          40.1980952
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4806988,
+          40.1979246
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4788099,
+          40.1974896
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4762243,
+          40.1967915
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4740652,
+          40.1961026
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4733538,
+          40.1959952
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4731987,
+          40.1961353
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4721029,
+          40.1980459
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4719336,
+          40.1995556
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.471773,
+          40.2014508
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4711046,
+          40.2029494
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4705325,
+          40.2031989
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4703727,
+          40.2025807
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4700802,
+          40.202469
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4678914,
+          40.2027912
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4655721,
+          40.2030804
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4648621,
+          40.203125
+        ]
+      },
+      "properties": {
+        "name": "track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4626675,
+          40.2029429
+        ]
+      },
+      "properties": {
+        "name": "track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4603185,
+          40.2029061
+        ]
+      },
+      "properties": {
+        "name": "track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4581115,
+          40.2031824
+        ]
+      },
+      "properties": {
+        "name": "track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4561374,
+          40.2024686
+        ]
+      },
+      "properties": {
+        "name": "track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4539293,
+          40.2018739
+        ]
+      },
+      "properties": {
+        "name": "track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4517018,
+          40.2024127
+        ]
+      },
+      "properties": {
+        "name": "track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4504587,
+          40.202843
+        ]
+      },
+      "properties": {
+        "name": "克黄线 (after a gap in OSM)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4505366,
+          40.2033999
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4504375,
+          40.2037026
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4500616,
+          40.2038591
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.450001,
+          40.2041061
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4480496,
+          40.2045824
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4478129,
+          40.2047998
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4479661,
+          40.2061634
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4476307,
+          40.2063129
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4457417,
+          40.2059003
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4448515,
+          40.205367
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4448043,
+          40.2055472
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4448201,
+          40.2070081
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4448683,
+          40.2072057
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4443666,
+          40.2071638
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4433997,
+          40.2070889
+        ]
+      },
+      "properties": {
+        "name": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4430213,
+          40.209132
+        ]
+      },
+      "properties": {
+        "name": "track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4427779,
+          40.2104632
+        ]
+      },
+      "properties": {
+        "name": "track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4425057,
+          40.2120055
+        ]
+      },
+      "properties": {
+        "name": "track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4410947,
+          40.214912
+        ]
+      },
+      "properties": {
+        "name": "克黄线 (after a gap in OSM)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4403878,
+          40.2164932
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4402059,
+          40.2186877
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4401332,
+          40.2199006
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4398528,
+          40.2217098
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4395435,
+          40.2236814
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4392989,
+          40.2255653
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4390482,
+          40.2273051
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4387579,
+          40.2290677
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4387801,
+          40.2309438
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4396186,
+          40.2326443
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4395828,
+          40.2342774
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4397438,
+          40.2361075
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4407003,
+          40.2378825
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4409274,
+          40.2391457
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4407503,
+          40.2413624
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4412068,
+          40.2430203
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4403179,
+          40.2444308
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.439472,
+          40.244933
+        ]
+      },
+      "properties": {
+        "name": "黄崖关 (after a gap in OSM)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4394217,
+          40.2449917
+        ]
+      },
+      "properties": {
+        "name": "黄崖关"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4397297,
+          40.2450794
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.440566,
+          40.2453467
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.440742,
+          40.2455276
+        ]
+      },
+      "properties": {
+        "name": "steps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4407929,
+          40.2459754
+        ]
+      },
+      "properties": {
+        "name": "steps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4434554,
+          40.245914
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4445107,
+          40.245914
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4444684,
+          40.2457857
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4457605,
+          40.2470571
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4466119,
+          40.24866
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4472635,
+          40.2487504
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4493533,
+          40.2480534
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4512368,
+          40.2470635
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4516264,
+          40.2467341
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.452101,
+          40.2466104
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4539966,
+          40.2467762
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4558943,
+          40.2463862
+        ]
+      },
+      "properties": {
+        "name": "黄崖关长城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4555965,
+          40.2461996
+        ]
+      },
+      "properties": {
+        "name": "steps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4547185,
+          40.245435
+        ]
+      },
+      "properties": {
+        "name": "steps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4547691,
+          40.2452736
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4542267,
+          40.2435948
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4527986,
+          40.2423359
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4527348,
+          40.240645
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4538906,
+          40.2392387
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4535275,
+          40.2376744
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.453658,
+          40.235742
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4548025,
+          40.2345912
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4543813,
+          40.2345078
+        ]
+      },
+      "properties": {
+        "name": "residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.454187,
+          40.2348218
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4522427,
+          40.2345641
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4504771,
+          40.2350708
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4491355,
+          40.235519
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4490518,
+          40.2343411
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.448191,
+          40.2359478
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4474054,
+          40.2376453
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4482142,
+          40.2394164
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4489275,
+          40.2409384
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4480157,
+          40.2408393
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4461523,
+          40.2398715
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4453779,
+          40.2382369
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.444527,
+          40.2373124
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4441895,
+          40.2367732
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4434548,
+          40.2384415
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4432637,
+          40.2390416
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4428573,
+          40.2390313
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4409678,
+          40.2389746
+        ]
+      },
+      "properties": {
+        "name": "长城路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4409274,
+          40.2391457
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4406244,
+          40.2411311
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.441313,
+          40.2426118
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4403179,
+          40.2444308
+        ]
+      },
+      "properties": {
+        "name": "克黄线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.439472,
+          40.244933
+        ]
+      },
+      "properties": {
+        "name": "Finish: by Yin & Yang Square (Huangyaguan fortress)"
+      }
+    }
+  ]
+}
