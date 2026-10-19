@@ -1,0 +1,3333 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9125285,
+          38.8575505
+        ]
+      },
+      "properties": {
+        "name": "Start: Manitou Ave at City Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9141187,
+          38.8572382
+        ]
+      },
+      "properties": {
+        "name": "Ruxton Ave / trailhead"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.916025,
+          38.8574421
+        ]
+      },
+      "properties": {
+        "name": "Ruxton Ave / trailhead"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9176019,
+          38.8580116
+        ]
+      },
+      "properties": {
+        "name": "Ruxton Ave / trailhead"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9188338,
+          38.8589313
+        ]
+      },
+      "properties": {
+        "name": "Ruxton Ave / trailhead"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9204317,
+          38.8586545
+        ]
+      },
+      "properties": {
+        "name": "Ruxton Ave / trailhead"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.92221,
+          38.8586194
+        ]
+      },
+      "properties": {
+        "name": "Ruxton Ave / trailhead"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9239065,
+          38.8585639
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9259174,
+          38.8579143
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9275096,
+          38.8572928
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9291887,
+          38.8568644
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.930841,
+          38.8562906
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9326892,
+          38.8555377
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9339293,
+          38.8545672
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9352436,
+          38.8536147
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9368831,
+          38.8528933
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.938182,
+          38.8520582
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9388509,
+          38.8521105
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9382128,
+          38.853387
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.937384,
+          38.8543646
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9383308,
+          38.8548867
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9389155,
+          38.8542956
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9394664,
+          38.8551714
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9400109,
+          38.8551046
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9404702,
+          38.855358
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9405581,
+          38.8547683
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9411777,
+          38.855138
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9418965,
+          38.8559526
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9423606,
+          38.8571098
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9426824,
+          38.8570012
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9430043,
+          38.8555704
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9429211,
+          38.8545219
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9442059,
+          38.8548978
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9452117,
+          38.8547412
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9452976,
+          38.8551171
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9467138,
+          38.8557897
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9475162,
+          38.8556587
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.948451,
+          38.854981
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.949949,
+          38.8554833
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9514886,
+          38.8561015
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9532281,
+          38.856111
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9539548,
+          38.8564639
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9557238,
+          38.8565256
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9575101,
+          38.8564775
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9588487,
+          38.856088
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9600877,
+          38.8559323
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.96071,
+          38.8560097
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9616273,
+          38.8558425
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9631616,
+          38.8548807
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9644732,
+          38.8540212
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9665572,
+          38.8536055
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9683704,
+          38.8533235
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9701648,
+          38.8534217
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9722623,
+          38.8535658
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.973936,
+          38.8540567
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9756312,
+          38.8540483
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9774927,
+          38.8536964
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9792145,
+          38.8531689
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9804457,
+          38.8520285
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9819424,
+          38.8512264
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9833881,
+          38.8506895
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9831065,
+          38.8495156
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9848714,
+          38.8493547
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9867597,
+          38.8495135
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9883851,
+          38.8498728
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9896725,
+          38.8492545
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9911155,
+          38.8488576
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9929153,
+          38.8485797
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9941947,
+          38.8482184
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9959865,
+          38.8480408
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9977889,
+          38.847859
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9994814,
+          38.8476836
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0013187,
+          38.8472407
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0028824,
+          38.8469984
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0042906,
+          38.8464824
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0055726,
+          38.8474935
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0070827,
+          38.8473556
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.008051,
+          38.8462422
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0094484,
+          38.8457931
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0107386,
+          38.8451768
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0115929,
+          38.846144
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0129996,
+          38.8468856
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.013795,
+          38.8472919
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0148758,
+          38.8470569
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0157088,
+          38.8485203
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0166985,
+          38.849737
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0171357,
+          38.8492231
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0173812,
+          38.8478539
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0178894,
+          38.8463759
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0187476,
+          38.8451705
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0198742,
+          38.8439317
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0206896,
+          38.8427263
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0211922,
+          38.8428702
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0218577,
+          38.8428903
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0228556,
+          38.8420665
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0224759,
+          38.8435202
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.023757,
+          38.8424948
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0242932,
+          38.8426224
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0249449,
+          38.8425206
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0258421,
+          38.8423211
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0266723,
+          38.8423869
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0267017,
+          38.8428214
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0271162,
+          38.8431442
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0263812,
+          38.8441594
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0265314,
+          38.8449512
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0275775,
+          38.8440163
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0276674,
+          38.8445314
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0278886,
+          38.8452677
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0288234,
+          38.8449355
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0304421,
+          38.8448405
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.031059,
+          38.8449825
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.03087,
+          38.8463613
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.031637,
+          38.8465963
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0324672,
+          38.846178
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0334998,
+          38.8448405
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0342657,
+          38.8439997
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0352379,
+          38.8428475
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0364421,
+          38.8416692
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0371731,
+          38.8403478
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.036705,
+          38.8388468
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0371503,
+          38.8387131
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0372536,
+          38.8383684
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0382956,
+          38.8388385
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0394543,
+          38.8394798
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0396743,
+          38.8408671
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0402053,
+          38.8400982
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0405299,
+          38.8391529
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0410958,
+          38.8397107
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0411817,
+          38.8404367
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0415746,
+          38.8406612
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (up)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.041978,
+          38.8403984
+        ]
+      },
+      "properties": {
+        "name": "Turnaround: top of Barr Trail (Ascent finish)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.041462,
+          38.8408252
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0411111,
+          38.8403861
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0410637,
+          38.8397535
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.040314,
+          38.8389607
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0400685,
+          38.840376
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0396582,
+          38.8405014
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0390037,
+          38.8392155
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.038081,
+          38.8387257
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0370645,
+          38.8382075
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0369304,
+          38.8385878
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.036874,
+          38.8390818
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0370524,
+          38.8406497
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0361498,
+          38.8419408
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0350408,
+          38.8431577
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0340711,
+          38.8442754
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0331673,
+          38.8452333
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.032417,
+          38.8461786
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0314452,
+          38.8466767
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0309275,
+          38.8461022
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0309007,
+          38.8451445
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0303053,
+          38.844757
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0285994,
+          38.845065
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0278256,
+          38.8450807
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0275292,
+          38.8445397
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0274917,
+          38.844009
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0265167,
+          38.8450671
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0264309,
+          38.844031
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0273415,
+          38.8429844
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0269699,
+          38.8425906
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0262445,
+          38.8424527
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0257979,
+          38.8421822
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.024485,
+          38.8428789
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0244111,
+          38.8422944
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0235555,
+          38.842653
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0225349,
+          38.8433708
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.022885,
+          38.8419902
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0213548,
+          38.8432967
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0211939,
+          38.8424631
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0204026,
+          38.8430877
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0196569,
+          38.8443245
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0185706,
+          38.8454024
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0176989,
+          38.8466621
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0173248,
+          38.8480878
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0171102,
+          38.8496263
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0164934,
+          38.8494989
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0154754,
+          38.8481118
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0148061,
+          38.8468229
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0137507,
+          38.8473222
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.01282,
+          38.8468459
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0116224,
+          38.8460191
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0105267,
+          38.8451643
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0092734,
+          38.8458296
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0079223,
+          38.8463675
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.007021,
+          38.8474162
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0054493,
+          38.8474141
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0041806,
+          38.8463989
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0023916,
+          38.8470966
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0010826,
+          38.8473368
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9993928,
+          38.8477003
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9975502,
+          38.8479593
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9957772,
+          38.8480742
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9941464,
+          38.8483228
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9927007,
+          38.8485568
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.990909,
+          38.8488304
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9895652,
+          38.8493067
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9881705,
+          38.8498352
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9865477,
+          38.8494613
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9847185,
+          38.8493651
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9829697,
+          38.849595
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9832647,
+          38.8508149
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9817493,
+          38.8512744
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9801668,
+          38.8521872
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9790241,
+          38.8532254
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9768113,
+          38.853758
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9750947,
+          38.8541528
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.973421,
+          38.8538457
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9716052,
+          38.8534718
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9697437,
+          38.853453
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9679547,
+          38.8533695
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9659779,
+          38.8537684
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9642089,
+          38.8540995
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.962888,
+          38.8551011
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.961504,
+          38.8559115
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9608146,
+          38.8557382
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9597712,
+          38.8559626
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9585507,
+          38.8562769
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9570032,
+          38.8564127
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9553,
+          38.8564963
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9536585,
+          38.8564327
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9530791,
+          38.8562018
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9513062,
+          38.8560953
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9498552,
+          38.8553747
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9482968,
+          38.8550583
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9476088,
+          38.8557382
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9465984,
+          38.8557438
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9456919,
+          38.8550754
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.944686,
+          38.85476
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9440906,
+          38.8544989
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9427495,
+          38.8544759
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9430096,
+          38.8557897
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9426368,
+          38.8571035
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9421916,
+          38.8565625
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9417758,
+          38.8561406
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9408746,
+          38.8549145
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9407083,
+          38.8551694
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9403945,
+          38.855727
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9396703,
+          38.8547809
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9391419,
+          38.8549856
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9387841,
+          38.8542601
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9378936,
+          38.8548533
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9378587,
+          38.8539301
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9386562,
+          38.8526452
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9389181,
+          38.8515483
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9376476,
+          38.8526783
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9361184,
+          38.8532703
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9345998,
+          38.854068
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9331595,
+          38.8550852
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9318432,
+          38.8559928
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9299913,
+          38.8565853
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9283269,
+          38.8569271
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9267765,
+          38.8578211
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.925033,
+          38.8581614
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.923363,
+          38.8588919
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9214133,
+          38.8586013
+        ]
+      },
+      "properties": {
+        "name": "Barr Trail (down)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9196482,
+          38.8591199
+        ]
+      },
+      "properties": {
+        "name": "Finish: Ruxton Ave at Manitou Ave"
+      }
+    }
+  ]
+}

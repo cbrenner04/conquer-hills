@@ -66,13 +66,13 @@ Used under the Creative Commons Attribution 4.0 International licence (Geoscienc
 
 Affected files: `sydney-marathon-2027/elevation-samples.json`, `sydney-marathon-2027/profiles.json` and `App/Resources/Courses/sydney-marathon-2027.course.json`. Sydney's distances are calibrated to the course's U-turns and finish at the distances the organiser publishes, stored as our own data points.
 
-## U.S. Geological Survey: elevation (Boston, Big Sur, Chicago, New York, Leadville, Blue Ridge)
+## U.S. Geological Survey: elevation (Boston, Big Sur, Chicago, New York, Leadville, Blue Ridge, Pikes Peak)
 
 > Map services and data available from U.S. Geological Survey, National Geospatial Program. Elevation: U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs), processed by Conquer Hills.
 
 3DEP data is in the public domain ("free and in the public domain. There are no restrictions"; https://www.usgs.gov/faqs/what-are-terms-uselicensing-map-services-and-data-national-map). The acknowledgement above is the one USGS requests. The values were processed (interpolated across bridges, smoothed, and converted to grades). Nothing here implies USGS endorsement.
 
-Affected files: `boston-marathon-2027/elevation-samples.json`, `big-sur-marathon-2027/elevation-samples.json`, `chicago-marathon-2026/elevation-samples.json`, `nyc-marathon-2026/elevation-samples.json`, `leadville-trail-marathon-2027/elevation-samples.json`, `blue-ridge-marathon-2026/elevation-samples.json`, and the matching `App/Resources/Courses/<id>.course.json` files.
+Affected files: `boston-marathon-2027/elevation-samples.json`, `big-sur-marathon-2027/elevation-samples.json`, `chicago-marathon-2026/elevation-samples.json`, `nyc-marathon-2026/elevation-samples.json`, `leadville-trail-marathon-2027/elevation-samples.json`, `blue-ridge-marathon-2026/elevation-samples.json`, `pikes-peak-marathon-2027/elevation-samples.json`, and the matching `App/Resources/Courses/<id>.course.json` files.
 
 ### New York City Marathon: bridge decks
 
@@ -82,7 +82,7 @@ Bare-earth elevation data removes bridges, so the five bridge decks on the New Y
 
 Affected files: `nyc-marathon-2026/profiles.json`, `nyc-marathon-2026/elevation-samples.json` and `App/Resources/Courses/nyc-marathon-2026.course.json`. New York's distances are calibrated to mile and kilometre marks published on the course's 2022 USATF certification (NY22001JHP), stored as our own data points.
 
-Distances for Boston are calibrated to a few street-corner mileages published on the course's USATF certification (MA21002JK), stored as our own data points in `config.json`; no part of the certificate is reproduced. Big Sur is calibrated the same way to its USATF certification (CA23018DT). Chicago is calibrated to the GPS split points published on its USATF certification (IL23038NM). Blue Ridge is calibrated to mile points on its USATF certification (VA24031RT), four of them and the greenway turnaround located by GPS on the certificate. Leadville is uncertified: it is scaled to its stated 26.4 miles between the Mosquito Pass turnaround and the finish, and compared with its aid stations' published mileages, stored as our own data points.
+Distances for Boston are calibrated to a few street-corner mileages published on the course's USATF certification (MA21002JK), stored as our own data points in `config.json`; no part of the certificate is reproduced. Big Sur is calibrated the same way to its USATF certification (CA23018DT). Chicago is calibrated to the GPS split points published on its USATF certification (IL23038NM). Blue Ridge is calibrated to mile points on its USATF certification (VA24031RT), four of them and the greenway turnaround located by GPS on the certificate. Pikes Peak is uncertified: it is scaled to its stated 26.21 miles at the race's published aid-station mileages (No Name Creek, Barr Camp, A-Frame, the turnaround) on the way up and the same places on the way down, stored as our own data points. Leadville is uncertified: it is scaled to its stated 26.4 miles between the Mosquito Pass turnaround and the finish, and compared with its aid stations' published mileages, stored as our own data points.
 
 ## In the app
 
