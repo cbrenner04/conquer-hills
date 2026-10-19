@@ -127,13 +127,24 @@ public struct CourseConfig: Codable, Equatable, Sendable {
     }
 
     public struct ElevationSettings: Codable, Equatable, Sendable {
-        /// `gsi` (Japan, single-point API), `usgs3dep` (United States), `gaDem5m` (Australia) or `wmsPoint` (a WMS
-        /// raster layer, configured by `wms`).
+        /// `gsi` (Japan, single-point API), `usgs3dep` (United States), `gaDem5m` (Australia), `wmsPoint` (a WMS
+        /// raster layer, configured by `wms`) or `wcsGrid` (a WCS coverage as text grids, configured by `wcs`).
         public var provider: String
         /// Source labels, as reported per sample by the provider, that are trusted. Others are interpolated.
         public var trustedSources: [String]
         /// The service and response fields for `wmsPoint`.
         public var wms: WMSPointSettings?
+        /// The coverage for `wcsGrid`.
+        public var wcs: WCSGridSettings?
+    }
+
+    /// A WCS 2.0.1 coverage that `GetCoverage` serves as `text/plain` grids in EPSG:4326.
+    public struct WCSGridSettings: Codable, Equatable, Sendable {
+        /// The service URL without a query.
+        public var url: String
+        public var coverageId: String
+        /// The source label for every sample (the service reports none).
+        public var label: String
     }
 
     /// A WMS `GetFeatureInfo` service that returns a raster layer's raw value as JSON. Paths are dotted keys into the

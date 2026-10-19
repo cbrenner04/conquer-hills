@@ -16,6 +16,14 @@ Affected files: `*/waypoints.geojson`, `*/route.json`, `*/osm-structures.json`, 
 
 Waypoints are our own hand-picked points, mostly placed on OpenStreetMap junctions, so they are treated as derived too.
 
+## Environment Agency: elevation (London)
+
+> Elevation: © Environment Agency copyright and/or database right 2022. Contains public sector information licensed under the Open Government Licence v3.0. Processed by Conquer Hills.
+
+The Environment Agency's LIDAR Composite DTM 1 m (2022) is published under the Open Government Licence v3.0 (<https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/>), with the attribution statement above. The values were read as small grids from the public WCS (coverage `Lidar_Composite_Elevation_DTM_1m`) and processed (interpolated between grid cells and across bridges, smoothed, and converted to grades). Nothing here suggests any official status or endorsement.
+
+Affected files: `london-marathon-2027/elevation-samples.json` and `App/Resources/Courses/london-marathon-2027.course.json`. London's distances are scaled between the start and the finish and compared with the organiser's published mile-by-mile road list, stored as our own data points.
+
 ## Geoportal Berlin: elevation (Berlin)
 
 > Elevation: Digitales Geländemodell DGM1, © Geoportal Berlin (dl-de/zero-2-0), processed by Conquer Hills.

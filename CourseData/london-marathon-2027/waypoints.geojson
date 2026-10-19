@@ -1,0 +1,2241 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0109583,
+          51.4730338
+        ]
+      },
+      "properties": {
+        "name": "Start (Blue)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0166762,
+          51.4736955
+        ]
+      },
+      "properties": {
+        "name": "Shooters Hill Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.023234,
+          51.4746288
+        ]
+      },
+      "properties": {
+        "name": "Shooters Hill Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0238104,
+          51.4747208
+        ]
+      },
+      "properties": {
+        "name": "Shooters Hill Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0241575,
+          51.4750135
+        ]
+      },
+      "properties": {
+        "name": "Sun in the Sands Roundabout"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.024955,
+          51.4749873
+        ]
+      },
+      "properties": {
+        "name": "Shooters Hill Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.031662,
+          51.4751741
+        ]
+      },
+      "properties": {
+        "name": "Shooters Hill Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0373502,
+          51.4743311
+        ]
+      },
+      "properties": {
+        "name": "Charlton Park Lane"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0406541,
+          51.4772961
+        ]
+      },
+      "properties": {
+        "name": "Charlton Park Lane"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0455572,
+          51.4790827
+        ]
+      },
+      "properties": {
+        "name": "Charlton Park Lane"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0513251,
+          51.480106
+        ]
+      },
+      "properties": {
+        "name": "Charlton Park Lane"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.053053,
+          51.4803452
+        ]
+      },
+      "properties": {
+        "name": "Ha Ha Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0592873,
+          51.4817385
+        ]
+      },
+      "properties": {
+        "name": "Ha Ha Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.061796,
+          51.4823532
+        ]
+      },
+      "properties": {
+        "name": "Ha Ha Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0621918,
+          51.4836105
+        ]
+      },
+      "properties": {
+        "name": "Grand Depot Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0635346,
+          51.4870301
+        ]
+      },
+      "properties": {
+        "name": "Grand Depot Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0622706,
+          51.4905468
+        ]
+      },
+      "properties": {
+        "name": "John Wilson Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0614839,
+          51.4935316
+        ]
+      },
+      "properties": {
+        "name": "trunk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0613407,
+          51.4939223
+        ]
+      },
+      "properties": {
+        "name": "trunk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0606527,
+          51.4937747
+        ]
+      },
+      "properties": {
+        "name": "Woolwich High Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0550681,
+          51.4928306
+        ]
+      },
+      "properties": {
+        "name": "Woolwich Church Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0534468,
+          51.4929025
+        ]
+      },
+      "properties": {
+        "name": "Woolwich Church Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0529975,
+          51.4927664
+        ]
+      },
+      "properties": {
+        "name": "Woolwich Church Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0473888,
+          51.4923806
+        ]
+      },
+      "properties": {
+        "name": "Woolwich Church Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0458825,
+          51.4925758
+        ]
+      },
+      "properties": {
+        "name": "Woolwich Church Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0407605,
+          51.4908301
+        ]
+      },
+      "properties": {
+        "name": "Woolwich Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0399556,
+          51.4903724
+        ]
+      },
+      "properties": {
+        "name": "primary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.034967,
+          51.4886916
+        ]
+      },
+      "properties": {
+        "name": "Woolwich Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.029245,
+          51.4875951
+        ]
+      },
+      "properties": {
+        "name": "Woolwich Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0235113,
+          51.4869809
+        ]
+      },
+      "properties": {
+        "name": "Woolwich Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0183609,
+          51.4866087
+        ]
+      },
+      "properties": {
+        "name": "Woolwich Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0178773,
+          51.486783
+        ]
+      },
+      "properties": {
+        "name": "Woolwich Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0174467,
+          51.486793
+        ]
+      },
+      "properties": {
+        "name": "Woolwich Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0172042,
+          51.4864704
+        ]
+      },
+      "properties": {
+        "name": "Woolwich Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0114561,
+          51.4861667
+        ]
+      },
+      "properties": {
+        "name": "Woolwich Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0075187,
+          51.485922
+        ]
+      },
+      "properties": {
+        "name": "Trafalgar Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0022261,
+          51.4844047
+        ]
+      },
+      "properties": {
+        "name": "Trafalgar Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0031209,
+          51.4828571
+        ]
+      },
+      "properties": {
+        "name": "Romney Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0078072,
+          51.4812646
+        ]
+      },
+      "properties": {
+        "name": "Romney Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0088433,
+          51.4821291
+        ]
+      },
+      "properties": {
+        "name": "service"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0090554,
+          51.4824867
+        ]
+      },
+      "properties": {
+        "name": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0095454,
+          51.4834461
+        ]
+      },
+      "properties": {
+        "name": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0099208,
+          51.4823266
+        ]
+      },
+      "properties": {
+        "name": "Greenwich Church Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.010042,
+          51.4815347
+        ]
+      },
+      "properties": {
+        "name": "Creek Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0157888,
+          51.4813769
+        ]
+      },
+      "properties": {
+        "name": "Creek Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0217209,
+          51.4808879
+        ]
+      },
+      "properties": {
+        "name": "Creek Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0263435,
+          51.4815041
+        ]
+      },
+      "properties": {
+        "name": "Evelyn Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0312211,
+          51.4835411
+        ]
+      },
+      "properties": {
+        "name": "Evelyn Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0353932,
+          51.4862938
+        ]
+      },
+      "properties": {
+        "name": "Evelyn Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0397715,
+          51.4886453
+        ]
+      },
+      "properties": {
+        "name": "Evelyn Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0422367,
+          51.4900742
+        ]
+      },
+      "properties": {
+        "name": "Lower Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0463585,
+          51.4927288
+        ]
+      },
+      "properties": {
+        "name": "Lower Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0467684,
+          51.4930529
+        ]
+      },
+      "properties": {
+        "name": "Redriff Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0444463,
+          51.4948189
+        ]
+      },
+      "properties": {
+        "name": "Redriff Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0451647,
+          51.4950845
+        ]
+      },
+      "properties": {
+        "name": "Surrey Quays Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0460552,
+          51.49801
+        ]
+      },
+      "properties": {
+        "name": "Surrey Quays Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.045777,
+          51.498334
+        ]
+      },
+      "properties": {
+        "name": "Canada Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.044799,
+          51.4995459
+        ]
+      },
+      "properties": {
+        "name": "Canada Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0416922,
+          51.4983454
+        ]
+      },
+      "properties": {
+        "name": "Quebec Way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0411559,
+          51.4963556
+        ]
+      },
+      "properties": {
+        "name": "Quebec Way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0367382,
+          51.4981833
+        ]
+      },
+      "properties": {
+        "name": "Salter Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0356423,
+          51.5019456
+        ]
+      },
+      "properties": {
+        "name": "Salter Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0374625,
+          51.5052708
+        ]
+      },
+      "properties": {
+        "name": "Salter Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0432801,
+          51.5052576
+        ]
+      },
+      "properties": {
+        "name": "Salter Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0486042,
+          51.5027056
+        ]
+      },
+      "properties": {
+        "name": "Salter Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0530567,
+          51.5000873
+        ]
+      },
+      "properties": {
+        "name": "Brunel Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0550088,
+          51.4995878
+        ]
+      },
+      "properties": {
+        "name": "Brunel Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0554689,
+          51.4994164
+        ]
+      },
+      "properties": {
+        "name": "Brunel Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0557034,
+          51.4990698
+        ]
+      },
+      "properties": {
+        "name": "Jamaica Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0621738,
+          51.4984077
+        ]
+      },
+      "properties": {
+        "name": "Jamaica Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0679881,
+          51.4981267
+        ]
+      },
+      "properties": {
+        "name": "Jamaica Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0727416,
+          51.5001097
+        ]
+      },
+      "properties": {
+        "name": "Jamaica Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0740626,
+          51.5004791
+        ]
+      },
+      "properties": {
+        "name": "Tooley Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0772922,
+          51.5022146
+        ]
+      },
+      "properties": {
+        "name": "Tooley Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0762405,
+          51.5042111
+        ]
+      },
+      "properties": {
+        "name": "Tower Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0744441,
+          51.5068667
+        ]
+      },
+      "properties": {
+        "name": "Tower Bridge Approach"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0737977,
+          51.5089264
+        ]
+      },
+      "properties": {
+        "name": "East Smithfield"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0711653,
+          51.5083085
+        ]
+      },
+      "properties": {
+        "name": "East Smithfield"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0677259,
+          51.5090588
+        ]
+      },
+      "properties": {
+        "name": "The Highway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0614371,
+          51.5093629
+        ]
+      },
+      "properties": {
+        "name": "The Highway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0554304,
+          51.5096346
+        ]
+      },
+      "properties": {
+        "name": "The Highway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0496694,
+          51.5097917
+        ]
+      },
+      "properties": {
+        "name": "The Highway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0439665,
+          51.5103394
+        ]
+      },
+      "properties": {
+        "name": "The Highway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0421533,
+          51.5105256
+        ]
+      },
+      "properties": {
+        "name": "trunk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0416743,
+          51.5101563
+        ]
+      },
+      "properties": {
+        "name": "Narrow Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0360145,
+          51.509471
+        ]
+      },
+      "properties": {
+        "name": "Narrow Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0304006,
+          51.5090246
+        ]
+      },
+      "properties": {
+        "name": "Narrow Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0297744,
+          51.5091684
+        ]
+      },
+      "properties": {
+        "name": "Limehouse Causeway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0270909,
+          51.5093286
+        ]
+      },
+      "properties": {
+        "name": "Limehouse Causeway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0267022,
+          51.5091385
+        ]
+      },
+      "properties": {
+        "name": "Salter Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0262578,
+          51.505417
+        ]
+      },
+      "properties": {
+        "name": "Westferry Road (underpass)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0259174,
+          51.5017821
+        ]
+      },
+      "properties": {
+        "name": "Westferry Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0258818,
+          51.4981719
+        ]
+      },
+      "properties": {
+        "name": "Westferry Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0255902,
+          51.4951051
+        ]
+      },
+      "properties": {
+        "name": "Westferry Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0241549,
+          51.4916261
+        ]
+      },
+      "properties": {
+        "name": "Westferry Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0202859,
+          51.4889816
+        ]
+      },
+      "properties": {
+        "name": "Westferry Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0152681,
+          51.4872504
+        ]
+      },
+      "properties": {
+        "name": "Westferry Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0133325,
+          51.4872434
+        ]
+      },
+      "properties": {
+        "name": "East Ferry Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0145121,
+          51.4907897
+        ]
+      },
+      "properties": {
+        "name": "East Ferry Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0143014,
+          51.4943728
+        ]
+      },
+      "properties": {
+        "name": "East Ferry Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0140417,
+          51.4968801
+        ]
+      },
+      "properties": {
+        "name": "Limeharbour"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0134008,
+          51.4998452
+        ]
+      },
+      "properties": {
+        "name": "Marsh Wall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0191038,
+          51.5004641
+        ]
+      },
+      "properties": {
+        "name": "Marsh Wall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0243599,
+          51.502168
+        ]
+      },
+      "properties": {
+        "name": "Marsh Wall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0252318,
+          51.5035848
+        ]
+      },
+      "properties": {
+        "name": "Westferry Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0251428,
+          51.5038868
+        ]
+      },
+      "properties": {
+        "name": "Bank Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0201231,
+          51.5033476
+        ]
+      },
+      "properties": {
+        "name": "Bank Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0199438,
+          51.5029994
+        ]
+      },
+      "properties": {
+        "name": "Bank Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0176398,
+          51.5027608
+        ]
+      },
+      "properties": {
+        "name": "Upper Bank Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0171683,
+          51.5043524
+        ]
+      },
+      "properties": {
+        "name": "Canada Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0170015,
+          51.5049411
+        ]
+      },
+      "properties": {
+        "name": "Canada Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0153326,
+          51.5048308
+        ]
+      },
+      "properties": {
+        "name": "Churchill Place"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0146761,
+          51.5047415
+        ]
+      },
+      "properties": {
+        "name": "Churchill Place"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0143647,
+          51.5044167
+        ]
+      },
+      "properties": {
+        "name": "Churchill Place"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0147286,
+          51.5041207
+        ]
+      },
+      "properties": {
+        "name": "Churchill Place"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0154281,
+          51.5041459
+        ]
+      },
+      "properties": {
+        "name": "Churchill Place"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0160759,
+          51.5032012
+        ]
+      },
+      "properties": {
+        "name": "Montgomery Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.013956,
+          51.50282
+        ]
+      },
+      "properties": {
+        "name": "Water Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.013755,
+          51.5023914
+        ]
+      },
+      "properties": {
+        "name": "George Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0128892,
+          51.5023013
+        ]
+      },
+      "properties": {
+        "name": "George Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0123613,
+          51.5038362
+        ]
+      },
+      "properties": {
+        "name": "Charter Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.012824,
+          51.5040596
+        ]
+      },
+      "properties": {
+        "name": "Cartier Circle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0131734,
+          51.5042724
+        ]
+      },
+      "properties": {
+        "name": "Cartier Circle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0105818,
+          51.5065445
+        ]
+      },
+      "properties": {
+        "name": "Trafalgar Way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0103,
+          51.5067399
+        ]
+      },
+      "properties": {
+        "name": "Trafalgar Way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0089392,
+          51.5067425
+        ]
+      },
+      "properties": {
+        "name": "Trafalgar Way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0085057,
+          51.5069857
+        ]
+      },
+      "properties": {
+        "name": "Trafalgar Way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0077773,
+          51.5071935
+        ]
+      },
+      "properties": {
+        "name": "primary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0075078,
+          51.5075339
+        ]
+      },
+      "properties": {
+        "name": "primary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0080601,
+          51.5079108
+        ]
+      },
+      "properties": {
+        "name": "Prestons Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0091722,
+          51.5088058
+        ]
+      },
+      "properties": {
+        "name": "Poplar High Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0150658,
+          51.508911
+        ]
+      },
+      "properties": {
+        "name": "Poplar High Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0208425,
+          51.5093514
+        ]
+      },
+      "properties": {
+        "name": "Poplar High Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0219908,
+          51.509177
+        ]
+      },
+      "properties": {
+        "name": "Ming Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0235869,
+          51.5089536
+        ]
+      },
+      "properties": {
+        "name": "Ming Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0242241,
+          51.5090642
+        ]
+      },
+      "properties": {
+        "name": "cycleway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0279966,
+          51.5115333
+        ]
+      },
+      "properties": {
+        "name": "West India Dock Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.028188,
+          51.5118241
+        ]
+      },
+      "properties": {
+        "name": "Commercial Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0315919,
+          51.5122765
+        ]
+      },
+      "properties": {
+        "name": "Commercial Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0375342,
+          51.5126467
+        ]
+      },
+      "properties": {
+        "name": "Commercial Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0411287,
+          51.5127658
+        ]
+      },
+      "properties": {
+        "name": "Commercial Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0422321,
+          51.5106234
+        ]
+      },
+      "properties": {
+        "name": "Butcher Row"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0477469,
+          51.5098419
+        ]
+      },
+      "properties": {
+        "name": "The Highway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0536965,
+          51.5096569
+        ]
+      },
+      "properties": {
+        "name": "The Highway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0594949,
+          51.5095384
+        ]
+      },
+      "properties": {
+        "name": "The Highway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0652978,
+          51.5093187
+        ]
+      },
+      "properties": {
+        "name": "The Highway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0677259,
+          51.5090588
+        ]
+      },
+      "properties": {
+        "name": "East Smithfield"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0710918,
+          51.5083094
+        ]
+      },
+      "properties": {
+        "name": "East Smithfield"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0736367,
+          51.5090156
+        ]
+      },
+      "properties": {
+        "name": "East Smithfield"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0738374,
+          51.5093077
+        ]
+      },
+      "properties": {
+        "name": "Tower Hill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0747541,
+          51.5097909
+        ]
+      },
+      "properties": {
+        "name": "Tower Hill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.078406,
+          51.5095237
+        ]
+      },
+      "properties": {
+        "name": "Byward Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0798404,
+          51.5095846
+        ]
+      },
+      "properties": {
+        "name": "Byward Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0820797,
+          51.5090163
+        ]
+      },
+      "properties": {
+        "name": "Lower Thames Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.087115,
+          51.5096269
+        ]
+      },
+      "properties": {
+        "name": "Upper Thames Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0926442,
+          51.5107556
+        ]
+      },
+      "properties": {
+        "name": "Upper Thames Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0989005,
+          51.5111868
+        ]
+      },
+      "properties": {
+        "name": "Upper Thames Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1021192,
+          51.5109785
+        ]
+      },
+      "properties": {
+        "name": "Blackfriars Underpass"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.107998,
+          51.511049
+        ]
+      },
+      "properties": {
+        "name": "Victoria Embankment"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1138593,
+          51.5108589
+        ]
+      },
+      "properties": {
+        "name": "Victoria Embankment"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1192796,
+          51.5094415
+        ]
+      },
+      "properties": {
+        "name": "Victoria Embankment"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1224183,
+          51.506463
+        ]
+      },
+      "properties": {
+        "name": "Victoria Embankment"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1238568,
+          51.502491
+        ]
+      },
+      "properties": {
+        "name": "Victoria Embankment"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1239954,
+          51.5010816
+        ]
+      },
+      "properties": {
+        "name": "Victoria Embankment"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1261537,
+          51.5010077
+        ]
+      },
+      "properties": {
+        "name": "Great George Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1299067,
+          51.5012981
+        ]
+      },
+      "properties": {
+        "name": "Birdcage Walk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.136283,
+          51.5006715
+        ]
+      },
+      "properties": {
+        "name": "Birdcage Walk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1389132,
+          51.5004027
+        ]
+      },
+      "properties": {
+        "name": "Birdcage Walk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1400332,
+          51.5012434
+        ]
+      },
+      "properties": {
+        "name": "Queens Gardens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1400065,
+          51.5017889
+        ]
+      },
+      "properties": {
+        "name": "Queens Gardens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.139866,
+          51.5021378
+        ]
+      },
+      "properties": {
+        "name": "The Mall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1377337,
+          51.5030177
+        ]
+      },
+      "properties": {
+        "name": "Finish"
+      }
+    }
+  ]
+}
