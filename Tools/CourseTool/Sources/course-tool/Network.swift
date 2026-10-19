@@ -5,10 +5,13 @@ import Foundation
 enum HTTP {
     static let userAgent = "conquer-hills-course-tool (https://github.com/cbrenner04/conquer-hills)"
 
-    static func get(_ url: URL) async throws -> Data {
+    static let retriedStatuses: Set<Int> = [429, 500, 502, 503, 504]
+
+    /// `alsoRetrying` adds statuses a service uses for "slow down" (the Environment Agency's gateway answers 403).
+    static func get(_ url: URL, alsoRetrying: Set<Int> = []) async throws -> Data {
         var request = URLRequest(url: url)
         request.setValue(userAgent, forHTTPHeaderField: "User-Agent")
-        return try await send(request)
+        return try await send(request, retrying: retriedStatuses.union(alsoRetrying))
     }
 
     static func postForm(_ url: URL, fields: [String: String]) async throws -> Data {
@@ -21,17 +24,20 @@ enum HTTP {
         // URLComponents leaves "+" alone, which form decoding would read as a space.
         request.httpBody = Data(
             (components.percentEncodedQuery ?? "").replacingOccurrences(of: "+", with: "%2B").utf8)
-        return try await send(request)
+        return try await send(request, retrying: retriedStatuses)
     }
 
-    private static func send(_ request: URLRequest, attempts: Int = 5) async throws -> Data {
+    private static func send(_ request: URLRequest, retrying: Set<Int>, attempts: Int = 5) async throws -> Data {
+        // Overpass queries are allowed up to 300 s on the server; the default 60 s would give up on them.
+        var request = request
+        request.timeoutInterval = 300
         var delay: Duration = .seconds(5)
         for attempt in 1...attempts {
             do {
                 let (data, response) = try await URLSession.shared.data(for: request)
                 let status = (response as? HTTPURLResponse)?.statusCode ?? 0
                 if status == 200 { return data }
-                if attempt == attempts || ![429, 500, 502, 503, 504].contains(status) {
+                if attempt == attempts || !retrying.contains(status) {
                     throw PipelineError("HTTP \(status) from \(request.url?.host() ?? "?")")
                 }
             } catch let error as URLError where attempt < attempts {
@@ -121,17 +127,18 @@ enum Overpass {
     static func structures(along line: [Coordinate], bufferMeters: Double) async throws -> (
         ways: [StructureSpans.Way], timestamp: String
     ) {
-        let projection = Geo.Projection(fitting: line)
-        let simplified = Geo.simplify(line.map(projection.point), toleranceMeters: 5).map(projection.coordinate)
-        let polyline = simplified.map { String(format: "%.6f,%.6f", $0.latitude, $0.longitude) }
-            .joined(separator: ",")
-        let around = "around:\(Int(bufferMeters)),\(polyline)"
+        let boxes = QueryBox.covering(line, padMeters: bufferMeters, maximumMeters: 1000)
+        let clauses = boxes.map { box in
+            """
+              way(\(box.overpass))["bridge"]["bridge"!="no"];
+              way(\(box.overpass))["tunnel"]["tunnel"!="no"];
+              way(\(box.overpass))["covered"="yes"];
+            """
+        }
         let ql = """
             [out:json][timeout:180];
             (
-              way(\(around))["bridge"]["bridge"!="no"];
-              way(\(around))["tunnel"]["tunnel"!="no"];
-              way(\(around))["covered"="yes"];
+            \(clauses.joined(separator: "\n"))
             );
             out tags geom;
             """
@@ -201,17 +208,17 @@ enum OSMData {
     private static func overpass(around waypoints: [Coordinate], settings: CourseConfig.OSMGraphSettings)
         async throws -> Corridor
     {
-        let polyline = waypoints.map { String(format: "%.6f,%.6f", $0.latitude, $0.longitude) }
-            .joined(separator: ",")
         let highways = (settings.highways ?? RouteGraph.defaultHighways).joined(separator: "|")
         let extra =
             settings.includeWays.isEmpty
             ? "" : "way(id:\(settings.includeWays.map(String.init).joined(separator: ",")));"
+        let boxes = QueryBox.covering(waypoints, padMeters: settings.corridorMeters, maximumMeters: 1000)
+        let clauses = boxes.map { "  way(\($0.overpass))[\"highway\"~\"^(\(highways))$\"];" }
         let response = try await Overpass.query(
             """
             [out:json][timeout:300];
             (
-              way(around:\(Int(settings.corridorMeters)),\(polyline))["highway"~"^(\(highways))$"];
+            \(clauses.joined(separator: "\n"))
               \(extra)
             );
             out meta;
@@ -219,34 +226,19 @@ enum OSMData {
             out skel qt;
             """)
         let (ways, nodes) = graphData(response.elements)
+        // A struggling server can answer 200 with nothing found; that is a failure, not a result.
+        let included = Set(settings.includeWays)
+        guard ways.contains(where: { !included.contains($0.id) }) else {
+            throw PipelineError("Overpass found no ways along the waypoints")
+        }
         return Corridor(ways: ways, nodes: nodes, source: "Overpass", timestamp: response.osm3s.timestampOSMBase)
     }
 
     private static func mapBoxes(around waypoints: [Coordinate], settings: CourseConfig.OSMGraphSettings)
         async throws -> Corridor
     {
-        // Boxes no longer than ~1 km along the waypoint line, padded by the corridor, stay far below the API's
-        // area and node limits.
-        var boxes: [(south: Double, west: Double, north: Double, east: Double)] = []
-        for (a, b) in zip(waypoints, waypoints.dropFirst()) {
-            let pieces = max(1, Int((Geo.distance(a, b) / 1000).rounded(.up)))
-            for k in 0..<pieces {
-                func at(_ t: Double) -> Coordinate {
-                    Coordinate(
-                        latitude: a.latitude + (b.latitude - a.latitude) * t,
-                        longitude: a.longitude + (b.longitude - a.longitude) * t)
-                }
-                let p = at(Double(k) / Double(pieces))
-                let q = at(Double(k + 1) / Double(pieces))
-                let padLatitude = settings.corridorMeters / 111_195
-                let padLongitude = padLatitude / cos(p.latitude * .pi / 180)
-                boxes.append(
-                    (
-                        min(p.latitude, q.latitude) - padLatitude, min(p.longitude, q.longitude) - padLongitude,
-                        max(p.latitude, q.latitude) + padLatitude, max(p.longitude, q.longitude) + padLongitude
-                    ))
-            }
-        }
+        // Boxes about 1 km across, padded by the corridor, stay far below the API's area and node limits.
+        let boxes = QueryBox.covering(waypoints, padMeters: settings.corridorMeters, maximumMeters: 1000)
         var elements: [Int: Overpass.Response.Element] = [:]
         var nodes: [Int: Overpass.Response.Element] = [:]
         for (number, box) in boxes.enumerated() {
@@ -434,6 +426,43 @@ struct WMSPointElevationProvider: ElevationProvider {
             } catch let error as PipelineError where attempt < attempts {
                 log("  WMS: \(error); asking again")
                 try await Task.sleep(for: .seconds(5 * attempt))
+            }
+        }
+        fatalError("unreachable")
+    }
+}
+
+/// A WCS coverage read as small text grids (`WCSGrid`), such as the Environment Agency's 1 m lidar terrain model.
+///
+/// Points are split into runs that fit a ~250 m box, one request each, started 5 s apart: the Environment Agency's
+/// gateway answers 403 to faster clients, and 403 is retried with back-off.
+struct WCSGridElevationProvider: ElevationProvider {
+    let name = "wcsGrid"
+    let batchSize = 100
+    let settings: CourseConfig.WCSGridSettings
+
+    func elevations(at points: [Coordinate]) async throws -> [ElevationReading] {
+        var readings: [ElevationReading] = []
+        for run in WCSGrid.windows(points, maximumMeters: 250) {
+            let started = ContinuousClock.now
+            let batch = Array(points[run])
+            let box = WCSGrid.window(for: batch)
+            readings += try await reading(batch, box)
+            try await Task.sleep(until: started + .seconds(5))
+        }
+        return readings
+    }
+
+    private func reading(
+        _ points: [Coordinate], _ box: (south: Double, west: Double, north: Double, east: Double), attempts: Int = 4
+    ) async throws -> [ElevationReading] {
+        let url = try WCSGrid.url(settings, south: box.south, west: box.west, north: box.north, east: box.east)
+        for attempt in 1... {
+            do {
+                return try WCSGrid.readings(from: try await HTTP.get(url, alsoRetrying: [403]), for: points, settings)
+            } catch let error as PipelineError where attempt < attempts {
+                log("  WCS: \(error); asking again")
+                try await Task.sleep(for: .seconds(10 * attempt))
             }
         }
         fatalError("unreachable")
