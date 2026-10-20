@@ -24,7 +24,20 @@ final class RunFlowUITests: XCTestCase {
         snapshot("02b-settings")
         app.navigationBars.buttons.firstMatch.tap()
 
-        // Boston: the course screen, then Newton Hills, then a custom segment.
+        // The list grouped by region, then back to distance (the default).
+        segment("region", in: app).tap()
+        XCTAssertTrue(
+            app.staticTexts["United States"].waitForExistence(timeout: 5) || app.staticTexts["UNITED STATES"].exists)
+        snapshot("02c-course-list-region")
+        segment("distance", in: app).tap()
+
+        // Search, then Boston: the course screen, then Newton Hills, then a custom segment.
+        let search = app.searchFields.firstMatch
+        if !search.exists { app.swipeDown() }
+        search.tap()
+        search.typeText("Boston")
+        XCTAssertTrue(app.staticTexts["Boston Marathon"].waitForExistence(timeout: 5))
+        snapshot("02d-course-search")
         app.staticTexts["Boston Marathon"].tap()
         XCTAssertTrue(app.buttons["segment-full-course"].waitForExistence(timeout: 5))
         snapshot("03-course-boston")
@@ -48,7 +61,12 @@ final class RunFlowUITests: XCTestCase {
         snapshot("06-course-preview")
         app.navigationBars.buttons.firstMatch.tap()
 
-        // Test Hills run at top speed, so the first change (200 m) comes in about 36 s.
+        // Test Hills run at top speed, so the first change (200 m) comes in about 36 s. It's in the last group, so
+        // search for it.
+        search.tap()
+        // Submit, so the search field lets go of focus (iOS hides the toolbar's buttons while it has it).
+        search.typeText(String(repeating: XCUIKeyboardKey.delete.rawValue, count: 6) + "Test Hills\n")
+        XCTAssertTrue(app.staticTexts["Test Hills"].waitForExistence(timeout: 5))
         app.staticTexts["Test Hills"].tap()
         scrollTo(app.buttons["speed-step-10"], in: app)
         for _ in 0..<8 { app.buttons["speed-step-10"].tap() }
@@ -90,6 +108,10 @@ final class RunFlowUITests: XCTestCase {
         snapshot("14-summary")
 
         app.buttons["done"].tap()
+        // The list comes back still searching for Test Hills, which hides the toolbar: close the search.
+        let closeSearch = app.buttons["close"]
+        if closeSearch.waitForExistence(timeout: 3) { closeSearch.tap() }
+        XCTAssertTrue(app.buttons["history"].waitForExistence(timeout: 5))
         app.buttons["history"].tap()
         let run = app.buttons["history-run"].firstMatch
         XCTAssertTrue(run.waitForExistence(timeout: 5))
@@ -109,6 +131,12 @@ final class RunFlowUITests: XCTestCase {
             app.swipeUp()
         }
         XCTAssertTrue(element.isHittable, "Couldn't scroll to \(element)")
+    }
+
+    /// The grouping control's segment for `mode` (by identifier, or by its title if the identifier isn't exposed).
+    private func segment(_ mode: String, in app: XCUIApplication) -> XCUIElement {
+        let byIdentifier = app.buttons["grouping-\(mode)"]
+        return byIdentifier.exists ? byIdentifier : app.buttons[mode.capitalized]
     }
 
     private func scrollToTop(_ app: XCUIApplication) {

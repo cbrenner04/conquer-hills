@@ -143,7 +143,7 @@ waypoints.geojson ─route─▶ route.json + osm-structures.json ─elevation�
 
 ## App
 
-- Screens: course list (elevation sparklines) → course screen → run (full-screen) → summary. The course list toolbar has About (leading; app info and data credits), and Settings and History (trailing) → run detail. Test Hills appears only in Debug builds.
+- Screens: course list (elevation sparklines) → course screen → run (full-screen) → summary. The course list is sectioned by **Distance** (default) or **Region**, a segmented control remembered in `@AppStorage` key `courseListGrouping`, and searchable by name and location. The groups are derived in CourseKit (`CourseGrouping`, `CourseDistanceClass`, `CourseRegion`), with no schema field: the country is the `location` text after its last comma (a test keeps every bundled course in a known country, so locations end with the country, e.g. `"Leadville, Colorado, USA"`), and each row's subtitle is city · distance · gain. The course list toolbar has About (leading; app info and data credits), and Settings and History (trailing) → run detail. Test Hills appears only in Debug builds.
 - The course screen (`CourseView`) combines detail and setup: profile chart with the selected segment highlighted, then segment choice right below it so the highlight stays in view (full, standard, curated, or Custom with start/end steppers in ±0.1/±1 mi), starting speed, baseline, a run preview (incline changes, estimated time, starting incline), Start, course facts, and the course's data notes and attribution.
 - Custom segments are edited through `CustomSegmentRange` (CourseKit): 0.1 mi grid, end may be the exact finish, minimum 0.5 mi, boundaries can't cross. `RunPreview` (WorkoutKit) counts the changes the engine will announce; a test keeps it equal to the engine for every bundled segment.
 - Charts use `ElevationChartData` (downsample keeping extremes; slice a segment) and display feet and miles. The run screen shows a thin profile strip of the segment with a position marker (`RunProfileStrip`).
@@ -154,7 +154,7 @@ waypoints.geojson ─route─▶ route.json + osm-structures.json ─elevation�
 - The prompt voice is chosen in Settings (`@AppStorage` key `promptVoiceIdentifier`, empty = system default). `SpeechAnnouncer.availableVoices()` lists English, non-novelty voices, best quality first (`VoiceCatalog`); a voice that's no longer on the phone falls back to the default. Preview speaks `VoiceCatalog.previewText`.
 - The course screen remembers the last speed and baseline (`@AppStorage`). The baseline defaults to 1%.
 - Launch argument `-silentSpeech` turns spoken prompts off; the UI walkthrough uses it so tests are silent.
-- UI elements a test drives have accessibility identifiers (`start`, `speed-step-±1/±10`, `segment-<id>`, `segment-custom`, `custom-start-±1/±10`, `custom-end-±1/±10`, `run-preview`, `pause-resume`, `overlay-resume`, `end`, `done`, `star-1`…`star-5`, `reflection-notes`, `reflection-done`, `history`, `history-run`, `about`, `settings`, `audio-mode-<mode>`, `voice-default`, `voice-<identifier>`). Course screens scroll: tests swipe until a control is hittable.
+- UI elements a test drives have accessibility identifiers (`start`, `speed-step-±1/±10`, `segment-<id>`, `segment-custom`, `custom-start-±1/±10`, `custom-end-±1/±10`, `run-preview`, `pause-resume`, `overlay-resume`, `end`, `done`, `star-1`…`star-5`, `reflection-notes`, `reflection-done`, `history`, `history-run`, `about`, `settings`, `audio-mode-<mode>`, `voice-default`, `voice-<identifier>`, `grouping-distance`, `grouping-region`). Course screens scroll: tests swipe until a control is hittable.
 
 ## Run history
 
@@ -183,7 +183,7 @@ waypoints.geojson ─route─▶ route.json + osm-structures.json ─elevation�
 | `make course-route ID=<id>` / `make course-elevation ID=<id>` / `make course-build ID=<id>` | Course data pipeline steps (see "Course data pipeline") |
 | `make course-report ID=<id>` | Rebuilds the review report and serves it at `http://localhost:8765` (needed for map tiles) |
 | `make courses-check` | Rebuilds every course from `CourseData/` offline and fails if a bundled file differs or a check fails |
-| `make ui-test` | Walks through About, Settings, the course screens (Boston, a custom segment) and a Test Hills run, rating and notes, and History in the iOS Simulator, silently, and exports screenshots to `.scratch/ui-test/` (local only, about two minutes) |
+| `make ui-test` | Walks through the course list (both groupings and a search), About, Settings, the course screens (Boston, a custom segment) and a Test Hills run, rating and notes, and History in the iOS Simulator, silently, and exports screenshots to `.scratch/ui-test/` (local only, about two minutes) |
 
 ## CI
 

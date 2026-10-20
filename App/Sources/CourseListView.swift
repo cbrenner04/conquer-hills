@@ -2,24 +2,43 @@ import CourseKit
 import SwiftUI
 import WorkoutKit
 
-/// The first screen: every bundled course.
+/// The first screen: every bundled course, grouped by distance or region (`CourseGrouping`), with search.
 struct CourseListView: View {
     let courses: [Course]
     @State private var path: [String] = []
+    @State private var query = ""
+    @AppStorage("courseListGrouping") private var grouping = CourseGroupingMode.distance
+
+    private var sections: [CourseSection] { CourseGrouping.sections(courses, by: grouping, matching: query) }
 
     var body: some View {
         NavigationStack(path: $path) {
             List {
                 Section {
-                    ForEach(courses) { course in
-                        NavigationLink(value: course.id) {
-                            CourseRow(course: course)
+                    Picker("Group by", selection: $grouping) {
+                        ForEach(CourseGroupingMode.allCases, id: \.self) { mode in
+                            Text(mode.title)
+                                .tag(mode)
+                                .accessibilityIdentifier("grouping-\(mode.rawValue)")
                         }
                     }
+                    .pickerStyle(.segmented)
+                    .listRowBackground(Color.clear)
+                    .listRowInsets(EdgeInsets())
                 } header: {
                     header
                 }
+                ForEach(sections) { section in
+                    Section(section.title) {
+                        ForEach(section.courses) { course in
+                            NavigationLink(value: course.id) {
+                                CourseRow(course: course)
+                            }
+                        }
+                    }
+                }
             }
+            .searchable(text: $query, prompt: "Search courses")
             .navigationTitle("Courses")
             .toolbarTitleDisplayMode(.inline)
             .toolbar {
@@ -55,6 +74,10 @@ struct CourseListView: View {
                 if courses.isEmpty {
                     ContentUnavailableView(
                         "No courses", systemImage: "mountain.2", description: Text("No course files could be loaded."))
+                } else if sections.isEmpty {
+                    ContentUnavailableView(
+                        "No courses match", systemImage: "magnifyingglass", description: Text("Try a course or a city.")
+                    )
                 }
             }
         }
@@ -84,7 +107,7 @@ private struct CourseRow: View {
                 Text(course.name)
                     .font(.headline)
                 Text(
-                    "\(course.edition) · \(RunFormatting.miles(course.distanceMeters)) · ↑ \(RunFormatting.feet(course.stats.elevationGainMeters))"
+                    "\(CourseRegion.city(of: course.location)) · \(RunFormatting.miles(course.distanceMeters)) · ↑ \(RunFormatting.feet(course.stats.elevationGainMeters))"
                 )
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
