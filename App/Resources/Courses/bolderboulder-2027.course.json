@@ -1,0 +1,301 @@
+{
+  "description" : "A rolling tour of north Boulder at 1,600 m: north on 30th St, through the Folsom St and 19th St neighbourhoods, back through downtown on Pearl and Walnut streets, and south on Folsom St to a finish on the field of Folsom Field. Gentle climbs to a high point near mile 4, a long descent, and a short pull up to the stadium. Unofficial.",
+  "developmentOnly" : false,
+  "distanceMeters" : 10000,
+  "edition" : "2027",
+  "elevationProfile" : {
+    "elevationsMeters" : [
+      1607.2,
+      1607.9,
+      1608.5,
+      1608.6,
+      1608.9,
+      1609.4,
+      1610.6,
+      1611.9,
+      1613.1,
+      1613.8,
+      1613.8,
+      1613.8,
+      1613.1,
+      1612.7,
+      1612.3,
+      1611.9,
+      1611.5,
+      1612.2,
+      1613,
+      1614.1,
+      1615.4,
+      1615.8,
+      1615.6,
+      1618.4,
+      1621.1,
+      1619.7,
+      1618.8,
+      1619.8,
+      1620.8,
+      1621.6,
+      1622.4,
+      1623,
+      1623.5,
+      1624.2,
+      1625.8,
+      1627.5,
+      1628.8,
+      1630,
+      1632.4,
+      1634.4,
+      1635.5,
+      1636.5,
+      1638.1,
+      1639.2,
+      1638.5,
+      1637.6,
+      1637,
+      1636.4,
+      1635.8,
+      1632.4,
+      1631,
+      1629.7,
+      1630.8,
+      1631.9,
+      1633.3,
+      1635.5,
+      1637.3,
+      1638.6,
+      1639.8,
+      1640.9,
+      1639.2,
+      1636.7,
+      1634.9,
+      1634.9,
+      1636.6,
+      1641.1,
+      1640.5,
+      1636.5,
+      1633.4,
+      1631.6,
+      1630.1,
+      1628.6,
+      1627.4,
+      1627,
+      1625.8,
+      1624.4,
+      1623,
+      1621.9,
+      1620.8,
+      1620.4,
+      1619.9,
+      1618.8,
+      1617.8,
+      1616.6,
+      1615.3,
+      1614.6,
+      1614.9,
+      1614.7,
+      1614.9,
+      1615.2,
+      1615,
+      1615.2,
+      1615.4,
+      1615.9,
+      1616.3,
+      1616.9,
+      1620.3,
+      1625.4,
+      1629.1,
+      1632.3,
+      1632.4
+    ],
+    "sampleSpacingMeters" : 100
+  },
+  "id" : "bolderboulder-2027",
+  "inclineChanges" : [
+    {
+      "atMeters" : 0,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 600,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 800,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 1100,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 1600,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 2200,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 2400,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 2600,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 3000,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 3300,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 3700,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 3900,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 4300,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 4500,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 4800,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 5100,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 5400,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 5700,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 5900,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 6200,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 6600,
+      "inclinePercent" : -3.5
+    },
+    {
+      "atMeters" : 6800,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 7200,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 7400,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 7600,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 7800,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 8000,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 8500,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 8700,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 8900,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 9100,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 9500,
+      "inclinePercent" : 4
+    },
+    {
+      "atMeters" : 9700,
+      "inclinePercent" : 2.5
+    }
+  ],
+  "location" : "Boulder, Colorado, USA",
+  "name" : "BOLDERBoulder",
+  "processing" : {
+    "generatedOn" : "2026-10-24",
+    "parameters" : {
+      "calibrationScales" : "0-10000:1.0125",
+      "elevationProvider" : "usgs3dep",
+      "gradeBlockMeters" : "100",
+      "inclineStepPercent" : "0.5",
+      "minimumIntervalMeters" : "200",
+      "osmStructuresTimestamp" : "2026-10-24T01:26:56Z",
+      "routeSmoothingMeters" : "40",
+      "sampleSpacingMeters" : "10",
+      "smoothingWindowMeters" : "100"
+    },
+    "tool" : "course-tool 0.1.0"
+  },
+  "schemaVersion" : 1,
+  "segments" : [
+    {
+      "endMeters" : 6600,
+      "id" : "climb-to-high-point",
+      "name" : "The climb to the high point (miles 1.4–4.1)",
+      "startMeters" : 2200
+    },
+    {
+      "endMeters" : 10000,
+      "id" : "folsom-to-stadium",
+      "name" : "Folsom Street to the stadium (mile 5.3 to the finish)",
+      "startMeters" : 8500
+    }
+  ],
+  "source" : {
+    "attribution" : "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation" : {
+      "kind" : "modeled",
+      "license" : "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name" : "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url" : "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes" : "2026 course: north on 30th St from Pearl St, Valmont Rd, 28th St, Pine St, Folsom St, Hawthorn Ave, Glenwood Dr, 20th St, Vista Dr, 19th St, Balsam Ave, Cedar Ave, 13th St, Spruce St, Pearl St, Walnut St, Folsom St and Stadium Dr into Folsom Field, as on the organiser's 2026 course map, road-closure map, start map and finish-area map. Route traced over OpenStreetMap streets, with one straight link down the west sideline to the finish line on the field, which OSM doesn't map. No certificate splits are published, so distance is calibrated to the finish. Elevations from USGS 3DEP lidar (2013 and 2020); the stadium entry and field are interpolated flat. Unofficial.",
+    "route" : {
+      "license" : "ODbL-1.0",
+      "name" : "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url" : "https://www.openstreetmap.org/copyright"
+    },
+    "verified" : false
+  },
+  "stats" : {
+    "elevationGainMeters" : 74.1,
+    "elevationLossMeters" : 48.9,
+    "maximumElevationMeters" : 1641.8,
+    "minimumElevationMeters" : 1607.2
+  }
+}
