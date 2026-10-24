@@ -1,0 +1,343 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -105.2536,
+          40.0231
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start: 30th St just south of Pearl St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.253693,
+          40.0292
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "30th St & Valmont Rd: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.256,
+          40.0292
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Valmont Rd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.2585,
+          40.027
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "28th St, south of Valmont Rd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.25836,
+          40.0245
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "28th St & Pine St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.263633,
+          40.023415
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Pine St & Folsom St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.263199,
+          40.034566
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Folsom St & Hawthorn Ave: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.266146,
+          40.03454
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hawthorn Ave & 23rd St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.266865,
+          40.033224
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "23rd St & Glenwood Dr: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.27039,
+          40.0333
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Glenwood Dr & 20th St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.27112,
+          40.03465
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "20th St & Vista Dr: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.272691,
+          40.034653
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Vista Dr & 19th St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.272629,
+          40.026755
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "19th St & Balsam Ave: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.274,
+          40.02677
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Balsam Ave & 18th St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.274,
+          40.028
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "18th St & Cedar Ave: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.280296,
+          40.028
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Cedar Ave & 13th St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.279034,
+          40.019194
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "13th St & Spruce St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.276408,
+          40.019725
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Spruce St & 15th St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.276052,
+          40.018704
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "15th St & Pearl St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.269662,
+          40.020014
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Pearl St & 20th St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.269302,
+          40.019004
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "20th St & Walnut St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.263162,
+          40.020334
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Walnut St & Folsom St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.263041,
+          40.014626
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Folsom St & Arapahoe Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.263841,
+          40.010564
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Folsom St & Stadium Dr: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.267268,
+          40.01059
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Stadium Dr: turn left into Folsom Field"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -105.26725,
+          40.00953
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: on the field, west side"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

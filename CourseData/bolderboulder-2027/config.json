@@ -1,0 +1,213 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 1611,
+      "min": 1605,
+      "name": "Start elevation 1,605–1,611 m (organiser 1,608 m)"
+    },
+    {
+      "atMeters": 10000,
+      "kind": "elevationAt",
+      "max": 1637,
+      "min": 1630,
+      "name": "Finish elevation 1,630–1,637 m (organiser 1,634 m)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 1646,
+      "name": "Highest point ≤ 1,646 m (organiser 1,643 m near 6.4 km)"
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 1604,
+      "name": "Lowest point ≥ 1,604 m (the start is the lowest point)"
+    },
+    {
+      "fromMeters": 6600,
+      "kind": "drop",
+      "max": 40,
+      "min": 26,
+      "name": "Start to the high point near mile 4 rises 26–40 m (organiser +35 m)",
+      "toMeters": 0
+    },
+    {
+      "fromMeters": 3300,
+      "kind": "climb",
+      "min": 1.5,
+      "name": "The Folsom–19th St rollers survive as a climb of ≥ +1.5%",
+      "toMeters": 4300
+    },
+    {
+      "fromMeters": 9900,
+      "kind": "drop",
+      "max": 21,
+      "min": 11,
+      "name": "Folsom St and Stadium Dr rise 11–21 m to the stadium (organiser ~+14 m)",
+      "toMeters": 9400
+    },
+    {
+      "fromMeters": 9400,
+      "kind": "climb",
+      "min": 3.5,
+      "name": "The pull up to the stadium survives as a climb of ≥ +3.5%",
+      "toMeters": 9900
+    },
+    {
+      "fromMeters": 9850,
+      "kind": "minimumElevation",
+      "min": 1630,
+      "name": "No false dip inside Folsom Field (entry drive and field interpolated, D4): lowest point ≥ 1,630 m",
+      "toMeters": 10000
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 6,
+      "name": "Steepest incline within ±6%"
+    },
+    {
+      "kind": "gain",
+      "max": 95,
+      "min": 55,
+      "name": "Gain 55–95 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "loss",
+      "max": 70,
+      "min": 30,
+      "name": "Loss 30–70 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 40.00953,
+        "longitude": -105.26725
+      },
+      "name": "Finish: on the field, west side",
+      "officialMeters": 10000
+    }
+  ],
+  "description": "A rolling tour of north Boulder at 1,600 m: north on 30th St, through the Folsom St and 19th St neighbourhoods, back through downtown on Pearl and Walnut streets, and south on Folsom St to a finish on the field of Folsom Field. Gentle climbs to a high point near mile 4, a long descent, and a short pull up to the stadium. Unofficial.",
+  "edition": "2027",
+  "elevation": {
+    "provider": "usgs3dep",
+    "trustedSources": [
+      "CO_DRCOG_2020_B20",
+      "CO_SoPlatteRiver_Lot5_2013"
+    ]
+  },
+  "id": "bolderboulder-2027",
+  "location": "Boulder, Colorado, USA",
+  "manualSpans": [
+    {
+      "action": "interpolate",
+      "endMeters": 10000,
+      "reason": "Folsom Field (D4): the north entrance drive between the Dal Ward building and the stands, and the field to the finish line; run flat, so no lidar reading of the stands or buildings reaches the runner",
+      "startMeters": 9875
+    }
+  ],
+  "name": "BOLDERBoulder",
+  "officialDistanceMeters": 10000,
+  "processing": {
+    "checkpointSearchRadiusMeters": 150,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 300,
+    "minimumIntervalMeters": 200,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "corridorMeters": 200,
+    "highways": [
+      "trunk",
+      "trunk_link",
+      "primary",
+      "primary_link",
+      "secondary",
+      "secondary_link",
+      "tertiary",
+      "tertiary_link",
+      "unclassified",
+      "residential",
+      "living_street",
+      "service",
+      "pedestrian",
+      "road"
+    ],
+    "joins": [
+      {
+        "from": {
+          "latitude": 40.010003,
+          "longitude": -105.267244
+        },
+        "reason": "Inside Folsom Field: down the west sideline from the end of the north entrance drive. OSM maps no way on the field; the finish line is on it (D4)",
+        "to": {
+          "latitude": 40.0084469,
+          "longitude": -105.2672634
+        }
+      }
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 6600,
+      "id": "climb-to-high-point",
+      "name": "The climb to the high point (miles 1.4–4.1)",
+      "startMeters": 2200
+    },
+    {
+      "endMeters": 10000,
+      "id": "folsom-to-stadium",
+      "name": "Folsom Street to the stadium (mile 5.3 to the finish)",
+      "startMeters": 8500
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name": "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url": "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes": "2026 course: north on 30th St from Pearl St, Valmont Rd, 28th St, Pine St, Folsom St, Hawthorn Ave, Glenwood Dr, 20th St, Vista Dr, 19th St, Balsam Ave, Cedar Ave, 13th St, Spruce St, Pearl St, Walnut St, Folsom St and Stadium Dr into Folsom Field, as on the organiser's 2026 course map, road-closure map, start map and finish-area map. Route traced over OpenStreetMap streets, with one straight link down the west sideline to the finish line on the field, which OSM doesn't map. No certificate splits are published, so distance is calibrated to the finish. Elevations from USGS 3DEP lidar (2013 and 2020); the stadium entry and field are interpolated flat. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": false
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [
+      "motorway",
+      "motorway_link"
+    ],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}
