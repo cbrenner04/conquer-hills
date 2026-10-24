@@ -1,0 +1,122 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -72.52091,
+          41.7703
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start: Main St at Park St (St. James Church), heading south"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -72.520431,
+          41.764594
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Main St & Charter Oak St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -72.504424,
+          41.76464
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Charter Oak St & Highland St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -72.495,
+          41.765
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Highland St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -72.484866,
+          41.767724
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Highland St & Porter St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -72.498,
+          41.7725
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Porter St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -72.511835,
+          41.777537
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Porter St & East Center St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -72.52152,
+          41.775884
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Center St & Main St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -72.52093,
+          41.77075
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: Main St at Park St (St. James Church)"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
