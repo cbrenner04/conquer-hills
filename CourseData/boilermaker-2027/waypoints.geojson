@@ -1,0 +1,252 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -75.1957,
+          43.0927
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start: Culver Ave at Beechgrove Pl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.2012,
+          43.0864
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Culver Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.206312,
+          43.079955
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Culver Ave & Parkway East: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.2163,
+          43.07334
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Parkway East"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.23274,
+          43.07989
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Parkway East & Valley View Rd: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.23887,
+          43.07251
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Valley View Rd & Steele Hill Rd: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.24326,
+          43.07972
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Steele Hill Rd at Master Garden Rd (the overlook)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.24592,
+          43.08167
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Utica Zoo Way"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.24101,
+          43.08266
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Memorial Pkwy at Seymour Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.256275,
+          43.089099
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Memorial Pkwy & Genesee St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.258625,
+          43.087928
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Genesee St & Shepherd Pl: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.260054,
+          43.089516
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Shepherd Pl & Sunset Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.258393,
+          43.090349
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sunset Ave & Burrstone Rd: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.262012,
+          43.091975
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Burrstone Rd at Lincoln Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.275391,
+          43.093847
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Burrstone Rd & Champlin Ave: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.269652,
+          43.106698
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Champlin Ave at Graham Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.265508,
+          43.111837
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Champlin Ave & Whitesboro St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.253108,
+          43.10703
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Whitesboro St & Court St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.244767,
+          43.102991
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: Court St at Varick St"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

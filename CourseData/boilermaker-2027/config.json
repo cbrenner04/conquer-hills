@@ -1,0 +1,184 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 145,
+      "min": 136,
+      "name": "Start elevation 136–145 m (Culver Ave; lidar 141 m)"
+    },
+    {
+      "atMeters": 15000,
+      "kind": "elevationAt",
+      "max": 137,
+      "min": 128,
+      "name": "Finish elevation 128–137 m (Court St at Varick St; lidar 133 m)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 246,
+      "min": 236,
+      "name": "Highest point 236–246 m (the overlook above the zoo)"
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 127,
+      "name": "Lowest point ≥ 127 m"
+    },
+    {
+      "fromMeters": 6600,
+      "kind": "drop",
+      "max": 76,
+      "min": 58,
+      "name": "The Valley View climb rises 58–76 m (lidar +67 m; the race is known for ~300 ft of elevation change)",
+      "toMeters": 3900
+    },
+    {
+      "fromMeters": 4000,
+      "kind": "climb",
+      "min": 4,
+      "name": "The Valley View climb survives as a climb of ≥ +4%",
+      "toMeters": 6500
+    },
+    {
+      "fromMeters": 10300,
+      "kind": "climb",
+      "min": 2.5,
+      "name": "The Burrstone Rd rise survives as a climb of ≥ +2.5%",
+      "toMeters": 11000
+    },
+    {
+      "atMeters": 9990,
+      "kind": "noDip",
+      "name": "The Burrstone Rd bridge over Route 12 is never a dip",
+      "radiusMeters": 60
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 9,
+      "name": "Steepest incline within ±9%"
+    },
+    {
+      "kind": "gain",
+      "max": 185,
+      "min": 135,
+      "name": "Gain 135–185 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "loss",
+      "max": 195,
+      "min": 140,
+      "name": "Loss 140–195 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 43.102991,
+        "longitude": -75.244767
+      },
+      "name": "Finish: Court St at Varick St",
+      "officialMeters": 15000
+    }
+  ],
+  "description": "Utica's 15K: south on Culver Avenue and around the Parkway, down through the Valley View golf course and up past the overlook and the zoo, along Memorial Parkway, then Burrstone Road, Champlin Avenue and Whitesboro Street to a downhill finish downtown by the brewery. Unofficial.",
+  "edition": "2027",
+  "elevation": {
+    "provider": "usgs3dep",
+    "trustedSources": [
+      "NY_FEMAR2_Central_2018_D19"
+    ]
+  },
+  "id": "boilermaker-2027",
+  "location": "Utica, New York, USA",
+  "manualSpans": [],
+  "name": "Boilermaker",
+  "officialDistanceMeters": 15000,
+  "processing": {
+    "checkpointSearchRadiusMeters": 150,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 300,
+    "minimumIntervalMeters": 200,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "corridorMeters": 200,
+    "highways": [
+      "trunk",
+      "trunk_link",
+      "primary",
+      "primary_link",
+      "secondary",
+      "secondary_link",
+      "tertiary",
+      "tertiary_link",
+      "unclassified",
+      "residential",
+      "living_street",
+      "service",
+      "pedestrian",
+      "road"
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 6600,
+      "id": "valley-view-climb",
+      "name": "Valley View and the climb to the overlook (miles 2.4–4.1)",
+      "startMeters": 3900
+    },
+    {
+      "endMeters": 6600,
+      "id": "start-to-the-top",
+      "name": "Start to the top (miles 0–4.1)",
+      "startMeters": 0
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name": "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url": "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes": "Culver Ave from Beechgrove Pl, Parkway East, Valley View Rd through the golf course, Steele Hill Rd past the overlook and the zoo, Utica Zoo Way, Memorial Pkwy, Genesee St, Shepherd Pl, Sunset Ave, Burrstone Rd, Champlin Ave, Whitesboro St and Court St to the finish at Varick St, as on the organiser's water and aid station map and its start and finish locations. Route traced over OpenStreetMap streets; the course was USATF recertified in 2024 but no splits are published, so distance is calibrated to the finish. Elevations from USGS 3DEP lidar (central New York, 2018); the Burrstone Rd bridge over Route 12 is interpolated. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": false
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [
+      "motorway",
+      "motorway_link"
+    ],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}
