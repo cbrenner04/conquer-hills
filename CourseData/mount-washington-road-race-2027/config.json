@@ -1,0 +1,153 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 496,
+      "min": 485,
+      "name": "Start elevation 485–496 m (the Auto Road at Route 16; lidar 491 m)"
+    },
+    {
+      "atMeters": 12231,
+      "kind": "elevationAt",
+      "max": 1912,
+      "min": 1895,
+      "name": "Finish elevation 1,895–1,912 m (the top of the Auto Road; the summit itself is 1,917 m)"
+    },
+    {
+      "atMeters": 6116,
+      "kind": "elevationAt",
+      "max": 1195,
+      "min": 1140,
+      "name": "Halfway (mile 3.8) 1,140–1,195 m (the Halfway House is at about 3,840 ft, 1,170 m)"
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 470,
+      "name": "Lowest point ≥ 470 m (the Peabody River bridge near the base)"
+    },
+    {
+      "fromMeters": 12231,
+      "kind": "drop",
+      "max": 1450,
+      "min": 1380,
+      "name": "The climb is 1,380–1,450 m from start to finish (lidar 1,414 m)",
+      "toMeters": 0
+    },
+    {
+      "kind": "climb",
+      "min": 15,
+      "name": "The steepest stretches survive as intervals of ≥ +15%"
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 20,
+      "name": "Steepest incline ≤ 20% (100 m smoothing averages the final short pitch)"
+    },
+    {
+      "kind": "gain",
+      "max": 1470,
+      "min": 1380,
+      "name": "Gain 1,380–1,470 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "loss",
+      "max": 40,
+      "name": "Loss ≤ 40 m (the road only climbs, apart from the dip to the river at the start)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 44.270107,
+        "longitude": -71.302586
+      },
+      "name": "Finish: the top of the Auto Road at the summit",
+      "officialMeters": 12231
+    }
+  ],
+  "description": "Up the Mount Washington Auto Road from Route 16 to the summit of the highest peak in the Northeast: about 1,400 m of climbing in 7.6 miles at an average near 12%, with one short level stretch near mile 5 and a final pitch of over 20% to the finish. On a treadmill almost all of it is held at the 12.5% maximum. Unofficial.",
+  "edition": "2027",
+  "elevation": {
+    "provider": "usgs3dep",
+    "trustedSources": [
+      "NH_Umbagog_LiDAR_2016_D16"
+    ]
+  },
+  "id": "mount-washington-road-race-2027",
+  "location": "Pinkham Notch, New Hampshire, USA",
+  "manualSpans": [],
+  "name": "Mount Washington Road Race",
+  "officialDistanceMeters": 12231,
+  "processing": {
+    "checkpointSearchRadiusMeters": 20,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 300,
+    "minimumIntervalMeters": 200,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 0,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 70
+  },
+  "route": {
+    "corridorMeters": 200,
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 6116,
+      "id": "base-to-halfway",
+      "name": "Base to the halfway mark (miles 0–3.8)",
+      "startMeters": 0
+    },
+    {
+      "endMeters": 12231,
+      "id": "halfway-to-summit",
+      "name": "Halfway to the summit (miles 3.8–7.6)",
+      "startMeters": 6116
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name": "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url": "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes": "The Mount Washington Auto Road from Route 16 to the summit, the course since 1936 (7.6 miles as stated). Route traced over OpenStreetMap's Auto Road ways with no smoothing, so the hairpins keep their length; distance calibrated to the finish at the top of the road. Elevations from USGS 3DEP lidar (New Hampshire, 2016); two small bridges are interpolated. On a treadmill nearly the whole race is held at the 12.5% maximum, including the final pitch of over 20%; a typical finisher takes 1.5–2 hours at 3–4 mph. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM roads and Barr Trail)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": false
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [
+      "motorway",
+      "motorway_link"
+    ],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}

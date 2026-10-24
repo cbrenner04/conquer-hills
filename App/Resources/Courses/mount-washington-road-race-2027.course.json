@@ -1,0 +1,336 @@
+{
+  "description" : "Up the Mount Washington Auto Road from Route 16 to the summit of the highest peak in the Northeast: about 1,400 m of climbing in 7.6 miles at an average near 12%, with one short level stretch near mile 5 and a final pitch of over 20% to the finish. On a treadmill almost all of it is held at the 12.5% maximum. Unofficial.",
+  "developmentOnly" : false,
+  "distanceMeters" : 12231,
+  "edition" : "2027",
+  "elevationProfile" : {
+    "elevationsMeters" : [
+      490.7,
+      483.4,
+      477.3,
+      476.6,
+      477.6,
+      483.2,
+      496.7,
+      510.3,
+      523.7,
+      537.4,
+      550.1,
+      563.1,
+      575.9,
+      585.8,
+      595.6,
+      605.2,
+      615.3,
+      624.2,
+      633.5,
+      646.2,
+      659.2,
+      670.8,
+      679.6,
+      689.1,
+      702.3,
+      714.1,
+      727.8,
+      736.8,
+      753.1,
+      769.3,
+      785,
+      797.3,
+      808.4,
+      816.3,
+      821.6,
+      833,
+      844.7,
+      856.6,
+      867.7,
+      878.5,
+      893,
+      907.2,
+      921.1,
+      935.6,
+      949.8,
+      964.2,
+      978.5,
+      991.3,
+      1004.6,
+      1018.1,
+      1031.2,
+      1044.6,
+      1057.6,
+      1070.6,
+      1083.8,
+      1096.7,
+      1109.3,
+      1121.3,
+      1131.1,
+      1141.5,
+      1153.5,
+      1163.8,
+      1174.3,
+      1186.2,
+      1198.7,
+      1211.7,
+      1224.5,
+      1234.9,
+      1247.5,
+      1257.6,
+      1272.1,
+      1287.5,
+      1301.7,
+      1315.6,
+      1330,
+      1344.9,
+      1360.6,
+      1375,
+      1389.9,
+      1402.6,
+      1414,
+      1425.6,
+      1437.5,
+      1448.7,
+      1453.9,
+      1462.2,
+      1477.7,
+      1493.3,
+      1508.3,
+      1522.7,
+      1538,
+      1550.8,
+      1560.9,
+      1572.7,
+      1583.9,
+      1595,
+      1605.7,
+      1617,
+      1629.2,
+      1641.6,
+      1653.4,
+      1665.5,
+      1678,
+      1692.9,
+      1709,
+      1724.2,
+      1734,
+      1739.5,
+      1749,
+      1761.2,
+      1770,
+      1780,
+      1790.4,
+      1800.7,
+      1810.6,
+      1820.4,
+      1831,
+      1843.1,
+      1852.1,
+      1860.6,
+      1869.7,
+      1884.6,
+      1900.9,
+      1904.9
+    ],
+    "sampleSpacingMeters" : 100
+  },
+  "id" : "mount-washington-road-race-2027",
+  "inclineChanges" : [
+    {
+      "atMeters" : 0,
+      "inclinePercent" : -6.5
+    },
+    {
+      "atMeters" : 200,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 500,
+      "inclinePercent" : 13.5
+    },
+    {
+      "atMeters" : 900,
+      "inclinePercent" : 13
+    },
+    {
+      "atMeters" : 1200,
+      "inclinePercent" : 10
+    },
+    {
+      "atMeters" : 1600,
+      "inclinePercent" : 9
+    },
+    {
+      "atMeters" : 1800,
+      "inclinePercent" : 12.5
+    },
+    {
+      "atMeters" : 2100,
+      "inclinePercent" : 9
+    },
+    {
+      "atMeters" : 2300,
+      "inclinePercent" : 12
+    },
+    {
+      "atMeters" : 2700,
+      "inclinePercent" : 16
+    },
+    {
+      "atMeters" : 3000,
+      "inclinePercent" : 11.5
+    },
+    {
+      "atMeters" : 3200,
+      "inclinePercent" : 6.5
+    },
+    {
+      "atMeters" : 3400,
+      "inclinePercent" : 11.5
+    },
+    {
+      "atMeters" : 3700,
+      "inclinePercent" : 11
+    },
+    {
+      "atMeters" : 3900,
+      "inclinePercent" : 14.5
+    },
+    {
+      "atMeters" : 4600,
+      "inclinePercent" : 13
+    },
+    {
+      "atMeters" : 5700,
+      "inclinePercent" : 10
+    },
+    {
+      "atMeters" : 5900,
+      "inclinePercent" : 11
+    },
+    {
+      "atMeters" : 6200,
+      "inclinePercent" : 12
+    },
+    {
+      "atMeters" : 6400,
+      "inclinePercent" : 13
+    },
+    {
+      "atMeters" : 6600,
+      "inclinePercent" : 11
+    },
+    {
+      "atMeters" : 6900,
+      "inclinePercent" : 15
+    },
+    {
+      "atMeters" : 7100,
+      "inclinePercent" : 14
+    },
+    {
+      "atMeters" : 7400,
+      "inclinePercent" : 15.5
+    },
+    {
+      "atMeters" : 7600,
+      "inclinePercent" : 14.5
+    },
+    {
+      "atMeters" : 7800,
+      "inclinePercent" : 12
+    },
+    {
+      "atMeters" : 8300,
+      "inclinePercent" : 7
+    },
+    {
+      "atMeters" : 8500,
+      "inclinePercent" : 15
+    },
+    {
+      "atMeters" : 9100,
+      "inclinePercent" : 11
+    },
+    {
+      "atMeters" : 9700,
+      "inclinePercent" : 12.5
+    },
+    {
+      "atMeters" : 9900,
+      "inclinePercent" : 12
+    },
+    {
+      "atMeters" : 10200,
+      "inclinePercent" : 15.5
+    },
+    {
+      "atMeters" : 10500,
+      "inclinePercent" : 9
+    },
+    {
+      "atMeters" : 11000,
+      "inclinePercent" : 10.5
+    },
+    {
+      "atMeters" : 11700,
+      "inclinePercent" : 9
+    },
+    {
+      "atMeters" : 12000,
+      "inclinePercent" : 15
+    }
+  ],
+  "location" : "Pinkham Notch, New Hampshire, USA",
+  "name" : "Mount Washington Road Race",
+  "processing" : {
+    "generatedOn" : "2026-10-24",
+    "parameters" : {
+      "calibrationScales" : "0-12231:1.0079",
+      "elevationProvider" : "usgs3dep",
+      "gradeBlockMeters" : "100",
+      "inclineStepPercent" : "0.5",
+      "minimumIntervalMeters" : "200",
+      "osmStructuresTimestamp" : "2026-10-24T02:36:20Z",
+      "routeSmoothingMeters" : "0",
+      "sampleSpacingMeters" : "10",
+      "smoothingWindowMeters" : "100"
+    },
+    "tool" : "course-tool 0.1.0"
+  },
+  "schemaVersion" : 1,
+  "segments" : [
+    {
+      "endMeters" : 6116,
+      "id" : "base-to-halfway",
+      "name" : "Base to the halfway mark (miles 0–3.8)",
+      "startMeters" : 0
+    },
+    {
+      "endMeters" : 12231,
+      "id" : "halfway-to-summit",
+      "name" : "Halfway to the summit (miles 3.8–7.6)",
+      "startMeters" : 6116
+    }
+  ],
+  "source" : {
+    "attribution" : "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation" : {
+      "kind" : "modeled",
+      "license" : "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name" : "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url" : "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes" : "The Mount Washington Auto Road from Route 16 to the summit, the course since 1936 (7.6 miles as stated). Route traced over OpenStreetMap's Auto Road ways with no smoothing, so the hairpins keep their length; distance calibrated to the finish at the top of the road. Elevations from USGS 3DEP lidar (New Hampshire, 2016); two small bridges are interpolated. On a treadmill nearly the whole race is held at the 12.5% maximum, including the final pitch of over 20%; a typical finisher takes 1.5–2 hours at 3–4 mph. Unofficial.",
+    "route" : {
+      "license" : "ODbL-1.0",
+      "name" : "OpenStreetMap (route traced by Conquer Hills over OSM roads and Barr Trail)",
+      "url" : "https://www.openstreetmap.org/copyright"
+    },
+    "verified" : false
+  },
+  "stats" : {
+    "elevationGainMeters" : 1428.3,
+    "elevationLossMeters" : 14.1,
+    "maximumElevationMeters" : 1904.9,
+    "minimumElevationMeters" : 476.5
+  }
+}
