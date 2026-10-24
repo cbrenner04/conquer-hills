@@ -1,0 +1,331 @@
+{
+  "description" : "Downtown Spokane west along Riverside Avenue and down to Latah Creek, up Government Way past the cemetery (Cemetery Hill), along Whistalks Way past Spokane Falls Community College, across the Spokane River, then up Pettit Drive: Doomsday Hill, about 40 m in 0.7 miles at mile 5. Level roads through West Central to the finish over the Monroe Street Bridge. Unofficial.",
+  "developmentOnly" : false,
+  "distanceMeters" : 12000,
+  "edition" : "2027",
+  "elevationProfile" : {
+    "elevationsMeters" : [
+      573.7,
+      572.9,
+      571.2,
+      570.9,
+      572,
+      573.5,
+      574.8,
+      575.3,
+      575.6,
+      575,
+      574.1,
+      573.6,
+      574.5,
+      575.7,
+      575.6,
+      574.9,
+      573.2,
+      568.4,
+      562.6,
+      556.9,
+      552.8,
+      547.2,
+      541.1,
+      535.2,
+      533.1,
+      536.5,
+      542,
+      544.9,
+      548.6,
+      554,
+      554.5,
+      552.8,
+      551.5,
+      548.7,
+      548.4,
+      548.4,
+      548,
+      547.8,
+      548.9,
+      552.9,
+      557.5,
+      562.8,
+      567.9,
+      570.8,
+      572,
+      572.9,
+      573.8,
+      572.3,
+      569.1,
+      567.8,
+      567.7,
+      567.6,
+      569.2,
+      574.4,
+      575.2,
+      574.6,
+      574.1,
+      573.8,
+      573,
+      571.9,
+      570.6,
+      569.6,
+      568.5,
+      567.1,
+      565.5,
+      563.8,
+      557.7,
+      550.9,
+      546.7,
+      541.2,
+      535,
+      533.1,
+      532.5,
+      532.1,
+      530.7,
+      534.2,
+      541.2,
+      548.4,
+      555.5,
+      561.7,
+      565.5,
+      566.9,
+      568.3,
+      569.4,
+      571.4,
+      572.3,
+      572.9,
+      574,
+      574.3,
+      574.6,
+      575.4,
+      576.5,
+      577.1,
+      576.8,
+      576.4,
+      575.5,
+      574.6,
+      573.9,
+      573.4,
+      573.3,
+      573.1,
+      572.9,
+      573.1,
+      573.3,
+      573,
+      572.5,
+      572.6,
+      572.3,
+      571.8,
+      571.5,
+      571.7,
+      572,
+      571.8,
+      572.3,
+      573.1,
+      573.7,
+      574.2,
+      574.3,
+      571.4,
+      567.4,
+      565.6
+    ],
+    "sampleSpacingMeters" : 100
+  },
+  "id" : "bloomsday-2027",
+  "inclineChanges" : [
+    {
+      "atMeters" : 0,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 300,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 600,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 800,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 1100,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 1300,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 1600,
+      "inclinePercent" : -5
+    },
+    {
+      "atMeters" : 2100,
+      "inclinePercent" : -4.5
+    },
+    {
+      "atMeters" : 2400,
+      "inclinePercent" : 4.5
+    },
+    {
+      "atMeters" : 2600,
+      "inclinePercent" : 4
+    },
+    {
+      "atMeters" : 2900,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 3300,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 3800,
+      "inclinePercent" : 4.5
+    },
+    {
+      "atMeters" : 4300,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 4600,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 4900,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 5200,
+      "inclinePercent" : 3
+    },
+    {
+      "atMeters" : 5400,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 5700,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 6200,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 6500,
+      "inclinePercent" : -6.5
+    },
+    {
+      "atMeters" : 6700,
+      "inclinePercent" : -5.5
+    },
+    {
+      "atMeters" : 7000,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 7400,
+      "inclinePercent" : 6
+    },
+    {
+      "atMeters" : 7900,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 8400,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 8700,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 8900,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 9200,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 9400,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 9600,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 9800,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 11300,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 11700,
+      "inclinePercent" : -3
+    }
+  ],
+  "location" : "Spokane, Washington, USA",
+  "name" : "Lilac Bloomsday Run",
+  "processing" : {
+    "generatedOn" : "2026-10-24",
+    "parameters" : {
+      "calibrationScales" : "0-12000:0.9934",
+      "elevationProvider" : "usgs3dep",
+      "gradeBlockMeters" : "100",
+      "inclineStepPercent" : "0.5",
+      "minimumIntervalMeters" : "200",
+      "osmStructuresTimestamp" : "2026-10-24T01:17:51Z",
+      "routeSmoothingMeters" : "40",
+      "sampleSpacingMeters" : "10",
+      "smoothingWindowMeters" : "100"
+    },
+    "tool" : "course-tool 0.1.0"
+  },
+  "schemaVersion" : 1,
+  "segments" : [
+    {
+      "endMeters" : 5500,
+      "id" : "cemetery-hill",
+      "name" : "Cemetery Hill (miles 2.3–3.4)",
+      "startMeters" : 3700
+    },
+    {
+      "endMeters" : 8700,
+      "id" : "doomsday-hill",
+      "name" : "Doomsday Hill (miles 4.5–5.4)",
+      "startMeters" : 7250
+    },
+    {
+      "endMeters" : 12000,
+      "id" : "doomsday-to-finish",
+      "name" : "Doomsday Hill to the finish (mile 4.5 to the finish)",
+      "startMeters" : 7250
+    }
+  ],
+  "source" : {
+    "attribution" : "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation" : {
+      "kind" : "modeled",
+      "license" : "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name" : "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url" : "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes" : "2026 course (the same since 1980): Riverside Ave from Lincoln St, Government Way, Whistalks Way, the T J Meenach Bridge, Pettit Dr (Doomsday Hill), Mission Ave, Lindeke St, Broadway Ave and Monroe St, as on the organiser's 2024 course map and 2026 runner instructions. Route traced over OpenStreetMap streets; the finish is placed at the north end of the Monroe Street Bridge, where the course map's flag is. No certificate splits are published, so distance is calibrated to the finish, with the 10K marker after the turn onto Broadway as a check. Elevations from USGS 3DEP lidar (Washington 2022; Spokane city 2007 from Whistalks Way to the top of Pettit Dr); the river and creek bridges are interpolated. Unofficial.",
+    "route" : {
+      "license" : "ODbL-1.0",
+      "name" : "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url" : "https://www.openstreetmap.org/copyright"
+    },
+    "verified" : false
+  },
+  "stats" : {
+    "elevationGainMeters" : 113.3,
+    "elevationLossMeters" : 121.4,
+    "maximumElevationMeters" : 577.1,
+    "minimumElevationMeters" : 530.6
+  }
+}
