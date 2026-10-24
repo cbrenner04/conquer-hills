@@ -1,0 +1,232 @@
+{
+  "description" : "Connecticut's Thanksgiving tradition: a 4.7-mile loop from Main Street, down Charter Oak Street and up the long Highland Street hill, then back down Porter Street and East Center Street to the finish in front of St. James Church. Unofficial.",
+  "developmentOnly" : false,
+  "distanceMeters" : 7623,
+  "edition" : "2026",
+  "elevationProfile" : {
+    "elevationsMeters" : [
+      73,
+      71.6,
+      70.1,
+      68.4,
+      67.5,
+      66.7,
+      66.8,
+      67.4,
+      69,
+      70.8,
+      71.5,
+      71.2,
+      71,
+      71.6,
+      73.3,
+      74.8,
+      74.6,
+      76,
+      78.7,
+      80.5,
+      83.5,
+      89.1,
+      93.1,
+      95.3,
+      98.2,
+      101.8,
+      106.5,
+      113.5,
+      119.4,
+      123.3,
+      126.7,
+      129,
+      134.8,
+      138.3,
+      141.2,
+      142.6,
+      141.8,
+      135.8,
+      129.4,
+      124.1,
+      118.5,
+      114.5,
+      109.6,
+      103.4,
+      98.8,
+      97.7,
+      98.8,
+      98.2,
+      98.1,
+      98.7,
+      99.8,
+      101.6,
+      99.8,
+      98,
+      96.7,
+      95.7,
+      96.2,
+      95.9,
+      94.1,
+      92.2,
+      89.8,
+      89,
+      88.6,
+      87.1,
+      85.7,
+      84,
+      83.3,
+      83.5,
+      83.7,
+      83.9,
+      83.7,
+      81.5,
+      77,
+      73.1,
+      70.4,
+      70.5,
+      72.5,
+      72.9
+    ],
+    "sampleSpacingMeters" : 100
+  },
+  "id" : "manchester-road-race-2026",
+  "inclineChanges" : [
+    {
+      "atMeters" : 0,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 400,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 700,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 1000,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 1300,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 1700,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 2000,
+      "inclinePercent" : 5
+    },
+    {
+      "atMeters" : 2200,
+      "inclinePercent" : 3.5
+    },
+    {
+      "atMeters" : 2600,
+      "inclinePercent" : 6.5
+    },
+    {
+      "atMeters" : 2800,
+      "inclinePercent" : 3
+    },
+    {
+      "atMeters" : 3100,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 3600,
+      "inclinePercent" : -6
+    },
+    {
+      "atMeters" : 3800,
+      "inclinePercent" : -5.5
+    },
+    {
+      "atMeters" : 4000,
+      "inclinePercent" : -5
+    },
+    {
+      "atMeters" : 4400,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 5100,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 5500,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 5700,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 6000,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 6200,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 6500,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 7100,
+      "inclinePercent" : -3.5
+    },
+    {
+      "atMeters" : 7400,
+      "inclinePercent" : 1
+    }
+  ],
+  "location" : "Manchester, Connecticut, USA",
+  "name" : "Manchester Road Race",
+  "processing" : {
+    "generatedOn" : "2026-10-24",
+    "parameters" : {
+      "calibrationScales" : "0-7623:0.9760",
+      "elevationProvider" : "usgs3dep",
+      "gradeBlockMeters" : "100",
+      "inclineStepPercent" : "0.5",
+      "minimumIntervalMeters" : "200",
+      "osmStructuresTimestamp" : "2026-10-24T02:30:15Z",
+      "routeSmoothingMeters" : "40",
+      "sampleSpacingMeters" : "10",
+      "smoothingWindowMeters" : "100"
+    },
+    "tool" : "course-tool 0.1.0"
+  },
+  "schemaVersion" : 1,
+  "segments" : [
+    {
+      "endMeters" : 3650,
+      "id" : "highland-street-hill",
+      "name" : "Highland Street hill (miles 1.1–2.3)",
+      "startMeters" : 1750
+    }
+  ],
+  "source" : {
+    "attribution" : "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation" : {
+      "kind" : "modeled",
+      "license" : "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name" : "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url" : "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes" : "A loop from Main St in front of St. James Church: south on Main St, Charter Oak St, the Highland St hill, Porter St, East Center St and back down Main St, as described in local race guides; the organiser gives the distance as 4.737 miles and publishes no map. Route traced over OpenStreetMap streets; distance calibrated to the finish, with the top of the hill as an ordering check. Elevations from USGS 3DEP lidar (Connecticut statewide, 2016). Unofficial.",
+    "route" : {
+      "license" : "ODbL-1.0",
+      "name" : "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url" : "https://www.openstreetmap.org/copyright"
+    },
+    "verified" : false
+  },
+  "stats" : {
+    "elevationGainMeters" : 86.1,
+    "elevationLossMeters" : 86.3,
+    "maximumElevationMeters" : 142.7,
+    "minimumElevationMeters" : 66.6
+  }
+}

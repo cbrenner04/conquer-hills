@@ -1,0 +1,174 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 77,
+      "min": 69,
+      "name": "Start elevation 69–77 m (Main St at St. James Church; lidar 73 m)"
+    },
+    {
+      "atMeters": 7623,
+      "kind": "elevationAt",
+      "max": 77,
+      "min": 69,
+      "name": "Finish elevation 69–77 m (the same place)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 147,
+      "min": 137,
+      "name": "Highest point 137–147 m (the top of the Highland St hill at Porter St)"
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 62,
+      "name": "Lowest point ≥ 62 m"
+    },
+    {
+      "fromMeters": 3600,
+      "kind": "drop",
+      "max": 72,
+      "min": 52,
+      "name": "Charter Oak St and the Highland St hill rise 52–72 m (lidar +63 m)",
+      "toMeters": 1800
+    },
+    {
+      "fromMeters": 1900,
+      "kind": "climb",
+      "min": 5,
+      "name": "The Highland St hill survives as a climb of ≥ +5%",
+      "toMeters": 3500
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 9,
+      "name": "Steepest incline within ±9%"
+    },
+    {
+      "kind": "gain",
+      "max": 105,
+      "min": 70,
+      "name": "Gain 70–105 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "loss",
+      "max": 105,
+      "min": 70,
+      "name": "Loss 70–105 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 41.767724,
+        "longitude": -72.484866
+      },
+      "name": "Highland St & Porter St, top of the hill (distance estimated in proportion; keeps the loop in order)",
+      "officialMeters": 3584
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 41.77075,
+        "longitude": -72.52093
+      },
+      "name": "Finish: Main St at Park St (St. James Church)",
+      "officialMeters": 7623
+    }
+  ],
+  "description": "Connecticut's Thanksgiving tradition: a 4.7-mile loop from Main Street, down Charter Oak Street and up the long Highland Street hill, then back down Porter Street and East Center Street to the finish in front of St. James Church. Unofficial.",
+  "edition": "2026",
+  "elevation": {
+    "provider": "usgs3dep",
+    "trustedSources": [
+      "CT_Statewide_C16"
+    ]
+  },
+  "id": "manchester-road-race-2026",
+  "location": "Manchester, Connecticut, USA",
+  "manualSpans": [],
+  "name": "Manchester Road Race",
+  "officialDistanceMeters": 7623,
+  "processing": {
+    "checkpointSearchRadiusMeters": 150,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 300,
+    "minimumIntervalMeters": 200,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "corridorMeters": 200,
+    "highways": [
+      "trunk",
+      "trunk_link",
+      "primary",
+      "primary_link",
+      "secondary",
+      "secondary_link",
+      "tertiary",
+      "tertiary_link",
+      "unclassified",
+      "residential",
+      "living_street",
+      "service",
+      "pedestrian",
+      "road"
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 3650,
+      "id": "highland-street-hill",
+      "name": "Highland Street hill (miles 1.1–2.3)",
+      "startMeters": 1750
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name": "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url": "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes": "A loop from Main St in front of St. James Church: south on Main St, Charter Oak St, the Highland St hill, Porter St, East Center St and back down Main St, as described in local race guides; the organiser gives the distance as 4.737 miles and publishes no map. Route traced over OpenStreetMap streets; distance calibrated to the finish, with the top of the hill as an ordering check. Elevations from USGS 3DEP lidar (Connecticut statewide, 2016). Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": false
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [
+      "motorway",
+      "motorway_link"
+    ],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}
