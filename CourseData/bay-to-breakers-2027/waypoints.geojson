@@ -1,0 +1,239 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -122.39515,
+          37.789229
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start: Howard St at Fremont St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.413153,
+          37.775
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Howard St & 9th St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.416362,
+          37.777545
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "9th St across Market St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.4186373,
+          37.7774423
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hayes St at Polk St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.4261417,
+          37.7764889
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hayes St at Laguna St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.4314974,
+          37.7758073
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hayes St at Fillmore St (Hayes Street Hill)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.437864,
+          37.774997
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hayes St & Divisadero St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.437676,
+          37.774066
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Divisadero St & Fell St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.446082,
+          37.7729742
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Fell St along the Panhandle"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.454083,
+          37.771492
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Fell St & Stanyan St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.454999,
+          37.771105
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kezar Dr & JFK Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.46205,
+          37.77178
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "JFK Dr at the Conservatory of Flowers"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.47284,
+          37.77087
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "JFK Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.48171,
+          37.77003
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "JFK Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.49648,
+          37.76925
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "JFK Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.50631,
+          37.76668
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "JFK Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.51104,
+          37.77045
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "JFK Dr & Great Highway: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.5104261,
+          37.7670267
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: Great Highway"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

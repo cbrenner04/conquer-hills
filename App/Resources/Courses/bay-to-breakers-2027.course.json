@@ -1,0 +1,333 @@
+{
+  "description" : "From the bay to the breakers: southwest down Howard Street, across Market, then west on Hayes Street and up Hayes Street Hill, about 11% at its steepest between Fillmore and Steiner. Along the Panhandle on Fell Street, then the long gentle descent through Golden Gate Park on JFK Drive to the Great Highway at Ocean Beach. Unofficial.",
+  "developmentOnly" : false,
+  "distanceMeters" : 12000,
+  "edition" : "2027",
+  "elevationProfile" : {
+    "elevationsMeters" : [
+      4.9,
+      6,
+      6.8,
+      7.5,
+      8,
+      8.6,
+      9.3,
+      9.6,
+      9.6,
+      9.5,
+      9.1,
+      8.1,
+      7.4,
+      7.1,
+      6.8,
+      6.6,
+      7,
+      7.4,
+      7.8,
+      8.8,
+      9.4,
+      10.7,
+      13.5,
+      14.9,
+      16.1,
+      16.9,
+      17.9,
+      17.9,
+      17.6,
+      18.1,
+      18.6,
+      19.3,
+      20.2,
+      21.1,
+      22.2,
+      23.6,
+      27.9,
+      33.5,
+      40.5,
+      49.3,
+      58.1,
+      68.2,
+      77.4,
+      74.7,
+      65.3,
+      60.7,
+      58.1,
+      58.5,
+      60.9,
+      63.6,
+      65.1,
+      66.4,
+      67.9,
+      69.3,
+      70.7,
+      72.6,
+      73.3,
+      74,
+      74.9,
+      75.8,
+      76.7,
+      78,
+      76.7,
+      75.5,
+      76.2,
+      74.8,
+      74.8,
+      74.6,
+      74.4,
+      74,
+      73.4,
+      73.2,
+      73.4,
+      74.4,
+      74.3,
+      73.9,
+      72.4,
+      70.4,
+      71.9,
+      74.5,
+      75.4,
+      74.8,
+      75.7,
+      77,
+      75.9,
+      72.3,
+      66.5,
+      61.3,
+      57.4,
+      54.9,
+      53.3,
+      49.7,
+      45.5,
+      42.9,
+      41.5,
+      40.6,
+      39.6,
+      40.5,
+      41.7,
+      39.5,
+      36.3,
+      34,
+      32.1,
+      30,
+      28.6,
+      26.8,
+      25.3,
+      26.1,
+      25.1,
+      24.7,
+      22,
+      17.7,
+      14.9,
+      13.7,
+      12.2,
+      11.4,
+      8.4,
+      8,
+      8.1,
+      8.1,
+      7.9
+    ],
+    "sampleSpacingMeters" : 100
+  },
+  "id" : "bay-to-breakers-2027",
+  "inclineChanges" : [
+    {
+      "atMeters" : 0,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 200,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 600,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 1000,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 1200,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 1500,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 2100,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 2300,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 2600,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 2800,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 3100,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 3500,
+      "inclinePercent" : 5.5
+    },
+    {
+      "atMeters" : 3800,
+      "inclinePercent" : 9
+    },
+    {
+      "atMeters" : 4200,
+      "inclinePercent" : -5
+    },
+    {
+      "atMeters" : 4600,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 4900,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 5600,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 6100,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 6500,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 6800,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 7000,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 7500,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 7700,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 8000,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 8400,
+      "inclinePercent" : -4.5
+    },
+    {
+      "atMeters" : 8800,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 9000,
+      "inclinePercent" : -4
+    },
+    {
+      "atMeters" : 9200,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 9400,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 9600,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 9800,
+      "inclinePercent" : -2.5
+    },
+    {
+      "atMeters" : 10100,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 10600,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 10900,
+      "inclinePercent" : -3.5
+    },
+    {
+      "atMeters" : 11200,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 11600,
+      "inclinePercent" : 0
+    }
+  ],
+  "location" : "San Francisco, California, USA",
+  "name" : "Bay to Breakers",
+  "processing" : {
+    "generatedOn" : "2026-10-24",
+    "parameters" : {
+      "calibrationScales" : "0-12000:1.0029",
+      "elevationProvider" : "usgs3dep",
+      "gradeBlockMeters" : "100",
+      "inclineStepPercent" : "0.5",
+      "minimumIntervalMeters" : "200",
+      "osmStructuresTimestamp" : "2026-10-24T01:34:06Z",
+      "routeSmoothingMeters" : "40",
+      "sampleSpacingMeters" : "10",
+      "smoothingWindowMeters" : "100"
+    },
+    "tool" : "course-tool 0.1.0"
+  },
+  "schemaVersion" : 1,
+  "segments" : [
+    {
+      "endMeters" : 4250,
+      "id" : "hayes-street-hill",
+      "name" : "Hayes Street Hill (miles 2.2–2.6)",
+      "startMeters" : 3500
+    },
+    {
+      "endMeters" : 6250,
+      "id" : "hayes-to-the-park",
+      "name" : "Hayes Street Hill to Golden Gate Park (miles 2.2–3.9)",
+      "startMeters" : 3500
+    }
+  ],
+  "source" : {
+    "attribution" : "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation" : {
+      "kind" : "modeled",
+      "license" : "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name" : "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url" : "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes" : "2026 course: Howard St from Fremont St to 9th St, across Market St, Hayes St (Hayes Street Hill) to Divisadero St, Fell St along the Panhandle, Kezar Dr and JFK Dr through Golden Gate Park, and left onto the Great Highway, as described by the organiser and the City's 2026 road closures. Route traced over OpenStreetMap streets; the finish is placed on the Great Highway where the course measures 12 km, about 380 m south of JFK Dr. No certificate splits are published, so distance is calibrated to the finish. Elevations from USGS 3DEP lidar (San Francisco, 2023), a bare-earth model, so the Crossover Dr bridge over JFK Dr doesn't show. Unofficial.",
+    "route" : {
+      "license" : "ODbL-1.0",
+      "name" : "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url" : "https://www.openstreetmap.org/copyright"
+    },
+    "verified" : false
+  },
+  "stats" : {
+    "elevationGainMeters" : 110.4,
+    "elevationLossMeters" : 107.4,
+    "maximumElevationMeters" : 78.8,
+    "minimumElevationMeters" : 4.9
+  }
+}
