@@ -74,13 +74,15 @@ Used under the Creative Commons Attribution 4.0 International licence (Geoscienc
 
 Affected files: `sydney-marathon-2027/elevation-samples.json`, `sydney-marathon-2027/profiles.json` and `App/Resources/Courses/sydney-marathon-2027.course.json`. Sydney's distances are calibrated to the course's U-turns and finish at the distances the organiser publishes, stored as our own data points.
 
-## U.S. Geological Survey: elevation (Boston, Big Sur, Chicago, New York, Leadville, Blue Ridge, Pikes Peak)
+## U.S. Geological Survey: elevation (Boston, Big Sur, Chicago, New York, Leadville, Blue Ridge, Pikes Peak, and the spec 13 US races)
 
 > Map services and data available from U.S. Geological Survey, National Geospatial Program. Elevation: U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs), processed by Conquer Hills.
 
 3DEP data is in the public domain ("free and in the public domain. There are no restrictions"; https://www.usgs.gov/faqs/what-are-terms-uselicensing-map-services-and-data-national-map). The acknowledgement above is the one USGS requests. The values were processed (interpolated across bridges, smoothed, and converted to grades). Nothing here implies USGS endorsement.
 
-Affected files: `boston-marathon-2027/elevation-samples.json`, `big-sur-marathon-2027/elevation-samples.json`, `chicago-marathon-2026/elevation-samples.json`, `nyc-marathon-2026/elevation-samples.json`, `leadville-trail-marathon-2027/elevation-samples.json`, `blue-ridge-marathon-2026/elevation-samples.json`, `pikes-peak-marathon-2027/elevation-samples.json`, and the matching `App/Resources/Courses/<id>.course.json` files.
+Affected files: `boston-marathon-2027/elevation-samples.json`, `big-sur-marathon-2027/elevation-samples.json`, `chicago-marathon-2026/elevation-samples.json`, `nyc-marathon-2026/elevation-samples.json`, `leadville-trail-marathon-2027/elevation-samples.json`, `blue-ridge-marathon-2026/elevation-samples.json`, `pikes-peak-marathon-2027/elevation-samples.json`, `peachtree-road-race-2027/elevation-samples.json`, `bloomsday-2027/elevation-samples.json`, `bolderboulder-2027/elevation-samples.json`, `bay-to-breakers-2027/elevation-samples.json`, `flying-pig-marathon-2027/elevation-samples.json`, `cooper-river-bridge-run-2027/elevation-samples.json`, and the matching `App/Resources/Courses/<id>.course.json` files.
+
+The Arthur Ravenel Jr. Bridge deck on the Cooper River Bridge Run (`cooper-river-bridge-run-2027/profiles.json`) is modelled, not measured: straight approaches from the measured ground to a 60 m crest over the main span, from the bridge's published navigation clearance (186 ft) and span. Positions come from OpenStreetMap (ODbL).
 
 ### New York City Marathon: bridge decks
 

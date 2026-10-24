@@ -1,0 +1,222 @@
+{
+  "description" : "From Mount Pleasant along Coleman Boulevard and up the Arthur Ravenel Jr. Bridge: a long climb at about 4% to the main span, some 60 m above Charleston Harbor, then down the Meeting Street ramp into Charleston and a flat finish through downtown on King and Meeting streets. Unofficial.",
+  "developmentOnly" : false,
+  "distanceMeters" : 10000,
+  "edition" : "2027",
+  "elevationProfile" : {
+    "elevationsMeters" : [
+      5.7,
+      4.5,
+      3.3,
+      2.5,
+      3.1,
+      4.3,
+      4.2,
+      3.1,
+      2.8,
+      3.5,
+      4.2,
+      4.1,
+      3.4,
+      3,
+      3,
+      3,
+      3.2,
+      3.9,
+      4.1,
+      3.4,
+      2.6,
+      2,
+      2.1,
+      2.1,
+      3.3,
+      6.9,
+      10.6,
+      14.3,
+      18,
+      21.7,
+      25.4,
+      29.1,
+      32.8,
+      36.5,
+      40.2,
+      43.9,
+      47.6,
+      51.3,
+      55,
+      57.8,
+      58.9,
+      59.8,
+      59.1,
+      58,
+      56.4,
+      54.3,
+      52.1,
+      50,
+      47.9,
+      45.7,
+      43.6,
+      41.4,
+      39.3,
+      37.2,
+      35,
+      32.9,
+      30.7,
+      28.6,
+      26.5,
+      24.3,
+      22.2,
+      20,
+      17.9,
+      15.8,
+      13.6,
+      11.5,
+      9.3,
+      7.2,
+      5,
+      3.3,
+      2,
+      1.8,
+      2.1,
+      2.3,
+      2.7,
+      2.5,
+      2.8,
+      2.8,
+      2.7,
+      2.9,
+      3.2,
+      3.3,
+      3.5,
+      3.6,
+      3.8,
+      4,
+      3.7,
+      3.4,
+      3.4,
+      3.8,
+      3.9,
+      4.1,
+      4.1,
+      3.8,
+      3.9,
+      4.2,
+      4,
+      3.7,
+      3.4,
+      3.1,
+      3
+    ],
+    "sampleSpacingMeters" : 100
+  },
+  "id" : "cooper-river-bridge-run-2027",
+  "inclineChanges" : [
+    {
+      "atMeters" : 0,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 300,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 600,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 800,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 1100,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 1300,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 1900,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 2100,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 2400,
+      "inclinePercent" : 3.5
+    },
+    {
+      "atMeters" : 3900,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 4100,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 4400,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 7000,
+      "inclinePercent" : 0
+    }
+  ],
+  "location" : "Mount Pleasant to Charleston, South Carolina, USA",
+  "name" : "Cooper River Bridge Run",
+  "processing" : {
+    "generatedOn" : "2026-10-24",
+    "parameters" : {
+      "calibrationScales" : "0-10000:1.0051",
+      "deckProfiles" : "Arthur Ravenel Jr. Bridge and the Meeting Street ramp",
+      "elevationProvider" : "usgs3dep",
+      "gradeBlockMeters" : "100",
+      "inclineStepPercent" : "0.5",
+      "minimumIntervalMeters" : "200",
+      "osmStructuresTimestamp" : "2026-10-24T02:03:51Z",
+      "routeSmoothingMeters" : "40",
+      "sampleSpacingMeters" : "10",
+      "smoothingWindowMeters" : "100"
+    },
+    "tool" : "course-tool 0.1.0"
+  },
+  "schemaVersion" : 1,
+  "segments" : [
+    {
+      "endMeters" : 7100,
+      "id" : "the-bridge",
+      "name" : "The bridge (miles 1.4–4.4)",
+      "startMeters" : 2300
+    },
+    {
+      "endMeters" : 4200,
+      "id" : "the-climb",
+      "name" : "The climb to the main span (miles 1.4–2.6)",
+      "startMeters" : 2300
+    }
+  ],
+  "source" : {
+    "attribution" : "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation" : {
+      "kind" : "modeled",
+      "license" : "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name" : "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url" : "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes" : "Coleman Blvd from Hibben St, US 17 over the Arthur Ravenel Jr. Bridge, the Meeting Street ramp, Meeting St, Woolfe St, King St, Wentworth St and Meeting St to the finish north of Wentworth St, as on the organiser's course and finish-area maps and its 2027 road-closure list. Route traced over OpenStreetMap streets; no certificate splits are published, so distance is calibrated to the finish (the course measures 10.0 km from Hibben St). Elevations from USGS 3DEP lidar (Charleston 2016); the bridge deck, which bare-earth lidar can't see, is modelled from its published clearance (186 ft) and main span, so the climb is about 3.5% for 1.5 km to a 60 m crest. Unofficial.",
+    "route" : {
+      "license" : "ODbL-1.0",
+      "name" : "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url" : "https://www.openstreetmap.org/copyright"
+    },
+    "verified" : false
+  },
+  "stats" : {
+    "elevationGainMeters" : 66.3,
+    "elevationLossMeters" : 68.9,
+    "maximumElevationMeters" : 59.8,
+    "minimumElevationMeters" : 1.8
+  }
+}

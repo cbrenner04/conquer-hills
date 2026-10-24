@@ -1,0 +1,174 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -79.87647,
+          32.790393
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start: Coleman Blvd at Hibben St, Mount Pleasant"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.88192,
+          32.793817
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Coleman Blvd at Shem Creek"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.892086,
+          32.797584
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "W Coleman Blvd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.90331,
+          32.8014
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "US 17 onto the Ravenel Bridge (southbound roadway)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.91275,
+          32.8027
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ravenel Bridge"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.93648,
+          32.80498
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ravenel Bridge, Charleston side"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.94429,
+          32.80418
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Meeting Street ramp"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.94553,
+          32.80408
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Meeting Street ramp lands on Meeting St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.938508,
+          32.793106
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Meeting St & Woolfe St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.940276,
+          32.791635
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Woolfe St & King St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.934037,
+          32.78244
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "King St & Wentworth St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.931952,
+          32.783309
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Wentworth St & Meeting St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.93215,
+          32.7836
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: Meeting St north of Wentworth St"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
