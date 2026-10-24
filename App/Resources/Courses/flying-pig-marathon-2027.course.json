@@ -788,7 +788,7 @@
       "name" : "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
       "url" : "https://www.openstreetmap.org/copyright"
     },
-    "verified" : false
+    "verified" : true
   },
   "stats" : {
     "elevationGainMeters" : 291.2,
