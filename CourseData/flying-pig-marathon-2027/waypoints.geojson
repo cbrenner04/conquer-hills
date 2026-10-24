@@ -1,0 +1,967 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -84.511896,
+          39.096846
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start: Rosa Parks St north of Freedom Way"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.512164,
+          39.097954
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rosa Parks St & E 2nd St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.505483,
+          39.098299
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "E 2nd St & E Pete Rose Way"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.504197,
+          39.098831
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "E Pete Rose Way: turn right onto the Taylor\u2013Southgate Bridge"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.50354,
+          39.098235
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Taylor\u2013Southgate Bridge"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.498193,
+          39.09361
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Taylor\u2013Southgate Bridge, Newport end"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.497111,
+          39.093566
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Newport: 3rd St roundabout (mile 1)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.500233,
+          39.090699
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "W 3rd St, Newport"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.501537,
+          39.084578
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lowell St (KY 9)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.499793,
+          39.083017
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lowell St & W 9th St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.498488,
+          39.083722
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "W 9th St & Brighton St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.496262,
+          39.08128
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Brighton St & W 11th St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.49797,
+          39.080416
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "W 11th St (Girl Scout Bridge)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.502531,
+          39.07991
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "E 11th St & Prospect Ave, Covington"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.505685,
+          39.079217
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "E 11th St & Greenup St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.507822,
+          39.087534
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Greenup St & E 4th St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.517521,
+          39.086525
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "W 4th St & Clay Wade Bailey Bridge: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.519895,
+          39.093318
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Clay Wade Bailey Bridge"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.521557,
+          39.097318
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Clay Wade Bailey Bridge & W 3rd St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.512351,
+          39.098674
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "W 3rd St & Vine St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.513617,
+          39.10369
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Vine St & 7th St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.504061,
+          39.107197
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Gilbert Ave at Court St (mile 6)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.501001,
+          39.111983
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Gilbert Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.497513,
+          39.116875
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Gilbert Ave & Eden Park Dr: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.493466,
+          39.114862
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Eden Park Dr at Fulton Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.488558,
+          39.117739
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Eden Park Dr & Lake Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.486606,
+          39.120215
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Victory Pkwy"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.484516,
+          39.125551
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Victory Pkwy & E McMillan St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.480534,
+          39.12518
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "E McMillan St & Woodburn Ave: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.476759,
+          39.1296
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Woodburn Ave & Madison Rd: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.463742,
+          39.131856
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Madison Rd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.450965,
+          39.140564
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Madison Rd & Erie Ave: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.43772,
+          39.1391
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Erie Ave, Hyde Park Square"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.43397,
+          39.13871
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Erie Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.42602,
+          39.13806
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Erie Ave at Delta Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.42229,
+          39.1413
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Erie Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.403337,
+          39.150414
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Erie Ave & Murray Rd: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.40232,
+          39.14981
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Murray Rd turnaround"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.403337,
+          39.150414
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Murray Rd & Erie Ave: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.400891,
+          39.15231
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Erie Ave & Bramble Ave: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.385713,
+          39.151223
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bramble Ave & Settle St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.385978,
+          39.148541
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Settle St & Murray Rd: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.375127,
+          39.146639
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Thorndike Rd & Nolen Cir"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.373413,
+          39.146504
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Nolen Cir & Thorndike Rd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.373957,
+          39.145204
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Miami Rd & Wooster Pike: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.374905,
+          39.144891
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Wooster Pike & Madisonville Rd: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.379013,
+          39.147925
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Madisonville Rd & Murray Rd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.385995,
+          39.148393
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Murray Rd & Settle Rd: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.386273,
+          39.145787
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Settle Rd & Hawthorne Ave: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.39105,
+          39.144075
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hawthorne Ave at Lonsdale St (mile 17)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.393567,
+          39.143233
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hawthorne Ave & Southern Ave: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.393989,
+          39.141068
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Columbia Pkwy: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.405026,
+          39.134225
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Columbia Pkwy (bridge by Lunken Airport)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.413132,
+          39.125149
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Eastern Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.413975,
+          39.124271
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Eastern Ave at Heekin Ave (mile 19)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.4164127,
+          39.1215895
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Eastern Ave at Linwood Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.420189,
+          39.115921
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Eastern Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.42642,
+          39.109305
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Eastern Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.429796,
+          39.107441
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Eastern Ave by the river (mile 20)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.434687,
+          39.110789
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Eastern Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.43817,
+          39.114365
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Eastern Ave & Stanley Ave: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.440133,
+          39.113597
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Stanley Ave & Kellogg Ave: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.440708,
+          39.116665
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kellogg Ave & Riverside Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.447446,
+          39.120277
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Riverside Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.450024,
+          39.121431
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Riverside Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.4575894,
+          39.1231627
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Riverside Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.465905,
+          39.123996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Riverside Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.474049,
+          39.122029
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Riverside Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.4818764,
+          39.1184848
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Riverside Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.488085,
+          39.113248
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Riverside Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.492951,
+          39.106879
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Riverside Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.496504,
+          39.103538
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Riverside Dr & E Pete Rose Way"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.502993,
+          39.099583
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "E Pete Rose Way & E Mehring Way: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.51148,
+          39.09572
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: Mehring Way at the first crosswalk west of the Roebling Bridge overpass"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

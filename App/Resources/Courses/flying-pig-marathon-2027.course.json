@@ -1,0 +1,799 @@
+{
+  "description" : "Downtown Cincinnati over the Ohio River into Newport and Covington, Kentucky, and back over the Clay Wade Bailey Bridge; then the long climb up Gilbert Avenue through Eden Park, out through Hyde Park and Mariemont on the ridge, and down Columbia Parkway and Eastern Avenue to the river for the flat finish along Riverside Drive. Unofficial.",
+  "developmentOnly" : false,
+  "distanceMeters" : 42195,
+  "edition" : "2027",
+  "elevationProfile" : {
+    "elevationsMeters" : [
+      156.3,
+      156.4,
+      155.3,
+      154.1,
+      152.8,
+      151.6,
+      150.4,
+      150.1,
+      152.1,
+      153,
+      152.7,
+      152.6,
+      152.4,
+      152.3,
+      152.2,
+      152,
+      151.8,
+      152.1,
+      149.9,
+      148.7,
+      147.8,
+      146.9,
+      147.3,
+      148.2,
+      148.2,
+      147.7,
+      147.6,
+      149.1,
+      150,
+      150,
+      150.2,
+      149.9,
+      148.8,
+      149.3,
+      150.1,
+      151.4,
+      152.5,
+      153.1,
+      153.5,
+      153.9,
+      154.3,
+      153.7,
+      151.9,
+      156.1,
+      159.4,
+      160.4,
+      159.1,
+      157.3,
+      155.8,
+      154.4,
+      154.3,
+      156.9,
+      157.1,
+      157,
+      156.9,
+      155.1,
+      154.4,
+      153.6,
+      152.8,
+      151.7,
+      151.8,
+      152.1,
+      152.2,
+      154.7,
+      154.7,
+      154.6,
+      154.5,
+      154.4,
+      154.2,
+      154.1,
+      154,
+      153.9,
+      153.8,
+      153.6,
+      153.5,
+      154.2,
+      154.9,
+      155.4,
+      156.1,
+      156.7,
+      156.4,
+      156.3,
+      158.1,
+      164.1,
+      166.8,
+      167.9,
+      168.7,
+      168.3,
+      167.9,
+      167.6,
+      167.5,
+      166.4,
+      166.4,
+      166.3,
+      167.1,
+      167.7,
+      166,
+      165.5,
+      166.5,
+      168.1,
+      172.1,
+      177.3,
+      182.5,
+      186.3,
+      188.8,
+      190.7,
+      193,
+      197.3,
+      202.7,
+      207.5,
+      212.7,
+      215.3,
+      213.2,
+      211.7,
+      210.8,
+      212.5,
+      216.4,
+      216.7,
+      219.1,
+      223.2,
+      228.4,
+      234.4,
+      238.2,
+      237.5,
+      234.6,
+      233.6,
+      234.9,
+      236.4,
+      236.9,
+      237,
+      236.7,
+      238.8,
+      242.3,
+      246.5,
+      248.4,
+      249.5,
+      250.1,
+      250.4,
+      249.6,
+      248.9,
+      248.1,
+      247.2,
+      246.5,
+      246.3,
+      247.3,
+      246.4,
+      243.4,
+      240.4,
+      237.4,
+      234.9,
+      233.9,
+      233.6,
+      236.1,
+      234.5,
+      230.5,
+      228.3,
+      229.1,
+      230.7,
+      233.7,
+      233.3,
+      229.3,
+      225.3,
+      223.2,
+      226.2,
+      229.5,
+      228.1,
+      224.6,
+      220.7,
+      216.8,
+      213,
+      209.9,
+      207.3,
+      205.5,
+      204.8,
+      206.8,
+      205.9,
+      202.8,
+      201.6,
+      201.9,
+      202.2,
+      202.7,
+      203.2,
+      203.7,
+      205.6,
+      209.2,
+      212.4,
+      213.8,
+      215.2,
+      216.6,
+      218,
+      219.3,
+      220.8,
+      224.1,
+      226.8,
+      224.1,
+      222.4,
+      211.7,
+      206.4,
+      204.5,
+      202.8,
+      201.3,
+      199.6,
+      197.9,
+      196.1,
+      193.3,
+      190.4,
+      188,
+      185.2,
+      182.3,
+      179.7,
+      177,
+      174.4,
+      171.7,
+      169,
+      166.3,
+      164.1,
+      166.3,
+      170.4,
+      172.2,
+      172.9,
+      173.3,
+      173.2,
+      175,
+      178.4,
+      181.9,
+      184.3,
+      183.6,
+      179.7,
+      178.3,
+      179.9,
+      176.6,
+      173.8,
+      172.3,
+      171.2,
+      170.3,
+      168.6,
+      167.7,
+      171.6,
+      176,
+      175.1,
+      175.7,
+      176.8,
+      176.2,
+      177.4,
+      178,
+      178,
+      177.9,
+      177.6,
+      177.3,
+      176.8,
+      177.2,
+      177.9,
+      178.3,
+      178.2,
+      178.3,
+      178.3,
+      177.6,
+      176.8,
+      177.1,
+      177.5,
+      177.9,
+      177.8,
+      177.6,
+      177.4,
+      177.1,
+      177.1,
+      176.6,
+      176.3,
+      177.1,
+      177.3,
+      177.4,
+      177.7,
+      175.8,
+      174.1,
+      173.1,
+      173.9,
+      174.4,
+      174,
+      174.6,
+      172.6,
+      171.1,
+      169.5,
+      168.1,
+      166.6,
+      164.8,
+      163.6,
+      163.2,
+      163.7,
+      164.8,
+      166.1,
+      167.4,
+      168.1,
+      167.6,
+      165.8,
+      163.1,
+      160.5,
+      159.3,
+      159.2,
+      159.5,
+      159.8,
+      159.8,
+      158.4,
+      155.5,
+      154.6,
+      157.4,
+      157.9,
+      157.6,
+      157.8,
+      157.4,
+      156.7,
+      155.8,
+      155.2,
+      154.4,
+      154.6,
+      157,
+      159.5,
+      161.6,
+      162.8,
+      162.7,
+      161.3,
+      161.1,
+      161.9,
+      162.4,
+      162.9,
+      163.6,
+      165.2,
+      165.3,
+      164.5,
+      163.8,
+      163,
+      161.6,
+      159.4,
+      157.7,
+      156.4,
+      155.7,
+      155.8,
+      155.7,
+      155.2,
+      154.3,
+      152.4,
+      151.1,
+      149.7,
+      149.3,
+      150.3,
+      151.3,
+      152.4,
+      153.2,
+      152.3,
+      151.6,
+      151.6,
+      151.6,
+      151.5,
+      151.6,
+      151.5,
+      151.7,
+      151.5,
+      152.5,
+      154.2,
+      154.8,
+      154.3,
+      152.7,
+      151.5,
+      151.6,
+      152.7,
+      152.9,
+      152,
+      151.5,
+      151.6,
+      151.5,
+      151.7,
+      151.5,
+      151.6,
+      151.4,
+      151.5,
+      151.6,
+      153.3,
+      154.3,
+      154,
+      153.6,
+      153.2,
+      153.7,
+      153.7,
+      153.7,
+      154.9,
+      156.8,
+      156.3,
+      155.3,
+      154.2,
+      156.9,
+      159.7,
+      160.8,
+      160.6,
+      159.2,
+      157.1,
+      155.2,
+      153.2,
+      151.3,
+      150.5,
+      150.9,
+      151.3,
+      151.9,
+      151.7,
+      151.6,
+      150.7,
+      151,
+      154.9,
+      154.6,
+      152,
+      149.8,
+      151,
+      152.9,
+      153.8,
+      152.3,
+      149.8,
+      148.8,
+      148.8,
+      148.7,
+      149.4,
+      149.8,
+      149.9,
+      149.7,
+      148.3,
+      148.6
+    ],
+    "sampleSpacingMeters" : 100
+  },
+  "id" : "flying-pig-marathon-2027",
+  "inclineChanges" : [
+    {
+      "atMeters" : 0,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 700,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 1700,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 2100,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 2800,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 3200,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 3600,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 4200,
+      "inclinePercent" : 3
+    },
+    {
+      "atMeters" : 4500,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 5000,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 5400,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 5900,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 6300,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 7400,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 8200,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 8600,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 9900,
+      "inclinePercent" : 4.5
+    },
+    {
+      "atMeters" : 10300,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 10600,
+      "inclinePercent" : 4.5
+    },
+    {
+      "atMeters" : 11100,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 11400,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 11800,
+      "inclinePercent" : 5
+    },
+    {
+      "atMeters" : 12200,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 12500,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 13000,
+      "inclinePercent" : 3
+    },
+    {
+      "atMeters" : 13400,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 13700,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 14500,
+      "inclinePercent" : -3
+    },
+    {
+      "atMeters" : 14900,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 15500,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 15900,
+      "inclinePercent" : -3.5
+    },
+    {
+      "atMeters" : 16200,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 16600,
+      "inclinePercent" : -4
+    },
+    {
+      "atMeters" : 16900,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 17700,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 18300,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 19500,
+      "inclinePercent" : -3.5
+    },
+    {
+      "atMeters" : 20300,
+      "inclinePercent" : -3
+    },
+    {
+      "atMeters" : 20800,
+      "inclinePercent" : -2.5
+    },
+    {
+      "atMeters" : 21500,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 21800,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 22200,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 22600,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 23100,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 23600,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 24400,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 24900,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 25200,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 26700,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 27100,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 27400,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 27800,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 28600,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 29200,
+      "inclinePercent" : -2.5
+    },
+    {
+      "atMeters" : 29500,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 30300,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 30700,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 31300,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 31600,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 32000,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 32600,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 33400,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 33800,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 34200,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 34600,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 35500,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 35800,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 36200,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 37600,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 37900,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 38400,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 38700,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 39100,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 39700,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 40800,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 41100,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 41400,
+      "inclinePercent" : 0
+    }
+  ],
+  "location" : "Cincinnati, Ohio, USA",
+  "name" : "Flying Pig Marathon",
+  "processing" : {
+    "generatedOn" : "2026-10-24",
+    "parameters" : {
+      "calibrationScales" : "0-9656:0.9692 9656-27359:1.0101 27359-30914:1.0104 30914-42195:0.9978",
+      "elevationProvider" : "usgs3dep",
+      "gradeBlockMeters" : "100",
+      "inclineStepPercent" : "0.5",
+      "minimumIntervalMeters" : "300",
+      "osmStructuresTimestamp" : "2026-10-24T01:53:27Z",
+      "routeSmoothingMeters" : "40",
+      "sampleSpacingMeters" : "10",
+      "smoothingWindowMeters" : "100"
+    },
+    "tool" : "course-tool 0.1.0"
+  },
+  "schemaVersion" : 1,
+  "segments" : [
+    {
+      "endMeters" : 13700,
+      "id" : "eden-park-climb",
+      "name" : "Eden Park climb (miles 6–8.5)",
+      "startMeters" : 9700
+    },
+    {
+      "endMeters" : 19300,
+      "id" : "gilbert-to-hyde-park",
+      "name" : "Gilbert Avenue to Hyde Park (miles 6–12)",
+      "startMeters" : 9700
+    }
+  ],
+  "source" : {
+    "attribution" : "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation" : {
+      "kind" : "modeled",
+      "license" : "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name" : "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url" : "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes" : "2026 course, certified as OH26004JHP: Rosa Parks St, the Taylor–Southgate Bridge to Newport, KY 9, the 11th St bridge to Covington, Greenup St, the Clay Wade Bailey Bridge, 3rd St, Vine St, 7th St, Gilbert Ave, Eden Park, Victory Pkwy, Madison Rd, Erie Ave (with the Murray Rd turnaround), Mariemont, Columbia Pkwy, Eastern Ave, Kellogg Ave, Riverside Dr and Mehring Way. Route traced over OpenStreetMap streets in race order; distances calibrated to the certificate's mile 6 (Gilbert Ave at Court St) and mile 17 (Hawthorne Ave at Lonsdale St), the relay exchange at Eastern Ave and Linwood Ave, and the finish. Elevations from USGS 3DEP lidar (Ohio 2021, Kentucky 2008 and 2022); the river bridges are interpolated. Unofficial.",
+    "route" : {
+      "license" : "ODbL-1.0",
+      "name" : "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url" : "https://www.openstreetmap.org/copyright"
+    },
+    "verified" : false
+  },
+  "stats" : {
+    "elevationGainMeters" : 291.2,
+    "elevationLossMeters" : 298.9,
+    "maximumElevationMeters" : 250.5,
+    "minimumElevationMeters" : 146.9
+  }
+}

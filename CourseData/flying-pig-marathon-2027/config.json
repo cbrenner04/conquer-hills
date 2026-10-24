@@ -1,0 +1,229 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 160,
+      "min": 152,
+      "name": "Start elevation 152–160 m (lidar 156 m on the Banks street deck; the certificate gives 149 m, likely from older maps)"
+    },
+    {
+      "atMeters": 42195,
+      "kind": "elevationAt",
+      "max": 152,
+      "min": 145,
+      "name": "Finish elevation 145–152 m (certificate 148 m)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 256,
+      "name": "Highest point ≤ 256 m (certificate 251 m)"
+    },
+    {
+      "atMeters": 13600,
+      "kind": "elevationAt",
+      "max": 256,
+      "min": 244,
+      "name": "Top of the Eden Park climb (Victory Pkwy) 244–256 m (certificate highest point 251 m)"
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 144,
+      "name": "Lowest point ≥ 144 m (certificate 147 m; catches the Ohio, Licking and Little Miami bridges reading the water)"
+    },
+    {
+      "fromMeters": 13600,
+      "kind": "drop",
+      "max": 95,
+      "min": 70,
+      "name": "Gilbert Ave and Eden Park climb 70–95 m (lidar +84 m)",
+      "toMeters": 9800
+    },
+    {
+      "fromMeters": 9800,
+      "kind": "climb",
+      "min": 4,
+      "name": "The Gilbert Ave and Eden Park climb survives as a climb of ≥ +4%",
+      "toMeters": 12300
+    },
+    {
+      "fromMeters": 0,
+      "kind": "maximumIncline",
+      "max": 3.5,
+      "name": "Kentucky and the bridges (start to mile 5): no climb above +3.5% (the steepest is the ~7 m pull off the 11th St bridge into Covington; river bridges interpolated)",
+      "toMeters": 8000
+    },
+    {
+      "fromMeters": 33800,
+      "kind": "maximumIncline",
+      "max": 1.5,
+      "name": "Riverside Dr to the finish (mile 21 on): no climb above +1.5%",
+      "toMeters": 42195
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 7,
+      "name": "Steepest incline within ±7%"
+    },
+    {
+      "kind": "gain",
+      "max": 340,
+      "min": 250,
+      "name": "Gain 250–340 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "loss",
+      "max": 345,
+      "min": 255,
+      "name": "Loss 255–345 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 39.093566,
+        "longitude": -84.497111
+      },
+      "name": "Mile 1: the roundabout at the Newport end of the Taylor–Southgate Bridge (certificate)",
+      "officialMeters": 1609
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 39.107197,
+        "longitude": -84.504061
+      },
+      "name": "Mile 6: Gilbert Ave at Court St (certificate)",
+      "officialMeters": 9656
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 39.144075,
+        "longitude": -84.39105
+      },
+      "name": "Mile 17: Hawthorne Ave at Lonsdale St (certificate)",
+      "officialMeters": 27359
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 39.1215895,
+        "longitude": -84.4164127
+      },
+      "name": "Relay exchange 3: Eastern Ave at Linwood Ave (19.21 mi on the organiser map)",
+      "officialMeters": 30914
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 39.09572,
+        "longitude": -84.51148
+      },
+      "name": "Finish: Mehring Way at the first crosswalk west of the Roebling Bridge overpass",
+      "officialMeters": 42195
+    }
+  ],
+  "description": "Downtown Cincinnati over the Ohio River into Newport and Covington, Kentucky, and back over the Clay Wade Bailey Bridge; then the long climb up Gilbert Avenue through Eden Park, out through Hyde Park and Mariemont on the ridge, and down Columbia Parkway and Eastern Avenue to the river for the flat finish along Riverside Drive. Unofficial.",
+  "edition": "2027",
+  "elevation": {
+    "provider": "usgs3dep",
+    "trustedSources": [
+      "OH_Statewide_Phase3_2021_B21",
+      "KY_WesternKY_A22",
+      "ned19_n39x25_w084x50_ky_kentoncampbellco_2008",
+      "ned19_n39x25_w084x75_ky_kentoncampbellco_2008"
+    ]
+  },
+  "id": "flying-pig-marathon-2027",
+  "location": "Cincinnati, Ohio, USA",
+  "manualSpans": [],
+  "name": "Flying Pig Marathon",
+  "officialDistanceMeters": 42195,
+  "processing": {
+    "checkpointSearchRadiusMeters": 150,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 300,
+    "minimumIntervalMeters": 300,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "corridorMeters": 200,
+    "highways": [
+      "trunk",
+      "trunk_link",
+      "primary",
+      "primary_link",
+      "secondary",
+      "secondary_link",
+      "tertiary",
+      "tertiary_link",
+      "unclassified",
+      "residential",
+      "living_street",
+      "service",
+      "pedestrian",
+      "road",
+      "motorway",
+      "motorway_link"
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 13700,
+      "id": "eden-park-climb",
+      "name": "Eden Park climb (miles 6–8.5)",
+      "startMeters": 9700
+    },
+    {
+      "endMeters": 19300,
+      "id": "gilbert-to-hyde-park",
+      "name": "Gilbert Avenue to Hyde Park (miles 6–12)",
+      "startMeters": 9700
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name": "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url": "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes": "2026 course, certified as OH26004JHP: Rosa Parks St, the Taylor–Southgate Bridge to Newport, KY 9, the 11th St bridge to Covington, Greenup St, the Clay Wade Bailey Bridge, 3rd St, Vine St, 7th St, Gilbert Ave, Eden Park, Victory Pkwy, Madison Rd, Erie Ave (with the Murray Rd turnaround), Mariemont, Columbia Pkwy, Eastern Ave, Kellogg Ave, Riverside Dr and Mehring Way. Route traced over OpenStreetMap streets in race order; distances calibrated to the certificate's mile 6 (Gilbert Ave at Court St) and mile 17 (Hawthorne Ave at Lonsdale St), the relay exchange at Eastern Ave and Linwood Ave, and the finish. Elevations from USGS 3DEP lidar (Ohio 2021, Kentucky 2008 and 2022); the river bridges are interpolated. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": false
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}
