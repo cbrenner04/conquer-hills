@@ -1,0 +1,328 @@
+{
+  "description" : "Straight up Brady Street Hill from the gun, about a third of a mile at 7–9%, then out along the Kirkwood Boulevard rollers, up Jersey Ridge Road and down McClellan Boulevard to a turnaround at River Drive, and back the same way to a downhill finish downtown. Unofficial.",
+  "developmentOnly" : false,
+  "distanceMeters" : 11265,
+  "edition" : "2027",
+  "elevationProfile" : {
+    "elevationsMeters" : [
+      178.3,
+      180.1,
+      184.1,
+      191.5,
+      199.1,
+      206.4,
+      213,
+      215.5,
+      216.1,
+      215.9,
+      216.3,
+      217,
+      216.9,
+      216.4,
+      215.6,
+      214.7,
+      214.7,
+      214.9,
+      215.1,
+      215.2,
+      215,
+      215.2,
+      214,
+      210.7,
+      209.4,
+      210.6,
+      208.7,
+      206.8,
+      202.2,
+      195.2,
+      191.9,
+      191,
+      190.2,
+      189.4,
+      188.6,
+      187.5,
+      186.3,
+      184.6,
+      182.9,
+      181.8,
+      180.9,
+      179.2,
+      179.1,
+      181.4,
+      184.8,
+      191.4,
+      200,
+      198.1,
+      191.9,
+      189.3,
+      186.7,
+      184.6,
+      181.9,
+      178.3,
+      176.5,
+      178.2,
+      181.8,
+      184.5,
+      186.6,
+      189.3,
+      191.8,
+      197.3,
+      201,
+      192.7,
+      185.9,
+      181.9,
+      179.5,
+      178.9,
+      180.7,
+      181.6,
+      182.6,
+      184.3,
+      186.1,
+      187.3,
+      188.5,
+      189.3,
+      190.1,
+      190.9,
+      191.8,
+      194.1,
+      201.2,
+      206.1,
+      208.4,
+      210.4,
+      209.7,
+      210,
+      213.7,
+      215.1,
+      215,
+      215.1,
+      215.1,
+      214.9,
+      214.8,
+      214.6,
+      215.5,
+      216.3,
+      216.8,
+      217.1,
+      216.5,
+      215.9,
+      216.1,
+      215.6,
+      213.8,
+      207.7,
+      200.4,
+      192.9,
+      185.3,
+      180.4,
+      178.6,
+      176.7,
+      175.1,
+      174.1,
+      173.3,
+      172.9
+    ],
+    "sampleSpacingMeters" : 100
+  },
+  "id" : "bix-7-2027",
+  "inclineChanges" : [
+    {
+      "atMeters" : 0,
+      "inclinePercent" : 3
+    },
+    {
+      "atMeters" : 200,
+      "inclinePercent" : 7
+    },
+    {
+      "atMeters" : 600,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 800,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 1300,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 1500,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 2200,
+      "inclinePercent" : -2.5
+    },
+    {
+      "atMeters" : 2400,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 2700,
+      "inclinePercent" : -5
+    },
+    {
+      "atMeters" : 3000,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 3600,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 3800,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 4200,
+      "inclinePercent" : 3
+    },
+    {
+      "atMeters" : 4400,
+      "inclinePercent" : 7.5
+    },
+    {
+      "atMeters" : 4600,
+      "inclinePercent" : -4
+    },
+    {
+      "atMeters" : 4800,
+      "inclinePercent" : -2.5
+    },
+    {
+      "atMeters" : 5400,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 6000,
+      "inclinePercent" : 4.5
+    },
+    {
+      "atMeters" : 6200,
+      "inclinePercent" : -7.5
+    },
+    {
+      "atMeters" : 6400,
+      "inclinePercent" : -3
+    },
+    {
+      "atMeters" : 6600,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 6800,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 7000,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 7200,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 7900,
+      "inclinePercent" : 6
+    },
+    {
+      "atMeters" : 8100,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 8300,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 8500,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 8700,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 9300,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 9500,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 9700,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 10200,
+      "inclinePercent" : -6.5
+    },
+    {
+      "atMeters" : 10700,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 11000,
+      "inclinePercent" : -1
+    }
+  ],
+  "location" : "Davenport, Iowa, USA",
+  "name" : "Bix 7",
+  "processing" : {
+    "generatedOn" : "2026-10-24",
+    "parameters" : {
+      "calibrationScales" : "0-11265:0.9878",
+      "elevationProvider" : "usgs3dep",
+      "gradeBlockMeters" : "100",
+      "inclineStepPercent" : "0.5",
+      "minimumIntervalMeters" : "200",
+      "osmStructuresTimestamp" : "2026-10-24T02:12:51Z",
+      "routeSmoothingMeters" : "40",
+      "sampleSpacingMeters" : "10",
+      "smoothingWindowMeters" : "100"
+    },
+    "tool" : "course-tool 0.1.0"
+  },
+  "schemaVersion" : 1,
+  "segments" : [
+    {
+      "endMeters" : 1000,
+      "id" : "brady-street-hill",
+      "name" : "Brady Street hill (mile 0–0.6)",
+      "startMeters" : 0
+    },
+    {
+      "endMeters" : 5500,
+      "id" : "out-to-the-turnaround",
+      "name" : "Out to the turnaround (miles 0–3.4)",
+      "startMeters" : 0
+    },
+    {
+      "endMeters" : 6600,
+      "id" : "mcclellan-heights",
+      "name" : "McClellan Heights and back (miles 2.6–4.1)",
+      "startMeters" : 4200
+    }
+  ],
+  "source" : {
+    "attribution" : "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation" : {
+      "kind" : "modeled",
+      "license" : "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name" : "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url" : "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes" : "Brady St from 4th St up Brady Street Hill, Kirkwood Blvd, Jersey Ridge Rd, Middle Rd and McClellan Blvd to a turnaround at River Dr, back the same way, and left onto 3rd St to the finish near Iowa St, as described by the organiser and on its course and start-line maps. Route traced over OpenStreetMap streets; the course is USATF-certified but no splits are published, so distance is calibrated to the finish (OSM traces about 1% long on the curves of Kirkwood and McClellan). Elevations from USGS 3DEP lidar (Iowa 2008 and 2019, Illinois 2019); the railroad underpass on Brady St is interpolated. Unofficial.",
+    "route" : {
+      "license" : "ODbL-1.0",
+      "name" : "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url" : "https://www.openstreetmap.org/copyright"
+    },
+    "verified" : false
+  },
+  "stats" : {
+    "elevationGainMeters" : 130.6,
+    "elevationLossMeters" : 135.9,
+    "maximumElevationMeters" : 217.1,
+    "minimumElevationMeters" : 172.9
+  }
+}

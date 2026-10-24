@@ -1,0 +1,239 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -90.57409,
+          41.5233
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start: Brady St just south of 4th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -90.574057,
+          41.534907
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Brady St & 15th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -90.574074,
+          41.536105
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Brady St & Kirkwood Blvd: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -90.56,
+          41.5355
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kirkwood Blvd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -90.543398,
+          41.53258
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kirkwood Blvd & Jersey Ridge Rd: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -90.542789,
+          41.533809
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Jersey Ridge Rd & Middle Rd: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -90.540005,
+          41.53435
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Middle Rd & McClellan Blvd: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -90.53688,
+          41.53177
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "McClellan Blvd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -90.538253,
+          41.528727
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Turnaround: McClellan Blvd at River Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -90.53743,
+          41.53286
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "McClellan Blvd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -90.53932,
+          41.53438
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "McClellan Blvd & Middle Rd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -90.542789,
+          41.533809
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Middle Rd & Jersey Ridge Rd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -90.543398,
+          41.53258
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Jersey Ridge Rd & Kirkwood Blvd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -90.56,
+          41.5355
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kirkwood Blvd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -90.574074,
+          41.536105
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kirkwood Blvd & Brady St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -90.574057,
+          41.534907
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Brady St & 15th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -90.574082,
+          41.522427
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Brady St & 3rd St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -90.569709,
+          41.522401
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: 3rd St at Iowa St"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

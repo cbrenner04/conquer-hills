@@ -1,0 +1,193 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 182,
+      "min": 175,
+      "name": "Start elevation 175–182 m (Brady St at 4th St; lidar 178 m)"
+    },
+    {
+      "atMeters": 11265,
+      "kind": "elevationAt",
+      "max": 177,
+      "min": 170,
+      "name": "Finish elevation 170–177 m (3rd St; lidar 173 m)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 221,
+      "min": 213,
+      "name": "Highest point 213–221 m (the top of Brady St and Kirkwood Blvd)"
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 168,
+      "name": "Lowest point ≥ 168 m"
+    },
+    {
+      "fromMeters": 800,
+      "kind": "drop",
+      "max": 44,
+      "min": 32,
+      "name": "Brady Street Hill rises 32–44 m in the first half-mile (lidar +38 m)",
+      "toMeters": 0
+    },
+    {
+      "fromMeters": 0,
+      "kind": "climb",
+      "min": 6,
+      "name": "Brady Street Hill survives as a climb of ≥ +6% (the organiser: \"about a 7 to 9% grade … for around one third of a mile\")",
+      "toMeters": 700
+    },
+    {
+      "fromMeters": 4200,
+      "kind": "climb",
+      "min": 6,
+      "name": "Jersey Ridge Rd up to McClellan Heights survives as a climb of ≥ +6%",
+      "toMeters": 4700
+    },
+    {
+      "fromMeters": 5400,
+      "kind": "climb",
+      "min": 3.5,
+      "name": "The climb back up McClellan Blvd from the turnaround survives as ≥ +3.5%",
+      "toMeters": 6300
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 10,
+      "name": "Steepest incline within ±10%"
+    },
+    {
+      "kind": "gain",
+      "max": 155,
+      "min": 110,
+      "name": "Gain 110–155 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "loss",
+      "max": 160,
+      "min": 115,
+      "name": "Loss 115–160 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 41.522401,
+        "longitude": -90.569709
+      },
+      "name": "Finish: 3rd St at Iowa St",
+      "officialMeters": 11265
+    }
+  ],
+  "description": "Straight up Brady Street Hill from the gun, about a third of a mile at 7–9%, then out along the Kirkwood Boulevard rollers, up Jersey Ridge Road and down McClellan Boulevard to a turnaround at River Drive, and back the same way to a downhill finish downtown. Unofficial.",
+  "edition": "2027",
+  "elevation": {
+    "provider": "usgs3dep",
+    "trustedSources": [
+      "IA_EasternIA_2019_B19",
+      "IL_8County_PlusChampaign_2019_B19",
+      "ned19_n41x75_w090x75_ia_central_eastcentral_2008"
+    ]
+  },
+  "id": "bix-7-2027",
+  "location": "Davenport, Iowa, USA",
+  "manualSpans": [],
+  "name": "Bix 7",
+  "officialDistanceMeters": 11265,
+  "processing": {
+    "checkpointSearchRadiusMeters": 150,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 300,
+    "minimumIntervalMeters": 200,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "corridorMeters": 200,
+    "highways": [
+      "trunk",
+      "trunk_link",
+      "primary",
+      "primary_link",
+      "secondary",
+      "secondary_link",
+      "tertiary",
+      "tertiary_link",
+      "unclassified",
+      "residential",
+      "living_street",
+      "service",
+      "pedestrian",
+      "road"
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 1000,
+      "id": "brady-street-hill",
+      "name": "Brady Street hill (mile 0–0.6)",
+      "startMeters": 0
+    },
+    {
+      "endMeters": 5500,
+      "id": "out-to-the-turnaround",
+      "name": "Out to the turnaround (miles 0–3.4)",
+      "startMeters": 0
+    },
+    {
+      "endMeters": 6600,
+      "id": "mcclellan-heights",
+      "name": "McClellan Heights and back (miles 2.6–4.1)",
+      "startMeters": 4200
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name": "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url": "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes": "Brady St from 4th St up Brady Street Hill, Kirkwood Blvd, Jersey Ridge Rd, Middle Rd and McClellan Blvd to a turnaround at River Dr, back the same way, and left onto 3rd St to the finish near Iowa St, as described by the organiser and on its course and start-line maps. Route traced over OpenStreetMap streets; the course is USATF-certified but no splits are published, so distance is calibrated to the finish (OSM traces about 1% long on the curves of Kirkwood and McClellan). Elevations from USGS 3DEP lidar (Iowa 2008 and 2019, Illinois 2019); the railroad underpass on Brady St is interpolated. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": false
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [
+      "motorway",
+      "motorway_link"
+    ],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}
