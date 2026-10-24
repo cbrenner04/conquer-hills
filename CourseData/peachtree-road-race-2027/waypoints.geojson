@@ -1,0 +1,109 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -84.364376,
+          33.8490573
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start: Peachtree Rd in front of Lenox Square"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.3765481,
+          33.8406398
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Peachtree Rd near E Paces Ferry Rd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.3863605,
+          33.8306155
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Peachtree Rd, Peachtree Heights"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.3897435,
+          33.8168795
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Peachtree Rd, Cardiac Hill"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.3934416,
+          33.8043401
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Peachtree Rd/St at Brookwood"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.3871832,
+          33.7937792
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Peachtree St, Ansley Park"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.38392,
+          33.7817082
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Peachtree St & 10th St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.3728165,
+          33.7817889
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: 10th St at Charles Allen Dr"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

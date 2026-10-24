@@ -1,0 +1,281 @@
+{
+  "description" : "Lenox Square to Midtown down Peachtree Road: a mostly downhill first half to Peachtree Creek, then Cardiac Hill, about 37 m in 0.7 miles to Piedmont Hospital, small rolls into Midtown, and a slight descent along 10th Street to the finish by Piedmont Park. The world's largest 10K, run every Fourth of July. Unofficial.",
+  "developmentOnly" : false,
+  "distanceMeters" : 10000,
+  "edition" : "2027",
+  "elevationProfile" : {
+    "elevationsMeters" : [
+      299.9,
+      300.1,
+      301.2,
+      302.2,
+      303.3,
+      304.4,
+      305.5,
+      306.8,
+      308.2,
+      309.4,
+      309.2,
+      309,
+      309.5,
+      310.1,
+      310.3,
+      309.7,
+      309.9,
+      309.4,
+      306.8,
+      305.5,
+      304.8,
+      303.7,
+      301.5,
+      299.1,
+      297.3,
+      296,
+      294.7,
+      293.5,
+      292.6,
+      291.6,
+      289.6,
+      287.1,
+      284.5,
+      281.7,
+      279,
+      276.3,
+      273.7,
+      271.3,
+      269,
+      266.7,
+      263,
+      259,
+      255,
+      251.1,
+      247.9,
+      247.3,
+      248,
+      251.2,
+      255.4,
+      259.2,
+      261,
+      262.1,
+      263.2,
+      265.8,
+      270.5,
+      275.5,
+      280.3,
+      283.8,
+      283.4,
+      280.4,
+      277.5,
+      275.8,
+      276.1,
+      274.9,
+      272.8,
+      272.4,
+      272.6,
+      271.6,
+      273.3,
+      277,
+      280.6,
+      282.5,
+      282.6,
+      284.6,
+      286.8,
+      286.4,
+      284.7,
+      284.3,
+      285.5,
+      287.6,
+      290.3,
+      293.4,
+      295.7,
+      296.9,
+      296.4,
+      295.8,
+      297.1,
+      296.5,
+      294.8,
+      293.2,
+      292.8,
+      289.2,
+      285.9,
+      286,
+      287.9,
+      287.1,
+      283.9,
+      281.9,
+      281.2,
+      278.3,
+      273.7
+    ],
+    "sampleSpacingMeters" : 100
+  },
+  "id" : "peachtree-road-race-2027",
+  "inclineChanges" : [
+    {
+      "atMeters" : 0,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 600,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 900,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 1100,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 1400,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 1700,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 1900,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 2100,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 2400,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 2600,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 2900,
+      "inclinePercent" : -2.5
+    },
+    {
+      "atMeters" : 3900,
+      "inclinePercent" : -4
+    },
+    {
+      "atMeters" : 4400,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 4600,
+      "inclinePercent" : 4
+    },
+    {
+      "atMeters" : 4900,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 5300,
+      "inclinePercent" : 4.5
+    },
+    {
+      "atMeters" : 5700,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 6100,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 6800,
+      "inclinePercent" : 3
+    },
+    {
+      "atMeters" : 7100,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 7400,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 7700,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 7900,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 8300,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 8700,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 9000,
+      "inclinePercent" : -3.5
+    },
+    {
+      "atMeters" : 9200,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 9500,
+      "inclinePercent" : -2.5
+    }
+  ],
+  "location" : "Atlanta, Georgia, USA",
+  "name" : "Peachtree Road Race",
+  "processing" : {
+    "generatedOn" : "2026-10-24",
+    "parameters" : {
+      "calibrationScales" : "0-10000:0.9990",
+      "elevationProvider" : "usgs3dep",
+      "gradeBlockMeters" : "100",
+      "inclineStepPercent" : "0.5",
+      "minimumIntervalMeters" : "200",
+      "osmStructuresTimestamp" : "2026-10-24T01:06:36Z",
+      "routeSmoothingMeters" : "40",
+      "sampleSpacingMeters" : "10",
+      "smoothingWindowMeters" : "100"
+    },
+    "tool" : "course-tool 0.1.0"
+  },
+  "schemaVersion" : 1,
+  "segments" : [
+    {
+      "endMeters" : 5800,
+      "id" : "cardiac-hill",
+      "name" : "Cardiac Hill (miles 2.7–3.6)",
+      "startMeters" : 4350
+    },
+    {
+      "endMeters" : 10000,
+      "id" : "cardiac-hill-to-finish",
+      "name" : "Cardiac Hill to the finish (mile 2.7 to the finish)",
+      "startMeters" : 4350
+    }
+  ],
+  "source" : {
+    "attribution" : "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation" : {
+      "kind" : "modeled",
+      "license" : "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name" : "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url" : "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes" : "2026 course (unchanged since 1978 apart from 2008): Peachtree Rd south from Lenox Square, left on 10th St, finish at Charles Allen Dr, as described in the organiser's 2026 participant guide and finish-area map. Route traced over OpenStreetMap streets; the start is placed so the course measures 10 km along them, which puts it in front of the mall's main entrance. No certificate splits are published, so distance is calibrated to the start and finish only. Elevations from USGS 3DEP 1 m lidar (Georgia statewide, 2018); the Peachtree Creek bridge is interpolated. Unofficial.",
+    "route" : {
+      "license" : "ODbL-1.0",
+      "name" : "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url" : "https://www.openstreetmap.org/copyright"
+    },
+    "verified" : false
+  },
+  "stats" : {
+    "elevationGainMeters" : 82.1,
+    "elevationLossMeters" : 108.3,
+    "maximumElevationMeters" : 310.4,
+    "minimumElevationMeters" : 247.3
+  }
+}
