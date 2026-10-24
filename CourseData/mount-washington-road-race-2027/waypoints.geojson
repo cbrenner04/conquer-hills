@@ -1,0 +1,109 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -71.22489,
+          44.28942
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start: the Auto Road at Route 16 (Glen House)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -71.26095,
+          44.28319
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Auto Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -71.26671,
+          44.28733
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Auto Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -71.27308,
+          44.28977
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Auto Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -71.28113,
+          44.29228
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Auto Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -71.27816,
+          44.28315
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Auto Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -71.28184,
+          44.28496
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Auto Road"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -71.302586,
+          44.270107
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: the top of the Auto Road at the summit"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
