@@ -1,0 +1,185 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 5,
+      "min": 0,
+      "name": "Start elevation 0–5 m (Bay St by the river; lidar 1.8 m)"
+    },
+    {
+      "atMeters": 15000,
+      "kind": "elevationAt",
+      "max": 6,
+      "min": 0,
+      "name": "Finish elevation 0–6 m (Bay St at the Shipyards)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 48,
+      "min": 40,
+      "name": "Highest point 40–48 m (the Hart Bridge deck: 141 ft clearance)"
+    },
+    {
+      "kind": "minimumElevation",
+      "min": -1,
+      "name": "Lowest point ≥ −1 m (catches bridge decks reading the river)"
+    },
+    {
+      "fromMeters": 12250,
+      "kind": "drop",
+      "max": 46,
+      "min": 32,
+      "name": "The Hart Bridge climbs 32–46 m (\"a challenging 140-foot climb over half a mile\")",
+      "toMeters": 11000
+    },
+    {
+      "fromMeters": 11000,
+      "kind": "climb",
+      "min": 3,
+      "name": "The Hart Bridge climb survives as a climb of ≥ +3% (modelled deck: +3.5% over 0.55 mi; the race rounds it to 140 ft over half a mile)",
+      "toMeters": 12250
+    },
+    {
+      "fromMeters": 900,
+      "kind": "drop",
+      "max": 15,
+      "min": 7,
+      "name": "The Main Street Bridge rises 7–15 m (lift span)",
+      "toMeters": 0
+    },
+    {
+      "fromMeters": 1600,
+      "kind": "maximumIncline",
+      "max": 2,
+      "name": "San Marco, River Road and Atlantic Blvd (miles 1–6.8): no climb above +2%",
+      "toMeters": 11000
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 7,
+      "name": "Steepest incline within ±7%"
+    },
+    {
+      "kind": "gain",
+      "max": 85,
+      "min": 55,
+      "name": "Gain 55–85 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "loss",
+      "max": 85,
+      "min": 55,
+      "name": "Loss 55–85 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 30.3247,
+        "longitude": -81.6464
+      },
+      "name": "Finish: Bay St at the Shipyards",
+      "officialMeters": 15000
+    }
+  ],
+  "description": "The largest 15K in the US: from Bay Street over the Main Street Bridge, through San Marco and along River Road, then east on Atlantic Boulevard and up the Hart Bridge, the \"Green Monster\", about 40 m in half a mile at mile 7, and a mostly downhill last mile to the finish by the stadium. Unofficial.",
+  "edition": "2027",
+  "elevation": {
+    "provider": "usgs3dep",
+    "trustedSources": [
+      "FL_Peninsular_FDEM_2018_D19_DRRA"
+    ]
+  },
+  "id": "gate-river-run-2027",
+  "location": "Jacksonville, Florida, USA",
+  "manualSpans": [],
+  "name": "Gate River Run",
+  "officialDistanceMeters": 15000,
+  "processing": {
+    "checkpointSearchRadiusMeters": 150,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 700,
+    "minimumIntervalMeters": 200,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "corridorMeters": 200,
+    "highways": [
+      "trunk",
+      "trunk_link",
+      "primary",
+      "primary_link",
+      "secondary",
+      "secondary_link",
+      "tertiary",
+      "tertiary_link",
+      "unclassified",
+      "residential",
+      "living_street",
+      "service",
+      "pedestrian",
+      "road",
+      "motorway",
+      "motorway_link"
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 13680,
+      "id": "green-monster",
+      "name": "The Green Monster: the Hart Bridge (miles 6.5–8.5)",
+      "startMeters": 10460
+    },
+    {
+      "endMeters": 1609,
+      "id": "main-street-bridge",
+      "name": "Over the Main Street Bridge (miles 0–1)",
+      "startMeters": 0
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name": "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url": "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes": "2026 course, from the organiser's water-station list (Riverplace Blvd, San Marco Blvd at LaSalle St, River Rd, Atlantic Blvd, Holmesdale Rd at Jolly Rd, Gay Ave at Atlantic Blvd, the Hart Bridge) and the 2026 road closures: Bay St from Newnan St, the Main Street Bridge, San Marco, River Rd and River Oaks Rd, Philips Hwy, Atlantic Blvd, the Hart Bridge and Gator Bowl Blvd to the finish by the Shipyards. Route traced over OpenStreetMap streets; the organiser's route file isn't public, the course near the start is uncertain, and the trace is about 4% short, so distance is calibrated to the finish. Elevations from USGS 3DEP lidar (Florida, 2018); the Hart Bridge and Main Street Bridge decks are modelled from their published clearances. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": true
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}

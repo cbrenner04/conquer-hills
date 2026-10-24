@@ -1,0 +1,304 @@
+{
+  "description" : "The largest 15K in the US: from Bay Street over the Main Street Bridge, through San Marco and along River Road, then east on Atlantic Boulevard and up the Hart Bridge, the \"Green Monster\", about 40 m in half a mile at mile 7, and a mostly downhill last mile to the finish by the stadium. Unofficial.",
+  "developmentOnly" : false,
+  "distanceMeters" : 15000,
+  "edition" : "2027",
+  "elevationProfile" : {
+    "elevationsMeters" : [
+      1.8,
+      1.3,
+      1.3,
+      3.3,
+      6.2,
+      9.2,
+      12.1,
+      13.2,
+      11,
+      8.8,
+      6.6,
+      4.4,
+      2.2,
+      1.6,
+      1.8,
+      2.1,
+      2.4,
+      2.2,
+      1.7,
+      1.9,
+      2.4,
+      2.3,
+      2,
+      1.5,
+      1.2,
+      2,
+      1.2,
+      1.1,
+      0.8,
+      0.7,
+      0.9,
+      1,
+      0.8,
+      1,
+      1,
+      1.2,
+      1,
+      0.9,
+      0.8,
+      1.2,
+      1.4,
+      1.4,
+      1.4,
+      1.6,
+      1.5,
+      3.1,
+      3.4,
+      3.9,
+      4.8,
+      5.3,
+      5.1,
+      4.2,
+      5,
+      5.6,
+      5.8,
+      5.6,
+      5.3,
+      5.2,
+      5,
+      5.2,
+      6.1,
+      6.6,
+      6.9,
+      7.5,
+      7.4,
+      7.1,
+      6.6,
+      5.9,
+      4.9,
+      4.2,
+      4.4,
+      4.8,
+      4.1,
+      3.6,
+      3.3,
+      3.7,
+      4.2,
+      4.6,
+      5,
+      5.3,
+      6.1,
+      7.1,
+      7.4,
+      7.1,
+      6.9,
+      6.6,
+      5.4,
+      5.3,
+      6,
+      6.6,
+      7.4,
+      7.5,
+      6.9,
+      5.6,
+      5.4,
+      4.3,
+      3.4,
+      3,
+      2.4,
+      2.6,
+      4.5,
+      5.4,
+      6.1,
+      6.7,
+      6.7,
+      6.5,
+      7.1,
+      7.5,
+      7.9,
+      7.9,
+      7.6,
+      8.7,
+      11.7,
+      13,
+      16.6,
+      20.4,
+      24.2,
+      27.9,
+      31.7,
+      35.5,
+      39.3,
+      43.1,
+      44.3,
+      38.3,
+      32,
+      25.7,
+      19.5,
+      13.2,
+      6.9,
+      3.3,
+      2.5,
+      1.7,
+      1.5,
+      1.7,
+      1.7,
+      1.4,
+      1.7,
+      1.8,
+      1.7,
+      1.6,
+      1.7,
+      1.7,
+      1.6,
+      1.8,
+      1.8,
+      1.6,
+      1.6,
+      1.4,
+      1.3,
+      1.3,
+      1.3
+    ],
+    "sampleSpacingMeters" : 100
+  },
+  "id" : "gate-river-run-2027",
+  "inclineChanges" : [
+    {
+      "atMeters" : 0,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 200,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 700,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 1200,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 4400,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 5300,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 5900,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 6400,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 7400,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 8200,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 8700,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 9200,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 9600,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 9900,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 10100,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 10300,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 11100,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 11300,
+      "inclinePercent" : 3.5
+    },
+    {
+      "atMeters" : 12200,
+      "inclinePercent" : -6
+    },
+    {
+      "atMeters" : 12900,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 13100,
+      "inclinePercent" : 0
+    }
+  ],
+  "location" : "Jacksonville, Florida, USA",
+  "name" : "Gate River Run",
+  "processing" : {
+    "generatedOn" : "2026-10-24",
+    "parameters" : {
+      "calibrationScales" : "0-15000:1.0383",
+      "deckProfiles" : "Main Street Bridge; Hart Bridge (the Green Monster)",
+      "elevationProvider" : "usgs3dep",
+      "gradeBlockMeters" : "100",
+      "inclineStepPercent" : "0.5",
+      "minimumIntervalMeters" : "200",
+      "osmStructuresTimestamp" : "2026-10-24T23:00:06Z",
+      "routeSmoothingMeters" : "40",
+      "sampleSpacingMeters" : "10",
+      "smoothingWindowMeters" : "100"
+    },
+    "tool" : "course-tool 0.1.0"
+  },
+  "schemaVersion" : 1,
+  "segments" : [
+    {
+      "endMeters" : 13680,
+      "id" : "green-monster",
+      "name" : "The Green Monster: the Hart Bridge (miles 6.5–8.5)",
+      "startMeters" : 10460
+    },
+    {
+      "endMeters" : 1609,
+      "id" : "main-street-bridge",
+      "name" : "Over the Main Street Bridge (miles 0–1)",
+      "startMeters" : 0
+    }
+  ],
+  "source" : {
+    "attribution" : "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation" : {
+      "kind" : "modeled",
+      "license" : "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name" : "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url" : "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes" : "2026 course, from the organiser's water-station list (Riverplace Blvd, San Marco Blvd at LaSalle St, River Rd, Atlantic Blvd, Holmesdale Rd at Jolly Rd, Gay Ave at Atlantic Blvd, the Hart Bridge) and the 2026 road closures: Bay St from Newnan St, the Main Street Bridge, San Marco, River Rd and River Oaks Rd, Philips Hwy, Atlantic Blvd, the Hart Bridge and Gator Bowl Blvd to the finish by the Shipyards. Route traced over OpenStreetMap streets; the organiser's route file isn't public, the course near the start is uncertain, and the trace is about 4% short, so distance is calibrated to the finish. Elevations from USGS 3DEP lidar (Florida, 2018); the Hart Bridge and Main Street Bridge decks are modelled from their published clearances. Unofficial.",
+    "route" : {
+      "license" : "ODbL-1.0",
+      "name" : "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url" : "https://www.openstreetmap.org/copyright"
+    },
+    "verified" : true
+  },
+  "stats" : {
+    "elevationGainMeters" : 77.5,
+    "elevationLossMeters" : 77.9,
+    "maximumElevationMeters" : 44.9,
+    "minimumElevationMeters" : 0.7
+  }
+}
