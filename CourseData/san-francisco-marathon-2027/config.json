@@ -1,0 +1,208 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 6,
+      "min": 1,
+      "name": "Start elevation 1–6 m (the Embarcadero; lidar 3.2 m)"
+    },
+    {
+      "atMeters": 42195,
+      "kind": "elevationAt",
+      "max": 6,
+      "min": 1,
+      "name": "Finish elevation 1–6 m (the Embarcadero at Howard St)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 95,
+      "min": 80,
+      "name": "Highest point 80–95 m (Lincoln Blvd and the Richmond; lidar 88.6 m)"
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 0,
+      "name": "Lowest point ≥ 0 m"
+    },
+    {
+      "fromMeters": 10600,
+      "kind": "minimumElevation",
+      "min": 64,
+      "name": "The Golden Gate Bridge deck (modelled) between the towers stays at 64 m or more: never a dip to the water",
+      "toMeters": 13000
+    },
+    {
+      "fromMeters": 3800,
+      "kind": "climb",
+      "min": 6,
+      "name": "The Fort Mason climb survives as a climb of ≥ +6%",
+      "toMeters": 4900
+    },
+    {
+      "fromMeters": 9000,
+      "kind": "climb",
+      "min": 4,
+      "name": "The climb from Crissy Field up to the bridge survives as ≥ +4%",
+      "toMeters": 10500
+    },
+    {
+      "fromMeters": 17000,
+      "kind": "climb",
+      "min": 5,
+      "name": "The climb from Fort Baker back up to the bridge survives as ≥ +5%",
+      "toMeters": 18300
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 12,
+      "name": "Steepest incline within ±12%"
+    },
+    {
+      "kind": "gain",
+      "max": 520,
+      "min": 340,
+      "name": "Gain 340–520 m at 100 m smoothing (the race is commonly given as about 1,300 ft)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "loss",
+      "max": 520,
+      "min": 340,
+      "name": "Loss 340–520 m at 100 m smoothing",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    },
+    {
+      "fromMeters": 10600,
+      "kind": "maximumElevation",
+      "max": 78,
+      "min": 72,
+      "name": "The bridge crest 72–78 m (220 ft clearance plus the deck; modelled 75 m)",
+      "toMeters": 13000
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 37.813918,
+        "longitude": -122.478058
+      },
+      "name": "Halfway: on the bridge's west sidewalk on the way back, ~720 m before its south end (\"you cross the halfway mark as you exit the Golden Gate Bridge\")",
+      "officialMeters": 20380
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 37.791974,
+        "longitude": -122.390587
+      },
+      "name": "Finish: The Embarcadero at Howard St",
+      "officialMeters": 42195
+    }
+  ],
+  "description": "Along the Embarcadero and Fisherman's Wharf, over the hill in Fort Mason, past the Marina and Crissy Field, then across the Golden Gate Bridge and down to Fort Baker and back. Up Lincoln Boulevard through the Presidio and the Richmond into Golden Gate Park and around Stow Lake, down Haight Street, through the Mission and Dogpatch, and back along the bay to the Embarcadero. Unofficial.",
+  "edition": "2027",
+  "elevation": {
+    "provider": "usgs3dep",
+    "trustedSources": [
+      "CA_SanFrancisco_B23",
+      "CA_NoCal_Wildfires_B5b_QL1_2018"
+    ]
+  },
+  "id": "san-francisco-marathon-2027",
+  "location": "San Francisco, California, USA",
+  "manualSpans": [],
+  "name": "San Francisco Marathon",
+  "officialDistanceMeters": 42195,
+  "processing": {
+    "checkpointSearchRadiusMeters": 12,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 1200,
+    "minimumIntervalMeters": 300,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "corridorMeters": 200,
+    "highways": [
+      "trunk",
+      "trunk_link",
+      "primary",
+      "primary_link",
+      "secondary",
+      "secondary_link",
+      "tertiary",
+      "tertiary_link",
+      "unclassified",
+      "residential",
+      "living_street",
+      "service",
+      "pedestrian",
+      "road",
+      "motorway",
+      "motorway_link",
+      "cycleway"
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 21700,
+      "id": "bridge-and-marin",
+      "name": "The Golden Gate Bridge and Marin (miles 5.5–13.5)",
+      "startMeters": 8800
+    },
+    {
+      "endMeters": 34600,
+      "id": "park-and-haight",
+      "name": "The Richmond, Golden Gate Park and the Haight (miles 14–21.5)",
+      "startMeters": 22500
+    },
+    {
+      "endMeters": 6437,
+      "id": "fort-mason",
+      "name": "The Wharf and Fort Mason (miles 0–4)",
+      "startMeters": 0
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name": "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url": "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes": "2026 course, from the organiser's and the City's 2026 traffic maps: the Embarcadero, Fisherman's Wharf, Fort Mason, the Marina, Crissy Field, the Golden Gate Bridge (east sidewalk out, west sidewalk back), a loop through Fort Baker (Alexander Ave, East Rd, Moore Rd), Lincoln Blvd through the Presidio, 27th Ave through the Richmond, Golden Gate Park around Stow Lake, Haight St, Guerrero St, 16th St through the Mission, Mariposa St, Dogpatch, Terry A. Francois Blvd and the Lefty O'Doul Bridge back to the Embarcadero. Route traced over OpenStreetMap streets; the organiser's route file isn't public. Distance is calibrated to halfway (\"as you exit the Golden Gate Bridge\") and the finish; the traced first half is about 1.1 km short, most likely in Marin. Elevations from USGS 3DEP lidar (San Francisco 2023, northern California 2018); the bridge deck, which bare-earth lidar can't see, is modelled from its 220 ft clearance. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": false
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}

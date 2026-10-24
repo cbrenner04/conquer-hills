@@ -1,0 +1,68 @@
+{
+  "profiles": [
+    {
+      "method": "Modelled: from the measured ground on Lincoln Blvd below the toll plaza, straight lines to the roadway level at the south tower (67 m), a crest of 75 m at mid-span (the 67 m (220 ft) navigation clearance plus the deck), the north tower (67 m), and the measured ground at Vista Point. Positions are on the east sidewalk, the course's northbound lane.",
+      "name": "Golden Gate Bridge, northbound",
+      "points": [
+        {
+          "latitude": 37.808088,
+          "longitude": -122.474457,
+          "riseMeters": 0
+        },
+        {
+          "elevationMeters": 67,
+          "latitude": 37.8105,
+          "longitude": -122.47733
+        },
+        {
+          "elevationMeters": 75,
+          "latitude": 37.8199,
+          "longitude": -122.47844
+        },
+        {
+          "elevationMeters": 67,
+          "latitude": 37.8268,
+          "longitude": -122.47925
+        },
+        {
+          "latitude": 37.831933,
+          "longitude": -122.480239,
+          "riseMeters": 0
+        }
+      ],
+      "source": "Golden Gate Bridge: 220 ft (67 m) clearance at mid-span (Golden Gate Bridge, Highway and Transportation District; Wikipedia); ends follow the measured approaches (USGS 3DEP lidar, San Francisco 2023 and northern California 2018); positions from OpenStreetMap"
+    },
+    {
+      "method": "Modelled as the northbound profile, on the west sidewalk (the course's southbound lane): from the measured ground at the north end, over the north tower (67 m), the mid-span crest (75 m) and the south tower (67 m), to the measured ground at the toll plaza.",
+      "name": "Golden Gate Bridge, southbound",
+      "points": [
+        {
+          "latitude": 37.83225,
+          "longitude": -122.48095,
+          "riseMeters": 0
+        },
+        {
+          "elevationMeters": 67,
+          "latitude": 37.8268,
+          "longitude": -122.47946
+        },
+        {
+          "elevationMeters": 75,
+          "latitude": 37.8199,
+          "longitude": -122.47843
+        },
+        {
+          "elevationMeters": 67,
+          "latitude": 37.8105,
+          "longitude": -122.47761
+        },
+        {
+          "latitude": 37.807294,
+          "longitude": -122.476409,
+          "riseMeters": 0
+        }
+      ],
+      "source": "As the northbound profile"
+    }
+  ]
+}
