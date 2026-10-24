@@ -1,0 +1,1331 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -79.995728625,
+          40.44352021500001
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start: Liberty Ave at Smithfield St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.99077462,
+          40.445878594999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Liberty Avenue (~0.3 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.98615938393283,
+          40.44868125366685
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Liberty Avenue (~0.6 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.98170566811007,
+          40.45165077471631
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Liberty Avenue (~0.9 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.97731208723114,
+          40.45467041567223
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Liberty Avenue (~1.2 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.97292683753757,
+          40.45769572840312
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Liberty Avenue (~1.6 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.97321175842572,
+          40.45853136618812
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Penn Avenue (~1.7 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.97584688837695,
+          40.456718439966544
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Penn Avenue (~1.9 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.9802314674433,
+          40.453692892173706
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Penn Avenue (~2.2 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.98461738450126,
+          40.450667953116
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Penn Avenue (~2.5 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.98899916859187,
+          40.45008197969848
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "David McCullough Bridge (~2.8 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.99297072088697,
+          40.453426712150126
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Chestnut Street (~3.1 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.99792458759917,
+          40.45393027011013
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Ohio Street (~3.4 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.00092422116474,
+          40.45342938251168
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Ohio Street (~3.6 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.001158145,
+          40.451683355
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Cedar Avenue (~3.7 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.00176147281846,
+          40.44972012789587
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Lacock Street (~3.9 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.00295080288718,
+          40.4507740512404
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sandusky Street (~4.0 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.00536581133753,
+          40.45406591052822
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "North Commons (~4.3 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.00728193459503,
+          40.45112337526769
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "West Commons (~4.7 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.00431863913921,
+          40.448444210638904
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Federal Street (~5.0 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.0054574459912,
+          40.44806798094724
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "West General Robinson Street (~5.0 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.00847294801017,
+          40.44643291044595
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "North Shore Drive (~5.3 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.01411383,
+          40.44510496
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "North Shore Drive (~5.6 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.01870271772658,
+          40.446705067941785
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Casino Drive (~5.9 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.02223894600837,
+          40.44933564472709
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Fulton Street (~6.2 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.025706965,
+          40.448693424999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "West End Bridge (~6.5 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.02801073160231,
+          40.4445118844836
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "West End Bridge (~6.8 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.03322847698902,
+          40.44247513206638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Steuben Street (~7.1 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.0339741357879,
+          40.442204690409376
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Steuben Street (~7.2 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.03410541999999,
+          40.44128459
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Alexander Street (~7.3 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.03098362948937,
+          40.44244879901358
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "South Main Street (~7.5 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.02559110704017,
+          40.44313818145671
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "West Carson Street (~7.8 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.02021998,
+          40.44123607499999
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "West Carson Street (~8.1 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.01524442053666,
+          40.43882075934947
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "West Carson Street (~8.4 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.01058738517169,
+          40.43605198510011
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "West Carson Street (~8.7 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.00591790842611,
+          40.43330908873499
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "West Carson Street (~9.0 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.00103204542353,
+          40.43078919581028
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Carson Street (~9.3 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.99564158616465,
+          40.428947715949256
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Carson Street (~9.6 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.9898146830123,
+          40.42867119454397
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Carson Street (~9.9 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.98394492734063,
+          40.428814868789914
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Carson Street (~10.3 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.97805102148658,
+          40.42862102071788
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Carson Street (~10.6 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.97215865999999,
+          40.428265615
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Carson Street (~10.9 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.97099574233808,
+          40.42876269912502
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "South 24th Street (~11.0 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.97231819083028,
+          40.429198254786094
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sidney Street (~11.1 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.97299064798024,
+          40.42882182690021
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "South 23rd Street (~11.1 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.9734542458353,
+          40.428879044610966
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Birmingham Bridge (~11.2 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.97341271902664,
+          40.433377135003475
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Birmingham Bridge (~11.5 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.97300797271409,
+          40.434792609174444
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "primary_link (~11.6 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.97256384403829,
+          40.43694805862858
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "primary_link (~11.7 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.970919885,
+          40.436565355000006
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Forbes Avenue (~11.8 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.96574301926105,
+          40.435822055418946
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Forbes Avenue (~12.1 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.96116117412328,
+          40.43852684293584
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Forbes Avenue (~12.4 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.95687513888667,
+          40.44163419339756
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Forbes Avenue (~12.7 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.95171040975166,
+          40.443665671165846
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Forbes Avenue (~13.0 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.94893999592948,
+          40.44659294329002
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "South Craig Street (~13.4 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.94343854952146,
+          40.44735611341776
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Fifth Avenue (~13.7 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.93756300824069,
+          40.44778066044096
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Fifth Avenue (~14.0 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.93523759030778,
+          40.45017333955733
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "South Aiken Avenue (~14.3 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.93336968730303,
+          40.451320552049175
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Walnut Street (~14.4 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.9305826986668,
+          40.452191757639916
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Walnut Street (~14.6 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.92525234599049,
+          40.45404858355239
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "South Highland Avenue (~14.9 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.9234822462794,
+          40.45212007602982
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Fifth Avenue (~15.1 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.92123897273052,
+          40.45281953717849
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Fifth Avenue (~15.2 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.91542771160411,
+          40.4536071492944
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Fifth Avenue (~15.5 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.91020702667414,
+          40.45251752025715
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Penn Avenue (~15.8 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.90499596861844,
+          40.45041598241833
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Penn Avenue (~16.2 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.89958346090519,
+          40.44861297108837
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Penn Avenue (~16.5 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.89457659499999,
+          40.44797072499999
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "North Braddock Avenue (~16.8 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.89167814585845,
+          40.451906144581635
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "North Braddock Avenue (~17.1 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.89062100834668,
+          40.45444845441066
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "North Braddock Avenue (~17.3 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.89044103998764,
+          40.45607262836154
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Frankstown Avenue (~17.4 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.89089382653376,
+          40.456175151549985
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Frankstown Avenue (~17.4 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.89609948226632,
+          40.45735737291159
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Frankstown Avenue (~17.7 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.90173741966619,
+          40.45863256290543
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Frankstown Avenue (~18.0 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.90750188277654,
+          40.458562605630895
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Frankstown Avenue (~18.3 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.91301573613359,
+          40.46016405765973
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Frankstown Avenue (~18.6 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.9168961587747,
+          40.46303103036739
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Liberty Boulevard (~19.0 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.921500205,
+          40.465712970000006
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Liberty Boulevard (~19.3 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.92114195500001,
+          40.469441795
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "North Highland Avenue (~19.6 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.91918584612503,
+          40.47370071425999
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "North Highland Avenue (~19.9 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.9218697108486,
+          40.476525617093785
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bryant Street (~20.2 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.92313720153466,
+          40.47701004076606
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bryant Street (~20.3 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.92500440853756,
+          40.47439627339279
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "North Negley Avenue (~20.5 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.92690422008857,
+          40.47011529865577
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "North Negley Avenue (~20.8 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.92920445568272,
+          40.465953024089046
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "North Negley Avenue (~21.1 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.93168525486105,
+          40.4618501824907
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "South Negley Avenue (~21.4 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.93415647918894,
+          40.45774693515651
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "South Negley Avenue (~21.7 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.93948857361534,
+          40.456675165950024
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Baum Boulevard (~22.1 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.94438372825549,
+          40.4591772725761
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Liberty Avenue (~22.4 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.94922871294531,
+          40.46175923979869
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Liberty Avenue (~22.7 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.95436453168044,
+          40.46330226942364
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Liberty Avenue (~23.0 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.96013149834879,
+          40.46234574587112
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Liberty Avenue (~23.3 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.96595632503686,
+          40.46168500671064
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Liberty Avenue (~23.6 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.9707277895318,
+          40.4592095322125
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Liberty Avenue (~23.9 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.97511842748621,
+          40.45618845665316
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Liberty Avenue (~24.2 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.97950108709965,
+          40.45316002180762
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Liberty Avenue (~24.5 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.98389589214526,
+          40.45014248975051
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Liberty Avenue (~24.9 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.98846141363764,
+          40.447273126422836
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Liberty Avenue (~25.2 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.99308470153373,
+          40.44446362197298
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Liberty Avenue (~25.5 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.99747473953465,
+          40.44184604077846
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Smithfield Street (~25.8 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.00026695499999,
+          40.43780472
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Boulevard of the Allies (~26.1 mi)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.00238025499999,
+          40.43859583
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: Boulevard of the Allies"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

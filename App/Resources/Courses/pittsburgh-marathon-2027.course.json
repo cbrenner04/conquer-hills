@@ -1,0 +1,789 @@
+{
+  "description" : "A tour of Pittsburgh's neighbourhoods and bridges: the Strip District, the North Side over the 16th Street Bridge, the West End Bridge to the South Side, then the Birmingham Bridge and the long climb up the Boulevard of the Allies and Forbes Avenue into Oakland. Rolling miles through Shadyside, Point Breeze, Homewood, East Liberty and Highland Park, then a long descent down Liberty Avenue through Bloomfield and Lawrenceville to the finish downtown. Unofficial.",
+  "developmentOnly" : false,
+  "distanceMeters" : 42195,
+  "edition" : "2027",
+  "elevationProfile" : {
+    "elevationsMeters" : [
+      225.3,
+      225.9,
+      225.5,
+      225.1,
+      225.2,
+      225.9,
+      226,
+      225.7,
+      226.5,
+      227.5,
+      228.1,
+      227.7,
+      227.1,
+      226.2,
+      226.4,
+      226.7,
+      226.3,
+      226.4,
+      226.9,
+      227,
+      226.4,
+      226,
+      226.2,
+      225.9,
+      225.3,
+      224.7,
+      223.5,
+      222.3,
+      223,
+      223.7,
+      224.5,
+      224.9,
+      225,
+      225.8,
+      226,
+      225.4,
+      225.1,
+      225.3,
+      225.7,
+      225.2,
+      224.7,
+      224.8,
+      224.5,
+      225.5,
+      225.7,
+      225.4,
+      225.1,
+      224.7,
+      224.4,
+      224.1,
+      225.1,
+      227,
+      230.8,
+      233.1,
+      234.7,
+      235.5,
+      236.2,
+      235.8,
+      235,
+      232.4,
+      228.5,
+      226.1,
+      223.7,
+      222.9,
+      223.4,
+      226.5,
+      230.2,
+      233.4,
+      235.7,
+      235.9,
+      235.3,
+      235.2,
+      234.3,
+      234.7,
+      233.3,
+      231.5,
+      229.7,
+      228.2,
+      225.5,
+      223.5,
+      223.4,
+      223.3,
+      223.2,
+      222.9,
+      222.8,
+      222.4,
+      222.6,
+      222.4,
+      221.8,
+      222.1,
+      222.5,
+      222.2,
+      222,
+      222.4,
+      222.1,
+      221.9,
+      221.4,
+      220.9,
+      221.5,
+      223,
+      223.8,
+      224.7,
+      225.5,
+      224.8,
+      226.1,
+      226.2,
+      226.1,
+      226,
+      225.9,
+      225.8,
+      225.8,
+      227.9,
+      227.7,
+      229.2,
+      231.2,
+      233.8,
+      232.4,
+      226.2,
+      223,
+      222.9,
+      222.7,
+      223,
+      226.3,
+      228.2,
+      223.8,
+      223.8,
+      223.4,
+      223.6,
+      223.8,
+      223.4,
+      224.1,
+      225.2,
+      227.1,
+      229.8,
+      232.7,
+      234.3,
+      231.4,
+      227.6,
+      224.9,
+      225,
+      224.1,
+      223.4,
+      222.9,
+      222.4,
+      222.8,
+      223.4,
+      223.4,
+      224.4,
+      224.2,
+      224.2,
+      225.5,
+      225.7,
+      226.8,
+      229.4,
+      232.2,
+      234.3,
+      232.9,
+      230.6,
+      228.3,
+      226.2,
+      226.6,
+      229.2,
+      230.2,
+      230.4,
+      230.2,
+      230.5,
+      230.5,
+      230.4,
+      230.2,
+      230.1,
+      229.3,
+      229.3,
+      230,
+      230,
+      229.9,
+      229.8,
+      229.1,
+      228.3,
+      228.8,
+      229.2,
+      230.7,
+      233.4,
+      234.3,
+      234.8,
+      235.3,
+      235.8,
+      236.3,
+      236.8,
+      237.3,
+      238,
+      241.2,
+      244.9,
+      247.2,
+      248.7,
+      251.7,
+      255.6,
+      261.9,
+      268.8,
+      275.3,
+      278.9,
+      278.9,
+      277,
+      276,
+      277.1,
+      278.3,
+      279.2,
+      278.1,
+      276.7,
+      275.2,
+      273.8,
+      272.4,
+      273,
+      275,
+      276.4,
+      277.9,
+      278.9,
+      279.2,
+      277.6,
+      275.9,
+      275.6,
+      277.6,
+      279.8,
+      281.9,
+      284,
+      286,
+      287.6,
+      288.6,
+      288,
+      283.7,
+      279.5,
+      279.4,
+      278.9,
+      280.3,
+      281.8,
+      281,
+      276.6,
+      274.3,
+      276,
+      278.9,
+      280.4,
+      280.2,
+      281.7,
+      286.9,
+      290.8,
+      292.5,
+      294,
+      294.1,
+      294.4,
+      293.8,
+      291.8,
+      290.4,
+      292.3,
+      294,
+      295.1,
+      297.4,
+      298.2,
+      298.7,
+      297.8,
+      296.6,
+      295.7,
+      296.7,
+      299,
+      299.8,
+      298.2,
+      296.1,
+      293.8,
+      291.4,
+      289.1,
+      286.7,
+      284.4,
+      282.3,
+      280.4,
+      278.4,
+      277.2,
+      279.1,
+      281.5,
+      282.8,
+      281.8,
+      281.2,
+      281.6,
+      282.8,
+      281.2,
+      280.6,
+      281.1,
+      281.7,
+      282.1,
+      281.7,
+      280.9,
+      279.5,
+      278.1,
+      275.6,
+      272.1,
+      271.6,
+      273.6,
+      274.7,
+      273.8,
+      274,
+      276,
+      278.1,
+      280,
+      281.3,
+      281.7,
+      280.2,
+      278.5,
+      275.8,
+      273.7,
+      273.3,
+      271.4,
+      273.3,
+      274.8,
+      276.7,
+      280,
+      282.3,
+      284.2,
+      286.1,
+      287.7,
+      289.3,
+      290.8,
+      292.4,
+      293.9,
+      295.4,
+      296.9,
+      296.5,
+      293.3,
+      291.2,
+      291.1,
+      291.8,
+      289.7,
+      286.9,
+      284.5,
+      282.7,
+      280.8,
+      279,
+      277.3,
+      277.1,
+      277.7,
+      278.3,
+      278.8,
+      279.7,
+      281.2,
+      282.7,
+      284.2,
+      284.6,
+      283,
+      281.5,
+      279.8,
+      278.1,
+      276.3,
+      274.7,
+      273,
+      271.7,
+      271.6,
+      270.5,
+      271.6,
+      275.1,
+      275.9,
+      278.3,
+      280.4,
+      281.8,
+      283.4,
+      284.6,
+      285.7,
+      286.8,
+      287.8,
+      288.7,
+      289.5,
+      288.8,
+      285.4,
+      281.5,
+      277.6,
+      274.5,
+      273.6,
+      274.6,
+      273.7,
+      269.8,
+      265.8,
+      261.8,
+      257,
+      251.5,
+      246,
+      240.5,
+      234.7,
+      229.4,
+      227.2,
+      226.9,
+      226.4,
+      224.8,
+      224.4,
+      225.1,
+      225.7,
+      226.2,
+      226.1,
+      226.2,
+      226.8,
+      227.1,
+      226.6,
+      226.3,
+      226.6,
+      226.6,
+      226.1,
+      226.8,
+      227.5,
+      228.1,
+      227.8,
+      227,
+      226,
+      225.7,
+      226.1,
+      225.4,
+      225.1,
+      225.1,
+      226,
+      225.5,
+      225.1,
+      225.9,
+      226.2,
+      226.5,
+      227.3,
+      227.4,
+      227.7,
+      227.5,
+      224.8,
+      224.5
+    ],
+    "sampleSpacingMeters" : 100
+  },
+  "id" : "pittsburgh-marathon-2027",
+  "inclineChanges" : [
+    {
+      "atMeters" : 0,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 700,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 1000,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 1900,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 2700,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 3400,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 4400,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 4900,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 5300,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 5800,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 6400,
+      "inclinePercent" : 3
+    },
+    {
+      "atMeters" : 6800,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 7300,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 7900,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 9800,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 10400,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 11200,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 11600,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 12500,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 13100,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 13500,
+      "inclinePercent" : -3
+    },
+    {
+      "atMeters" : 13800,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 14300,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 15200,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 15500,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 15900,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 16200,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 17700,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 18200,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 18900,
+      "inclinePercent" : 3
+    },
+    {
+      "atMeters" : 19500,
+      "inclinePercent" : 6
+    },
+    {
+      "atMeters" : 19900,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 20200,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 20500,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 21000,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 21600,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 21900,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 22700,
+      "inclinePercent" : -2.5
+    },
+    {
+      "atMeters" : 23100,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 23600,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 24500,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 25000,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 25600,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 25900,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 26200,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 27300,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 27600,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 28200,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 28700,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 29200,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 29600,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 30100,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 30700,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 31400,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 32200,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 32600,
+      "inclinePercent" : -2.5
+    },
+    {
+      "atMeters" : 32900,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 33300,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 33800,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 34200,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 35000,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 35300,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 35900,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 36600,
+      "inclinePercent" : -3.5
+    },
+    {
+      "atMeters" : 37000,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 37300,
+      "inclinePercent" : -4
+    },
+    {
+      "atMeters" : 37600,
+      "inclinePercent" : -5.5
+    },
+    {
+      "atMeters" : 38200,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 38700,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 39400,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 39900,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 40200,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 41300,
+      "inclinePercent" : 0
+    }
+  ],
+  "location" : "Pittsburgh, Pennsylvania, USA",
+  "name" : "Pittsburgh Marathon",
+  "processing" : {
+    "generatedOn" : "2026-10-24",
+    "parameters" : {
+      "calibrationScales" : "0-42195:0.9975",
+      "elevationProvider" : "usgs3dep",
+      "gradeBlockMeters" : "100",
+      "inclineStepPercent" : "0.5",
+      "minimumIntervalMeters" : "300",
+      "osmStructuresTimestamp" : "2026-10-24T21:50:01Z",
+      "routeSmoothingMeters" : "40",
+      "sampleSpacingMeters" : "10",
+      "smoothingWindowMeters" : "100"
+    },
+    "tool" : "course-tool 0.1.0"
+  },
+  "schemaVersion" : 1,
+  "segments" : [
+    {
+      "endMeters" : 20900,
+      "id" : "forbes-avenue-climb",
+      "name" : "Birmingham Bridge and the Forbes Avenue climb (miles 11–13)",
+      "startMeters" : 17700
+    },
+    {
+      "endMeters" : 33000,
+      "id" : "oakland-to-highland-park",
+      "name" : "Oakland to Highland Park (miles 11–20.5)",
+      "startMeters" : 17700
+    },
+    {
+      "endMeters" : 18350,
+      "id" : "half-marathon-road",
+      "name" : "The half marathon's road (start to the Birmingham Bridge, 11.4 mi)",
+      "startMeters" : 0
+    }
+  ],
+  "source" : {
+    "attribution" : "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation" : {
+      "kind" : "modeled",
+      "license" : "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name" : "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url" : "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes" : "2026 course: Liberty Ave, the Strip District, the 16th Street (David McCullough) Bridge, the North Side and North Shore, the West End Bridge, the West End, Carson St through the South Side, the Birmingham Bridge, Forbes Ave through Oakland, Fifth Ave through Shadyside and Point Breeze, Homewood, East Liberty, Highland Park, Negley Ave, Liberty Ave through Bloomfield and Lawrenceville, and the finish on the Boulevard of the Allies, matching the organiser's 2026 road-closure sector map. Route traced over OpenStreetMap streets; the course's current certificate isn't public, so distance is calibrated to the finish. Elevations from USGS 3DEP lidar (western Pennsylvania, 2019); river bridges are interpolated, including the Birmingham Bridge's straight rising deck. Unofficial.",
+    "route" : {
+      "license" : "ODbL-1.0",
+      "name" : "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url" : "https://www.openstreetmap.org/copyright"
+    },
+    "verified" : false
+  },
+  "stats" : {
+    "elevationGainMeters" : 288.8,
+    "elevationLossMeters" : 289.6,
+    "maximumElevationMeters" : 299.9,
+    "minimumElevationMeters" : 220.8
+  }
+}
