@@ -1,0 +1,191 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 229,
+      "min": 222,
+      "name": "Start elevation 222–229 m (2022 certificate 225.3 m on Liberty Ave)"
+    },
+    {
+      "atMeters": 42195,
+      "kind": "elevationAt",
+      "max": 228,
+      "min": 221,
+      "name": "Finish elevation 221–228 m (2022 certificate 224.2 m)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 304,
+      "min": 294,
+      "name": "Highest point 294–304 m (2022 certificate 299.3 m)"
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 215,
+      "name": "Lowest point ≥ 215 m (2022 certificate 217.8 m; catches the river bridges reading the water)"
+    },
+    {
+      "fromMeters": 20000,
+      "kind": "drop",
+      "max": 60,
+      "min": 40,
+      "name": "Birmingham Bridge and the ramps up to Forbes Ave rise 40–60 m (lidar +50 m)",
+      "toMeters": 17700
+    },
+    {
+      "fromMeters": 18900,
+      "kind": "climb",
+      "min": 4.5,
+      "name": "The climb from the Birmingham Bridge to Forbes Ave survives as ≥ +4.5%",
+      "toMeters": 19900
+    },
+    {
+      "fromMeters": 0,
+      "kind": "maximumIncline",
+      "max": 3,
+      "name": "Strip District, North Side, West End and South Side (to mile 10.9): no climb above +3% (bridges interpolated)",
+      "toMeters": 17500
+    },
+    {
+      "fromMeters": 36800,
+      "kind": "drop",
+      "max": 65,
+      "min": 45,
+      "name": "Liberty Ave descends 45–65 m from Bloomfield to the Strip (miles 22.9–23.9)",
+      "toMeters": 38400
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 8,
+      "name": "Steepest incline within ±8%"
+    },
+    {
+      "kind": "gain",
+      "max": 340,
+      "min": 240,
+      "name": "Gain 240–340 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "loss",
+      "max": 340,
+      "min": 240,
+      "name": "Loss 240–340 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 40.438679,
+        "longitude": -80.002476
+      },
+      "name": "Finish: Boulevard of the Allies",
+      "officialMeters": 42195
+    }
+  ],
+  "description": "A tour of Pittsburgh's neighbourhoods and bridges: the Strip District, the North Side over the 16th Street Bridge, the West End Bridge to the South Side, then the Birmingham Bridge and the long climb up the Boulevard of the Allies and Forbes Avenue into Oakland. Rolling miles through Shadyside, Point Breeze, Homewood, East Liberty and Highland Park, then a long descent down Liberty Avenue through Bloomfield and Lawrenceville to the finish downtown. Unofficial.",
+  "edition": "2027",
+  "elevation": {
+    "provider": "usgs3dep",
+    "trustedSources": [
+      "PA_WesternPA_2019_D20"
+    ]
+  },
+  "id": "pittsburgh-marathon-2027",
+  "location": "Pittsburgh, Pennsylvania, USA",
+  "manualSpans": [],
+  "name": "Pittsburgh Marathon",
+  "officialDistanceMeters": 42195,
+  "processing": {
+    "checkpointSearchRadiusMeters": 150,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 300,
+    "minimumIntervalMeters": 300,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "corridorMeters": 200,
+    "highways": [
+      "trunk",
+      "trunk_link",
+      "primary",
+      "primary_link",
+      "secondary",
+      "secondary_link",
+      "tertiary",
+      "tertiary_link",
+      "unclassified",
+      "residential",
+      "living_street",
+      "service",
+      "pedestrian",
+      "road",
+      "motorway",
+      "motorway_link"
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 20900,
+      "id": "forbes-avenue-climb",
+      "name": "Birmingham Bridge and the Forbes Avenue climb (miles 11–13)",
+      "startMeters": 17700
+    },
+    {
+      "endMeters": 33000,
+      "id": "oakland-to-highland-park",
+      "name": "Oakland to Highland Park (miles 11–20.5)",
+      "startMeters": 17700
+    },
+    {
+      "endMeters": 18350,
+      "id": "half-marathon-road",
+      "name": "The half marathon's road (start to the Birmingham Bridge, 11.4 mi)",
+      "startMeters": 0
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name": "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url": "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes": "2026 course: Liberty Ave, the Strip District, the 16th Street (David McCullough) Bridge, the North Side and North Shore, the West End Bridge, the West End, Carson St through the South Side, the Birmingham Bridge, Forbes Ave through Oakland, Fifth Ave through Shadyside and Point Breeze, Homewood, East Liberty, Highland Park, Negley Ave, Liberty Ave through Bloomfield and Lawrenceville, and the finish on the Boulevard of the Allies, matching the organiser's 2026 road-closure sector map. Route traced over OpenStreetMap streets; the course's current certificate isn't public, so distance is calibrated to the finish. Elevations from USGS 3DEP lidar (western Pennsylvania, 2019); river bridges are interpolated, including the Birmingham Bridge's straight rising deck. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": false
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}
