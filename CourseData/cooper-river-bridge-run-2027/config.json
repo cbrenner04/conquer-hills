@@ -1,0 +1,177 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 8,
+      "min": 2,
+      "name": "Start elevation 2–8 m (Coleman Blvd; lidar 5.7 m)"
+    },
+    {
+      "atMeters": 10000,
+      "kind": "elevationAt",
+      "max": 6,
+      "min": 1,
+      "name": "Finish elevation 1–6 m (Meeting St; lidar 3.0 m)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 63,
+      "min": 56,
+      "name": "Highest point 56–63 m (the main span: 57 m clearance plus the deck)"
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 0,
+      "name": "Lowest point ≥ 0 m (catches the Shem Creek bridge reading the water)"
+    },
+    {
+      "fromMeters": 4100,
+      "kind": "drop",
+      "max": 62,
+      "min": 50,
+      "name": "The bridge climb rises 50–62 m",
+      "toMeters": 2400
+    },
+    {
+      "fromMeters": 2400,
+      "kind": "climb",
+      "min": 3,
+      "name": "The bridge climb survives as a climb of ≥ +3% (cited as about 4%)",
+      "toMeters": 3900
+    },
+    {
+      "fromMeters": 7100,
+      "kind": "maximumIncline",
+      "max": 1,
+      "name": "Downtown Charleston (mile 4.4 on): no climb above +1%",
+      "toMeters": 10000
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 5,
+      "name": "Steepest incline within ±5%"
+    },
+    {
+      "kind": "gain",
+      "max": 80,
+      "min": 55,
+      "name": "Gain 55–80 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "loss",
+      "max": 80,
+      "min": 55,
+      "name": "Loss 55–80 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 32.7836,
+        "longitude": -79.93215
+      },
+      "name": "Finish: Meeting St north of Wentworth St",
+      "officialMeters": 10000
+    }
+  ],
+  "description": "From Mount Pleasant along Coleman Boulevard and up the Arthur Ravenel Jr. Bridge: a long climb at about 4% to the main span, some 60 m above Charleston Harbor, then down the Meeting Street ramp into Charleston and a flat finish through downtown on King and Meeting streets. Unofficial.",
+  "edition": "2027",
+  "elevation": {
+    "provider": "usgs3dep",
+    "trustedSources": [
+      "SC_Charleston_2016"
+    ]
+  },
+  "id": "cooper-river-bridge-run-2027",
+  "location": "Mount Pleasant to Charleston, South Carolina, USA",
+  "manualSpans": [],
+  "name": "Cooper River Bridge Run",
+  "officialDistanceMeters": 10000,
+  "processing": {
+    "checkpointSearchRadiusMeters": 150,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 300,
+    "minimumIntervalMeters": 200,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "corridorMeters": 200,
+    "highways": [
+      "trunk",
+      "trunk_link",
+      "primary",
+      "primary_link",
+      "secondary",
+      "secondary_link",
+      "tertiary",
+      "tertiary_link",
+      "unclassified",
+      "residential",
+      "living_street",
+      "service",
+      "pedestrian",
+      "road",
+      "motorway",
+      "motorway_link"
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 7100,
+      "id": "the-bridge",
+      "name": "The bridge (miles 1.4–4.4)",
+      "startMeters": 2300
+    },
+    {
+      "endMeters": 4200,
+      "id": "the-climb",
+      "name": "The climb to the main span (miles 1.4–2.6)",
+      "startMeters": 2300
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name": "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url": "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes": "Coleman Blvd from Hibben St, US 17 over the Arthur Ravenel Jr. Bridge, the Meeting Street ramp, Meeting St, Woolfe St, King St, Wentworth St and Meeting St to the finish north of Wentworth St, as on the organiser's course and finish-area maps and its 2027 road-closure list. Route traced over OpenStreetMap streets; no certificate splits are published, so distance is calibrated to the finish (the course measures 10.0 km from Hibben St). Elevations from USGS 3DEP lidar (Charleston 2016); the bridge deck, which bare-earth lidar can't see, is modelled from its published clearance (186 ft) and main span, so the climb is about 3.5% for 1.5 km to a 60 m crest. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": false
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "profiles": [
+    {
+      "method": "Modelled from published heights: a straight line from the measured ground where US 17's approach structure leaves it in Mount Pleasant to the deck at the first tower (57.5 m), a shallow crest over the 471 m main span (60 m at mid-span: the 57 m (186 ft) navigation clearance above high water plus the deck girders), and a straight line from the second tower down the Charleston approach and the Meeting Street ramp to the measured ground where the ramp lands. The Mount Pleasant approach comes out at about 3.7%, close to the bridge's commonly cited 4%; the Charleston side, which includes the interchange viaducts, averages about 2.2%. Tower and span positions from OpenStreetMap (main-span way 927255594).",
+      "name": "Arthur Ravenel Jr. Bridge and the Meeting Street ramp",
+      "points": [
+        {
+          "latitude": 32.798798,
+          "longitude": -79.898546,
+          "riseMeters": 0
+        },
+        {
+          "elevationMeters": 57.5,
+          "latitude": 32.8027,
+          "longitude": -79.91275
+        },
+        {
+          "elevationMeters": 60,
+          "latitude": 32.80303,
+          "longitude": -79.91528
+        },
+        {
+          "elevationMeters": 57.5,
+          "latitude": 32.80335,
+          "longitude": -79.91781
+        },
+        {
+          "latitude": 32.80418,
+          "longitude": -79.94429,
+          "riseMeters": 0
+        }
+      ],
+      "source": "Navigation clearance 186 ft (57 m) and main span 1,546 ft (471 m): Wikipedia and Structurae; deck 'almost 200 feet above the water': HDR (designer); ends follow the measured approaches (USGS 3DEP lidar, Charleston 2016)"
+    }
+  ]
+}
