@@ -1,0 +1,184 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 8,
+      "min": 3,
+      "name": "Start elevation 3–8 m (Howard St near the bay; lidar 4.9 m)"
+    },
+    {
+      "atMeters": 12000,
+      "kind": "elevationAt",
+      "max": 11,
+      "min": 5,
+      "name": "Finish elevation 5–11 m (Great Highway; lidar 7.9 m)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 84,
+      "name": "Highest point ≤ 84 m (Hayes St crest, lidar ~79 m)"
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 2,
+      "name": "Lowest point ≥ 2 m"
+    },
+    {
+      "fromMeters": 4200,
+      "kind": "drop",
+      "max": 62,
+      "min": 45,
+      "name": "Hayes Street Hill rises 45–62 m (Laguna St to the crest; lidar +53 m)",
+      "toMeters": 3500
+    },
+    {
+      "fromMeters": 3700,
+      "kind": "climb",
+      "min": 8,
+      "name": "Hayes Street Hill survives as a climb of ≥ +8% (11% at its steepest, Fillmore to Steiner)",
+      "toMeters": 4250
+    },
+    {
+      "fromMeters": 8400,
+      "kind": "drop",
+      "max": 76,
+      "min": 60,
+      "name": "Golden Gate Park falls 60–76 m to the ocean (lidar ~68 m)",
+      "toMeters": 12000
+    },
+    {
+      "atMeters": 11440,
+      "kind": "noDip",
+      "name": "JFK Dr bridge near the west end of the park is never a dip",
+      "radiusMeters": 50
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 12,
+      "name": "Steepest incline within ±12%"
+    },
+    {
+      "kind": "gain",
+      "max": 130,
+      "min": 90,
+      "name": "Gain 90–130 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "loss",
+      "max": 130,
+      "min": 85,
+      "name": "Loss 85–130 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 37.7670267,
+        "longitude": -122.5104261
+      },
+      "name": "Finish: Great Highway",
+      "officialMeters": 12000
+    }
+  ],
+  "description": "From the bay to the breakers: southwest down Howard Street, across Market, then west on Hayes Street and up Hayes Street Hill, about 11% at its steepest between Fillmore and Steiner. Along the Panhandle on Fell Street, then the long gentle descent through Golden Gate Park on JFK Drive to the Great Highway at Ocean Beach. Unofficial.",
+  "edition": "2027",
+  "elevation": {
+    "provider": "usgs3dep",
+    "trustedSources": [
+      "CA_SanFrancisco_B23"
+    ]
+  },
+  "id": "bay-to-breakers-2027",
+  "location": "San Francisco, California, USA",
+  "manualSpans": [],
+  "name": "Bay to Breakers",
+  "officialDistanceMeters": 12000,
+  "processing": {
+    "checkpointSearchRadiusMeters": 150,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 300,
+    "minimumIntervalMeters": 200,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "corridorMeters": 200,
+    "highways": [
+      "trunk",
+      "trunk_link",
+      "primary",
+      "primary_link",
+      "secondary",
+      "secondary_link",
+      "tertiary",
+      "tertiary_link",
+      "unclassified",
+      "residential",
+      "living_street",
+      "service",
+      "pedestrian",
+      "road"
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 4250,
+      "id": "hayes-street-hill",
+      "name": "Hayes Street Hill (miles 2.2–2.6)",
+      "startMeters": 3500
+    },
+    {
+      "endMeters": 6250,
+      "id": "hayes-to-the-park",
+      "name": "Hayes Street Hill to Golden Gate Park (miles 2.2–3.9)",
+      "startMeters": 3500
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name": "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url": "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes": "2026 course: Howard St from Fremont St to 9th St, across Market St, Hayes St (Hayes Street Hill) to Divisadero St, Fell St along the Panhandle, Kezar Dr and JFK Dr through Golden Gate Park, and left onto the Great Highway, as described by the organiser and the City's 2026 road closures. Route traced over OpenStreetMap streets; the finish is placed on the Great Highway where the course measures 12 km, about 380 m south of JFK Dr. No certificate splits are published, so distance is calibrated to the finish. Elevations from USGS 3DEP lidar (San Francisco, 2023), a bare-earth model, so the Crossover Dr bridge over JFK Dr doesn't show. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": false
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [
+      "motorway",
+      "motorway_link"
+    ],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}
