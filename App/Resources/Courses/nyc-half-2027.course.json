@@ -1,0 +1,427 @@
+{
+  "description" : "From the Brooklyn Museum through Prospect Park and down Flatbush Avenue to the Brooklyn Bridge, a climb of about 40 m onto the span, then north on the FDR Drive along the East River, across 42nd Street to Times Square, up Seventh Avenue and into Central Park for the finish. Unofficial.",
+  "developmentOnly" : false,
+  "distanceMeters" : 21097,
+  "edition" : "2027",
+  "elevationProfile" : {
+    "elevationsMeters" : [
+      43.9,
+      41.1,
+      37.8,
+      34.4,
+      31.2,
+      28.4,
+      26.6,
+      24.4,
+      24.7,
+      25.7,
+      27.3,
+      29.5,
+      32.5,
+      35.4,
+      37.4,
+      35,
+      32.1,
+      29.1,
+      27,
+      25.7,
+      26.3,
+      26.2,
+      25.8,
+      26.7,
+      28,
+      29,
+      28.7,
+      29.4,
+      33,
+      37.1,
+      40.7,
+      44.9,
+      48.2,
+      50.1,
+      48.4,
+      45.3,
+      43,
+      41,
+      38.9,
+      37,
+      34.6,
+      31.8,
+      28.8,
+      26.1,
+      23.2,
+      20.6,
+      18.3,
+      16.3,
+      14.5,
+      13.9,
+      14.1,
+      14.3,
+      13.5,
+      12.2,
+      12,
+      11.3,
+      10.7,
+      10.9,
+      11.9,
+      14,
+      14.6,
+      11.8,
+      10.1,
+      9.2,
+      9.4,
+      10.2,
+      12.1,
+      15.1,
+      18.3,
+      19.3,
+      20.1,
+      21.2,
+      22.5,
+      24.6,
+      26.8,
+      28.9,
+      31.1,
+      33.2,
+      35.4,
+      37.5,
+      39.6,
+      40.9,
+      39.2,
+      37.3,
+      35.3,
+      33.3,
+      31.3,
+      29.3,
+      27.3,
+      25.3,
+      23.3,
+      21.3,
+      19.3,
+      17.3,
+      15.3,
+      13.4,
+      11.6,
+      11,
+      10.5,
+      10,
+      9.5,
+      9,
+      8.5,
+      8,
+      7.5,
+      7,
+      6.5,
+      6,
+      5.5,
+      3.5,
+      3.4,
+      3.1,
+      2.8,
+      2.7,
+      2.7,
+      2.3,
+      2,
+      2.3,
+      2,
+      2.2,
+      2.6,
+      1.9,
+      1.9,
+      2.3,
+      2.5,
+      2.1,
+      2.1,
+      2.1,
+      2,
+      2.2,
+      2,
+      2.3,
+      2.2,
+      2.5,
+      3.6,
+      5.3,
+      5.4,
+      5.4,
+      5.5,
+      5.5,
+      5.5,
+      5.3,
+      2.4,
+      2.2,
+      2.7,
+      3,
+      2.6,
+      2.8,
+      3.2,
+      3.5,
+      3.8,
+      4.1,
+      4.4,
+      4.7,
+      5.1,
+      5.4,
+      8.2,
+      11.9,
+      14,
+      15.5,
+      13.6,
+      10.8,
+      11.5,
+      13.8,
+      15.8,
+      17.8,
+      19.9,
+      21.6,
+      21.4,
+      20.4,
+      19.2,
+      18.4,
+      17.6,
+      16.8,
+      15.8,
+      15.1,
+      14.7,
+      15,
+      15.7,
+      16.6,
+      17.8,
+      19.6,
+      22.4,
+      23.9,
+      24.6,
+      25.4,
+      24.7,
+      22.4,
+      19.9,
+      17.3,
+      16.2,
+      15.5,
+      15.6,
+      15.5,
+      16.1,
+      19.2,
+      22.5,
+      24.3,
+      23.5,
+      22.5,
+      23.8,
+      25.2,
+      23.9,
+      21.8,
+      21.7,
+      23.3,
+      21,
+      19.5,
+      20.8,
+      23.8,
+      26.5,
+      27.5
+    ],
+    "sampleSpacingMeters" : 100
+  },
+  "id" : "nyc-half-2027",
+  "inclineChanges" : [
+    {
+      "atMeters" : 0,
+      "inclinePercent" : -3
+    },
+    {
+      "atMeters" : 700,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 1100,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 1400,
+      "inclinePercent" : -2.5
+    },
+    {
+      "atMeters" : 1900,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 2200,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 2700,
+      "inclinePercent" : 3.5
+    },
+    {
+      "atMeters" : 3300,
+      "inclinePercent" : -2.5
+    },
+    {
+      "atMeters" : 3600,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 4000,
+      "inclinePercent" : -2.5
+    },
+    {
+      "atMeters" : 4800,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 5100,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 5700,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 6000,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 6400,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 6800,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 7200,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 8100,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 9600,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 11200,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 13500,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 14300,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 14600,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 15500,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 15900,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 16300,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 16700,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 17600,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 18300,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 18600,
+      "inclinePercent" : -2.5
+    },
+    {
+      "atMeters" : 18900,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 19400,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 19700,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 20100,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 20700,
+      "inclinePercent" : 2
+    }
+  ],
+  "location" : "Brooklyn to Manhattan, New York, USA",
+  "name" : "NYC Half",
+  "processing" : {
+    "generatedOn" : "2026-10-24",
+    "parameters" : {
+      "calibrationScales" : "0-21097:0.9756",
+      "deckProfiles" : "Brooklyn Bridge and the exit ramp to the FDR Drive",
+      "elevationProvider" : "usgs3dep",
+      "gradeBlockMeters" : "100",
+      "inclineStepPercent" : "0.5",
+      "minimumIntervalMeters" : "300",
+      "osmStructuresTimestamp" : "2026-10-24T22:45:42Z",
+      "routeSmoothingMeters" : "40",
+      "sampleSpacingMeters" : "10",
+      "smoothingWindowMeters" : "100"
+    },
+    "tool" : "course-tool 0.1.0"
+  },
+  "schemaVersion" : 1,
+  "segments" : [
+    {
+      "endMeters" : 4828,
+      "id" : "prospect-park",
+      "name" : "Prospect Park and Flatbush Avenue (miles 0–3)",
+      "startMeters" : 0
+    },
+    {
+      "endMeters" : 9656,
+      "id" : "brooklyn-bridge",
+      "name" : "The Brooklyn Bridge (miles 4.3–6)",
+      "startMeters" : 6900
+    },
+    {
+      "endMeters" : 21097,
+      "id" : "central-park",
+      "name" : "Times Square to the finish (miles 10.9–13.1)",
+      "startMeters" : 17540
+    }
+  ],
+  "source" : {
+    "attribution" : "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation" : {
+      "kind" : "modeled",
+      "license" : "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name" : "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url" : "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes" : "2026 course: Washington Ave from Eastern Pkwy, Empire Blvd, out and back on Flatbush Ave by the Botanic Garden, East Drive through Prospect Park to Grand Army Plaza, Flatbush Ave and Flatbush Ave Extension, Tillary St and Adams St, the Brooklyn Bridge, the FDR Drive north, 42nd St to Times Square, Seventh Ave, Central Park South, East Drive, Terrace Drive and West Drive to the finish near W 68th St, from the organiser's 2026 course map and the City's road closures. The 2025 and 2026 races used the Brooklyn Bridge (the Manhattan Bridge before). Route traced over OpenStreetMap streets; no certificate splits are published, so distance is calibrated to the finish (the trace is about 2.5% long). Elevations from USGS 3DEP lidar (New York, 2013); the Brooklyn Bridge deck, which bare-earth lidar can't see, is modelled from the organiser's elevation chart (41.5 m at mid-span). Unofficial.",
+    "route" : {
+      "license" : "ODbL-1.0",
+      "name" : "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url" : "https://www.openstreetmap.org/copyright"
+    },
+    "verified" : false
+  },
+  "stats" : {
+    "elevationGainMeters" : 140.7,
+    "elevationLossMeters" : 157.1,
+    "maximumElevationMeters" : 50.2,
+    "minimumElevationMeters" : 1.8
+  }
+}

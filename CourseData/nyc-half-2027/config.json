@@ -1,0 +1,183 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 48,
+      "min": 40,
+      "name": "Start elevation 40–48 m (organiser chart 150 ft = 45.7 m; lidar 43.9 m)"
+    },
+    {
+      "atMeters": 21097,
+      "kind": "elevationAt",
+      "max": 30,
+      "min": 21,
+      "name": "Finish elevation 21–30 m (organiser chart 83 ft = 25.3 m)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 52,
+      "min": 45,
+      "name": "Highest point 45–52 m (Grand Army Plaza; organiser chart 157 ft = 47.9 m)"
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 0,
+      "name": "Lowest point ≥ 0 m (the FDR Drive by the East River; chart 10–16 ft)"
+    },
+    {
+      "fromMeters": 8200,
+      "kind": "drop",
+      "max": 30,
+      "min": 15,
+      "name": "The Brooklyn Bridge climb rises 15–30 m (modelled deck; crest 41.5 m)",
+      "toMeters": 6900
+    },
+    {
+      "fromMeters": 6900,
+      "kind": "climb",
+      "min": 1.5,
+      "name": "The Brooklyn Bridge climb survives as ≥ +1.5%",
+      "toMeters": 8200
+    },
+    {
+      "fromMeters": 10500,
+      "kind": "maximumIncline",
+      "max": 1,
+      "name": "FDR Drive (miles 6.5–9): no climb above +1% (viaducts and tunnels interpolated)",
+      "toMeters": 14500
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 6,
+      "name": "Steepest incline within ±6%"
+    },
+    {
+      "kind": "gain",
+      "max": 175,
+      "min": 110,
+      "name": "Gain 110–175 m at 100 m smoothing (no published figure; lidar and the modelled deck give 141 m)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "loss",
+      "max": 190,
+      "min": 125,
+      "name": "Loss 125–190 m at 100 m smoothing (no published figure; 157 m)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 40.772871,
+        "longitude": -73.976569
+      },
+      "name": "Finish: West Drive near W 68th St",
+      "officialMeters": 21097
+    }
+  ],
+  "description": "From the Brooklyn Museum through Prospect Park and down Flatbush Avenue to the Brooklyn Bridge, a climb of about 40 m onto the span, then north on the FDR Drive along the East River, across 42nd Street to Times Square, up Seventh Avenue and into Central Park for the finish. Unofficial.",
+  "edition": "2027",
+  "elevation": {
+    "provider": "usgs3dep",
+    "trustedSources": [
+      "NY_CMPG_2013"
+    ]
+  },
+  "id": "nyc-half-2027",
+  "location": "Brooklyn to Manhattan, New York, USA",
+  "manualSpans": [],
+  "name": "NYC Half",
+  "officialDistanceMeters": 21097,
+  "processing": {
+    "checkpointSearchRadiusMeters": 150,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 800,
+    "minimumIntervalMeters": 300,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "corridorMeters": 200,
+    "highways": [
+      "trunk",
+      "trunk_link",
+      "primary",
+      "primary_link",
+      "secondary",
+      "secondary_link",
+      "tertiary",
+      "tertiary_link",
+      "unclassified",
+      "residential",
+      "living_street",
+      "service",
+      "pedestrian",
+      "road",
+      "motorway",
+      "motorway_link"
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 4828,
+      "id": "prospect-park",
+      "name": "Prospect Park and Flatbush Avenue (miles 0–3)",
+      "startMeters": 0
+    },
+    {
+      "endMeters": 9656,
+      "id": "brooklyn-bridge",
+      "name": "The Brooklyn Bridge (miles 4.3–6)",
+      "startMeters": 6900
+    },
+    {
+      "endMeters": 21097,
+      "id": "central-park",
+      "name": "Times Square to the finish (miles 10.9–13.1)",
+      "startMeters": 17540
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name": "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url": "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes": "2026 course: Washington Ave from Eastern Pkwy, Empire Blvd, out and back on Flatbush Ave by the Botanic Garden, East Drive through Prospect Park to Grand Army Plaza, Flatbush Ave and Flatbush Ave Extension, Tillary St and Adams St, the Brooklyn Bridge, the FDR Drive north, 42nd St to Times Square, Seventh Ave, Central Park South, East Drive, Terrace Drive and West Drive to the finish near W 68th St, from the organiser's 2026 course map and the City's road closures. The 2025 and 2026 races used the Brooklyn Bridge (the Manhattan Bridge before). Route traced over OpenStreetMap streets; no certificate splits are published, so distance is calibrated to the finish (the trace is about 2.5% long). Elevations from USGS 3DEP lidar (New York, 2013); the Brooklyn Bridge deck, which bare-earth lidar can't see, is modelled from the organiser's elevation chart (41.5 m at mid-span). Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": false
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}

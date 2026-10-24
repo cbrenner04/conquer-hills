@@ -1,0 +1,473 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -73.962361,
+          40.670112
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start: Washington Ave just south of Eastern Pkwy (Brooklyn Museum)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.960957,
+          40.663295
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Washington Ave & Empire Blvd: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.962384,
+          40.663097
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Empire Blvd & Flatbush Ave: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.963364,
+          40.664514
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Flatbush Ave (mile 1)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9655089,
+          40.667629
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Turnaround: Flatbush Ave by the Botanic Garden"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.963364,
+          40.664514
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Flatbush Ave southbound"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.962384,
+          40.663097
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Flatbush Ave & Ocean Ave: into the park"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.967207,
+          40.666454
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Drive"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.96853,
+          40.67046
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Drive"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.969671,
+          40.672185
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Drive at Grand Army Plaza"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.969216,
+          40.672795
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Grand Army Plaza & Flatbush Ave (mile 2)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.974699,
+          40.680127
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Flatbush Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.978761,
+          40.68589
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Flatbush Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.982867,
+          40.692539
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Flatbush Ave Extension"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.98447,
+          40.696123
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Flatbush Ave Ext & Tillary St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.988872,
+          40.696247
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Tillary St & Adams St: turn right onto the bridge approach"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.996321,
+          40.705785
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Brooklyn Bridge, Manhattan-bound roadway"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -74.0009,
+          40.70959
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ramp to the FDR Drive northbound"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.978799,
+          40.711338
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "FDR Drive northbound"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.975213,
+          40.717363
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "FDR Drive northbound"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.973885,
+          40.723141
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "FDR Drive northbound"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.971846,
+          40.729371
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "FDR Drive northbound"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.974737,
+          40.736788
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "FDR Drive northbound"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.971485,
+          40.743994
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "FDR Drive"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.970518,
+          40.7451703
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "FDR Drive exit ramp to E 42nd St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.974726,
+          40.750879
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "E 42nd St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.983838,
+          40.754725
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "W 42nd St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.986949,
+          40.756036
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "42nd St & 7th Ave (Times Square): turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.982578,
+          40.762033
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "7th Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.979076,
+          40.766876
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "7th Ave & Central Park South: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.977001,
+          40.765999
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Central Park South"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.973659,
+          40.764569
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Grand Army Plaza (Manhattan): into the park"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.971964,
+          40.769629
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Drive"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.968505,
+          40.772747
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Drive & Terrace Drive: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.974827,
+          40.774705
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Terrace Drive & West Drive: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.976569,
+          40.772871
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: West Drive near W 68th St"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

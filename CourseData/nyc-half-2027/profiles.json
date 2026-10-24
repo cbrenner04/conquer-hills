@@ -1,0 +1,26 @@
+{
+  "profiles": [
+    {
+      "method": "Modelled: a straight line from the measured ground where the Manhattan-bound roadway's approach leaves Adams St in Brooklyn to a crest of 41.5 m at mid-span, then a straight line down across the Manhattan approach and the exit ramp loop to the FDR Drive, where the course rejoins measured ground. The real deck is a gentle curve between the towers, so the grade near the ends is somewhat steeper than modelled.",
+      "name": "Brooklyn Bridge and the exit ramp to the FDR Drive",
+      "points": [
+        {
+          "latitude": 40.699731,
+          "longitude": -73.988648,
+          "riseMeters": 0
+        },
+        {
+          "elevationMeters": 41.5,
+          "latitude": 40.705785,
+          "longitude": -73.996321
+        },
+        {
+          "latitude": 40.708579,
+          "longitude": -73.998092,
+          "riseMeters": 0
+        }
+      ],
+      "source": "Mid-span roadway 136 ft (41.5 m) at mile 5 on the organiser's 2026 course elevation chart; ends follow the measured approaches (USGS 3DEP lidar, NY CMPG 2013); positions from OpenStreetMap"
+    }
+  ]
+}
