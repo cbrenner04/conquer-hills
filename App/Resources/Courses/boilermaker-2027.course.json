@@ -1,0 +1,391 @@
+{
+  "description" : "Utica's 15K: south on Culver Avenue and around the Parkway, down through the Valley View golf course and up past the overlook and the zoo, along Memorial Parkway, then Burrstone Road, Champlin Avenue and Whitesboro Street to a downhill finish downtown by the brewery. Unofficial.",
+  "developmentOnly" : false,
+  "distanceMeters" : 15000,
+  "edition" : "2027",
+  "elevationProfile" : {
+    "elevationsMeters" : [
+      140.6,
+      142.2,
+      141.8,
+      143.8,
+      147.5,
+      146.2,
+      146.4,
+      148.6,
+      152.3,
+      156.4,
+      160.3,
+      161.7,
+      159.5,
+      155.7,
+      156,
+      157.3,
+      158.6,
+      159.6,
+      160.9,
+      162.3,
+      163.8,
+      165.4,
+      167.2,
+      169,
+      171.1,
+      173.2,
+      175.1,
+      176.8,
+      178.3,
+      179.2,
+      179.9,
+      179.5,
+      179,
+      178.5,
+      178,
+      177.1,
+      176,
+      174.9,
+      173.5,
+      172.9,
+      174.1,
+      176.1,
+      178.6,
+      181.7,
+      186.1,
+      192,
+      197.6,
+      202.2,
+      205.1,
+      204.4,
+      201.8,
+      202.8,
+      205.6,
+      208.9,
+      212.3,
+      213.3,
+      214.5,
+      216.8,
+      221.3,
+      226.1,
+      229.3,
+      231.8,
+      233.7,
+      238.1,
+      241.5,
+      240.7,
+      240.2,
+      241.2,
+      236.8,
+      230,
+      223.5,
+      217.1,
+      211.1,
+      203.3,
+      192.5,
+      186.7,
+      182,
+      176.9,
+      172.5,
+      170.3,
+      168.4,
+      166.6,
+      165.7,
+      164.9,
+      164.3,
+      163.2,
+      161.9,
+      160.2,
+      159,
+      159,
+      159.4,
+      158.5,
+      156.6,
+      155.6,
+      155.3,
+      153.7,
+      152.7,
+      151.9,
+      153.5,
+      155.4,
+      155.8,
+      155.8,
+      156.9,
+      158.1,
+      159.4,
+      161.4,
+      164.3,
+      167.2,
+      170,
+      171.4,
+      172.3,
+      173.1,
+      173.8,
+      174.6,
+      175.1,
+      174.4,
+      172.2,
+      169.2,
+      166.2,
+      163.1,
+      160,
+      156.9,
+      153.9,
+      151,
+      150,
+      149.5,
+      147,
+      143.2,
+      139.9,
+      136.6,
+      133.7,
+      132.5,
+      133.4,
+      135.1,
+      136.8,
+      138.6,
+      139.4,
+      139.9,
+      140.3,
+      141.5,
+      142.5,
+      143.2,
+      143.7,
+      143.9,
+      143.9,
+      144.2,
+      142.9,
+      138.1,
+      134,
+      132,
+      132.6
+    ],
+    "sampleSpacingMeters" : 100
+  },
+  "id" : "boilermaker-2027",
+  "inclineChanges" : [
+    {
+      "atMeters" : 0,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 400,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 600,
+      "inclinePercent" : 3
+    },
+    {
+      "atMeters" : 1100,
+      "inclinePercent" : -3
+    },
+    {
+      "atMeters" : 1300,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 1700,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 2100,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 2600,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 3000,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 3400,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 3900,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 4100,
+      "inclinePercent" : 3.5
+    },
+    {
+      "atMeters" : 4400,
+      "inclinePercent" : 5
+    },
+    {
+      "atMeters" : 4800,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 5000,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 5200,
+      "inclinePercent" : 3.5
+    },
+    {
+      "atMeters" : 5400,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 5700,
+      "inclinePercent" : 4.5
+    },
+    {
+      "atMeters" : 5900,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 6200,
+      "inclinePercent" : 4
+    },
+    {
+      "atMeters" : 6400,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 6700,
+      "inclinePercent" : -5.5
+    },
+    {
+      "atMeters" : 6900,
+      "inclinePercent" : -7
+    },
+    {
+      "atMeters" : 7500,
+      "inclinePercent" : -4.5
+    },
+    {
+      "atMeters" : 7800,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 8100,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 8500,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 8800,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 9100,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 9700,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 9900,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 10100,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 10500,
+      "inclinePercent" : 3
+    },
+    {
+      "atMeters" : 10800,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 11500,
+      "inclinePercent" : -3
+    },
+    {
+      "atMeters" : 12300,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 12500,
+      "inclinePercent" : -3
+    },
+    {
+      "atMeters" : 13100,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 13600,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 13800,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 14000,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 14200,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 14600,
+      "inclinePercent" : -2.5
+    }
+  ],
+  "location" : "Utica, New York, USA",
+  "name" : "Boilermaker",
+  "processing" : {
+    "generatedOn" : "2026-10-24",
+    "parameters" : {
+      "calibrationScales" : "0-15000:0.9878",
+      "elevationProvider" : "usgs3dep",
+      "gradeBlockMeters" : "100",
+      "inclineStepPercent" : "0.5",
+      "minimumIntervalMeters" : "200",
+      "osmStructuresTimestamp" : "2026-10-24T02:23:50Z",
+      "routeSmoothingMeters" : "40",
+      "sampleSpacingMeters" : "10",
+      "smoothingWindowMeters" : "100"
+    },
+    "tool" : "course-tool 0.1.0"
+  },
+  "schemaVersion" : 1,
+  "segments" : [
+    {
+      "endMeters" : 6600,
+      "id" : "valley-view-climb",
+      "name" : "Valley View and the climb to the overlook (miles 2.4–4.1)",
+      "startMeters" : 3900
+    },
+    {
+      "endMeters" : 6600,
+      "id" : "start-to-the-top",
+      "name" : "Start to the top (miles 0–4.1)",
+      "startMeters" : 0
+    }
+  ],
+  "source" : {
+    "attribution" : "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation" : {
+      "kind" : "modeled",
+      "license" : "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name" : "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url" : "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes" : "Culver Ave from Beechgrove Pl, Parkway East, Valley View Rd through the golf course, Steele Hill Rd past the overlook and the zoo, Utica Zoo Way, Memorial Pkwy, Genesee St, Shepherd Pl, Sunset Ave, Burrstone Rd, Champlin Ave, Whitesboro St and Court St to the finish at Varick St, as on the organiser's water and aid station map and its start and finish locations. Route traced over OpenStreetMap streets; the course was USATF recertified in 2024 but no splits are published, so distance is calibrated to the finish. Elevations from USGS 3DEP lidar (central New York, 2018); the Burrstone Rd bridge over Route 12 is interpolated. Unofficial.",
+    "route" : {
+      "license" : "ODbL-1.0",
+      "name" : "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url" : "https://www.openstreetmap.org/copyright"
+    },
+    "verified" : false
+  },
+  "stats" : {
+    "elevationGainMeters" : 158.5,
+    "elevationLossMeters" : 166.5,
+    "maximumElevationMeters" : 241.7,
+    "minimumElevationMeters" : 131.9
+  }
+}
