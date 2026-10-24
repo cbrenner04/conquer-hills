@@ -1,0 +1,213 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -117.4250227,
+          47.6579258
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start: Riverside Ave at Lincoln St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -117.4349788,
+          47.6565789
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Riverside Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -117.4513841,
+          47.6562727
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Riverside Ave, Browne's Addition"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -117.4614901,
+          47.6553939
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Riverside Ave & Government Way: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -117.4688624,
+          47.6640896
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Government Way (Cemetery Hill)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -117.4755527,
+          47.6719221
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Government Way & Whistalks Way: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -117.4631403,
+          47.6749356
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Whistalks Way"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -117.4538159,
+          47.6787206
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Whistalks Way & T J Meenach Dr: turn left onto the bridge"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -117.45012,
+          47.6806389
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "T J Meenach Dr & Pettit Dr: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -117.4460272,
+          47.6777406
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Pettit Dr (Doomsday Hill)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -117.4434255,
+          47.6717072
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Pettit Dr & Mission Ave: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -117.451139,
+          47.6710318
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mission Ave & Lindeke St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -117.4511812,
+          47.6644491
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lindeke St & Broadway Ave: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -117.4403656,
+          47.6643577
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Broadway Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -117.4266183,
+          47.6643867
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Broadway Ave & Monroe St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -117.4266,
+          47.6619646
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: on the Monroe Street Bridge (north end)"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

@@ -1,0 +1,216 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 577,
+      "min": 571,
+      "name": "Start elevation 571–577 m (organiser profile ~1,885 ft = 574.5 m; lidar 573.7 m)"
+    },
+    {
+      "atMeters": 12000,
+      "kind": "elevationAt",
+      "max": 569,
+      "min": 562,
+      "name": "Finish elevation 562–569 m (organiser profile ~1,858 ft = 566 m)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 581,
+      "name": "Highest point ≤ 581 m (organiser profile ~1,895 ft = 578 m)"
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 527,
+      "name": "Lowest point ≥ 527 m (organiser profile ~1,730 ft = 527 m; catches the river and creek bridges reading the water)"
+    },
+    {
+      "fromMeters": 2250,
+      "kind": "minimumElevation",
+      "min": 529,
+      "name": "Riverside Ave bridge over Latah Creek reads the deck, not the creek: lowest point ≥ 529 m",
+      "toMeters": 2450
+    },
+    {
+      "fromMeters": 4600,
+      "kind": "drop",
+      "max": 32,
+      "min": 20,
+      "name": "Cemetery Hill rises 20–32 m on Government Way (lidar +26 m)",
+      "toMeters": 3600
+    },
+    {
+      "fromMeters": 3700,
+      "kind": "climb",
+      "min": 3.5,
+      "name": "Cemetery Hill survives as a climb of ≥ +3.5%",
+      "toMeters": 4500
+    },
+    {
+      "fromMeters": 8400,
+      "kind": "drop",
+      "max": 46,
+      "min": 34,
+      "name": "Doomsday Hill rises 34–46 m on Pettit Dr (\"120 feet in less than three quarters of a mile\"; lidar +41 m)",
+      "toMeters": 7400
+    },
+    {
+      "fromMeters": 7300,
+      "kind": "climb",
+      "min": 5,
+      "name": "Doomsday Hill survives as a climb of ≥ +5% (\"a grade above 6%\")",
+      "toMeters": 8000
+    },
+    {
+      "fromMeters": 11700,
+      "kind": "drop",
+      "max": 12,
+      "min": 5,
+      "name": "Monroe St falls 5–12 m to the bridge (organiser profile ~8 m)",
+      "toMeters": 12000
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 8,
+      "name": "Steepest incline within ±8%"
+    },
+    {
+      "kind": "gain",
+      "max": 140,
+      "min": 90,
+      "name": "Gain 90–140 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "loss",
+      "max": 150,
+      "min": 95,
+      "name": "Loss 95–150 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": false,
+      "location": {
+        "latitude": 47.6644491,
+        "longitude": -117.4511812
+      },
+      "name": "10K marker: \"shortly after turning left onto Broadway\" (Lindeke St & Broadway Ave)",
+      "officialMeters": 10000
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 47.6619646,
+        "longitude": -117.4266
+      },
+      "name": "Finish: on the Monroe Street Bridge (north end)",
+      "officialMeters": 12000
+    }
+  ],
+  "description": "Downtown Spokane west along Riverside Avenue and down to Latah Creek, up Government Way past the cemetery (Cemetery Hill), along Whistalks Way past Spokane Falls Community College, across the Spokane River, then up Pettit Drive: Doomsday Hill, about 40 m in 0.7 miles at mile 5. Level roads through West Central to the finish over the Monroe Street Bridge. Unofficial.",
+  "edition": "2027",
+  "elevation": {
+    "provider": "usgs3dep",
+    "trustedSources": [
+      "WA_NorthEast_B22",
+      "ned19_n47x75_w117x50_wa_spokanecity_2007"
+    ]
+  },
+  "id": "bloomsday-2027",
+  "location": "Spokane, Washington, USA",
+  "manualSpans": [],
+  "name": "Lilac Bloomsday Run",
+  "officialDistanceMeters": 12000,
+  "processing": {
+    "checkpointSearchRadiusMeters": 150,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 300,
+    "minimumIntervalMeters": 200,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "corridorMeters": 200,
+    "highways": [
+      "trunk",
+      "trunk_link",
+      "primary",
+      "primary_link",
+      "secondary",
+      "secondary_link",
+      "tertiary",
+      "tertiary_link",
+      "unclassified",
+      "residential",
+      "living_street",
+      "service",
+      "pedestrian",
+      "road"
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 5500,
+      "id": "cemetery-hill",
+      "name": "Cemetery Hill (miles 2.3–3.4)",
+      "startMeters": 3700
+    },
+    {
+      "endMeters": 8700,
+      "id": "doomsday-hill",
+      "name": "Doomsday Hill (miles 4.5–5.4)",
+      "startMeters": 7250
+    },
+    {
+      "endMeters": 12000,
+      "id": "doomsday-to-finish",
+      "name": "Doomsday Hill to the finish (mile 4.5 to the finish)",
+      "startMeters": 7250
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name": "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url": "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes": "2026 course (the same since 1980): Riverside Ave from Lincoln St, Government Way, Whistalks Way, the T J Meenach Bridge, Pettit Dr (Doomsday Hill), Mission Ave, Lindeke St, Broadway Ave and Monroe St, as on the organiser's 2024 course map and 2026 runner instructions. Route traced over OpenStreetMap streets; the finish is placed at the north end of the Monroe Street Bridge, where the course map's flag is. No certificate splits are published, so distance is calibrated to the finish, with the 10K marker after the turn onto Broadway as a check. Elevations from USGS 3DEP lidar (Washington 2022; Spokane city 2007 from Whistalks Way to the top of Pettit Dr); the river and creek bridges are interpolated. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": false
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [
+      "motorway",
+      "motorway_link"
+    ],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}
