@@ -1,0 +1,220 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 12,
+      "min": 4,
+      "name": "Start elevation 4–12 m (Route 110 by Arlington Cemetery; lidar 7.8 m)"
+    },
+    {
+      "atMeters": 42195,
+      "kind": "elevationAt",
+      "max": 28,
+      "min": 18,
+      "name": "Finish elevation 18–28 m (the Iwo Jima Access Road below the memorial; lidar 22.8 m)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 76,
+      "min": 64,
+      "name": "Highest point 64–76 m (Langston Blvd near Spout Run; lidar 70 m)"
+    },
+    {
+      "kind": "minimumElevation",
+      "min": -1,
+      "name": "Lowest point ≥ −1 m (Hains Point is barely above the river; catches bridges reading the water)"
+    },
+    {
+      "fromMeters": 4000,
+      "kind": "drop",
+      "max": 72,
+      "min": 52,
+      "name": "Rosslyn and Langston Blvd climb 52–72 m in the first 2.5 miles (lidar +62 m)",
+      "toMeters": 0
+    },
+    {
+      "fromMeters": 1300,
+      "kind": "climb",
+      "min": 4.5,
+      "name": "The Langston Blvd climb survives as a climb of ≥ +4.5%",
+      "toMeters": 3700
+    },
+    {
+      "fromMeters": 4000,
+      "kind": "drop",
+      "max": 72,
+      "min": 52,
+      "name": "Spout Run falls 52–72 m to the river",
+      "toMeters": 6000
+    },
+    {
+      "fromMeters": 42195,
+      "kind": "drop",
+      "max": 22,
+      "min": 10,
+      "name": "The uphill finish rises 10–22 m in the last 0.4 mile (lidar +16 m)",
+      "toMeters": 41500
+    },
+    {
+      "fromMeters": 41400,
+      "kind": "climb",
+      "min": 2,
+      "name": "The uphill finish survives as a climb of ≥ +2%",
+      "toMeters": 42195
+    },
+    {
+      "fromMeters": 12000,
+      "kind": "maximumIncline",
+      "max": 2,
+      "name": "Rock Creek, Hains Point, the Mall, the bridge and Crystal City (miles 7.5–24.9): no climb above +2% (bridges interpolated)",
+      "toMeters": 40000
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 7,
+      "name": "Steepest incline within ±7%"
+    },
+    {
+      "kind": "gain",
+      "max": 280,
+      "min": 170,
+      "name": "Gain 170–280 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "loss",
+      "max": 270,
+      "min": 160,
+      "name": "Loss 160–270 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 38.921437,
+        "longitude": -77.051166
+      },
+      "name": "Turnaround: Rock Creek Pkwy at Shoreham Dr (certificate; distance interpolated from the map's mile 7 and 8 markers)",
+      "officialMeters": 11940
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 38.85449,
+        "longitude": -77.049421
+      },
+      "name": "Turnaround: Crystal Dr at 2121 Crystal Drive (certificate; distance interpolated from the map's mile 23 and 24 markers)",
+      "officialMeters": 37180
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 38.88907,
+        "longitude": -77.0683
+      },
+      "name": "Finish: Iwo Jima Access Road, 137 yards past Marshall Dr (certificate)",
+      "officialMeters": 42195
+    }
+  ],
+  "description": "From the Pentagon up through Rosslyn and the hills of Langston Boulevard and Spout Run, over the Key Bridge to Georgetown, out and back on Rock Creek Parkway, around Hains Point, along the National Mall to the Capitol, back over the 14th Street Bridge to the Pentagon and Crystal City, and an uphill finish at the Marine Corps War Memorial. Unofficial.",
+  "edition": "2026",
+  "elevation": {
+    "provider": "usgs3dep",
+    "trustedSources": [
+      "VA_NorthernVA_B22",
+      "VA_Fairfax_County_2018",
+      "MD_VA_Sandy_NCR_2014"
+    ]
+  },
+  "id": "marine-corps-marathon-2026",
+  "location": "Arlington, Virginia, and Washington, DC, USA",
+  "manualSpans": [],
+  "name": "Marine Corps Marathon",
+  "officialDistanceMeters": 42195,
+  "processing": {
+    "checkpointSearchRadiusMeters": 150,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 1900,
+    "minimumIntervalMeters": 300,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "corridorMeters": 200,
+    "highways": [
+      "trunk",
+      "trunk_link",
+      "primary",
+      "primary_link",
+      "secondary",
+      "secondary_link",
+      "tertiary",
+      "tertiary_link",
+      "unclassified",
+      "residential",
+      "living_street",
+      "service",
+      "pedestrian",
+      "road",
+      "motorway",
+      "motorway_link"
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 6000,
+      "id": "rosslyn-and-spout-run",
+      "name": "Rosslyn and Spout Run (miles 0–3.7)",
+      "startMeters": 0
+    },
+    {
+      "endMeters": 42195,
+      "id": "beat-the-bridge-to-finish",
+      "name": "Beat the Bridge to the finish (miles 20–26.2)",
+      "startMeters": 32187
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name": "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url": "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes": "2026 course, the certified course DC25002LMJ (valid to 2035), as on the organiser's certified course map and 2026 event map: Route 110, N Lynn St, Langston Blvd, Spout Run Pkwy, the Key Bridge, M St, Wisconsin Ave and K St in Georgetown, Rock Creek Pkwy out to Shoreham Dr and back, Ohio Dr, Hains Point, Independence Ave, the National Mall (Madison and Jefferson Drives) to the Capitol, the 14th Street Bridge, the Pentagon, Crystal Dr to 2121 Crystal Drive and back, Long Bridge Dr, Boundary Dr, Route 110 and up to the Marine Corps War Memorial. Route traced over OpenStreetMap streets; distances calibrated to the two turnarounds (interpolated from the map's mile markers) and the finish. The loop around the Pentagon's \"Pork Chop\" lot (miles 21–22) isn't traceable in OpenStreetMap, so the traced course is about 1.8 km short there and the flat middle of the course is stretched to fit. Elevations from USGS 3DEP lidar (northern Virginia 2022, Fairfax County 2018, National Capital Region 2014); bridges interpolated. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": false
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}
