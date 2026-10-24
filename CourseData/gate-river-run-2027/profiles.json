@@ -1,0 +1,48 @@
+{
+  "profiles": [
+    {
+      "method": "Modelled: straight lines from the measured ground at Bay St to a 14 m crest over the lift span, and down to the measured ground in Southbank. The lift span's closed clearance is about 40 ft (12 m) above the river; the deck sits slightly above that.",
+      "name": "Main Street Bridge",
+      "points": [
+        {
+          "latitude": 30.326199,
+          "longitude": -81.657824,
+          "riseMeters": 0
+        },
+        {
+          "elevationMeters": 14,
+          "latitude": 30.322537,
+          "longitude": -81.658597
+        },
+        {
+          "latitude": 30.317648,
+          "longitude": -81.659141,
+          "riseMeters": 0
+        }
+      ],
+      "source": "Main Street (John T. Alsop Jr.) Bridge: vertical lift bridge with about 40 ft closed clearance (FDOT, Wikipedia); ends follow the measured approaches (USGS 3DEP lidar, Florida peninsular 2018); positions from OpenStreetMap"
+    },
+    {
+      "method": "Modelled: straight lines from the measured ground where the Hart Expressway's bridge structure begins south of the river to a 46 m crest at the middle of the main span (141 ft navigation clearance plus the deck), and down the north approach and the Commodore Point Expressway ramp to the measured ground by the stadium. The climb comes out at about 5% over 0.85 km; the race describes it as a 140-foot climb over half a mile.",
+      "name": "Hart Bridge (the Green Monster)",
+      "points": [
+        {
+          "latitude": 30.30906,
+          "longitude": -81.621662,
+          "riseMeters": 0
+        },
+        {
+          "elevationMeters": 46,
+          "latitude": 30.31508,
+          "longitude": -81.62707
+        },
+        {
+          "latitude": 30.319901,
+          "longitude": -81.630926,
+          "riseMeters": 0
+        }
+      ],
+      "source": "Isaiah D. Hart Bridge: 141 ft (43 m) navigation clearance (FDOT, Wikipedia); \"a challenging 140-foot climb over half a mile\" (race information page); ends follow the measured approaches (USGS 3DEP lidar); positions from OpenStreetMap"
+    }
+  ]
+}

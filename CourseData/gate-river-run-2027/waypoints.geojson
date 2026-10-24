@@ -1,0 +1,369 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -81.655574,
+          30.325698
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start: Bay St at Newnan St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.657913,
+          30.326219
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bay St & Main St: turn left onto the Main Street Bridge"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.658741,
+          30.321017
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Main Street Bridge"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.659219,
+          30.316303
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Main St & Prudential Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.654736,
+          30.316511
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Riverplace Blvd (mile 1.5)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.654735,
+          30.316318
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Riverplace Blvd & San Marco Blvd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.660507,
+          30.312758
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "San Marco Blvd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.660538,
+          30.308836
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "San Marco Blvd at LaSalle St (mile 2.5)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.66094,
+          30.30631
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "River Rd at Laverne St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.65756,
+          30.30166
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "River Rd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.655084,
+          30.300465
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "River Rd (Davin Park, mile 3.5)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.65334,
+          30.29619
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "River Rd & River Oaks Rd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.64841,
+          30.29828
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "River Oaks Rd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.64281,
+          30.30032
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "River Oaks Rd & Philips Hwy"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.64435,
+          30.30406
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Philips Hwy"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.64699,
+          30.30784
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Philips Hwy & Atlantic Blvd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.64256,
+          30.30771
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Atlantic Blvd east of the railroad (mile 4.5)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.637138,
+          30.306019
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Atlantic Blvd & Holmesdale Rd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.637334,
+          30.307511
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Holmesdale Rd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.637662,
+          30.308855
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Holmesdale Rd & Jolly Rd (mile 5.5)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.635644,
+          30.309234
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Jolly Rd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.630016,
+          30.30698
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Gay Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.629771,
+          30.305878
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Gay Ave & Atlantic Blvd (mile 6.5)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.6189988,
+          30.3081694
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Atlantic Blvd under the Hart Expressway (mile 7)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.63522,
+          30.32136
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Gator Bowl Blvd (mile 8.5)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.640094,
+          30.32174
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Gator Bowl Blvd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.64453,
+          30.3232
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Gator Bowl Blvd & A. Philip Randolph Blvd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.6464,
+          30.3247
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: Bay St at the Shipyards"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
