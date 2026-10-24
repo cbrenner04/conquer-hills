@@ -1,0 +1,850 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -77.062635,
+          38.882709
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start: Route 110 northbound"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.066831,
+          38.888723
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Route 110"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.067597,
+          38.892441
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Route 110 at Wilson Blvd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.070756,
+          38.895035
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "N Lynn St at Wilson Blvd (mile 1)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.070735,
+          38.898987
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "N Lynn St & Langston Blvd: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.079503,
+          38.897829
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Langston Blvd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.096237,
+          38.895934
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Langston Blvd & Spout Run Pkwy: the west end"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.081905,
+          38.902075
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Spout Run Pkwy"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.081007,
+          38.902156
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Spout Run Pkwy & GW Parkway"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.070036,
+          38.90201
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Key Bridge"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.068694,
+          38.905061
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "M St NW: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.062811,
+          38.905178
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "M St & Wisconsin Ave: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.062752,
+          38.902587
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Wisconsin Ave & K St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.05609,
+          38.902418
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "K St & 27th St: to Rock Creek Pkwy"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.054495,
+          38.90777
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rock Creek Pkwy northbound"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.050578,
+          38.909386
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rock Creek Pkwy"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.058238,
+          38.917254
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rock Creek Pkwy"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.051166,
+          38.921437
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Turnaround: Rock Creek Pkwy at Shoreham Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.055067,
+          38.91892
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rock Creek Pkwy southbound"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.055957,
+          38.914116
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rock Creek Pkwy"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.051381,
+          38.911212
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rock Creek Pkwy"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.054735,
+          38.907272
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rock Creek Pkwy"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.056417,
+          38.896
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rock Creek Pkwy by the Kennedy Center (mile 10)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.052487,
+          38.889831
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ohio Dr NW"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.048004,
+          38.886937
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Independence Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.044996,
+          38.885513
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "West Basin Dr (mile 11)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.040583,
+          38.880352
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ohio Dr SW"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.039112,
+          38.878877
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ohio Dr SW under the bridges"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.033874,
+          38.87511
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ohio Dr into East Potomac Park"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.029738,
+          38.870318
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hains Point, Potomac side"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.022337,
+          38.858396
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hains Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.022523,
+          38.868902
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hains Point, channel side"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.0284,
+          38.878
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ohio Dr, channel side (mile 15)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.033691,
+          38.885701
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "15th St SW"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.033701,
+          38.887702
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Independence Ave & 15th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.039499,
+          38.886947
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Independence Ave (mile 16 hairpin)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.033701,
+          38.887702
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Independence Ave & 15th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.033031,
+          38.89013
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "15th St & Madison Dr: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.025001,
+          38.890524
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Madison Dr (mile 17)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.015213,
+          38.89063
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Madison Dr & 3rd St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.015217,
+          38.891377
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "3rd St & Pennsylvania Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.013677,
+          38.891109
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Pennsylvania Ave to Peace Circle"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.01246,
+          38.890196
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "1st St NW between the circles"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.01357,
+          38.888652
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Garfield Circle: Maryland Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.015202,
+          38.888188
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Maryland Ave & 3rd St (mile 18)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.015204,
+          38.888834
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Jefferson Dr & 3rd St: west"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.024914,
+          38.888914
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Jefferson Dr (mile 19)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.03196,
+          38.888622
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Jefferson Dr & 14th St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.041697,
+          38.876098
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "14th Street Bridge, HOV lanes (mile 20)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.054102,
+          38.8667
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "S Eads St at the Pentagon (mile 21)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.054339,
+          38.864802
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "S Eads St & Army Navy Dr (mile 22)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.051916,
+          38.862932
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Army Navy Dr & 12th St S"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.048793,
+          38.862378
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "12th St S & Crystal Dr: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.049212,
+          38.857995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Crystal Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.049421,
+          38.85449
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Turnaround: Crystal Dr at 2121 Crystal Drive"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.049212,
+          38.857995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Crystal Dr (mile 23)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.048793,
+          38.862378
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "12th St S back to Long Bridge Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.05121,
+          38.862922
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Long Bridge Dr & 12th St S: turn right (mile 24)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.045097,
+          38.869018
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Long Bridge Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.046491,
+          38.870025
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "N Boundary Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.052144,
+          38.87499
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "N Boundary Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.060821,
+          38.880589
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Route 110 northbound"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.062635,
+          38.882709
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Route 110 at the start line (mile 25)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.067497,
+          38.887979
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Marshall Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.0683,
+          38.88907
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: Iwo Jima Access Road, 137 yards past Marshall Dr"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
