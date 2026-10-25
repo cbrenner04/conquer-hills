@@ -1,0 +1,720 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -122.39362,
+          37.79493
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start: The Embarcadero at Market St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.398964,
+          37.80052
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "The Embarcadero"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.406278,
+          37.806783
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "The Embarcadero"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.417015,
+          37.808075
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Jefferson St (Fisherman's Wharf)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.420522,
+          37.807607
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Jefferson St & Hyde St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.423456,
+          37.806284
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Beach St & Polk St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.424497,
+          37.805186
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "North Point St & Van Ness Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.426147,
+          37.807032
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Van Ness Ave into Fort Mason"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.428463,
+          37.806983
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Funston Rd, Fort Mason"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.432494,
+          37.805172
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Marina Blvd at Laguna St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.439005,
+          37.806224
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Marina Blvd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.456974,
+          37.803872
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mason St, Crissy Field"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.469916,
+          37.805511
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lincoln Blvd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.478687,
+          37.821994
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Golden Gate Bridge, east sidewalk (northbound)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.483244,
+          37.836619
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Alexander Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.4780266,
+          37.8402939
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Alexander Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.47802,
+          37.8431
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Alexander Ave & East Rd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.47323,
+          37.83748
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Rd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.47718,
+          37.83592
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Rd & Center Rd, Fort Baker"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.47858,
+          37.83394
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Center Rd & Moore Rd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.47856,
+          37.83141
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Moore Rd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.48072,
+          37.83154
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Vista Point Trail"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.478957,
+          37.822003
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Golden Gate Bridge, west sidewalk (southbound)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.475849,
+          37.803561
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lincoln Blvd at the toll plaza"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.480335,
+          37.795385
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lincoln Blvd by Baker Beach"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.48196,
+          37.789491
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lincoln Blvd & El Camino del Mar"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.484974,
+          37.787631
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "El Camino del Mar"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.487326,
+          37.785985
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "27th Ave at Lake St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.486387,
+          37.773005
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "27th Ave at Fulton St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.480088,
+          37.770436
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "JFK Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.47669,
+          37.770885
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Blue Heron Lake Dr (Stow Lake)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.474508,
+          37.767278
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Blue Heron Lake Dr, south side"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.471867,
+          37.769305
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Blue Heron Lake Dr East"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.470278,
+          37.771557
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "JFK Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.46013,
+          37.771468
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "JFK Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.455856,
+          37.770973
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "JFK Dr near Kezar"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.454877,
+          37.768988
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kezar Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.452948,
+          37.769251
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Haight St at Stanyan St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.439981,
+          37.770903
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Haight St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.428081,
+          37.772415
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Haight St near Buchanan St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.425605,
+          37.77082
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hermann St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.424,
+          37.764796
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "16th St & Guerrero St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.412003,
+          37.765524
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "16th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.403,
+          37.766001
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "16th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.399019,
+          37.765009
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "17th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.394995,
+          37.76396
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mariposa St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.393509,
+          37.762765
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "18th St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.387351,
+          37.773036
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Terry A. Francois Blvd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.390317,
+          37.776691
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "3rd St (Lefty O'Doul Bridge)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.38966,
+          37.779624
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "King St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.387958,
+          37.783998
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "The Embarcadero"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.389964,
+          37.790888
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Folsom St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.39158,
+          37.790557
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Spear St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.391525,
+          37.7921
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Howard St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.390587,
+          37.791974
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: The Embarcadero at Howard St"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
