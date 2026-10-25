@@ -1,0 +1,538 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -157.848523,
+          21.291249
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start: Ala Moana Blvd at Ala Moana Beach Park"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.863361,
+          21.301846
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ala Moana Blvd & Punchbowl St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.859819,
+          21.304213
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Punchbowl St & Queen St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.862818,
+          21.307614
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Queen St & Bishop St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.862258,
+          21.30802
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bishop St & Merchant St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.863366,
+          21.30968
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Merchant St & Bethel St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.862597,
+          21.309978
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bethel St & King St: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.855951,
+          21.303916
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "King St & Kapiolani Blvd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.844297,
+          21.293904
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kapiolani Blvd & Kona St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.838164,
+          21.290175
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kona St & Atkinson Dr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.832941,
+          21.285546
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kalakaua Ave & Ala Moana Blvd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.826805,
+          21.277192
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kalakaua Ave, Waikiki"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.818958,
+          21.269394
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Monsarrat Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.81658,
+          21.26696
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Paki Ave from Monsarrat Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.817658,
+          21.264787
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Paki Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.818178,
+          21.260168
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Paki Ave & Diamond Head Rd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.809904,
+          21.256108
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Diamond Head Rd by the lighthouse"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.799475,
+          21.267295
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Diamond Head Rd & 18th Ave: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.796949,
+          21.271481
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "18th Ave & Kilauea Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.786373,
+          21.272152
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kilauea Ave (mile 10)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.784745,
+          21.277473
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kilauea Ave by Kahala Mall (mile 11)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.779722,
+          21.277916
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kalanianaole Hwy eastbound"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.770667,
+          21.276738
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kalanianaole Hwy"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.740164,
+          21.280606
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kalanianaole Hwy"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.723542,
+          21.285835
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kalanianaole Hwy"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.71748,
+          21.2847
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kalanianaole Hwy & Hawaii Kai Dr: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.7095,
+          21.29365
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hawaii Kai Dr, northern bend"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.707,
+          21.29
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hawaii Kai Dr southbound"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.705717,
+          21.2867
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hawaii Kai Dr & Keahole St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.70995,
+          21.284895
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Keahole St"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.71531,
+          21.283021
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Keahole St & Kalanianaole Hwy: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.740164,
+          21.280606
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kalanianaole Hwy westbound"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.770667,
+          21.276738
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kalanianaole Hwy westbound"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.7797,
+          21.2709
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kealaolu Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.778759,
+          21.26964
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kealaolu Ave & Kahala Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.786989,
+          21.262275
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kahala Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.798139,
+          21.258971
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kahala Ave & Diamond Head Rd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.809904,
+          21.256108
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Diamond Head Rd by the lighthouse"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.81516,
+          21.257002
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Diamond Head Rd"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.8186,
+          21.2598
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Diamond Head Rd & Kalakaua Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.8215,
+          21.266
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: Kalakaua Ave at Kapiolani Park"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

@@ -1,0 +1,205 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 6,
+      "min": 0,
+      "name": "Start elevation 0–6 m (course map 14 ft, Ala Moana Blvd)"
+    },
+    {
+      "atMeters": 42195,
+      "kind": "elevationAt",
+      "max": 6,
+      "min": 0,
+      "name": "Finish elevation 0–6 m (Kalakaua Ave at Kapiolani Park)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 43,
+      "min": 33,
+      "name": "Highest point 33–43 m (course map 132 ft on Diamond Head Rd)"
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 0.5,
+      "name": "Lowest point ≥ 0.5 m (catches canal and stream bridges reading the water)"
+    },
+    {
+      "fromMeters": 0,
+      "kind": "maximumIncline",
+      "max": 1,
+      "name": "Downtown, Waikiki and Kapiolani Park (to mile 7.4): no climb above +1%",
+      "toMeters": 12000
+    },
+    {
+      "fromMeters": 13000,
+      "kind": "drop",
+      "max": 38,
+      "min": 22,
+      "name": "Diamond Head Rd rises 22–38 m from Kapiolani Park to the lighthouse (miles 7.5–8.1; lidar +30 m)",
+      "toMeters": 12000
+    },
+    {
+      "fromMeters": 12000,
+      "kind": "climb",
+      "min": 4.5,
+      "name": "The first Diamond Head climb survives as ≥ +4.5%",
+      "toMeters": 12700
+    },
+    {
+      "fromMeters": 19000,
+      "kind": "maximumIncline",
+      "max": 1,
+      "name": "Kalanianaole Hwy and the Hawaii Kai loop (miles 11.8–21.4): no climb above +1%",
+      "toMeters": 34500
+    },
+    {
+      "fromMeters": 40000,
+      "kind": "drop",
+      "max": 38,
+      "min": 22,
+      "name": "Diamond Head Rd rises 22–38 m again from Kahala (miles 23.6–24.9; lidar +30 m)",
+      "toMeters": 38000
+    },
+    {
+      "fromMeters": 38200,
+      "kind": "climb",
+      "min": 2.5,
+      "name": "The second Diamond Head climb survives as ≥ +2.5%",
+      "toMeters": 39900
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 7,
+      "name": "Steepest incline within ±7%"
+    },
+    {
+      "kind": "gain",
+      "max": 220,
+      "min": 140,
+      "name": "Gain 140–220 m (at 100 m smoothing; course map 641 ft = 195 m)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "loss",
+      "max": 220,
+      "min": 140,
+      "name": "Loss 140–220 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 21.266,
+        "longitude": -157.8215
+      },
+      "name": "Finish: Kalakaua Ave at Kapiolani Park",
+      "officialMeters": 42195
+    }
+  ],
+  "description": "A pre-dawn start at Ala Moana, a loop through downtown, Waikiki and Kapiolani Park, then up and around Diamond Head, out along Kalanianaole Highway to Hawaii Kai and back through Kahala, and over Diamond Head again to the finish in Kapiolani Park. Flat but for the two Diamond Head climbs. Unofficial.",
+  "edition": "2026",
+  "elevation": {
+    "provider": "usgs3dep",
+    "trustedSources": [
+      "HI_NOAAMauiOahu_2020_B20"
+    ]
+  },
+  "id": "honolulu-marathon-2026",
+  "location": "Honolulu, Hawaii, USA",
+  "manualSpans": [],
+  "name": "Honolulu Marathon",
+  "officialDistanceMeters": 42195,
+  "processing": {
+    "checkpointSearchRadiusMeters": 150,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 300,
+    "minimumIntervalMeters": 300,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "corridorMeters": 200,
+    "highways": [
+      "trunk",
+      "trunk_link",
+      "primary",
+      "primary_link",
+      "secondary",
+      "secondary_link",
+      "tertiary",
+      "tertiary_link",
+      "unclassified",
+      "residential",
+      "living_street",
+      "service",
+      "pedestrian",
+      "road",
+      "motorway",
+      "motorway_link"
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 16100,
+      "id": "diamond-head",
+      "name": "Diamond Head (miles 7.4–10)",
+      "startMeters": 11900
+    },
+    {
+      "endMeters": 42195,
+      "id": "diamond-head-again",
+      "name": "Diamond Head again (mile 23.7 to the finish)",
+      "startMeters": 38100
+    },
+    {
+      "endMeters": 42195,
+      "id": "second-half",
+      "name": "Second half (Hawaii Kai to the finish, miles 13.1–26.2)",
+      "startMeters": 21098
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name": "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url": "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes": "2026 course: the start on Ala Moana Blvd, a loop through downtown (Punchbowl, Queen, Bishop, Merchant, Bethel and King Streets), Kapiolani Blvd, Kona St, Atkinson Dr, Kalakaua Ave through Waikiki, Monsarrat and Paki Avenues past Kapiolani Park, Diamond Head Rd around the crater, 18th Ave, Kilauea Ave, Kalanianaole Hwy east to the Hawaii Kai Dr and Keahole St loop and back, Kealaolu and Kahala Avenues, Diamond Head Rd again, and the finish on Kalakaua Ave at Kapiolani Park, matching the organiser's 2026 course map. Route traced over OpenStreetMap streets; the course's certificate isn't public, so distance is calibrated to the finish. Elevations from USGS 3DEP lidar (NOAA Maui and Oahu, 2020); canal and stream bridges are interpolated. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": false
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}
