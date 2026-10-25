@@ -1,0 +1,343 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -73.962306,
+          40.670221
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Start: Washington Ave by the Brooklyn Museum"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.960957,
+          40.663295
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Washington Ave & Empire Blvd: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.962384,
+          40.663097
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Empire Blvd & Flatbush Ave: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.966498,
+          40.669001
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Flatbush Ave (mile 1)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.97041,
+          40.674411
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Grand Army Plaza: around the oval"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.966498,
+          40.669001
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Flatbush Ave southbound (mile 2)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.962384,
+          40.663097
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Flatbush Ave & Ocean Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.962392,
+          40.657991
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ocean Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.961901,
+          40.654875
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ocean Ave & Parkside Ave: turn right (mile 3)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.966779,
+          40.652969
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Parkside Ave"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.969803,
+          40.652169
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Drive at Park Circle: into the park"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.964378,
+          40.654386
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Drive along the lake (5K)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.963599,
+          40.659636
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Drive (mile 4)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.965513,
+          40.663995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Drive"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.968535,
+          40.670497
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "East Drive"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.970876,
+          40.670454
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "West Drive"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.973336,
+          40.665006
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "West Drive (mile 6)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.977544,
+          40.660994
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "West Drive (10K)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.972772,
+          40.655825
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "West Drive"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.972281,
+          40.650663
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Park Circle (mile 7): onto Ocean Pkwy"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.973457,
+          40.639949
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ocean Pkwy"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.968735,
+          40.61503
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ocean Pkwy"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.964952,
+          40.595061
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ocean Pkwy"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.96898,
+          40.575279
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ocean Pkwy & Surf Ave: turn right"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.977882,
+          40.575441
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Surf Ave & W 10th St: turn left"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.982688,
+          40.572842
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Finish: the Riegelmann Boardwalk west of W 10th St"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
