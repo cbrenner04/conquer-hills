@@ -1,0 +1,226 @@
+{
+  "acceptance": [
+    {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 48,
+      "min": 41,
+      "name": "Start elevation 41–48 m (organiser chart 150 ft = 45.7 m)"
+    },
+    {
+      "atMeters": 21097,
+      "kind": "elevationAt",
+      "max": 7,
+      "min": 1,
+      "name": "Finish elevation 1–7 m (the boardwalk; chart 20 ft at 13 mi)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 53,
+      "min": 46,
+      "name": "Highest point 46–53 m (Grand Army Plaza; chart 153 ft = 46.6 m)"
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 0,
+      "name": "Lowest point ≥ 0 m (Coney Island; chart 7 ft)"
+    },
+    {
+      "atMeters": 4828,
+      "kind": "elevationAt",
+      "max": 22,
+      "min": 15,
+      "name": "Mile 3 at 15–22 m (chart 61 ft = 18.6 m)"
+    },
+    {
+      "atMeters": 11265,
+      "kind": "elevationAt",
+      "max": 20,
+      "min": 13,
+      "name": "Mile 7 at 13–20 m (chart 54 ft = 16.5 m)"
+    },
+    {
+      "fromMeters": 8500,
+      "kind": "drop",
+      "max": 34,
+      "min": 22,
+      "name": "The East Drive climb rises 22–34 m (chart: 69 ft at mile 4 to 147 ft at mile 5; lidar +28 m). Passes D2's 20 m rule",
+      "toMeters": 6900
+    },
+    {
+      "fromMeters": 7500,
+      "kind": "climb",
+      "min": 2.5,
+      "name": "The East Drive climb survives as ≥ +2.5%",
+      "toMeters": 8500
+    },
+    {
+      "fromMeters": 11300,
+      "kind": "maximumIncline",
+      "max": 1,
+      "name": "Ocean Parkway and Coney Island (miles 7–13.1): no climb above +1%",
+      "toMeters": 21097
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 6,
+      "name": "Steepest incline within ±6%"
+    },
+    {
+      "kind": "gain",
+      "max": 100,
+      "min": 60,
+      "name": "Gain 60–100 m (the organiser gives 75 m / 246 ft)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "loss",
+      "max": 140,
+      "min": 100,
+      "name": "Loss 100–140 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "netBalance",
+      "max": 2,
+      "name": "Gain − loss = finish − start (±2 m)"
+    }
+  ],
+  "checkpoints": [
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 40.649562,
+        "longitude": -73.974951
+      },
+      "name": "Ocean Pkwy ~270 m past mile 7 at Park Circle (Machate Circle, organiser map)",
+      "officialMeters": 11530
+    },
+    {
+      "anchor": true,
+      "location": {
+        "latitude": 40.572842,
+        "longitude": -73.982688
+      },
+      "name": "Finish: the Riegelmann Boardwalk west of W 10th St",
+      "officialMeters": 21097
+    }
+  ],
+  "description": "From the Brooklyn Museum up Flatbush Avenue to Grand Army Plaza and through Prospect Park, with the climb up East Drive to the plaza, then six flat miles down Ocean Parkway to a finish on the Coney Island boardwalk. Unofficial.",
+  "edition": "2027",
+  "elevation": {
+    "provider": "usgs3dep",
+    "trustedSources": [
+      "NY_CMPG_2013"
+    ]
+  },
+  "id": "brooklyn-half-2027",
+  "location": "Brooklyn, New York, USA",
+  "manualSpans": [
+    {
+      "action": "interpolate",
+      "endMeters": 21097,
+      "reason": "Coney Island boardwalk to the finish (spec 13 D4): run flat; the ramp up from W 10th St and the boardwalk deck are interpolated so no reading of the sand or the street below reaches the runner",
+      "startMeters": 20700
+    }
+  ],
+  "name": "Brooklyn Half",
+  "officialDistanceMeters": 21097,
+  "processing": {
+    "checkpointSearchRadiusMeters": 30,
+    "gradeBlockMeters": 100,
+    "inclineStepPercent": 0.5,
+    "maximumSectionErrorMeters": 400,
+    "minimumIntervalMeters": 300,
+    "profileSampleSpacingMeters": 100,
+    "routeSmoothingMeters": 40,
+    "sampleSpacingMeters": 10,
+    "smoothingWindowMeters": 100,
+    "steepStepPercent": 15
+  },
+  "route": {
+    "corridorMeters": 200,
+    "highways": [
+      "trunk",
+      "trunk_link",
+      "primary",
+      "primary_link",
+      "secondary",
+      "secondary_link",
+      "tertiary",
+      "tertiary_link",
+      "unclassified",
+      "residential",
+      "living_street",
+      "service",
+      "pedestrian",
+      "road",
+      "motorway",
+      "motorway_link"
+    ],
+    "includeWays": [
+      230060363,
+      1017272420,
+      1017775703,
+      1017775704
+    ],
+    "joins": [
+      {
+        "from": {
+          "latitude": 40.57395,
+          "longitude": -73.97806
+        },
+        "reason": "W 10th St up the ramp onto the Riegelmann Boardwalk: OSM maps the ramp as a sidewalk and steps, which the router never uses",
+        "to": {
+          "latitude": 40.57335,
+          "longitude": -73.97812
+        }
+      }
+    ],
+    "kind": "osmGraph"
+  },
+  "segments": [
+    {
+      "endMeters": 11265,
+      "id": "prospect-park",
+      "name": "Prospect Park and Grand Army Plaza (miles 0–7)",
+      "startMeters": 0
+    },
+    {
+      "endMeters": 9000,
+      "id": "east-drive-climb",
+      "name": "The East Drive climb (miles 4.3–5.6)",
+      "startMeters": 6900
+    }
+  ],
+  "source": {
+    "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: U.S. Geological Survey 3D Elevation Program, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the race or its organisers.",
+    "elevation": {
+      "kind": "modeled",
+      "license": "Public domain (USGS); map services and data available from U.S. Geological Survey, National Geospatial Program",
+      "name": "U.S. Geological Survey 3D Elevation Program (1 m lidar DEMs)",
+      "url": "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes": "2026 course, from the organiser's 2026 course map: Washington Ave by the Brooklyn Museum, Empire Blvd, Flatbush Ave up to Grand Army Plaza and back, Ocean Ave, Parkside Ave, Prospect Park's East Drive (the climb to Grand Army Plaza) and West Drive, Park Circle, Ocean Parkway, Surf Ave and the Riegelmann Boardwalk to the finish. Route traced over OpenStreetMap streets with one link up the ramp onto the boardwalk; distance calibrated past mile 7 at Park Circle and at the finish. Elevations from USGS 3DEP lidar (New York, 2013), within about 2 m of the organiser's elevation chart; the boardwalk is run flat. Unofficial.",
+    "route": {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap (route traced by Conquer Hills over OSM streets)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "verified": false
+  },
+  "structures": {
+    "bufferMeters": 12,
+    "ignoredHighways": [],
+    "ignoredTunnelHighways": [
+      "footway",
+      "path",
+      "steps",
+      "corridor",
+      "pedestrian",
+      "cycleway",
+      "platform"
+    ],
+    "maximumAngleDegrees": 30
+  }
+}
