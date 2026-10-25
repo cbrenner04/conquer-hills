@@ -1,0 +1,851 @@
+{
+  "description" : "From the University of Alaska Fairbanks on trails and dirt and paved roads: west over the Skarland trails and past Ballaine Lake, up the long climb to Ester Dome (the Ascent), an out-and-back along the ridge to the turnaround, the steep chute and long birch-forest descent, Henderson and Goldhill Roads, and back across campus to the finish. Downhills are flat on a treadmill without decline. Unofficial.",
+  "developmentOnly" : false,
+  "distanceMeters" : 42195,
+  "edition" : "2027",
+  "elevationProfile" : {
+    "elevationsMeters" : [
+      141.2,
+      143.1,
+      150.6,
+      167.6,
+      179.9,
+      185.8,
+      183.9,
+      182.2,
+      181,
+      181.2,
+      187.4,
+      183.3,
+      177.6,
+      171.5,
+      167.7,
+      166.2,
+      164.4,
+      162.6,
+      159.4,
+      156.1,
+      150.7,
+      152.5,
+      151.2,
+      147.5,
+      147.2,
+      147.8,
+      151,
+      154.9,
+      158.2,
+      156.5,
+      160.6,
+      165.6,
+      168.5,
+      169,
+      170.6,
+      175.9,
+      179.9,
+      183.7,
+      187.4,
+      189.6,
+      192.7,
+      200.6,
+      211.4,
+      214.5,
+      207.3,
+      203.3,
+      198,
+      195.1,
+      194.8,
+      193.3,
+      193.1,
+      195.2,
+      198.1,
+      202.4,
+      211.7,
+      222.3,
+      234.9,
+      240.2,
+      243,
+      242.4,
+      241.7,
+      248.5,
+      250.4,
+      245.9,
+      237.8,
+      227.6,
+      218.7,
+      211.8,
+      209.9,
+      206.1,
+      202,
+      200,
+      200.5,
+      201.4,
+      201.5,
+      197.5,
+      192.9,
+      191.2,
+      195.2,
+      198,
+      200.7,
+      208.8,
+      213.8,
+      216.3,
+      219.2,
+      222.5,
+      224.1,
+      223.6,
+      223.4,
+      220.4,
+      219.3,
+      215.6,
+      210.7,
+      213.1,
+      217.6,
+      221.9,
+      227.9,
+      232.8,
+      228.6,
+      218.7,
+      210.4,
+      208.4,
+      210.5,
+      212.7,
+      213.8,
+      213.3,
+      213,
+      213.4,
+      211.9,
+      209.3,
+      205.1,
+      202.5,
+      198,
+      195.2,
+      192.4,
+      190,
+      189.9,
+      189.7,
+      191,
+      190.3,
+      185,
+      181.7,
+      179.4,
+      179.5,
+      181.3,
+      183.5,
+      186.5,
+      189.9,
+      192.4,
+      194.1,
+      195.4,
+      196.3,
+      197.3,
+      202,
+      208.6,
+      209.8,
+      210.8,
+      212.3,
+      213.2,
+      214.7,
+      216.9,
+      216.6,
+      217.7,
+      219.3,
+      222.7,
+      223.8,
+      226.6,
+      229.4,
+      233.1,
+      242,
+      245.3,
+      250.9,
+      258.2,
+      266.5,
+      275.1,
+      283.4,
+      290.6,
+      301.2,
+      311.3,
+      323.5,
+      335.4,
+      350.3,
+      361.1,
+      367.6,
+      374.9,
+      380.9,
+      387,
+      393.5,
+      400.3,
+      407.6,
+      415.5,
+      426.5,
+      439.1,
+      454,
+      468.7,
+      483.2,
+      493.6,
+      501.1,
+      505.1,
+      503.3,
+      502.1,
+      504.7,
+      505.8,
+      505,
+      504,
+      505.4,
+      513.1,
+      525.8,
+      537.9,
+      547.8,
+      557.4,
+      567.1,
+      576.8,
+      586.8,
+      598.1,
+      609,
+      616.8,
+      625,
+      634.8,
+      646.5,
+      654.7,
+      662.9,
+      669.8,
+      670.2,
+      669.9,
+      667.7,
+      671.4,
+      679.9,
+      694,
+      706.1,
+      703.8,
+      702.4,
+      713.1,
+      711.1,
+      705.9,
+      703,
+      708.5,
+      712.6,
+      716,
+      719.3,
+      716,
+      703.5,
+      694.4,
+      689.7,
+      692.5,
+      700.8,
+      702.4,
+      697.9,
+      694.3,
+      685.4,
+      673,
+      658,
+      650.6,
+      653,
+      665.8,
+      678,
+      688.5,
+      694,
+      694.4,
+      687.7,
+      673.9,
+      658.9,
+      648.6,
+      643.5,
+      649,
+      658.9,
+      674,
+      687.8,
+      694.5,
+      693.7,
+      688.4,
+      677.8,
+      665.1,
+      653.2,
+      650.8,
+      659.1,
+      674.9,
+      686.2,
+      694.5,
+      698.2,
+      703.1,
+      699.9,
+      691.9,
+      689.9,
+      695.5,
+      705.5,
+      716.6,
+      719.3,
+      715,
+      712.7,
+      707.1,
+      702.7,
+      699.3,
+      694.3,
+      686.7,
+      679.5,
+      670.8,
+      668,
+      670.3,
+      667.6,
+      650.5,
+      627,
+      602.2,
+      569.6,
+      548.9,
+      542.6,
+      536.3,
+      530.6,
+      520.3,
+      514.2,
+      503.4,
+      493,
+      484,
+      468.2,
+      452.4,
+      436.7,
+      422.8,
+      412.2,
+      398.2,
+      385.6,
+      372.1,
+      364.6,
+      366,
+      370.4,
+      374.7,
+      378.3,
+      383.5,
+      384.5,
+      382.2,
+      380,
+      377.6,
+      374.9,
+      372.5,
+      371.8,
+      370.4,
+      369.5,
+      363.2,
+      353.3,
+      343,
+      334.3,
+      328.4,
+      330.6,
+      326.3,
+      320.4,
+      314,
+      307.8,
+      302.2,
+      296.1,
+      289.5,
+      283.6,
+      278,
+      272,
+      266.6,
+      261.2,
+      254.7,
+      248.2,
+      241.4,
+      236,
+      234.4,
+      234,
+      232.9,
+      231.9,
+      230.5,
+      226.5,
+      220.1,
+      217,
+      213.9,
+      209,
+      205.2,
+      201.2,
+      203.2,
+      207.1,
+      208.4,
+      212.3,
+      217.1,
+      223.5,
+      228,
+      229.9,
+      229,
+      226.7,
+      220.1,
+      217.5,
+      211.9,
+      208.2,
+      207,
+      203.2,
+      204,
+      204.9,
+      207.1,
+      210.1,
+      212.5,
+      212,
+      210.4,
+      208.8,
+      208,
+      206.6,
+      205.4,
+      204.3,
+      203.5,
+      202.6,
+      201,
+      198.3,
+      195.1,
+      191.8,
+      187.5,
+      182.3,
+      177.2,
+      173,
+      169.9,
+      167,
+      163.7,
+      160.2,
+      157.3,
+      155.2,
+      152.9,
+      151.3,
+      150.3,
+      149.6,
+      149.4,
+      149.3,
+      149.2,
+      151.7,
+      161.1,
+      162.2,
+      162.6,
+      169.4,
+      179.2,
+      186.8,
+      189.2,
+      183.8,
+      173.2,
+      178.6,
+      179.2,
+      172.1,
+      169.5,
+      170.6,
+      166.9,
+      157.7,
+      152.2,
+      149.8,
+      144.3,
+      143,
+      143.8
+    ],
+    "sampleSpacingMeters" : 100
+  },
+  "id" : "equinox-marathon-2027",
+  "inclineChanges" : [
+    {
+      "atMeters" : 0,
+      "inclinePercent" : 9.5
+    },
+    {
+      "atMeters" : 400,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 1000,
+      "inclinePercent" : -5
+    },
+    {
+      "atMeters" : 1400,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 1700,
+      "inclinePercent" : -4
+    },
+    {
+      "atMeters" : 2000,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 2500,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 2900,
+      "inclinePercent" : 3
+    },
+    {
+      "atMeters" : 3400,
+      "inclinePercent" : 3.5
+    },
+    {
+      "atMeters" : 4000,
+      "inclinePercent" : 7
+    },
+    {
+      "atMeters" : 4300,
+      "inclinePercent" : -5
+    },
+    {
+      "atMeters" : 4700,
+      "inclinePercent" : -0.5
+    },
+    {
+      "atMeters" : 5000,
+      "inclinePercent" : 3
+    },
+    {
+      "atMeters" : 5300,
+      "inclinePercent" : 11
+    },
+    {
+      "atMeters" : 5600,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 6200,
+      "inclinePercent" : -7.5
+    },
+    {
+      "atMeters" : 6700,
+      "inclinePercent" : -3
+    },
+    {
+      "atMeters" : 7100,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 7400,
+      "inclinePercent" : -3.5
+    },
+    {
+      "atMeters" : 7700,
+      "inclinePercent" : 4.5
+    },
+    {
+      "atMeters" : 8200,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 8600,
+      "inclinePercent" : -2
+    },
+    {
+      "atMeters" : 9200,
+      "inclinePercent" : 4.5
+    },
+    {
+      "atMeters" : 9700,
+      "inclinePercent" : -7.5
+    },
+    {
+      "atMeters" : 10000,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 10400,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 10900,
+      "inclinePercent" : -4
+    },
+    {
+      "atMeters" : 11200,
+      "inclinePercent" : -2.5
+    },
+    {
+      "atMeters" : 11500,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 11900,
+      "inclinePercent" : -3.5
+    },
+    {
+      "atMeters" : 12200,
+      "inclinePercent" : 1.5
+    },
+    {
+      "atMeters" : 12500,
+      "inclinePercent" : 3
+    },
+    {
+      "atMeters" : 12800,
+      "inclinePercent" : 1
+    },
+    {
+      "atMeters" : 13200,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 14500,
+      "inclinePercent" : 3
+    },
+    {
+      "atMeters" : 14800,
+      "inclinePercent" : 6.5
+    },
+    {
+      "atMeters" : 15200,
+      "inclinePercent" : 8
+    },
+    {
+      "atMeters" : 15600,
+      "inclinePercent" : 11.5
+    },
+    {
+      "atMeters" : 16200,
+      "inclinePercent" : 6.5
+    },
+    {
+      "atMeters" : 16700,
+      "inclinePercent" : 7.5
+    },
+    {
+      "atMeters" : 17000,
+      "inclinePercent" : 13.5
+    },
+    {
+      "atMeters" : 17500,
+      "inclinePercent" : 7.5
+    },
+    {
+      "atMeters" : 17800,
+      "inclinePercent" : 0
+    },
+    {
+      "atMeters" : 18500,
+      "inclinePercent" : 11
+    },
+    {
+      "atMeters" : 18800,
+      "inclinePercent" : 10
+    },
+    {
+      "atMeters" : 19900,
+      "inclinePercent" : 8
+    },
+    {
+      "atMeters" : 20200,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 20600,
+      "inclinePercent" : 11.5
+    },
+    {
+      "atMeters" : 20900,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 21200,
+      "inclinePercent" : -3.5
+    },
+    {
+      "atMeters" : 21500,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 22000,
+      "inclinePercent" : -8.5
+    },
+    {
+      "atMeters" : 22300,
+      "inclinePercent" : 4
+    },
+    {
+      "atMeters" : 22600,
+      "inclinePercent" : -8.5
+    },
+    {
+      "atMeters" : 23200,
+      "inclinePercent" : 7.5
+    },
+    {
+      "atMeters" : 23800,
+      "inclinePercent" : -10
+    },
+    {
+      "atMeters" : 24300,
+      "inclinePercent" : 8.5
+    },
+    {
+      "atMeters" : 24900,
+      "inclinePercent" : -8.5
+    },
+    {
+      "atMeters" : 25400,
+      "inclinePercent" : 8.5
+    },
+    {
+      "atMeters" : 26000,
+      "inclinePercent" : -4.5
+    },
+    {
+      "atMeters" : 26300,
+      "inclinePercent" : 7.5
+    },
+    {
+      "atMeters" : 26700,
+      "inclinePercent" : -4
+    },
+    {
+      "atMeters" : 27300,
+      "inclinePercent" : -4.5
+    },
+    {
+      "atMeters" : 27900,
+      "inclinePercent" : -23.5
+    },
+    {
+      "atMeters" : 28400,
+      "inclinePercent" : -7
+    },
+    {
+      "atMeters" : 28900,
+      "inclinePercent" : -10
+    },
+    {
+      "atMeters" : 29200,
+      "inclinePercent" : -15.5
+    },
+    {
+      "atMeters" : 29600,
+      "inclinePercent" : -11.5
+    },
+    {
+      "atMeters" : 30100,
+      "inclinePercent" : 3.5
+    },
+    {
+      "atMeters" : 30700,
+      "inclinePercent" : -2.5
+    },
+    {
+      "atMeters" : 31200,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 31500,
+      "inclinePercent" : -8
+    },
+    {
+      "atMeters" : 32000,
+      "inclinePercent" : -5
+    },
+    {
+      "atMeters" : 33300,
+      "inclinePercent" : -6.5
+    },
+    {
+      "atMeters" : 33700,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 34200,
+      "inclinePercent" : -4
+    },
+    {
+      "atMeters" : 34900,
+      "inclinePercent" : 2.5
+    },
+    {
+      "atMeters" : 35200,
+      "inclinePercent" : 4.5
+    },
+    {
+      "atMeters" : 35700,
+      "inclinePercent" : -3.5
+    },
+    {
+      "atMeters" : 36500,
+      "inclinePercent" : 2
+    },
+    {
+      "atMeters" : 37000,
+      "inclinePercent" : -1
+    },
+    {
+      "atMeters" : 38000,
+      "inclinePercent" : -3
+    },
+    {
+      "atMeters" : 38300,
+      "inclinePercent" : -4.5
+    },
+    {
+      "atMeters" : 38700,
+      "inclinePercent" : -3
+    },
+    {
+      "atMeters" : 39200,
+      "inclinePercent" : -1.5
+    },
+    {
+      "atMeters" : 39700,
+      "inclinePercent" : 0.5
+    },
+    {
+      "atMeters" : 40100,
+      "inclinePercent" : 3.5
+    },
+    {
+      "atMeters" : 40400,
+      "inclinePercent" : 6.5
+    },
+    {
+      "atMeters" : 40800,
+      "inclinePercent" : -3.5
+    },
+    {
+      "atMeters" : 41800,
+      "inclinePercent" : -2
+    }
+  ],
+  "location" : "Fairbanks, Alaska, USA",
+  "name" : "Equinox Marathon",
+  "processing" : {
+    "generatedOn" : "2026-10-25",
+    "parameters" : {
+      "calibrationScales" : "0-24301:1.0092 24301-42195:1.0018",
+      "elevationProvider" : "imageServer",
+      "gradeBlockMeters" : "100",
+      "inclineStepPercent" : "0.5",
+      "minimumIntervalMeters" : "300",
+      "osmStructuresTimestamp" : "2026-10-25T20:39:36Z",
+      "routeSmoothingMeters" : "0",
+      "sampleSpacingMeters" : "10",
+      "smoothingWindowMeters" : "100"
+    },
+    "tool" : "course-tool 0.1.0"
+  },
+  "schemaVersion" : 1,
+  "segments" : [
+    {
+      "endMeters" : 20200,
+      "id" : "the-ascent",
+      "name" : "The Ascent (miles 9.1–12.5)",
+      "startMeters" : 14700
+    },
+    {
+      "endMeters" : 27700,
+      "id" : "ester-dome",
+      "name" : "Ester Dome: climb and ridge (miles 8.3–17.2)",
+      "startMeters" : 13300
+    }
+  ],
+  "source" : {
+    "attribution" : "Route: © OpenStreetMap contributors (ODbL). Elevation: 2017 Fairbanks lidar (U.S. Geological Survey 3D Elevation Program), via the Fairbanks North Star Borough GIS, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the Equinox Marathon or Running Club North.",
+    "elevation" : {
+      "kind" : "modeled",
+      "license" : "Public domain (USGS 3DEP data, served by the Fairbanks North Star Borough)",
+      "name" : "2017 Fairbanks lidar bare-earth DEM (QL1, with QL2 near the turnaround)",
+      "url" : "https://www.usgs.gov/3d-elevation-program"
+    },
+    "notes" : "The course as run since 2021. Route traced over OpenStreetMap trails and roads following the community-maintained Equinox Marathon Trail relation in its stored course order; the course is uncertified, so distances are scaled to 26.2 miles between the ridge turnaround (15.1 miles) and the finish. Elevations from the 2017 Fairbanks bare-earth lidar, which follows the trail bed under the forest; the official \"about 3,300 ft\" of gain comes from a coarser 2002 profile. Downhills, including the long descent from Ester Dome, are flat on a treadmill without decline. Unofficial.",
+    "route" : {
+      "license" : "ODbL-1.0",
+      "name" : "OpenStreetMap (route traced by Conquer Hills over OSM trails and roads)",
+      "url" : "https://www.openstreetmap.org/copyright"
+    },
+    "verified" : false
+  },
+  "stats" : {
+    "elevationGainMeters" : 1128.3,
+    "elevationLossMeters" : 1125.7,
+    "maximumElevationMeters" : 719.3,
+    "minimumElevationMeters" : 141.2
+  }
+}

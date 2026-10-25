@@ -1,6 +1,115 @@
 {
   "acceptance": [
     {
+      "atMeters": 0,
+      "kind": "elevationAt",
+      "max": 143,
+      "min": 139,
+      "name": "Start elevation 139–143 m (lidar 141.2 m at the UAF start)"
+    },
+    {
+      "atMeters": 42195,
+      "kind": "elevationAt",
+      "max": 146,
+      "min": 141,
+      "name": "Finish elevation 141–146 m (lidar 143.8 m)"
+    },
+    {
+      "kind": "maximumElevation",
+      "max": 722,
+      "min": 712,
+      "name": "Highest point 712–722 m (official summit 2,365 ft = 721 m; the route passes just below it)"
+    },
+    {
+      "kind": "minimumElevation",
+      "min": 138,
+      "name": "Lowest point ≥ 138 m (the start is the lowest point)"
+    },
+    {
+      "atMeters": 24301,
+      "kind": "elevationAt",
+      "max": 648,
+      "min": 637,
+      "name": "Ridge turnaround 637–648 m"
+    },
+    {
+      "fromMeters": 20200,
+      "kind": "drop",
+      "max": 455,
+      "min": 425,
+      "name": "The Ascent rises 425–455 m (official 1,500 ft = 457 m over 3.4 mi)",
+      "toMeters": 14700
+    },
+    {
+      "fromMeters": 27000,
+      "kind": "drop",
+      "max": 480,
+      "min": 455,
+      "name": "The Descent drops 455–480 m (official 1,710 ft = 521 m over 4.1 mi, to a lower end point)",
+      "toMeters": 33700
+    },
+    {
+      "fromMeters": 14750,
+      "kind": "climb",
+      "min": 6,
+      "name": "Equinox Connector survives as ≥ +6%",
+      "toMeters": 15800
+    },
+    {
+      "fromMeters": 15850,
+      "kind": "climb",
+      "min": 6,
+      "name": "The ascent trail survives as ≥ +6%",
+      "toMeters": 18300
+    },
+    {
+      "fromMeters": 18400,
+      "kind": "climb",
+      "min": 8,
+      "name": "Ester Dome Rd survives as ≥ +8%",
+      "toMeters": 20100
+    },
+    {
+      "fromMeters": 39900,
+      "kind": "climb",
+      "min": 1.5,
+      "name": "The climb back onto campus survives as ≥ +1.5%",
+      "toMeters": 41200
+    },
+    {
+      "fromMeters": 0,
+      "kind": "maximumIncline",
+      "max": 17,
+      "name": "Opening rollers (to mile 8.3): within ±17% (the Yukon Dr ramp is real)",
+      "toMeters": 13300
+    },
+    {
+      "fromMeters": 13000,
+      "kind": "maximumIncline",
+      "max": 17,
+      "name": "The climb to Ester Dome: within ±17%",
+      "toMeters": 21500
+    },
+    {
+      "kind": "maximumIncline",
+      "max": 28,
+      "name": "Steepest incline within ±28% (the chute; validation stops at 30%)"
+    },
+    {
+      "kind": "gain",
+      "max": 1180,
+      "min": 1060,
+      "name": "Gain 1,060–1,180 m (at 100 m smoothing; lidar +1,117 m in research)",
+      "smoothingWindowMeters": 100
+    },
+    {
+      "kind": "loss",
+      "max": 1180,
+      "min": 1060,
+      "name": "Loss 1,060–1,180 m (at 100 m smoothing)",
+      "smoothingWindowMeters": 100
+    },
+    {
       "kind": "netBalance",
       "max": 2,
       "name": "Gain − loss = finish − start (±2 m)"
@@ -51,7 +160,7 @@
     "maximumSectionErrorMeters": 300,
     "minimumIntervalMeters": 300,
     "profileSampleSpacingMeters": 100,
-    "routeSmoothingMeters": 12,
+    "routeSmoothingMeters": 0,
     "sampleSpacingMeters": 10,
     "smoothingWindowMeters": 100,
     "steepStepPercent": 40
@@ -218,7 +327,20 @@
       1362459684
     ]
   },
-  "segments": [],
+  "segments": [
+    {
+      "endMeters": 20200,
+      "id": "the-ascent",
+      "name": "The Ascent (miles 9.1–12.5)",
+      "startMeters": 14700
+    },
+    {
+      "endMeters": 27700,
+      "id": "ester-dome",
+      "name": "Ester Dome: climb and ridge (miles 8.3–17.2)",
+      "startMeters": 13300
+    }
+  ],
   "source": {
     "attribution": "Route: © OpenStreetMap contributors (ODbL). Elevation: 2017 Fairbanks lidar (U.S. Geological Survey 3D Elevation Program), via the Fairbanks North Star Borough GIS, processed by Conquer Hills. Unofficial: not affiliated with or endorsed by the Equinox Marathon or Running Club North.",
     "elevation": {

@@ -94,6 +94,14 @@ Affected files: `nyc-marathon-2026/profiles.json`, `nyc-marathon-2026/elevation-
 
 Distances for Boston are calibrated to a few street-corner mileages published on the course's USATF certification (MA21002JK), stored as our own data points in `config.json`; no part of the certificate is reproduced. Big Sur is calibrated the same way to its USATF certification (CA23018DT). Chicago is calibrated to the GPS split points published on its USATF certification (IL23038NM). Blue Ridge is calibrated to mile points on its USATF certification (VA24031RT), four of them and the greenway turnaround located by GPS on the certificate. Pikes Peak is uncertified: it is scaled to its stated 26.21 miles at the race's published aid-station mileages (No Name Creek, Barr Camp, A-Frame, the turnaround) on the way up and the same places on the way down, stored as our own data points. Leadville is uncertified: it is scaled to its stated 26.4 miles between the Mosquito Pass turnaround and the finish, and compared with its aid stations' published mileages, stored as our own data points.
 
+## Fairbanks North Star Borough: elevation (Equinox Marathon)
+
+> Elevation: 2017 Fairbanks lidar (U.S. Geological Survey 3D Elevation Program), via the Fairbanks North Star Borough GIS, processed by Conquer Hills.
+
+The 2017 Fairbanks lidar (`AK_Fairbanks_NSB_Lidar_2017_B17`, QL1 with QL2 near the turnaround) is a USGS 3DEP project, in the public domain like the rest of 3DEP. USGS publishes it only as point clouds and original-resolution GeoTIFFs, not through the national 3DEP service, which has only 5 m radar data here. The values were read from the Fairbanks North Star Borough's public bare-earth ImageServer (`getSamples`, values in US survey feet), which states no licence of its own; they match the USGS GeoTIFFs to within a few centimetres on average. They were processed (smoothed and converted to grades). Nothing here implies endorsement by USGS or the Borough.
+
+Affected files: `equinox-marathon-2027/elevation-samples.json` and `App/Resources/Courses/equinox-marathon-2027.course.json`.
+
 ## In the app
 
 Each course file's `source.attribution` field carries its credit line, which the app must display (planned for the course detail screen, spec 07).
