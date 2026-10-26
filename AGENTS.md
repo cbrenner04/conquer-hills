@@ -82,7 +82,7 @@ Real courses are generated offline by `course-tool` from public data and committ
 
 ```
 waypoints.geojson ─route─▶ route.json + osm-structures.json ─elevation─▶ elevation-samples.json ─build─▶ <id>.course.json
- (or an OSM relation)        (OSRM router or own OSM graph,      (GSI / USGS / GA / WMS / WCS / Copernicus / flat, resumable)   (offline) + review report
+ (or an OSM relation)        (OSRM router or own OSM graph,      (GSI / USGS / ImageServer / GA / WMS / WCS / Copernicus / flat, resumable)   (offline) + review report
                               Overpass)                                        + profiles.json
 ```
 
@@ -91,7 +91,7 @@ waypoints.geojson ─route─▶ route.json + osm-structures.json ─elevation�
 - `make course-report ID=<id>` rebuilds the report (even if checks fail) and serves `.scratch/reports/` at `http://localhost:8765` with `python3 -m http.server` (ships with macOS); open the printed URL. Map tiles need http: OpenStreetMap's tile servers reject requests without a Referer, which `file://` pages don't send. Opened as a file, the report still draws the route and markers on a plain background, with a note saying how to see tiles.
 - `make courses-check` (part of `make check`, so CI runs it) rebuilds every course from the committed inputs without network access, and fails if a bundled course file differs or a check fails. Never hand-edit a generated course file; change the inputs and rebuild.
 - Build steps, all configured in `config.json`:
-  1. Measure distance along the routed line after a moving average (`routeSmoothingMeters`), which removes sidewalk zigzags.
+  1. Measure distance along the routed line after a moving average (`routeSmoothingMeters`), which removes sidewalk zigzags. Road courses use 40 m; trail courses use less (Leadville 15 m, Great Wall 20 m), and courses whose switchbacks and trail bends are real distance use 0 (Pikes Peak, Mount Washington, Equinox).
   2. Find the checkpoints in order (a checkpoint within 25 m of the previous one, such as an aid station passed again, is matched on the next visit) and scale distance piecewise between *anchor* checkpoints, which should be exact course features such as turnarounds, bridges and the finish. Every stretch between checkpoints must be within `maximumSectionErrorMeters` of its official length; a bigger error means a wrong street.
   3. Interpolate elevation across bridges, tunnels and covered ways (from OSM), across untrusted or missing samples, and across `manualSpans` with action `interpolate`. Spans with action `keep` keep measured values. Then set structures listed in `profiles.json` from their control points, which take precedence over all of that.
   4. Smooth (`smoothingWindowMeters`), average grade over blocks, round to 0.5%, and merge to `minimumIntervalMeters`, preserving net rise. Inclines beyond ±30% (stairs) are clamped to ±30%, the most `CourseValidation` accepts.
@@ -114,6 +114,7 @@ waypoints.geojson ─route─▶ route.json + osm-structures.json ─elevation�
   - Elevation providers (`Tools/CourseTool/Sources/course-tool/Network.swift`):
     - `gsi`: Japan, one point per request, paced at 1/s.
     - `usgs3dep`: United States, 3DEP ImageServer `getSamples`, 500 points per request. The service can silently return fewer samples than points; missing points are re-requested.
+    - `imageServer`: any other ArcGIS ImageServer answering `getSamples`, through the same code as `usgs3dep` (`ImageServerSamples`, tested on recorded responses). `elevation.imageServer` gives the URL, a `zFactor` to metres (1200/3937 for US survey feet) and a fixed `label` (Equinox: the Fairbanks North Star Borough's 2017 lidar, which 3DEP's service doesn't carry).
     - `gaDem5m`: Australia, Geoscience Australia's national 5 m lidar DEM, MapServer `identify` with a multipoint (500 points, ~17 s per request). Responses carry each hit pixel's centre and value, matched back to points by position (`GADem`, tested on recorded responses). No source label exists, so samples are `ga5m`, or `ga5m-water` below 1 m (bridge spans read the water).
     - `wmsPoint`: any WMS raster layer that answers `GetFeatureInfo` with JSON, one point per request, paced at 1/s (Cape Town: the City's 2025 2 m lidar terrain model; Berlin: the state's 1 m DGM1, with a fixed label). `elevation.wms` gives the URL and layer and dotted paths into the response for the value, an optional mask (0 = no data) and the source label, or a fixed `label` (`WMSPoint`, tested on recorded responses).
     - `wcsGrid`: any WCS 2.0.1 coverage served as `text/plain` grids (London: the Environment Agency's 1 m lidar terrain model for England). Points are grouped into runs that fit a ~250 m box, one grid request each, 5 s apart (the Environment Agency's gateway answers 403 to faster clients; 403 is retried). Each point reads the grid bilinearly between cell centres (`WCSGrid`, tested on a recorded response); 0 and the coverage's no-data value are no data. `elevation.wcs` gives the URL, coverage id and a fixed `label`.

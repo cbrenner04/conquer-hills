@@ -128,9 +128,9 @@ public struct CourseConfig: Codable, Equatable, Sendable {
 
     public struct ElevationSettings: Codable, Equatable, Sendable {
         /// `gsi` (Japan, single-point API), `usgs3dep` (United States), `gaDem5m` (Australia), `wmsPoint` (a WMS
-        /// raster layer, configured by `wms`), `wcsGrid` (a WCS coverage as text grids, configured by `wcs`) `copernicus` (the global 30 m
-        /// surface model, where nothing better exists) or `flat` (no measured data: every sample is `baseMeters`, labelled
-        /// `flat`).
+        /// raster layer, configured by `wms`), `wcsGrid` (a WCS coverage as text grids, configured by `wcs`), `imageServer`
+        /// (an ArcGIS ImageServer, configured by `imageServer`), `copernicus` (the global 30 m surface model, where nothing
+        /// better exists) or `flat` (no measured data: every sample is `baseMeters`, labelled `flat`).
         public var provider: String
         /// Source labels, as reported per sample by the provider, that are trusted. Others are interpolated.
         public var trustedSources: [String]
@@ -138,9 +138,21 @@ public struct CourseConfig: Codable, Equatable, Sendable {
         public var wms: WMSPointSettings?
         /// The coverage for `wcsGrid`.
         public var wcs: WCSGridSettings?
+        /// The service for `imageServer`.
+        public var imageServer: ImageServerSettings?
         /// The constant elevation for `flat`, where no usable open elevation data exists (Shanghai). Real bridge humps
         /// are added as modelled profiles (`riseMeters` in `profiles.json`).
         public var baseMeters: Double?
+    }
+
+    /// An ArcGIS ImageServer elevation service answering `getSamples`, other than 3DEP (which is `usgs3dep`).
+    public struct ImageServerSettings: Codable, Equatable, Sendable {
+        /// The service URL, ending in `/ImageServer`.
+        public var url: String
+        /// Multiplies values to give metres: 1 for metres, 1200/3937 for US survey feet.
+        public var zFactor: Double
+        /// The source label for every sample.
+        public var label: String
     }
 
     /// A WCS 2.0.1 coverage that `GetCoverage` serves as `text/plain` grids in EPSG:4326.

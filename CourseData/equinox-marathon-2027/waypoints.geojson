@@ -1,0 +1,2527 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8345364,
+          64.8556189
+        ]
+      },
+      "properties": {
+        "name": "Start: UAF soccer field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.837916,
+          64.8568935
+        ]
+      },
+      "properties": {
+        "name": "course 0.1 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8375351,
+          64.8579958
+        ]
+      },
+      "properties": {
+        "name": "course 0.4 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8311359,
+          64.8579976
+        ]
+      },
+      "properties": {
+        "name": "course 0.5 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8312601,
+          64.8598701
+        ]
+      },
+      "properties": {
+        "name": "course 0.7 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8308913,
+          64.8616721
+        ]
+      },
+      "properties": {
+        "name": "course 0.8 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8309195,
+          64.862885
+        ]
+      },
+      "properties": {
+        "name": "course 0.9 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8272086,
+          64.863682
+        ]
+      },
+      "properties": {
+        "name": "course 1.1 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8250092,
+          64.8649888
+        ]
+      },
+      "properties": {
+        "name": "course 1.2 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8248778,
+          64.8666543
+        ]
+      },
+      "properties": {
+        "name": "course 1.3 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8248,
+          64.8684394
+        ]
+      },
+      "properties": {
+        "name": "course 1.4 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8243145,
+          64.8707477
+        ]
+      },
+      "properties": {
+        "name": "course 1.6 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8252506,
+          64.8723053
+        ]
+      },
+      "properties": {
+        "name": "course 1.7 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8266132,
+          64.8739545
+        ]
+      },
+      "properties": {
+        "name": "course 1.9 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8263986,
+          64.8754669
+        ]
+      },
+      "properties": {
+        "name": "course 2.0 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8241764,
+          64.8762419
+        ]
+      },
+      "properties": {
+        "name": "course 2.1 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.824159,
+          64.8781009
+        ]
+      },
+      "properties": {
+        "name": "course 2.2 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.824599,
+          64.8799789
+        ]
+      },
+      "properties": {
+        "name": "course 2.4 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8261733,
+          64.8815294
+        ]
+      },
+      "properties": {
+        "name": "course 2.5 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.831012,
+          64.8819893
+        ]
+      },
+      "properties": {
+        "name": "course 2.7 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8308471,
+          64.8836499
+        ]
+      },
+      "properties": {
+        "name": "course 2.8 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8285792,
+          64.8848379
+        ]
+      },
+      "properties": {
+        "name": "course 2.9 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8288488,
+          64.8865398
+        ]
+      },
+      "properties": {
+        "name": "course 3.0 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8290808,
+          64.8886792
+        ]
+      },
+      "properties": {
+        "name": "course 3.2 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8322405,
+          64.8893081
+        ]
+      },
+      "properties": {
+        "name": "course 3.3 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8366983,
+          64.8891977
+        ]
+      },
+      "properties": {
+        "name": "course 3.5 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8409255,
+          64.888706
+        ]
+      },
+      "properties": {
+        "name": "course 3.6 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8443211,
+          64.8871806
+        ]
+      },
+      "properties": {
+        "name": "course 3.8 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.846314,
+          64.8859945
+        ]
+      },
+      "properties": {
+        "name": "course 3.9 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8478482,
+          64.8842447
+        ]
+      },
+      "properties": {
+        "name": "course 4.0 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8506884,
+          64.8827043
+        ]
+      },
+      "properties": {
+        "name": "course 4.2 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8537859,
+          64.88147
+        ]
+      },
+      "properties": {
+        "name": "course 4.3 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8577051,
+          64.8805227
+        ]
+      },
+      "properties": {
+        "name": "course 4.4 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8621417,
+          64.8810876
+        ]
+      },
+      "properties": {
+        "name": "course 4.6 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8637014,
+          64.8791656
+        ]
+      },
+      "properties": {
+        "name": "course 4.7 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.865575,
+          64.8780223
+        ]
+      },
+      "properties": {
+        "name": "course 4.9 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8679675,
+          64.8767743
+        ]
+      },
+      "properties": {
+        "name": "course 5.0 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8713954,
+          64.8762299
+        ]
+      },
+      "properties": {
+        "name": "course 5.1 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8748876,
+          64.8771273
+        ]
+      },
+      "properties": {
+        "name": "course 5.3 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8782457,
+          64.877396
+        ]
+      },
+      "properties": {
+        "name": "course 5.4 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.882041,
+          64.878061
+        ]
+      },
+      "properties": {
+        "name": "course 5.5 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8883013,
+          64.8780468
+        ]
+      },
+      "properties": {
+        "name": "course 5.7 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8892428,
+          64.8800008
+        ]
+      },
+      "properties": {
+        "name": "course 5.9 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8894587,
+          64.8827339
+        ]
+      },
+      "properties": {
+        "name": "course 6.0 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8896236,
+          64.8848322
+        ]
+      },
+      "properties": {
+        "name": "course 6.2 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8934351,
+          64.885135
+        ]
+      },
+      "properties": {
+        "name": "course 6.3 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8979385,
+          64.8850951
+        ]
+      },
+      "properties": {
+        "name": "course 6.4 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.90245,
+          64.8851464
+        ]
+      },
+      "properties": {
+        "name": "course 6.6 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9071546,
+          64.8850712
+        ]
+      },
+      "properties": {
+        "name": "course 6.7 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9118189,
+          64.8850692
+        ]
+      },
+      "properties": {
+        "name": "course 6.9 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9146111,
+          64.8841434
+        ]
+      },
+      "properties": {
+        "name": "course 7.0 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9197019,
+          64.8838586
+        ]
+      },
+      "properties": {
+        "name": "course 7.2 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.922588,
+          64.8843848
+        ]
+      },
+      "properties": {
+        "name": "course 7.3 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9206595,
+          64.8861709
+        ]
+      },
+      "properties": {
+        "name": "course 7.4 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9206836,
+          64.8879297
+        ]
+      },
+      "properties": {
+        "name": "course 7.6 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9239881,
+          64.8889883
+        ]
+      },
+      "properties": {
+        "name": "course 7.7 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9288161,
+          64.8888289
+        ]
+      },
+      "properties": {
+        "name": "course 7.8 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.934556,
+          64.8891818
+        ]
+      },
+      "properties": {
+        "name": "course 8.0 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9391319,
+          64.8898078
+        ]
+      },
+      "properties": {
+        "name": "course 8.2 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9420716,
+          64.8908481
+        ]
+      },
+      "properties": {
+        "name": "course 8.3 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.946009,
+          64.891572
+        ]
+      },
+      "properties": {
+        "name": "course 8.4 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9504186,
+          64.8916215
+        ]
+      },
+      "properties": {
+        "name": "course 8.5 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9555738,
+          64.8916494
+        ]
+      },
+      "properties": {
+        "name": "course 8.7 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9601135,
+          64.8912738
+        ]
+      },
+      "properties": {
+        "name": "course 8.8 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9640603,
+          64.8906455
+        ]
+      },
+      "properties": {
+        "name": "course 9.0 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9682848,
+          64.8898431
+        ]
+      },
+      "properties": {
+        "name": "course 9.1 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9718816,
+          64.8897486
+        ]
+      },
+      "properties": {
+        "name": "course 9.2 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9755965,
+          64.8896291
+        ]
+      },
+      "properties": {
+        "name": "course 9.3 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9783994,
+          64.8897759
+        ]
+      },
+      "properties": {
+        "name": "course 9.5 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9812318,
+          64.8904429
+        ]
+      },
+      "properties": {
+        "name": "course 9.6 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9821974,
+          64.891852
+        ]
+      },
+      "properties": {
+        "name": "course 9.7 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.98437,
+          64.8923436
+        ]
+      },
+      "properties": {
+        "name": "course 9.8 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9855287,
+          64.8938823
+        ]
+      },
+      "properties": {
+        "name": "course 10.0 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9886186,
+          64.8947336
+        ]
+      },
+      "properties": {
+        "name": "course 10.1 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9919875,
+          64.893418
+        ]
+      },
+      "properties": {
+        "name": "course 10.2 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9956192,
+          64.8923482
+        ]
+      },
+      "properties": {
+        "name": "course 10.4 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9986501,
+          64.8910826
+        ]
+      },
+      "properties": {
+        "name": "course 10.5 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0030489,
+          64.8899717
+        ]
+      },
+      "properties": {
+        "name": "course 10.7 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0070615,
+          64.8891066
+        ]
+      },
+      "properties": {
+        "name": "course 10.8 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0110204,
+          64.8882051
+        ]
+      },
+      "properties": {
+        "name": "course 10.9 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0147702,
+          64.8876109
+        ]
+      },
+      "properties": {
+        "name": "course 11.1 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0176562,
+          64.8860707
+        ]
+      },
+      "properties": {
+        "name": "course 11.2 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0198798,
+          64.8844326
+        ]
+      },
+      "properties": {
+        "name": "course 11.3 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.021481,
+          64.8827362
+        ]
+      },
+      "properties": {
+        "name": "course 11.5 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0216833,
+          64.8804934
+        ]
+      },
+      "properties": {
+        "name": "course 11.6 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0216044,
+          64.878225
+        ]
+      },
+      "properties": {
+        "name": "course 11.8 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0227095,
+          64.8764144
+        ]
+      },
+      "properties": {
+        "name": "course 11.9 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0268776,
+          64.8763278
+        ]
+      },
+      "properties": {
+        "name": "course 12.0 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0311585,
+          64.8772047
+        ]
+      },
+      "properties": {
+        "name": "course 12.2 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.035686,
+          64.877453
+        ]
+      },
+      "properties": {
+        "name": "course 12.3 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0401707,
+          64.8772525
+        ]
+      },
+      "properties": {
+        "name": "course 12.5 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0439472,
+          64.8777946
+        ]
+      },
+      "properties": {
+        "name": "course 12.6 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0488825,
+          64.8777581
+        ]
+      },
+      "properties": {
+        "name": "course 12.7 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0533651,
+          64.8779012
+        ]
+      },
+      "properties": {
+        "name": "course 12.9 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0533697,
+          64.8796726
+        ]
+      },
+      "properties": {
+        "name": "course 13.0 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0556492,
+          64.8796975
+        ]
+      },
+      "properties": {
+        "name": "course 13.1 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0589354,
+          64.878373
+        ]
+      },
+      "properties": {
+        "name": "course 13.3 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0630928,
+          64.8772525
+        ]
+      },
+      "properties": {
+        "name": "course 13.4 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0666709,
+          64.876075
+        ]
+      },
+      "properties": {
+        "name": "course 13.5 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.069628,
+          64.8747785
+        ]
+      },
+      "properties": {
+        "name": "course 13.7 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0729044,
+          64.8735593
+        ]
+      },
+      "properties": {
+        "name": "course 13.8 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0754913,
+          64.8721504
+        ]
+      },
+      "properties": {
+        "name": "course 13.9 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0790305,
+          64.8719141
+        ]
+      },
+      "properties": {
+        "name": "course 14.1 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0830109,
+          64.8713309
+        ]
+      },
+      "properties": {
+        "name": "course 14.2 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0869913,
+          64.8708121
+        ]
+      },
+      "properties": {
+        "name": "course 14.3 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0908725,
+          64.8715963
+        ]
+      },
+      "properties": {
+        "name": "course 14.4 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0941584,
+          64.8721842
+        ]
+      },
+      "properties": {
+        "name": "course 14.6 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0971599,
+          64.8731916
+        ]
+      },
+      "properties": {
+        "name": "course 14.7 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.1009677,
+          64.8736794
+        ]
+      },
+      "properties": {
+        "name": "course 14.8 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.1029152,
+          64.8752947
+        ]
+      },
+      "properties": {
+        "name": "course 14.9 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.1044407,
+          64.8768887
+        ]
+      },
+      "properties": {
+        "name": "Turnaround (out-and-back on Ester Dome)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.102811,
+          64.875205
+        ]
+      },
+      "properties": {
+        "name": "course 15.2 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.1008248,
+          64.8735769
+        ]
+      },
+      "properties": {
+        "name": "course 15.3 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0968739,
+          64.873094
+        ]
+      },
+      "properties": {
+        "name": "course 15.5 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0941904,
+          64.8720024
+        ]
+      },
+      "properties": {
+        "name": "course 15.6 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0903992,
+          64.8715028
+        ]
+      },
+      "properties": {
+        "name": "course 15.7 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0866201,
+          64.8709643
+        ]
+      },
+      "properties": {
+        "name": "course 15.8 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0825042,
+          64.8713955
+        ]
+      },
+      "properties": {
+        "name": "course 16.0 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0786939,
+          64.8717523
+        ]
+      },
+      "properties": {
+        "name": "course 16.1 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0751333,
+          64.8723907
+        ]
+      },
+      "properties": {
+        "name": "course 16.2 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0723143,
+          64.8737939
+        ]
+      },
+      "properties": {
+        "name": "course 16.3 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0689764,
+          64.8748783
+        ]
+      },
+      "properties": {
+        "name": "course 16.5 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0661452,
+          64.8762595
+        ]
+      },
+      "properties": {
+        "name": "course 16.6 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.062374,
+          64.8774507
+        ]
+      },
+      "properties": {
+        "name": "course 16.7 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.057605,
+          64.8778902
+        ]
+      },
+      "properties": {
+        "name": "course 16.9 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0533651,
+          64.8779012
+        ]
+      },
+      "properties": {
+        "name": "course 17.0 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0488825,
+          64.8777581
+        ]
+      },
+      "properties": {
+        "name": "course 17.1 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0464256,
+          64.8767333
+        ]
+      },
+      "properties": {
+        "name": "course 17.3 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0448753,
+          64.8753644
+        ]
+      },
+      "properties": {
+        "name": "course 17.4 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0448484,
+          64.8734898
+        ]
+      },
+      "properties": {
+        "name": "course 17.5 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.042421,
+          64.8724762
+        ]
+      },
+      "properties": {
+        "name": "course 17.7 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0381376,
+          64.8726926
+        ]
+      },
+      "properties": {
+        "name": "course 17.8 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0340016,
+          64.8724409
+        ]
+      },
+      "properties": {
+        "name": "course 17.9 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0313408,
+          64.8711675
+        ]
+      },
+      "properties": {
+        "name": "course 18.0 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0291763,
+          64.8695591
+        ]
+      },
+      "properties": {
+        "name": "course 18.2 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0271941,
+          64.8680817
+        ]
+      },
+      "properties": {
+        "name": "course 18.3 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0236456,
+          64.8692174
+        ]
+      },
+      "properties": {
+        "name": "course 18.4 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0197859,
+          64.8689839
+        ]
+      },
+      "properties": {
+        "name": "course 18.6 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0174953,
+          64.8674871
+        ]
+      },
+      "properties": {
+        "name": "course 18.7 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0129248,
+          64.8675987
+        ]
+      },
+      "properties": {
+        "name": "course 18.8 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0110258,
+          64.8691639
+        ]
+      },
+      "properties": {
+        "name": "course 19.0 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0076596,
+          64.8694042
+        ]
+      },
+      "properties": {
+        "name": "course 19.1 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0052805,
+          64.8679541
+        ]
+      },
+      "properties": {
+        "name": "course 19.2 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0039662,
+          64.8661451
+        ]
+      },
+      "properties": {
+        "name": "course 19.4 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0000931,
+          64.8653977
+        ]
+      },
+      "properties": {
+        "name": "course 19.5 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.996169,
+          64.865359
+        ]
+      },
+      "properties": {
+        "name": "course 19.6 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9915288,
+          64.8650993
+        ]
+      },
+      "properties": {
+        "name": "course 19.8 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9873768,
+          64.8643234
+        ]
+      },
+      "properties": {
+        "name": "course 19.9 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9833722,
+          64.8643701
+        ]
+      },
+      "properties": {
+        "name": "course 20.0 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9795688,
+          64.8652064
+        ]
+      },
+      "properties": {
+        "name": "course 20.1 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9757065,
+          64.8652633
+        ]
+      },
+      "properties": {
+        "name": "course 20.3 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9725776,
+          64.8639266
+        ]
+      },
+      "properties": {
+        "name": "course 20.4 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9708731,
+          64.862047
+        ]
+      },
+      "properties": {
+        "name": "course 20.6 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.971262,
+          64.8602313
+        ]
+      },
+      "properties": {
+        "name": "course 20.7 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9729854,
+          64.8584855
+        ]
+      },
+      "properties": {
+        "name": "course 20.8 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9748589,
+          64.8568018
+        ]
+      },
+      "properties": {
+        "name": "course 20.9 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9743721,
+          64.8550331
+        ]
+      },
+      "properties": {
+        "name": "course 21.1 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9715544,
+          64.853422
+        ]
+      },
+      "properties": {
+        "name": "course 21.2 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9700148,
+          64.8517141
+        ]
+      },
+      "properties": {
+        "name": "course 21.3 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9709415,
+          64.8499581
+        ]
+      },
+      "properties": {
+        "name": "course 21.5 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9690278,
+          64.8490171
+        ]
+      },
+      "properties": {
+        "name": "course 21.6 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9645324,
+          64.8489988
+        ]
+      },
+      "properties": {
+        "name": "course 21.7 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9602891,
+          64.8489509
+        ]
+      },
+      "properties": {
+        "name": "course 21.9 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9552423,
+          64.8496553
+        ]
+      },
+      "properties": {
+        "name": "course 22.0 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9507244,
+          64.8510552
+        ]
+      },
+      "properties": {
+        "name": "course 22.2 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9453439,
+          64.8526624
+        ]
+      },
+      "properties": {
+        "name": "course 22.4 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9410362,
+          64.8539936
+        ]
+      },
+      "properties": {
+        "name": "course 22.5 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9377264,
+          64.8551653
+        ]
+      },
+      "properties": {
+        "name": "course 22.7 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9337835,
+          64.855865
+        ]
+      },
+      "properties": {
+        "name": "course 22.8 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.929838,
+          64.8565055
+        ]
+      },
+      "properties": {
+        "name": "course 22.9 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9253373,
+          64.8573249
+        ]
+      },
+      "properties": {
+        "name": "course 23.1 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9215312,
+          64.858281
+        ]
+      },
+      "properties": {
+        "name": "course 23.2 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9174516,
+          64.8593043
+        ]
+      },
+      "properties": {
+        "name": "course 23.3 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9137126,
+          64.860241
+        ]
+      },
+      "properties": {
+        "name": "course 23.5 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9099306,
+          64.8611822
+        ]
+      },
+      "properties": {
+        "name": "course 23.6 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9059315,
+          64.8618373
+        ]
+      },
+      "properties": {
+        "name": "course 23.7 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9016989,
+          64.8619353
+        ]
+      },
+      "properties": {
+        "name": "course 23.8 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8972323,
+          64.8617562
+        ]
+      },
+      "properties": {
+        "name": "course 24.0 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8924748,
+          64.8617428
+        ]
+      },
+      "properties": {
+        "name": "course 24.1 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8875235,
+          64.8617268
+        ]
+      },
+      "properties": {
+        "name": "course 24.3 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8828162,
+          64.8617245
+        ]
+      },
+      "properties": {
+        "name": "course 24.4 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8781867,
+          64.8615696
+        ]
+      },
+      "properties": {
+        "name": "course 24.5 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8724052,
+          64.8620834
+        ]
+      },
+      "properties": {
+        "name": "course 24.7 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8700167,
+          64.8604378
+        ]
+      },
+      "properties": {
+        "name": "course 24.9 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8670797,
+          64.859277
+        ]
+      },
+      "properties": {
+        "name": "course 25.0 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8638557,
+          64.8581101
+        ]
+      },
+      "properties": {
+        "name": "course 25.1 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8603661,
+          64.8589055
+        ]
+      },
+      "properties": {
+        "name": "course 25.3 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.857582,
+          64.8577887
+        ]
+      },
+      "properties": {
+        "name": "course 25.4 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8547335,
+          64.8579003
+        ]
+      },
+      "properties": {
+        "name": "course 25.5 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8512681,
+          64.8573169
+        ]
+      },
+      "properties": {
+        "name": "course 25.7 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8466895,
+          64.8572212
+        ]
+      },
+      "properties": {
+        "name": "course 25.8 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8432214,
+          64.8561864
+        ]
+      },
+      "properties": {
+        "name": "course 25.9 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8389835,
+          64.8561522
+        ]
+      },
+      "properties": {
+        "name": "course 26.1 mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8349012,
+          64.8559243
+        ]
+      },
+      "properties": {
+        "name": "Finish: UAF"
+      }
+    }
+  ]
+}

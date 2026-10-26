@@ -139,7 +139,12 @@ func structuresFile(config: CourseConfig, route: [Coordinate], ways: [StructureS
     let provider: any ElevationProvider
     switch config.elevation.provider {
     case "gsi": provider = GSIElevationProvider()
-    case "usgs3dep": provider = USGS3DEPElevationProvider()
+    case "usgs3dep": provider = ImageServerElevationProvider.usgs3dep
+    case "imageServer":
+        guard let settings = config.elevation.imageServer else {
+            throw PipelineError("imageServer needs elevation.imageServer settings")
+        }
+        provider = ImageServerElevationProvider(settings: settings)
     case "gaDem5m": provider = GADem5mElevationProvider()
     case "copernicus": provider = CopernicusElevationProvider()
     case "wmsPoint":
